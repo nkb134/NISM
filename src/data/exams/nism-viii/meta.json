@@ -1,0 +1,9 @@
+{
+  "examCode": "nism-viii",
+  "examName": "NISM Series VIII",
+  "examFullName": "Equity Derivatives Certification Examination",
+  "totalQuestions": 100,
+  "durationMinutes": 120,
+  "passMarkPercent": 60,
+  "negativeMarking": true
+}

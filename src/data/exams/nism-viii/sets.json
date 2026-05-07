@@ -1,0 +1,56 @@
+[
+  {
+    "id": "set_viii_mock1",
+    "name": "Mock Test 1 — 30Q foundational mix",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "30 questions covering all 10 topics in proportion to syllabus weight. Free for all; sign in to save your score.",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_viii_drill_fut",
+    "name": "Drill: Forwards & Futures",
+    "topic": "FUT",
+    "duration": 900,
+    "description": "12 questions purely on futures pricing, basis, OI, margins, and contract specs.",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_viii_drill_opt",
+    "name": "Drill: Options",
+    "topic": "OPT",
+    "duration": 900,
+    "description": "12 questions on options moneyness, Greeks, intrinsic + time value, BEPs, and put-call parity.",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_viii_drill_ess",
+    "name": "Drill: Strategies",
+    "topic": "ESS",
+    "duration": 900,
+    "description": "12 questions on hedging, straddle/strangle, covered call, protective put, collar, butterfly, and arbitrage.",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_viii_drill_clr",
+    "name": "Drill: Clearing & Settlement",
+    "topic": "CLR",
+    "duration": 900,
+    "description": "12 questions on novation, clearing members, MTM, physical delivery, IPF, default cascade, interoperability.",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_viii_full",
+    "name": "Full Simulator — 100Q · 120 min",
+    "topic": "FULL",
+    "duration": 7200,
+    "description": "Mimics the real NISM VIII exam: 100 questions, 2 hours, dynamically sampled by topic weight. Negative marking applies in your scoring summary.",
+    "isDynamic": true,
+    "questionCount": 100
+  }
+]

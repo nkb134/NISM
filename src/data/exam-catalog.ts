@@ -112,8 +112,8 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     negativeMarking: true,
     syllabusVersion: 'March 2026',
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/equity-derivatives/',
-    studyGuideStatus: 'coming-soon',
-    mockTestStatus: 'coming-soon',
+    studyGuideStatus: 'available',
+    mockTestStatus: 'available',
     displayOrder: 3,
   },
   {

@@ -1,0 +1,98 @@
+[
+  {
+    "q": "An index option in India is classified as a:",
+    "o": ["Cash market product", "Money market instrument", "Derivative product", "Debt instrument"],
+    "a": 2,
+    "e": "An index option derives its value from an underlying index, making it a derivative product under SCRA. It is not a cash, money market, or debt instrument.",
+    "topic": "BAS",
+    "difficulty": 1
+  },
+  {
+    "q": "The simultaneous purchase of a security in one market and sale in another to profit from a price differential is called:",
+    "o": ["Hedging", "Speculation", "Arbitrage", "Mortgaging"],
+    "a": 2,
+    "e": "Arbitrage exploits price gaps between two markets and is risk-free in theory. Hedging reduces exposure; speculation takes a directional view.",
+    "topic": "BAS",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of the following is NOT a participant category in the derivatives market?",
+    "o": ["Hedger", "Arbitrageur", "Speculator", "Custodian"],
+    "a": 3,
+    "e": "Hedger, speculator (trader), and arbitrageur are the three derivative-market participant categories. Custodians provide safekeeping but are not classified as participants.",
+    "topic": "BAS",
+    "difficulty": 1
+  },
+  {
+    "q": "Indian exchange-traded equity derivatives commenced with:",
+    "o": ["Stock options in July 2001", "Index futures in June 2000", "Stock futures in November 2001", "Currency futures in 1972"],
+    "a": 1,
+    "e": "Index futures on Nifty and Sensex launched in June 2000 — the first exchange-traded equity derivatives in India. Stock options followed in July 2001, stock futures in November 2001.",
+    "topic": "BAS",
+    "difficulty": 2
+  },
+  {
+    "q": "A swap, broadly speaking, is best described as:",
+    "o": ["A single forward contract", "A series of forward contracts", "A futures contract on currency", "An OTC option"],
+    "a": 1,
+    "e": "A swap exchanges cash flows according to a prearranged formula and is structurally a series of forward contracts.",
+    "topic": "BAS",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these is NOT a feature of an OTC derivative?",
+    "o": ["Customised terms", "Centralised clearing", "Decentralised counterparty risk", "Private transaction"],
+    "a": 1,
+    "e": "OTC derivatives are bilateral and lack centralised clearing — that's the defining contrast with exchange-traded derivatives.",
+    "topic": "BAS",
+    "difficulty": 2
+  },
+  {
+    "q": "Operational risk in derivatives includes losses due to:",
+    "o": ["Government policy changes", "Inadequate disaster planning and fraud", "Income-tax regulations", "Excess management oversight"],
+    "a": 1,
+    "e": "Operational risk covers losses from process failure: fraud, inadequate documentation, mis-execution, system glitches, poor disaster planning.",
+    "topic": "BAS",
+    "difficulty": 1
+  },
+  {
+    "q": "Which committee was set up in 1996 to design India's derivatives regulatory framework?",
+    "o": ["J. R. Varma group", "L. C. Gupta committee", "Bhave committee", "Kumar Mangalam Birla committee"],
+    "a": 1,
+    "e": "The L. C. Gupta committee was constituted by SEBI in November 1996 and recommended the framework. The J. R. Varma group came later in 1998 and focused on margining and risk containment.",
+    "topic": "BAS",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of the following is TRUE about a forward contract?",
+    "o": ["It is exchange-traded and standardised", "Both parties have an obligation to perform", "Only the buyer has an obligation", "It carries no counterparty risk"],
+    "a": 1,
+    "e": "In a forward, both buyer and seller are obligated to perform regardless of the underlying's price at delivery. It is OTC, not standardised, and carries counterparty risk.",
+    "topic": "BAS",
+    "difficulty": 1
+  },
+  {
+    "q": "A trader who exploits price gaps between two markets to lock in a small risk-free profit is called a:",
+    "o": ["Hedger", "Speculator", "Arbitrageur", "Underwriter"],
+    "a": 2,
+    "e": "An arbitrageur buys low in one venue and sells high in another to capture the spread, ideally with no net market exposure.",
+    "topic": "BAS",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of the following risks is UNIQUE to OTC (not exchange-traded) derivatives?",
+    "o": ["Counterparty risk", "Liquidity risk", "Price risk", "All of the above"],
+    "a": 0,
+    "e": "Counterparty risk is borne directly by the parties in OTC trades because there is no clearing corporation guaranteeing settlement. In exchange-traded derivatives, the clearing corp eliminates this risk.",
+    "topic": "BAS",
+    "difficulty": 2
+  },
+  {
+    "q": "The Securities Contracts (Regulation) Act was amended in 1999 to:",
+    "o": ["Recognise commodities as securities", "Include derivatives within the definition of securities", "Set up SEBI as the regulator", "Permit OTC equity derivatives"],
+    "a": 1,
+    "e": "The 1999 amendment to SCRA brought derivatives into the definition of 'securities', enabling exchange-traded derivatives to be regulated under the existing framework.",
+    "topic": "BAS",
+    "difficulty": 2
+  }
+]

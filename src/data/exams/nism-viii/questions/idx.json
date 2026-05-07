@@ -1,0 +1,50 @@
+[
+  {
+    "q": "Impact cost is generally LOWER when:",
+    "o": ["The market is illiquid", "The order size is large", "The market is highly liquid", "The bid-ask spread is wide"],
+    "a": 2,
+    "e": "Impact cost measures price degradation when transacting against the order book. Higher liquidity means more depth at each price level, so a given order size moves the price less.",
+    "topic": "IDX",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these is NOT actually paid by participants but is a notional cost arising from lack of liquidity?",
+    "o": ["Securities Transaction Tax", "Brokerage", "Impact cost", "SEBI charges"],
+    "a": 2,
+    "e": "Impact cost is the implicit cost of trading against the order book vs the ideal mid-price. STT, brokerage, and SEBI charges are explicit, paid amounts.",
+    "topic": "IDX",
+    "difficulty": 1
+  },
+  {
+    "q": "Most modern Indian indices including Sensex and Nifty are constructed using which weighting method?",
+    "o": ["Price-weighted", "Equal-weighted", "Free-float market capitalisation", "Total market capitalisation"],
+    "a": 2,
+    "e": "Sensex, Nifty, and SX40 use free-float market-cap weighting since the early 2000s. Free-float excludes promoter and locked-in holdings, reflecting only readily tradable shares.",
+    "topic": "IDX",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of these is a price-weighted index?",
+    "o": ["Sensex", "Nifty 50", "Dow Jones Industrial Average", "S&P BSE 500"],
+    "a": 2,
+    "e": "DJIA and Nikkei 225 are price-weighted — each stock's weight is proportional to its share price. Sensex and Nifty are free-float market-cap weighted.",
+    "topic": "IDX",
+    "difficulty": 2
+  },
+  {
+    "q": "As per SEBI's October 2025 norms for derivatives on non-benchmark indices, the minimum number of constituents required is:",
+    "o": ["10", "12", "14", "20"],
+    "a": 2,
+    "e": "SEBI's October 30, 2025 circular requires non-benchmark indices to have at least 14 constituents, top weight ≤20%, and top three combined ≤45%.",
+    "topic": "IDX",
+    "difficulty": 3
+  },
+  {
+    "q": "Going from 50 stocks to 100 stocks in a portfolio leads to:",
+    "o": ["Sharp risk reduction", "Marginal additional risk reduction", "Significant increase in diversification benefit", "Zero risk reduction"],
+    "a": 1,
+    "e": "Diversification benefit tapers off rapidly. Beyond 50 stocks, each additional stock contributes very little incremental reduction in unsystematic risk; beyond 100 the gain is essentially zero.",
+    "topic": "IDX",
+    "difficulty": 2
+  }
+]

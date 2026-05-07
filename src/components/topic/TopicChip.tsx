@@ -6,8 +6,11 @@
 // always look the same so users learn to associate "blue = Investment
 // Landscape" across the product.
 
-import { NISM_VA_TOPICS, type TopicCode } from '@/lib/topics';
+import { topicName } from '@/lib/topics';
 
+// V-A native colors. Other exams alias their topic codes onto these slots
+// (see ALIAS below) so chips always have a colour without us needing to
+// define 10 fresh OKLCH ramps per exam.
 const COLOR: Record<string, { fg: string; bg: string }> = {
   INV: { fg: 'var(--topic-inv)', bg: 'var(--topic-inv-bg)' },
   STR: { fg: 'var(--topic-str)', bg: 'var(--topic-str-bg)' },
@@ -23,17 +26,32 @@ const COLOR: Record<string, { fg: string; bg: string }> = {
   FULL: { fg: 'var(--color-navy)', bg: 'var(--color-surface)' },
 };
 
+// VIII codes mapped to V-A colour slots — never shown side-by-side with V-A
+// chips, so reusing the palette is safe and keeps globals.css small.
+const ALIAS: Record<string, keyof typeof COLOR> = {
+  BAS: 'INV',
+  IDX: 'STR',
+  FUT: 'SCH',
+  OPT: 'REG',
+  ESS: 'DOC',
+  TRD: 'NAV',
+  CLR: 'TAX',
+  ELG: 'OPS',
+  TXA: 'RSK',
+  IPS: 'PRF',
+};
+
 export function topicLabel(code: string | null | undefined): string {
   if (!code) return '';
-  if (code in NISM_VA_TOPICS) return NISM_VA_TOPICS[code as TopicCode].name;
   if (code === 'MIX') return 'Mixed';
   if (code === 'FULL') return 'Full Simulator';
-  return code;
+  return topicName(code) ?? code;
 }
 
 export function topicColors(code: string | null | undefined) {
   if (!code) return { fg: 'var(--color-text-muted)', bg: 'var(--color-surface)' };
-  return COLOR[code] ?? { fg: 'var(--color-text-muted)', bg: 'var(--color-surface)' };
+  const slot = COLOR[code] ?? COLOR[ALIAS[code] ?? ''];
+  return slot ?? { fg: 'var(--color-text-muted)', bg: 'var(--color-surface)' };
 }
 
 type Size = 'sm' | 'md';

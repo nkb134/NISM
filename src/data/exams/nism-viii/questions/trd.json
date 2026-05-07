@@ -1,0 +1,98 @@
+[
+  {
+    "q": "Sub-brokers in India ceased to exist as an intermediary category from:",
+    "o": ["April 1, 2018", "April 1, 2019", "April 1, 2020", "April 1, 2017"],
+    "a": 1,
+    "e": "SEBI's Board decision (June 21, 2018) discontinued sub-brokers effective April 1, 2019. All existing sub-brokers had to migrate to Authorised Person status or become trading members.",
+    "topic": "TRD",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of the following can ONLY clear and settle their own proprietary trades and their clients' trades?",
+    "o": ["Trading-cum-Clearing Member", "Professional Clearing Member", "Self Clearing Member", "Authorised Person"],
+    "a": 2,
+    "e": "Self Clearing Member (SCM) is a TM who clears only own + own-client trades. Cannot clear for other TMs. TCM clears for self + other TMs. PCM clears only (no own trading).",
+    "topic": "TRD",
+    "difficulty": 2
+  },
+  {
+    "q": "Order matching in India's F&O segment follows:",
+    "o": ["First-come-first-served only", "Price-time priority", "Pro-rata allocation", "Random selection"],
+    "a": 1,
+    "e": "Best price wins; at the same price, earliest timestamp wins. Partial matches allowed; remainder stays in the book.",
+    "topic": "TRD",
+    "difficulty": 1
+  },
+  {
+    "q": "An IOC (Immediate or Cancel) order:",
+    "o": ["Stays in the book until end of day", "Executes immediately, with unmatched portion cancelled", "Can never partially execute", "Is equivalent to a stop-loss order"],
+    "a": 1,
+    "e": "IOC orders execute as much as can be matched immediately; any unmatched portion is cancelled instantly. Partial execution is allowed.",
+    "topic": "TRD",
+    "difficulty": 1
+  },
+  {
+    "q": "A stop-loss sell order has:",
+    "o": ["Trigger price > limit price", "Trigger price < limit price", "Trigger price = limit price always", "No trigger price"],
+    "a": 0,
+    "e": "For a sell stop-loss, the trigger must be set above the limit (i.e. trigger > limit) — and trigger must be between the last traded price and limit. When LTP falls to trigger, the order activates as a limit-sell at the limit price.",
+    "topic": "TRD",
+    "difficulty": 2
+  },
+  {
+    "q": "Default trading hours in the equity derivatives segment are:",
+    "o": ["9:00 AM – 5:00 PM", "9:15 AM – 3:30 PM", "10:00 AM – 4:00 PM", "Round the clock"],
+    "a": 1,
+    "e": "Default derivatives hours are 9:15 AM – 3:30 PM, Mon-Fri. SEBI permits exchanges to extend up to 11:55 PM with adequate risk infra (rarely exercised).",
+    "topic": "TRD",
+    "difficulty": 1
+  },
+  {
+    "q": "To be eligible for stock derivatives, a stock's average daily traded value (ADTV) over the past 6 months must be at least:",
+    "o": ["₹50 cr", "₹100 cr", "₹150 cr", "₹500 cr"],
+    "a": 2,
+    "e": "Per current SEBI norms, ADTV must be ≥ ₹150 cr (within the top 500 by market cap), MWPL ≥ ₹1,250 cr, and quarter-sigma order size ≥ ₹50 lakh.",
+    "topic": "TRD",
+    "difficulty": 3
+  },
+  {
+    "q": "Which corporate role in the trading software has the highest level of access?",
+    "o": ["Dealer", "Branch Manager", "Corporate Manager", "Trading Member"],
+    "a": 2,
+    "e": "Corporate Manager → Branch Manager → Dealer is the hierarchy. Only the Corporate Manager can set branch-level exposure limits and view all dealers across all branches.",
+    "topic": "TRD",
+    "difficulty": 2
+  },
+  {
+    "q": "Adjustment of strike price for a stock split is done using:",
+    "o": ["The ratio of price before / price after the split", "The dividend yield", "The risk-free rate", "An exchange-defined random factor"],
+    "a": 0,
+    "e": "Strike (and lot size) are adjusted by the ratio of pre-action / post-action price. For a 2:1 split, post-price is half, so strike is halved and lot doubled.",
+    "topic": "TRD",
+    "difficulty": 2
+  },
+  {
+    "q": "STT on the sale of equity options is currently:",
+    "o": ["0.025% of premium", "0.10% of premium", "0.125% of premium", "0.0125% of trade value"],
+    "a": 1,
+    "e": "STT on sale of options = 0.10% of the premium (paid by seller). On exercise, the buyer additionally pays 0.125% of the settlement value. Futures sale STT is 0.0125%.",
+    "topic": "TRD",
+    "difficulty": 2
+  },
+  {
+    "q": "Authorised Persons (APs) replaced sub-brokers because:",
+    "o": ["Sub-brokers were profitable", "SEBI wanted to simplify the broker network and reduce regulatory overlap", "RBI mandated the change", "Brokers wanted higher commissions"],
+    "a": 1,
+    "e": "SEBI rationalised the broker network by abolishing the sub-broker category, requiring all existing sub-brokers to migrate to APs (acting as agents of trading members) or trading members themselves.",
+    "topic": "TRD",
+    "difficulty": 2
+  },
+  {
+    "q": "When a TM hits its position limit, the trading system will:",
+    "o": ["Block all further trades", "Permit only trades that reduce the existing position", "Halt all trading on the exchange", "Permit only client-side trades"],
+    "a": 1,
+    "e": "Once at the position limit, only reducing trades are allowed. New positions (openers) are blocked even if the TM has surplus margin. Squaring-off is permitted.",
+    "topic": "TRD",
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "q": "Which of the following is TRUE about a futures contract?",
+    "o": ["Only the buyer pays initial margin", "Only the seller pays initial margin", "Both buyer and seller pay initial margin", "No margin is required for futures"],
+    "a": 2,
+    "e": "Both parties pay initial margin in a futures contract because both have an obligation to perform. The exchange enforces this; the clearing corporation guarantees settlement.",
+    "topic": "FUT",
+    "difficulty": 1
+  },
+  {
+    "q": "Basis is defined as:",
+    "o": ["Spot price minus Futures price", "Futures price minus Spot price", "Spot price plus Cost of carry", "Futures price minus Strike price"],
+    "a": 0,
+    "e": "Basis = Spot − Futures. When futures > spot, basis is negative (a 'premium' or contango). At expiry, basis converges to zero because final settlement is at spot.",
+    "topic": "FUT",
+    "difficulty": 1
+  },
+  {
+    "q": "On expiry day, the basis of a futures contract is:",
+    "o": ["Equal to cost of carry", "Always positive", "Always negative", "Zero"],
+    "a": 3,
+    "e": "Basis converges to zero at expiry because the futures contract is finally settled at the closing spot price of the underlying.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "Cost of carry for an equity futures contract is:",
+    "o": ["Interest paid plus dividend received", "Interest paid minus dividend received", "Dividend received minus interest paid", "Storage cost only"],
+    "a": 1,
+    "e": "For equity, cost of carry = Interest paid to fund the position − Dividend received during the holding period. Storage cost applies to commodities, not financial assets.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "Daily settlement price for a futures contract is calculated as the:",
+    "o": ["Closing price of the underlying", "Last traded price of the futures contract", "Volume-weighted average price of the last 30 minutes of futures trading", "Theoretical fair value"],
+    "a": 2,
+    "e": "Daily settlement uses the volume-weighted average of the last 30 minutes of futures trading. If untraded in the last 30 min, a theoretical price F = S × e^(r × t) is used.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "Final settlement price of a stock or index futures contract is:",
+    "o": ["Closing futures price on expiry", "Closing spot price of the underlying on expiry", "Average futures price of the day before expiry", "Settlement price published by RBI"],
+    "a": 1,
+    "e": "Final settlement is at the closing spot value of the underlying on expiry, which is why basis converges to zero at expiry.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "After SEBI's revision effective November 20, 2024, the minimum value of a derivative contract at the time of introduction is:",
+    "o": ["₹5 lakh", "₹10 lakh", "₹15 lakh", "₹20 lakh"],
+    "a": 2,
+    "e": "SEBI raised the minimum derivative contract value to ₹15 lakh, with lot sizes set so the value at review stays in the ₹15-20 lakh band. The earlier band (set in 2015) was ₹5-10 lakh.",
+    "topic": "FUT",
+    "difficulty": 3
+  },
+  {
+    "q": "The number of futures contracts outstanding at a point in time is called:",
+    "o": ["Trading volume", "Open interest", "Notional value", "Lot size"],
+    "a": 1,
+    "e": "Open interest is the cumulative number of unsettled contracts. Volume is the count of contracts traded in a window. OI changes only when a new position is created or an existing one is closed; transferring an existing position between two parties leaves OI unchanged.",
+    "topic": "FUT",
+    "difficulty": 1
+  },
+  {
+    "q": "If trader A had a short position and buys back to close, while trader E opens a new short of equal size, the open interest:",
+    "o": ["Increases", "Decreases", "Remains the same", "Doubles"],
+    "a": 2,
+    "e": "OI is unchanged: A's existing short position is transferred to E. The total outstanding contracts have not changed; only the identity of the short-side counterparty has.",
+    "topic": "FUT",
+    "difficulty": 3
+  },
+  {
+    "q": "If the spot price is ₹500, the risk-free rate is 6% p.a., and there are no dividends, the theoretical fair futures price for a 6-month contract (continuous compounding) is approximately:",
+    "o": ["₹515.23", "₹530.00", "₹500.00", "₹485.43"],
+    "a": 0,
+    "e": "F = S × e^(r × t) = 500 × e^(0.06 × 0.5) = 500 × e^0.03 ≈ 500 × 1.03045 = ₹515.23.",
+    "topic": "FUT",
+    "difficulty": 3
+  },
+  {
+    "q": "The expiry day for monthly Nifty futures on NSE (per the May 2025 SEBI circular) is the:",
+    "o": ["Last Thursday of the month", "Last Tuesday of the month", "Last working day of the month", "First Friday of the next month"],
+    "a": 1,
+    "e": "Per SEBI's May 2025 circular, each exchange must pick one expiry day. NSE selected last Tuesday for monthly Nifty (and weekly Nifty options). BSE chose last Thursday for monthly Sensex.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "If the spot price of a stock is ₹200 and the cost of carry is ₹4 over a one-month period, the theoretical futures price is:",
+    "o": ["₹196", "₹200", "₹204", "₹208"],
+    "a": 2,
+    "e": "Theoretical futures price = Spot + Cost of carry = 200 + 4 = ₹204. Cost of carry already nets dividend out of interest cost.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "Which margin is collected to cover the worst-case loss expected on a position over the next trading day?",
+    "o": ["MTM margin", "Initial (SPAN) margin", "Exposure margin", "Cross margin"],
+    "a": 1,
+    "e": "Initial margin (computed using SPAN — Standard Portfolio Analysis of Risk) covers approximately 99% confidence loss over a one-day horizon. MTM settles realised daily P/L; exposure margin is an additional buffer above SPAN.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "The MTM (mark-to-market) settlement for a futures contract happens:",
+    "o": ["Only at expiry", "Daily", "Only on the day of trade", "Weekly"],
+    "a": 1,
+    "e": "MTM happens daily — gains and losses are settled in cash on T+1 morning before market open, based on the day's settlement price.",
+    "topic": "FUT",
+    "difficulty": 1
+  },
+  {
+    "q": "A 'roll over' of a futures position involves:",
+    "o": ["Closing the near-month and simultaneously opening the next-month contract", "Adding more contracts of the near month", "Switching from a long to a short position", "Converting futures to options"],
+    "a": 0,
+    "e": "Roll over keeps the directional exposure beyond expiry. Long-side roll: sell the expiring contract and buy the next. Both legs simultaneously to manage basis risk.",
+    "topic": "FUT",
+    "difficulty": 1
+  },
+  {
+    "q": "Cash-and-carry arbitrage is profitable when:",
+    "o": ["Futures price equals spot price", "Futures price is lower than fair value", "Futures price is higher than fair value", "Cost of carry is zero"],
+    "a": 2,
+    "e": "When the futures price exceeds fair value (S × (1+r-d)^t), an arbitrageur can borrow, buy spot, sell the overpriced future, and lock in profit at expiry. The reverse (futures < fair value) requires shorting spot, which is constrained for stocks in India.",
+    "topic": "FUT",
+    "difficulty": 3
+  },
+  {
+    "q": "If you go long a Nifty futures contract at 24,000 (lot size 25) and pay 10% margin, your initial margin is approximately:",
+    "o": ["₹6,000", "₹24,000", "₹60,000", "₹6,00,000"],
+    "a": 2,
+    "e": "Contract value = 24,000 × 25 = ₹6,00,000. Initial margin at 10% = ₹60,000.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "An 'open position' refers to:",
+    "o": ["Any executed trade in the day", "An unsettled long or short position in a derivative contract", "A position waiting for execution", "The trader's bank balance"],
+    "a": 1,
+    "e": "An open position is an outstanding (unsettled) buy or sell position in a contract — i.e. one that has not been closed by an offsetting trade or expiry settlement.",
+    "topic": "FUT",
+    "difficulty": 1
+  },
+  {
+    "q": "Tick size for Nifty futures is:",
+    "o": ["1 paisa", "5 paise", "25 paise", "1 rupee"],
+    "a": 1,
+    "e": "Nifty futures tick size is 5 paise — the minimum price increment allowed in quotations.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these is NOT a feature standardised by the exchange in a futures contract?",
+    "o": ["Lot size", "Expiry date", "Tick size", "Price"],
+    "a": 3,
+    "e": "Lot size, expiry, and tick size are all standardised. Price is determined by the buyer and seller through interaction in the order book — that's the only variable.",
+    "topic": "FUT",
+    "difficulty": 1
+  },
+  {
+    "q": "On the BSE, monthly Sensex futures expire on the:",
+    "o": ["Last Thursday of the contract month", "Last Tuesday of the contract month", "First Monday of the contract month", "Last working day of the contract month"],
+    "a": 0,
+    "e": "BSE chose the last Thursday as its uniform expiry day for monthly Sensex contracts and weekly Sensex options. NSE chose last Tuesday.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "If the spot price of ABC Ltd is ₹100 and the one-year futures is trading at ₹108, while the fair value (with r=6%, d=2%) is ₹104, an arbitrageur should:",
+    "o": ["Buy spot, sell futures", "Sell spot, buy futures", "Buy both", "Sell both"],
+    "a": 0,
+    "e": "Futures (108) > fair (104), so cash-and-carry: borrow at 6%, buy spot at 100, sell futures at 108, deliver at expiry. Arbitrage profit = 108 - 104 = ₹4 per share, less transaction costs.",
+    "topic": "FUT",
+    "difficulty": 3
+  },
+  {
+    "q": "A 'price band' for a derivative contract refers to:",
+    "o": ["The range of prices at which the contract can be issued", "The minimum and maximum prices the contract is allowed to trade at during the day", "The strike-price range for options", "The bid-ask spread"],
+    "a": 1,
+    "e": "The price band is the daily trading range allowed, calculated relative to the previous day's close. Futures contracts use a ±10% operating range that triggers a price freeze (sent for confirmation), not auto-rejection.",
+    "topic": "FUT",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of the following is TRUE about open interest and trading volume?",
+    "o": ["They are always equal", "Open interest measures flow; volume measures snapshot", "Open interest measures snapshot; volume measures flow", "Both measure flow"],
+    "a": 2,
+    "e": "Open interest is the snapshot count of outstanding contracts at a point in time. Volume is the flow — number of contracts traded in a window. Identifying this distinction correctly is testable.",
+    "topic": "FUT",
+    "difficulty": 2
+  }
+]

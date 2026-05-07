@@ -6,14 +6,16 @@
 // chapter and reference pages, and (in Phase 2) the tests page all consult
 // these helpers.
 
-/** Slug of the free chapter for each exam. Currently only V-A has content. */
+/** Slug of the free chapter for each exam. */
 const FREE_CHAPTER_SLUG: Record<string, string> = {
   'nism-va': 'investment-landscape',
+  'nism-viii': 'basics-of-derivatives',
 };
 
 /** ID of the free mock-test set for each exam. */
 const FREE_TEST_SET_ID: Record<string, string> = {
-  'nism-va': 'set_mock', // "Mock Test 1 — 30Q foundational mix"
+  'nism-va': 'set_mock',          // "Mock Test 1 — 30Q foundational mix"
+  'nism-viii': 'set_viii_mock1',  // "Mock Test 1 — 30Q foundational mix" (VIII)
 };
 
 export function isFreeChapter(examCode: string, slug: string): boolean {

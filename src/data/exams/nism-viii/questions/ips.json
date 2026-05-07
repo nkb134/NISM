@@ -1,0 +1,50 @@
+[
+  {
+    "q": "Sales agents may make calls to customers between:",
+    "o": ["Any time on weekdays", "9 AM and 8 PM unless customer requests otherwise", "10 AM and 6 PM only", "Office hours of the broker only"],
+    "a": 1,
+    "e": "Sales calls are restricted to 9 AM – 8 PM unless the customer specifically asks for another time. Outside this window, calling is a violation.",
+    "topic": "IPS",
+    "difficulty": 1
+  },
+  {
+    "q": "The Risk Disclosure Document (RDD) must be signed by the client:",
+    "o": ["Before each trade", "At the time of client onboarding", "After the first loss", "Only if the client requests"],
+    "a": 1,
+    "e": "RDD is signed at onboarding, NOT later. Pre-trade or first-loss signing is non-compliant. SEBI checks this in inspections.",
+    "topic": "IPS",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of the following describes 'churning'?",
+    "o": ["Frequent and unnecessary trades to generate commissions", "Bulk delivery of shares to a custodian", "A type of clearing process", "An algorithmic trading strategy"],
+    "a": 0,
+    "e": "Churning = excessive, unnecessary trading in a client's account purely to earn brokerage. SEBI treats it as a violation of broker's fiduciary duty.",
+    "topic": "IPS",
+    "difficulty": 2
+  },
+  {
+    "q": "An investor's grievance against a broker should first be raised:",
+    "o": ["With SEBI directly", "With the broker, who has 30 days to resolve", "On Twitter", "With RBI"],
+    "a": 1,
+    "e": "Cascade: complain to broker first (30-day window); if unresolved → SCORES (SEBI portal); if still unresolved → SMARTODR (online dispute resolution).",
+    "topic": "IPS",
+    "difficulty": 2
+  },
+  {
+    "q": "A Suspicious Transaction Report (STR) under PMLA must be filed with FIU-IND within:",
+    "o": ["24 hours", "3 working days", "7 working days", "30 days"],
+    "a": 2,
+    "e": "Brokers must file STRs to FIU-IND within 7 working days of detecting a suspicious transaction. Delay or non-filing attracts PMLA penalties.",
+    "topic": "IPS",
+    "difficulty": 3
+  },
+  {
+    "q": "Which of the following is a derivative-specific risk that must be disclosed to a client?",
+    "o": ["Inflation risk", "Time decay (theta) risk for option buyers", "Currency risk", "Sovereign risk"],
+    "a": 1,
+    "e": "Time decay specifically erodes long option premium, with all other inputs held constant. The Risk Disclosure Document must highlight this — alongside leverage and unlimited-loss-on-writing risks.",
+    "topic": "IPS",
+    "difficulty": 2
+  }
+]

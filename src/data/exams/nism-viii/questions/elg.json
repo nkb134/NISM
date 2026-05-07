@@ -1,0 +1,50 @@
+[
+  {
+    "q": "Which Act first defined 'derivatives' as 'securities' in India?",
+    "o": ["RBI Act, 1934", "SEBI Act, 1992", "Securities Contracts (Regulation) Act, 1956 (1999 amendment)", "Companies Act, 2013"],
+    "a": 2,
+    "e": "The 1999 amendment to the SCRA brought derivatives within the definition of 'securities', enabling derivative trading to be regulated under the existing securities framework.",
+    "topic": "ELG",
+    "difficulty": 2
+  },
+  {
+    "q": "Section 18A of SCRA states that a derivative contract is legal and valid only if:",
+    "o": ["It is approved by RBI", "It is traded on a recognised stock exchange and settled at its clearing house", "Both parties have consented in writing", "The underlying is a listed security"],
+    "a": 1,
+    "e": "Section 18A: derivatives are legal only if traded on a recognised exchange AND settled through the exchange's clearing corp. Other OTC equity derivative contracts are not enforceable as securities contracts.",
+    "topic": "ELG",
+    "difficulty": 3
+  },
+  {
+    "q": "The L. C. Gupta committee report was accepted by SEBI on:",
+    "o": ["May 11, 1998", "June 9, 2000", "January 1, 1999", "October 30, 2025"],
+    "a": 0,
+    "e": "SEBI accepted the Gupta committee recommendations on May 11, 1998, paving the way for derivatives trading. Index futures launched June 2000.",
+    "topic": "ELG",
+    "difficulty": 3
+  },
+  {
+    "q": "Per the L. C. Gupta committee, the maximum representation of trading/clearing members on the governing council of a derivatives exchange/segment is:",
+    "o": ["20%", "40%", "50%", "75%"],
+    "a": 1,
+    "e": "≤40% maximum representation of trading/clearing members on the governing council. The exchange must have a separate governing council for the derivatives segment.",
+    "topic": "ELG",
+    "difficulty": 3
+  },
+  {
+    "q": "Brokers in the derivatives segment must retain trade confirmation slips and exercise notices for at least:",
+    "o": ["1 year", "3 years", "5 years", "7 years"],
+    "a": 2,
+    "e": "Records must be retained for 5 years per SEBI Stock Broker Regulations. Inspections happen at least once a year.",
+    "topic": "ELG",
+    "difficulty": 2
+  },
+  {
+    "q": "A default by a derivatives broker in one segment of the exchange is treated as:",
+    "o": ["Default only in that segment", "Default in all segments of that exchange and on all exchanges where the broker operates", "Default only if SEBI approves", "Default only if exceeds ₹1 cr"],
+    "a": 1,
+    "e": "Cross-default rule: default in one segment = default in all segments + all exchanges where the member operates. Career-ending consequence for the broker.",
+    "topic": "ELG",
+    "difficulty": 2
+  }
+]

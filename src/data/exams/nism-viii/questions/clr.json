@@ -1,0 +1,98 @@
+[
+  {
+    "q": "The legal principle by which the Clearing Corporation becomes the central counterparty to all trades is called:",
+    "o": ["Subrogation", "Novation", "Indemnity", "Estoppel"],
+    "a": 1,
+    "e": "Novation is the substitution of a new party (the Clearing Corp) into a contract, replacing the original counterparties' bilateral exposure with exposure to the CC.",
+    "topic": "CLR",
+    "difficulty": 2
+  },
+  {
+    "q": "The minimum net worth required for a Clearing Member who clears trades for other TMs is:",
+    "o": ["₹1 crore", "₹2 crore", "₹3 crore", "₹5 crore"],
+    "a": 2,
+    "e": "₹3 crore (₹300 lakh) for a CM who clears for other TMs. ₹1 crore for self-only. Plus ₹50 lakh deposit + ₹10 lakh per additional TM cleared.",
+    "topic": "CLR",
+    "difficulty": 2
+  },
+  {
+    "q": "Since October 2019, all open positions in stock futures and stock options on expiry are settled by:",
+    "o": ["Cash", "Physical delivery", "Bond delivery", "Cancellation"],
+    "a": 1,
+    "e": "Stock derivatives switched to mandatory physical delivery on expiry from October 2019. Index F&O continues to be cash-settled.",
+    "topic": "CLR",
+    "difficulty": 2
+  },
+  {
+    "q": "Interoperability of clearing corporations was implemented in India in:",
+    "o": ["2017", "2018", "2019", "2020"],
+    "a": 2,
+    "e": "Interoperability was implemented in 2019 (proposed in 2018). Brokers can now clear and settle trades from any exchange through their preferred clearing corporation.",
+    "topic": "CLR",
+    "difficulty": 2
+  },
+  {
+    "q": "Daily MTM pay-in/pay-out happens:",
+    "o": ["Same day evening", "Before market open the next day", "Within one week", "On contract expiry only"],
+    "a": 1,
+    "e": "MTM cash settlement happens before market open on T+1, debiting/crediting clearing members' accounts at designated clearing banks.",
+    "topic": "CLR",
+    "difficulty": 2
+  },
+  {
+    "q": "The Investor Protection Fund (IPF) compensates client claims up to:",
+    "o": ["₹10 lakh per client", "₹25 lakh per client", "₹50 lakh per client", "₹1 crore per client"],
+    "a": 1,
+    "e": "IPF caps payout at ₹25 lakh per client per default. Different from SGF, which is a system-level pool covering CM defaults.",
+    "topic": "CLR",
+    "difficulty": 2
+  },
+  {
+    "q": "In the default cascade, the FIRST resource used is:",
+    "o": ["Settlement Guarantee Fund", "Defaulting member's collateral and margins", "Clearing Corporation's own capital", "Surviving members' contributions"],
+    "a": 1,
+    "e": "Cascade: Defaulting member's margins/collateral → SGF → CC own capital → Surviving member contributions. Always defaulter pays first.",
+    "topic": "CLR",
+    "difficulty": 3
+  },
+  {
+    "q": "Initial margin in derivatives is computed using which methodology?",
+    "o": ["VaR-based 95%", "SPAN", "Black-Scholes", "Historical 30-day average"],
+    "a": 1,
+    "e": "SPAN (Standard Portfolio Analysis of Risk) computes margin across 16 hypothetical price + volatility scenarios; covers ~99% confidence loss over a one-day horizon.",
+    "topic": "CLR",
+    "difficulty": 2
+  },
+  {
+    "q": "If a client has a long position in 10 lots of SBI futures on NSE and a short position in 6 lots on BSE, with interoperability enabled, the margin will be calculated for:",
+    "o": ["10 lots long + 6 lots short separately", "Net 4 lots long", "16 lots gross", "No margin since they offset perfectly"],
+    "a": 1,
+    "e": "With interoperability, positions in the same contract across exchanges are netted at a single clearing corp. Net position = 4 lots long → margin computed on this netted position.",
+    "topic": "CLR",
+    "difficulty": 3
+  },
+  {
+    "q": "Liquid assets deposited by a Clearing Member must comprise at least what percentage of cash component?",
+    "o": ["20%", "30%", "50%", "75%"],
+    "a": 2,
+    "e": "At least 50% of liquid assets must be the cash component (cash, bank guarantees, FDR, T-bills, dated G-secs). The remainder can be non-cash (approved demat securities).",
+    "topic": "CLR",
+    "difficulty": 3
+  },
+  {
+    "q": "If a futures contract is not traded during the last 30 minutes on a day, the daily settlement price is computed as:",
+    "o": ["Previous day's settlement price", "Theoretical price using F = S × e^(r×t)", "Average of bid and ask at close", "Closing index value"],
+    "a": 1,
+    "e": "If untraded in the last 30 minutes, theoretical settlement = S × e^(r × t), where r is typically MIBOR or another specified rate.",
+    "topic": "CLR",
+    "difficulty": 3
+  },
+  {
+    "q": "On expiry day, all in-the-money index options are:",
+    "o": ["Returned to the writer", "Auto-exercised by the Clearing Corporation", "Held over to the next month", "Cancelled"],
+    "a": 1,
+    "e": "On expiry, all ITM options are deemed exercised by the clearing corporation (cash settled at the difference between strike and closing spot). OTM options expire worthless.",
+    "topic": "CLR",
+    "difficulty": 2
+  }
+]

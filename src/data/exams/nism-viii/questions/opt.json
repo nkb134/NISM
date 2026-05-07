@@ -1,0 +1,194 @@
+[
+  {
+    "q": "All Indian stock and index options are:",
+    "o": ["American style", "European style", "Bermudan style", "Asian style"],
+    "a": 1,
+    "e": "All Indian exchange-traded equity and index options are European — exercisable only on the expiry date. American-style options are not traded on Indian exchanges.",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "A call option is in-the-money when:",
+    "o": ["Spot price is greater than strike price", "Spot price is lower than strike price", "Spot price equals strike price", "Premium is greater than strike price"],
+    "a": 0,
+    "e": "Call ITM = Spot > Strike (the holder has the right to buy below the market). Put ITM is the mirror: Spot < Strike.",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "Intrinsic value of an option:",
+    "o": ["Can be negative if option is OTM", "Is always at least zero", "Equals the time value", "Is the option premium minus the strike"],
+    "a": 1,
+    "e": "Intrinsic value is max(S − X, 0) for a call and max(X − S, 0) for a put — never negative. The holder simply wouldn't exercise if it would result in a loss.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "The premium of an at-the-money option consists entirely of:",
+    "o": ["Intrinsic value", "Time value", "Vega", "Strike price"],
+    "a": 1,
+    "e": "ATM and OTM options have zero intrinsic value; their premium is entirely time value. Time value decays toward zero as expiry approaches.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Which Greek measures the rate of change of an option's price with respect to time?",
+    "o": ["Delta", "Gamma", "Theta", "Vega"],
+    "a": 2,
+    "e": "Theta = sensitivity to time decay. It is negative for long options (buyer loses value daily) and positive for short options (writer earns value daily).",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Vega measures sensitivity of an option's price to:",
+    "o": ["Spot price changes", "Time to expiry", "Implied volatility", "Interest rate"],
+    "a": 2,
+    "e": "Vega measures sensitivity to changes in implied volatility. Higher IV raises premium for both calls and puts (vega is positive for any long option).",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "The break-even point at expiry for a long call (Strike X, Premium P) is:",
+    "o": ["X − P", "X + P", "X × P", "X / P"],
+    "a": 1,
+    "e": "Long call BEP = Strike + Premium. The buyer needs the spot to rise above (X + P) at expiry to recover the premium and start profiting.",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "The break-even point at expiry for a long put (Strike X, Premium P) is:",
+    "o": ["X − P", "X + P", "X × P", "P / X"],
+    "a": 0,
+    "e": "Long put BEP = Strike − Premium. The buyer profits when spot falls below (X − P).",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "An option writer (seller) of a naked call faces:",
+    "o": ["Limited risk and limited reward", "Limited risk and unlimited reward", "Unlimited risk and limited reward", "Unlimited risk and unlimited reward"],
+    "a": 2,
+    "e": "Naked call writer's max gain = premium received (limited). Loss is theoretically unlimited because the underlying can rise without bound.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Delta of a deep in-the-money call option approaches:",
+    "o": ["0", "0.5", "1", "−1"],
+    "a": 2,
+    "e": "Deep ITM call delta approaches +1 (behaves almost like the underlying). ATM call delta ≈ 0.5; deep OTM call delta approaches 0.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "If Nifty spot is 24,000, the strike price 24,100 call option is best described as:",
+    "o": ["In-the-money", "At-the-money", "Out-of-the-money", "Worthless"],
+    "a": 2,
+    "e": "Spot 24,000 < Strike 24,100 → call is OTM. The right to buy at 24,100 has no immediate payoff when the underlying is at 24,000.",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "A call option's premium is ₹50 with strike ₹100; spot is ₹120. The intrinsic value is:",
+    "o": ["₹0", "₹20", "₹50", "₹70"],
+    "a": 1,
+    "e": "Call intrinsic = max(S − X, 0) = max(120 − 100, 0) = ₹20. Time value = Premium − Intrinsic = 50 − 20 = ₹30.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Put-call parity for European options is best expressed as:",
+    "o": ["C + P = S + X", "C − P = S − X × e^(−r×t)", "C × P = S × X", "C + S = P + X"],
+    "a": 1,
+    "e": "Put-call parity: C − P = S − X × e^(−r × t). Same strike, same expiry, European. Violation creates arbitrage opportunity.",
+    "topic": "OPT",
+    "difficulty": 3
+  },
+  {
+    "q": "An option with theta = −0.05 means the option will lose approximately:",
+    "o": ["5% in value over a day", "₹0.05 in premium per day", "₹5 in premium per day", "5 ticks in a day"],
+    "a": 1,
+    "e": "Theta is expressed per unit (per share/per index point) per day. Theta = −0.05 means premium drops ₹0.05 per day, holding all else constant.",
+    "topic": "OPT",
+    "difficulty": 3
+  },
+  {
+    "q": "Implied volatility (IV) of an option is:",
+    "o": ["The historical volatility of the underlying", "The volatility input that, in the pricing model, returns the observed market premium", "Always equal to historical volatility", "Set by SEBI"],
+    "a": 1,
+    "e": "IV is the volatility number that, plugged into the Black-Scholes (or other) pricing formula, makes the model price equal to the observed market premium. It reflects the market's collective view on future volatility.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Which option pricing model uses a discrete tree and can value American-style options?",
+    "o": ["Black-Scholes", "Cox-Ross-Rubinstein binomial", "Heston", "Vasicek"],
+    "a": 1,
+    "e": "The CRR binomial model uses a discrete time tree, accommodates dividends, and handles American options where early exercise is possible. Black-Scholes assumes European exercise.",
+    "topic": "OPT",
+    "difficulty": 3
+  },
+  {
+    "q": "The lot size for an index options contract is determined by:",
+    "o": ["The trader", "The broker", "The exchange", "RBI"],
+    "a": 2,
+    "e": "Exchanges determine lot size, which is reviewed periodically to keep contract value within SEBI's prescribed band (₹15-20 lakh post Nov 2024).",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "A long call holder's maximum possible loss is:",
+    "o": ["The strike price", "The premium paid", "Unlimited", "Spot minus strike"],
+    "a": 1,
+    "e": "Maximum loss for an option buyer is the premium paid — the option simply expires worthless if not exercised.",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "Closing a long call position is done by:",
+    "o": ["Buying the same call", "Selling the same call (closing sale)", "Buying a put on the same strike", "Letting it expire only"],
+    "a": 1,
+    "e": "An option position is closed by an offsetting trade with the SAME terms (strike + expiry). For a long call, that's a closing sale of the same call.",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "The 'assignment' of an option means:",
+    "o": ["The buyer transferring rights to another", "Allocation of an exercised option to one or more option sellers", "Settlement of the daily MTM", "The exchange reassigning a clearing member"],
+    "a": 1,
+    "e": "When the option holder exercises, the clearing corporation 'assigns' the obligation to one (or more) writers — usually proportional to outstanding short position.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Gamma is highest for options that are:",
+    "o": ["Deep in-the-money", "At-the-money", "Deep out-of-the-money", "Equal across all moneyness"],
+    "a": 1,
+    "e": "Gamma (rate of change of delta) is highest near the money and falls toward zero for deep ITM and deep OTM options. ATM options have the most curvature.",
+    "topic": "OPT",
+    "difficulty": 3
+  },
+  {
+    "q": "Final settlement of European-style index options happens at the:",
+    "o": ["Last traded option premium", "Closing futures price on expiry", "Closing spot value of the underlying on expiry", "Theoretical fair value"],
+    "a": 2,
+    "e": "European options settle at the closing spot value of the underlying on expiry — same reference as the corresponding futures contract.",
+    "topic": "OPT",
+    "difficulty": 2
+  },
+  {
+    "q": "If a call option's intrinsic value is ₹0 and premium is ₹15, the time value is:",
+    "o": ["₹0", "₹15", "₹30", "Cannot be determined"],
+    "a": 1,
+    "e": "Time value = Premium − Intrinsic value = 15 − 0 = ₹15. The entire premium is time value when the option is OTM or ATM.",
+    "topic": "OPT",
+    "difficulty": 1
+  },
+  {
+    "q": "Theta is positive for which of the following positions?",
+    "o": ["Long call", "Long put", "Short call", "Long stock"],
+    "a": 2,
+    "e": "Theta is positive for short options (call or put) — the writer earns value as time decays. It is negative for long options (the buyer's premium erodes daily).",
+    "topic": "OPT",
+    "difficulty": 2
+  }
+]

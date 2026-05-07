@@ -1,0 +1,50 @@
+[
+  {
+    "q": "Initial margin paid by a client for a futures position is:",
+    "o": ["Debited to P&L immediately", "Debited to a balance-sheet asset account ('Initial Margin – Equity Futures')", "Treated as an expense", "Credited to retained earnings"],
+    "a": 1,
+    "e": "Initial margin is a current asset on the balance sheet, not a P&L item. It is released or adjusted on contract settlement.",
+    "topic": "TXA",
+    "difficulty": 2
+  },
+  {
+    "q": "Per the prudence principle in derivative accounting, on the balance-sheet date:",
+    "o": ["Both anticipated profits and losses are recognised", "Anticipated losses are recognised; anticipated profits are ignored", "Only anticipated profits are recognised", "Neither is recognised"],
+    "a": 1,
+    "e": "Prudence rule: provide for anticipated loss (debit P&L); ignore anticipated profit (do not credit P&L) until realised. Asymmetric treatment by design.",
+    "topic": "TXA",
+    "difficulty": 2
+  },
+  {
+    "q": "Under Section 43(5)(d) of the Income-tax Act, an eligible derivatives transaction on a recognised stock exchange is treated as:",
+    "o": ["Speculative business income", "Non-speculative business income", "Capital gains", "Exempt income"],
+    "a": 1,
+    "e": "Section 43(5)(d) classifies derivative transactions as NON-speculative business income. Losses can be set off against any business income and carried forward 8 years.",
+    "topic": "TXA",
+    "difficulty": 3
+  },
+  {
+    "q": "Non-speculative business loss from derivatives can be carried forward for:",
+    "o": ["4 years", "6 years", "8 years", "Indefinitely"],
+    "a": 2,
+    "e": "Non-speculative business losses (which derivative losses are) can be carried forward 8 years and set off against any business income. Speculative losses get only 4 years.",
+    "topic": "TXA",
+    "difficulty": 2
+  },
+  {
+    "q": "For tax-audit threshold purposes, 'turnover' from derivatives trading is calculated as:",
+    "o": ["Sum of all contract values", "Absolute sum of profit and loss per trade plus premium received on options written", "Total margin paid", "Total brokerage paid"],
+    "a": 1,
+    "e": "Turnover = absolute |P/L| per trade + total premium received on options written. NOT the contract value. Mis-reporting this is a common audit trigger.",
+    "topic": "TXA",
+    "difficulty": 3
+  },
+  {
+    "q": "The buyer of an option pays STT only when:",
+    "o": ["The option is bought", "The option expires worthless", "The option is exercised", "The premium changes"],
+    "a": 2,
+    "e": "Buyer's STT is 0.125% of settlement value, charged only when an option is exercised. The seller pays 0.10% on premium at the time of sale, regardless of exercise.",
+    "topic": "TXA",
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "q": "An investor has a portfolio worth ₹50 lakh with beta 1.2. To hedge with Nifty futures (price 25,000, lot size 25), the number of contracts to short is approximately:",
+    "o": ["10", "12", "16", "24"],
+    "a": 0,
+    "e": "Hedge ratio = (β × Portfolio value) / (Future price × Lot size) = (1.2 × 50,00,000) / (25,000 × 25) = 60,00,000 / 6,25,000 = 9.6 ≈ 10 contracts.",
+    "topic": "ESS",
+    "difficulty": 3
+  },
+  {
+    "q": "A long straddle is constructed by:",
+    "o": ["Buying a call and selling a put at the same strike", "Buying a call and a put at the same strike and same expiry", "Selling a call and a put at the same strike", "Buying calls at two different strikes"],
+    "a": 1,
+    "e": "Long straddle = long call + long put at the SAME strike, SAME expiry. Profitable if the underlying moves significantly in either direction beyond X ± total premium.",
+    "topic": "ESS",
+    "difficulty": 1
+  },
+  {
+    "q": "A long strangle differs from a long straddle in that:",
+    "o": ["Both legs are puts", "The two legs use different strikes", "It uses different expiries", "It is exchange-prohibited"],
+    "a": 1,
+    "e": "Strangle uses an OTM call and an OTM put — different strikes, same expiry. It's cheaper than a straddle but needs a bigger move to break even.",
+    "topic": "ESS",
+    "difficulty": 2
+  },
+  {
+    "q": "A 'covered call' strategy involves:",
+    "o": ["Long stock + long call", "Long stock + short call", "Short stock + long call", "Short stock + short call"],
+    "a": 1,
+    "e": "Covered call = long stock + short out-of-the-money call. The investor caps upside at the strike but earns premium income; protection on downside is limited to the premium.",
+    "topic": "ESS",
+    "difficulty": 1
+  },
+  {
+    "q": "A 'protective put' strategy is suitable for an investor who:",
+    "o": ["Holds a long stock position and wants downside protection", "Wants to speculate on a stock decline", "Is short the stock", "Wants to hedge interest-rate risk"],
+    "a": 0,
+    "e": "Protective put = long stock + long put. The put acts as insurance — limiting downside to (Spot − Strike + Premium), while keeping unlimited upside (less the premium paid).",
+    "topic": "ESS",
+    "difficulty": 1
+  },
+  {
+    "q": "A 'collar' strategy combines:",
+    "o": ["Long stock + long put + short call", "Long stock + long call + short put", "Long put + long call (same strike)", "Short put + short call (same strike)"],
+    "a": 0,
+    "e": "Collar = long stock + long OTM put + short OTM call. Caps both downside (via the put) and upside (via the short call). Often near-zero net cost when premiums offset.",
+    "topic": "ESS",
+    "difficulty": 2
+  },
+  {
+    "q": "If futures price exceeds the fair value, the appropriate arbitrage is:",
+    "o": ["Buy futures, sell spot", "Buy futures, buy spot", "Sell futures, buy spot (cash-and-carry)", "Sell futures, sell spot"],
+    "a": 2,
+    "e": "Cash-and-carry: when futures > fair value, borrow at r, buy the spot, sell the overpriced futures, deliver into the futures at expiry. Risk-free profit = futures − fair value (less costs).",
+    "topic": "ESS",
+    "difficulty": 2
+  },
+  {
+    "q": "A trader expects high volatility in Nifty before earnings but is unsure of direction. The best strategy is:",
+    "o": ["Long call only", "Long straddle or long strangle", "Covered call", "Bull call spread"],
+    "a": 1,
+    "e": "Long straddle or strangle profits from large moves in either direction. Both gain when implied volatility rises (positive vega) and when the underlying moves enough to cross the BEPs.",
+    "topic": "ESS",
+    "difficulty": 2
+  },
+  {
+    "q": "A long butterfly spread is constructed using:",
+    "o": ["Three different strikes (1 ITM long, 2 ATM short, 1 OTM long)", "Two strikes — long both", "Three strikes — long all three", "One strike at three expiries"],
+    "a": 0,
+    "e": "Long butterfly: long 1 ITM call + short 2 ATM calls + long 1 OTM call (or all puts). Profits if the underlying stays near the middle strike at expiry — bets on low movement.",
+    "topic": "ESS",
+    "difficulty": 3
+  },
+  {
+    "q": "Delta-hedging an option position aims to:",
+    "o": ["Maximise delta exposure", "Make the portfolio direction-neutral", "Eliminate vega risk", "Reduce theta decay"],
+    "a": 1,
+    "e": "Delta-hedging neutralises the directional exposure (delta = 0) by holding offsetting units of the underlying. Gamma re-introduces directionality as spot moves, requiring continuous re-hedging.",
+    "topic": "ESS",
+    "difficulty": 3
+  },
+  {
+    "q": "If put-call parity is violated such that C − P > S − X × e^(−r × t), an arbitrageur should:",
+    "o": ["Sell the call, buy the put, buy the stock", "Buy the call, sell the put, sell the stock", "Hold the position unchanged", "Sell both call and put"],
+    "a": 0,
+    "e": "If LHS > RHS, the call is relatively expensive and the put is relatively cheap. Sell call, buy put, buy stock (synthesised at strike via borrowing), lock in the spread.",
+    "topic": "ESS",
+    "difficulty": 3
+  },
+  {
+    "q": "An investor who is bullish on a stock but only mildly should consider a:",
+    "o": ["Long call (deep OTM)", "Bull call spread", "Long straddle", "Short put"],
+    "a": 1,
+    "e": "Bull call spread (long lower-strike call + short higher-strike call) gives bullish exposure with lower premium outlay vs a naked long call. Caps upside at the higher strike but reduces the breakeven.",
+    "topic": "ESS",
+    "difficulty": 2
+  }
+]
