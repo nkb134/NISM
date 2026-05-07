@@ -40,3 +40,9 @@ dist
 
 # drizzle
 src/lib/db/migrations/meta/_journal.json.bak
+
+# per-exam research surface (workbook IP + portal captures, never committed)
+src/data/exams/*/research/raw/
+src/data/exams/*/research/portal-capture/
+src/data/exams/*/research/portal-notes.md
+!src/data/exams/_template/research/portal-notes.md

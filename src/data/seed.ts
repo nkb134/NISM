@@ -1,8 +1,11 @@
 /**
- * Seed: load JSON exam data into Postgres.
+ * Seed: load JSON exam data into Postgres for every exam directory under
+ * src/data/exams/ (excluding `_template`).
  *
- * Idempotent. Re-running maps each question text to the same deterministic UUID,
- * so existing attempts.responses[].questionId references stay valid across reseeds.
+ * Idempotent. Re-running maps each question text to the same deterministic
+ * UUID per-exam, so existing attempts.responses[].questionId references stay
+ * valid across reseeds. Adding a new exam = drop a new directory + re-run; no
+ * code change required.
  *
  * Run: `npm run db:seed` (requires DATABASE_URL in .env.local).
  */
@@ -13,7 +16,7 @@
 import { config as loadEnv } from 'dotenv';
 loadEnv({ path: ['.env.local', '.env'] });
 
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { sql } from 'drizzle-orm';
@@ -26,7 +29,6 @@ import {
   testSetQuestions,
   attempts,
 } from '../lib/db/schema';
-import { NISM_VA_TOPICS, type TopicCode } from '../lib/topics';
 
 type RawQuestion = {
   q: string;
@@ -49,15 +51,25 @@ type RawSet = {
 
 type SetQuestionMap = Record<string, Array<{ questionText: string; topic: string }>>;
 
-const EXAM_CODE = 'nism-va';
-const EXAM_DIR = join(process.cwd(), 'src/data/exams', EXAM_CODE);
+type Meta = {
+  examCode: string;
+  examName: string;
+  examFullName: string;
+  totalQuestions: number;
+  durationMinutes: number;
+  passMarkPercent: number;
+  negativeMarking: boolean;
+};
 
-const NAMESPACE = `${EXAM_CODE}|question|v1`;
+type TopicsMap = Record<string, { name: string; weight: number; order: number }>;
 
-function deterministicQuestionId(text: string): string {
+const EXAMS_ROOT = join(process.cwd(), 'src/data/exams');
+
+function deterministicQuestionId(examCode: string, text: string): string {
   // SHA-1-derived UUIDv5 (RFC 4122 §4.3) keyed off the exam code + question text.
   // Stable across reseeds so attempts.responses keep their FK target.
-  const hash = createHash('sha1').update(`${NAMESPACE}|${text}`).digest();
+  const namespace = `${examCode}|question|v1`;
+  const hash = createHash('sha1').update(`${namespace}|${text}`).digest();
   const bytes = Buffer.from(hash.subarray(0, 16));
   bytes[6] = (bytes[6] & 0x0f) | 0x50; // version 5
   bytes[8] = (bytes[8] & 0x3f) | 0x80; // RFC 4122 variant
@@ -65,56 +77,47 @@ function deterministicQuestionId(text: string): string {
   return `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(16, 20)}-${h.slice(20, 32)}`;
 }
 
-function readJson<T>(relPath: string): T {
-  return JSON.parse(readFileSync(join(EXAM_DIR, relPath), 'utf8')) as T;
+function readJson<T>(path: string): T {
+  return JSON.parse(readFileSync(path, 'utf8')) as T;
 }
 
-async function main() {
-  console.log('[seed] reading exam data from', EXAM_DIR);
+/** List every seedable exam directory (skips `_template` and any dotfile). */
+function discoverExamDirs(): string[] {
+  if (!existsSync(EXAMS_ROOT)) return [];
+  return readdirSync(EXAMS_ROOT)
+    .filter((name) => !name.startsWith('_') && !name.startsWith('.'))
+    .map((name) => join(EXAMS_ROOT, name))
+    .filter((p) => statSync(p).isDirectory() && existsSync(join(p, 'meta.json')));
+}
 
-  const meta = readJson<{
-    examCode: string;
-    examName: string;
-    examFullName: string;
-    totalQuestions: number;
-    durationMinutes: number;
-    passMarkPercent: number;
-    negativeMarking: boolean;
-  }>('meta.json');
+async function seedExam(examDir: string, attemptCount: number) {
+  const meta = readJson<Meta>(join(examDir, 'meta.json'));
+  const examCode = meta.examCode;
+  console.log(`\n[seed] ── ${examCode} ────────────────────────────`);
 
-  const sets = readJson<RawSet[]>('sets.json');
-  const setMap = readJson<SetQuestionMap>('set-question-map.json');
+  const topicsMap = readJson<TopicsMap>(join(examDir, 'topics.json'));
+  const sets = readJson<RawSet[]>(join(examDir, 'sets.json'));
+  const setMap = readJson<SetQuestionMap>(join(examDir, 'set-question-map.json'));
 
-  // Load questions from each topic file and build a text -> question lookup.
-  const questionFiles = [
-    'inv',
-    'str',
-    'sch',
-    'reg',
-    'doc',
-    'nav',
-    'tax',
-    'ops',
-    'rsk',
-    'prf',
-  ] as const;
-
+  // Load questions from each topic file (every <code>.json under questions/).
+  const questionsDir = join(examDir, 'questions');
   const allQuestions: RawQuestion[] = [];
-  for (const t of questionFiles) {
-    const arr = readJson<RawQuestion[]>(`questions/${t}.json`);
-    allQuestions.push(...arr);
+  if (existsSync(questionsDir)) {
+    for (const f of readdirSync(questionsDir).filter((n) => n.endsWith('.json'))) {
+      const arr = readJson<RawQuestion[]>(join(questionsDir, f));
+      allQuestions.push(...arr);
+    }
   }
   const byText = new Map<string, RawQuestion>();
   for (const q of allQuestions) {
     if (byText.has(q.q)) {
-      throw new Error(`Duplicate question text in pool: ${q.q.slice(0, 60)}`);
+      throw new Error(`[${examCode}] duplicate question text in pool: ${q.q.slice(0, 60)}`);
     }
     byText.set(q.q, q);
   }
-  console.log(`[seed] loaded ${allQuestions.length} questions across ${questionFiles.length} topics`);
+  console.log(`[seed]   ${allQuestions.length} questions in pool`);
 
-  // Resolve set-question-map entries to actual questions before touching the DB
-  // so we can fail fast if any set references a missing question.
+  // Resolve set-question-map entries before touching the DB.
   const resolvedSetQuestions: Record<string, RawQuestion[]> = {};
   for (const set of sets) {
     if (set.isDynamic) {
@@ -123,43 +126,31 @@ async function main() {
     }
     const entries = setMap[set.id];
     if (!entries) {
-      throw new Error(`set-question-map.json missing entry for set "${set.id}"`);
+      throw new Error(`[${examCode}] set-question-map.json missing entry for set "${set.id}"`);
     }
     const resolved: RawQuestion[] = [];
     for (const e of entries) {
       const q = byText.get(e.questionText);
       if (!q) {
         throw new Error(
-          `Set "${set.id}" references unknown question text: "${e.questionText.slice(0, 60)}…"`
+          `[${examCode}] set "${set.id}" references unknown question text: "${e.questionText.slice(0, 60)}…"`
         );
       }
       resolved.push(q);
     }
     if (set.questionCount && resolved.length !== set.questionCount) {
       console.warn(
-        `[seed] WARN set "${set.id}" expects ${set.questionCount}, map has ${resolved.length}`
+        `[seed]   WARN set "${set.id}" expects ${set.questionCount}, map has ${resolved.length}`
       );
     }
     resolvedSetQuestions[set.id] = resolved;
   }
 
-  // Refuse to nuke seeded data if any user attempts exist (would break their reviews).
-  const existingAttempts = await db.execute(sql`select count(*)::int as n from attempts`);
-  const attemptCount = (existingAttempts.rows?.[0] as { n: number } | undefined)?.n ?? 0;
-  if (attemptCount > 0 && process.env.SEED_FORCE !== '1') {
-    console.log(
-      `[seed] ${attemptCount} attempt(s) exist — switching to upsert-only mode (no destructive deletes).`
-    );
-  } else {
-    console.log('[seed] clearing test_set_questions (questions/sets are upserted, not deleted)');
-    await db.execute(sql`delete from test_set_questions`);
-  }
-
-  // Exams: upsert
+  // Exam upsert
   await db
     .insert(exams)
     .values({
-      code: meta.examCode,
+      code: examCode,
       name: meta.examName,
       fullName: meta.examFullName,
       description: null,
@@ -181,13 +172,13 @@ async function main() {
       },
     });
 
-  // Topics: upsert from canonical source in lib/topics.ts
-  for (const [code, info] of Object.entries(NISM_VA_TOPICS)) {
+  // Topics upsert from per-exam topics.json (no more lib/topics.ts hardcode).
+  for (const [code, info] of Object.entries(topicsMap)) {
     await db
       .insert(topics)
       .values({
-        code: code as TopicCode,
-        examCode: EXAM_CODE,
+        code,
+        examCode,
         name: info.name,
         weightInExam: info.weight,
         displayOrder: info.order,
@@ -201,17 +192,16 @@ async function main() {
         },
       });
   }
-  console.log('[seed] upserted exam + topics');
 
-  // Questions: upsert with deterministic UUIDs
+  // Questions upsert with deterministic UUIDs.
   let qInserted = 0;
   for (const q of allQuestions) {
-    const id = deterministicQuestionId(q.q);
+    const id = deterministicQuestionId(examCode, q.q);
     await db
       .insert(questions)
       .values({
         id,
-        examCode: EXAM_CODE,
+        examCode,
         topicCode: q.topic,
         question: q.q,
         options: q.o,
@@ -231,16 +221,16 @@ async function main() {
       });
     qInserted++;
   }
-  console.log(`[seed] upserted ${qInserted} questions`);
+  console.log(`[seed]   upserted ${qInserted} questions`);
 
-  // Test sets: upsert
+  // Test sets upsert
   for (const [i, s] of sets.entries()) {
     const topicCode = s.topic === 'MIX' || s.topic === 'FULL' ? null : s.topic;
     await db
       .insert(testSets)
       .values({
         id: s.id,
-        examCode: EXAM_CODE,
+        examCode,
         name: s.name,
         description: s.description,
         topicCode,
@@ -260,10 +250,14 @@ async function main() {
         },
       });
   }
-  console.log(`[seed] upserted ${sets.length} test sets`);
+  console.log(`[seed]   upserted ${sets.length} test sets`);
 
-  // test_set_questions: rebuild fully (no attempts at this point or we already
-  // bailed above; pivot table is safe to rebuild because it has no inbound FKs).
+  // test_set_questions: rebuild only when no attempts exist (else upsert-only).
+  if (attemptCount === 0 || process.env.SEED_FORCE === '1') {
+    await db.execute(
+      sql`delete from test_set_questions where set_id in (select id from test_sets where exam_code = ${examCode})`
+    );
+  }
   let pivotInserted = 0;
   for (const set of sets) {
     if (set.isDynamic) continue;
@@ -274,7 +268,7 @@ async function main() {
         .insert(testSetQuestions)
         .values({
           setId: set.id,
-          questionId: deterministicQuestionId(q.q),
+          questionId: deterministicQuestionId(examCode, q.q),
           questionOrder: i + 1,
         })
         .onConflictDoUpdate({
@@ -284,7 +278,28 @@ async function main() {
       pivotInserted++;
     }
   }
-  console.log(`[seed] wired ${pivotInserted} set→question rows`);
+  console.log(`[seed]   wired ${pivotInserted} set→question rows`);
+}
+
+async function main() {
+  const dirs = discoverExamDirs();
+  if (dirs.length === 0) {
+    console.warn('[seed] no exam directories found under', EXAMS_ROOT);
+    return;
+  }
+
+  // Refuse to nuke seeded data if any user attempts exist (would break their reviews).
+  const existingAttempts = await db.execute(sql`select count(*)::int as n from attempts`);
+  const attemptCount = (existingAttempts.rows?.[0] as { n: number } | undefined)?.n ?? 0;
+  if (attemptCount > 0 && process.env.SEED_FORCE !== '1') {
+    console.log(
+      `[seed] ${attemptCount} attempt(s) exist — switching to upsert-only mode (no destructive deletes).`
+    );
+  }
+
+  for (const dir of dirs) {
+    await seedExam(dir, attemptCount);
+  }
 
   // Sanity counts
   const counts = await Promise.all([
@@ -295,7 +310,7 @@ async function main() {
     db.execute(sql`select count(*)::int as n from test_set_questions`),
   ]);
   const [e, t, ts, q, tsq] = counts.map((r) => (r.rows?.[0] as { n: number }).n);
-  console.log('[seed] DB now contains:');
+  console.log('\n[seed] DB now contains:');
   console.log(`         exams:              ${e}`);
   console.log(`         topics:             ${t}`);
   console.log(`         test_sets:          ${ts}`);

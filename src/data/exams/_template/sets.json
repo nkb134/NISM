@@ -1,0 +1,12 @@
+[
+  {
+    "//": "First entry is conventionally the free mock — gate it via FREE_TEST_SET_ID in src/lib/access.ts. topic 'MIX' = mixed mock, 'FULL' = dynamic full-syllabus simulator, otherwise a topic code.",
+    "id": "set_mock1",
+    "name": "Mock Test 1 — foundational mix",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "30-question foundational mock covering all topics in proportion to the exam.",
+    "isDynamic": false,
+    "questionCount": 30
+  }
+]

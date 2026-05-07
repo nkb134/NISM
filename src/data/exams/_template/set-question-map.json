@@ -1,0 +1,6 @@
+{
+  "//": "Map each set id (from sets.json) to the ordered list of questions it contains. Each entry references questions by their exact text — the seed resolves them via questions/<topic>.json. If a question text changes, update both files.",
+  "set_mock1": [
+    { "questionText": "Sample question text from questions/top.json", "topic": "TOP" }
+  ]
+}

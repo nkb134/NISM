@@ -1,0 +1,10 @@
+{
+  "//": "Copy these structural fields from the matching row in src/data/exam-catalog.ts. The seed reads this file via auto-discovery; do NOT change examCode after first seed unless you also nuke and re-seed (deterministic question UUIDs are namespaced by examCode).",
+  "examCode": "nism-XXX",
+  "examName": "NISM Series XXX",
+  "examFullName": "Full title from the NISM website",
+  "totalQuestions": 100,
+  "durationMinutes": 120,
+  "passMarkPercent": 50,
+  "negativeMarking": false
+}

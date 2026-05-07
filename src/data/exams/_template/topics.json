@@ -1,0 +1,4 @@
+{
+  "//": "Topic codes are 3-letter SCREAMING_SNAKE strings (INV, REG, etc.). Extract from the workbook ToC. Weight is the % of the real exam's marks for that topic — sum should equal ~100. Order drives display.",
+  "TOP": { "name": "Sample Topic", "weight": 20, "order": 1 }
+}
