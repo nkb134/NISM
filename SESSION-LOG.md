@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · Phase 4 Sprint 1 shipped — logos, landing v3, favicon
+**Last updated:** 2026-05-07 · Phase 4 Sprint 2 shipped — auto-discover seed, _template, preview, i18n scaffold
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -55,6 +55,31 @@ Founder feedback: original landing read as "well-built spec but missing professi
 - **Mobile gotcha caught:** the radial-glow blob behind the phone frame used negative insets (`-8%`) to extend past the column. Wrapped in `overflow-hidden` so it clips on narrow viewports without losing the visual.
 
 What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation budget bust, no new deps.
+
+### Phase 4 Sprint 2 — onboarding tooling + i18n scaffold ✅
+
+Shipped 2026-05-07. Code-only sprint — no new exam content yet, but the rails are laid for Sprint 3 (VIII Equity Derivatives) to be a content-only push.
+
+**Workstream C (exam onboarding):**
+- `src/data/seed.ts` rewritten to walk `src/data/exams/` and seed every directory with a `meta.json` (skips `_template/` and dotfiles). Adding a new exam = drop the directory, run `npm run db:seed`. Idempotent guarantee preserved (UUIDs are deterministic per `examCode|question|v1` namespace, scoped per exam so collisions across exams are impossible).
+- `src/data/exams/_template/` skeleton: `meta`, `topics`, `sets`, `set-question-map`, `questions/top.json`, `study/CONTENT-FORMAT.md`, `study/chapters/01-example.md`, `research/portal-notes.md`. Inline `"//"` keys in each JSON act as commentary.
+- `scripts/extract-workbook.py` — pypdf-based extractor. Dumps per-chapter text under `src/data/exams/<code>/research/raw/<lang>/`. Naive chapter-heading detector; founder reviews splits before authoring. Workbook IP — gitignored.
+- `/preview/exam/[code]` — single-page founder review surface. Shows catalog status, DB-seeded counts, chapter list, reference docs, test sets, topics, plus an activation checklist. `noindex`. Auth-free for founder convenience.
+- `docs/ADDING-AN-EXAM.md` — one-page playbook covering the full flow (extract → portal capture → author → seed → spot-check → activate). Calls out the don'ts (don't change `examCode` post-seed, don't paste verbatim, don't ship below the V-A Ch 1 quality bar).
+- `.gitignore` extends to `src/data/exams/*/research/raw/`, `research/portal-capture/`, and per-exam `research/portal-notes.md` — only `_template/research/portal-notes.md` is exempted so the template stays self-documenting.
+
+**Workstream E (i18n scaffolding):**
+- `middleware.ts` rewrites `/hi/*` → `/*` and stamps an `x-locale: hi` header. English (default) is prefix-less so existing URLs and SEO equity stay intact. Matcher excludes API routes and static assets.
+- `src/i18n/constants.ts` — client-safe `Locale` type, `LOCALES`, `LOCALE_PREFIXES`, `localePrefix`, `stripLocalePrefix`, `isLocale`. `src/i18n/index.ts` — server-only `getLocale()` (reads `x-locale`) and `t(key, vars?)` with EN fallback. Two JSON dictionaries, ~20 keys each.
+- `<LangSwitcher>` (client) — EN/हि toggle in SiteNav. `usePathname`-driven, links to the localised counterpart of the current path. Zero state.
+- `src/lib/study/content.ts` — `listChapters` / `getChapter` / `listReferences` / `getReference` now take an optional `lang` param. Hindi content lives at `src/data/exams/<code>/study/hi/...`; falls back to the English root if not authored yet, paired with `fallback.hindiSoon` banner copy.
+- `EXAM_CATALOG` entries gain optional `languages: ('en' | 'hi')[]` (defaults to `['en']`).
+- `src/app/sitemap.ts` emits hreflang `alternates.languages` for every exam page based on the exam's available languages.
+- `src/lib/db/schema.ts` — `questions.lang text not null default 'en'` + `exam_lang_idx`. **Founder action: `npm run db:generate && npm run db:push`** when convenient (additive, existing rows backfill cleanly).
+- `globals.css`: `:lang(hi)` falls through to a Devanagari font stack (Noto Sans Devanagari → Mangal → Kohinoor → Nirmala UI). Self-hosted Noto download follows when first Hindi content lands.
+- Root layout's `<html lang>` attribute reads from `getLocale()`.
+
+**Sprint 3 ready to start whenever:** VIII Equity Derivatives content. Workbook at `Study Materials/256/`. Claude builds, founder spot-checks via `/preview/exam/nism-viii`.
 
 ### Phase 4 Sprint 1 — logos, landing v3, favicon ✅
 
@@ -169,6 +194,8 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+bd5333a  Workstream E: i18n scaffolding (EN + HI), no content yet
+07f043f  Workstream C: auto-discover seed + _template + PDF extractor + preview + playbook
 d2f3976  Landing v3: counter band, comparison, testimonials, FAQ, sharper CTA
 5ed10ec  ExamMark per-exam logo + favicon refresh
 f26e763  Ch 2/4/7 audit fixes + gitignore .claude/settings.local.json
