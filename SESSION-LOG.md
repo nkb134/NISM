@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-06 · session pushed through `landing-v2` design refresh
+**Last updated:** 2026-05-07 · Phase 3 closed — SW, PostHog, profile, tour
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -56,17 +56,25 @@ Founder feedback: original landing read as "well-built spec but missing professi
 
 What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation budget bust, no new deps.
 
-### Pending in the current Phase 3 sequence
+### Phase 3 close-out — SW + PostHog + profile + tour ✅
 
-1. **Service worker for offline** — about to start. Hand-rolled `public/sw.js` (no `next-pwa` dep), four caching buckets:
-   - app shell (HTML/JS/CSS) cache-first
-   - study guide chapters cache-first
-   - `/api/*` and `/test/*` network-first (no stale data)
-   - icons / fonts cache-first
-   Triggers Android Chrome's auto-install prompt as a side benefit.
-2. **PostHog events** — `signup`, `test_started`, `test_completed`, `topic_drill`. Wiring lands first; user adds `NEXT_PUBLIC_POSTHOG_KEY` later. localStorage-only (no cookies — privacy spec).
-3. **Profile page** — sign-out button, exam progress summary across all exams the user has taken. Small.
-4. (Optional) 30-second product tour for first-time users.
+All four pending items shipped on 2026-05-07.
+
+- **Service worker** at `public/sw.js`. Four buckets:
+  - `nism-shell-v1`: app shell (`/`, `/dashboard`, `manifest.webmanifest`) network-first, cache fallback. Pre-warmed on install.
+  - `nism-study-v1`: `/exam/*/study*` cache-first with background refresh.
+  - `nism-dynamic-v1`: `/api/*` and `/exam/*/test/*` network-first, no stale. `/api/auth/*` bypasses the SW entirely (auth callbacks must hit network).
+  - `nism-assets-v1`: `/icons /images /brand /_next/static + fonts/images by extension` cache-first.
+  Bumping `CACHE_VERSION` purges old caches on activate. Hand-rolled, ~150 lines, no `next-pwa`/Serwist dep.
+  Registered via `<ServiceWorkerRegister />` in root layout — production-only (Turbopack HMR + SW = pain in dev).
+- **PostHog wiring** — lightweight HTTP client at `src/lib/analytics.ts` posts directly to `/capture/`. No `posthog-js` dep (~30 LOC vs ~30KB gzipped). Distinct id is a `crypto.randomUUID()` in `localStorage` (no cookies). All four events fire:
+  - `signup` — fired by `<AnalyticsBootstrap />` on first identify when the server has flagged `users.createdAt` as <5 min old. Per-user `ph_signup_fired:<userId>` flag prevents double-firing.
+  - `test_started` — `TestRunner` mount.
+  - `topic_drill` — `TestRunner` mount, only when the set has `topicCode` (not a mock/simulator).
+  - `test_completed` — after `submitAttempt` resolves successfully, before any redirect; uses `keepalive: true` so the request finishes through the navigation.
+  All wiring no-ops until `NEXT_PUBLIC_POSTHOG_KEY` is set.
+- **Profile page** at `/profile` (auth-gated, redirects with `?next=/profile`). Lists one row per exam the user has attempted: best score, average, attempt count, last-attempt-relative ("3d ago"). New `listExamSummaries` query at `src/lib/db/queries.ts` aggregates with a single grouped SQL round-trip. Sign-out button clears the PostHog distinct id so the next session starts anonymous (prevents identity leakage on shared devices). Email pill in `SiteNav` and `/dashboard` links to `/profile`.
+- **Product tour** — `<ProductTour />` is a small dismissable floating card pinned bottom-right of `/dashboard`. Four steps (~30s read), localStorage-gated by `tour_seen_v1`, deliberately not a full-screen overlay or anchored walkthrough (mobile users hate modals; the dashboard is already self-explanatory).
 
 ### Landing: prep-path banner ✅
 
@@ -123,7 +131,9 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 | `/exam/[code]/test/result/[attemptId]` | live | signed-in only | Persisted result page |
 | `/exam/[code]/progress` | live | signed-in | Stats + topic mastery + history |
 | `/api/auth/[...all]` | live | public (auth handler) | Better-Auth |
+| `/profile` | live | signed-in only | Sign-out + cross-exam summary |
 | `/manifest.webmanifest` | live | public | PWA manifest |
+| `/sw.js` | live | public | Hand-rolled service worker (4 cache buckets) |
 | `/sitemap.xml` | live | public | Auto-generated |
 | `/robots.txt` | live | public | Allows /, disallows /api/, /login |
 
@@ -144,7 +154,9 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
-(next)   Hero carousel: super-copy overlay inside the phone, 3.5s tick
+90d9a10  Profile page + first-run product tour
+e5f0463  PWA service worker + PostHog event wiring
+7640c5b  Hero carousel: superimpose super-copy on phone screen, 3.5s tick
 87af7cf  Hero carousel: 3 real product screens with super copy
 5e77800  Landing: prep-path banner with mountain illustration
 5fd944b  Landing v2: phone-frame hero + stats + category icons + footer
