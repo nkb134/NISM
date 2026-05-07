@@ -44,6 +44,7 @@ export default async function TestRunnerPage({ params }: Props) {
       examName={exam.shortName}
       setId={set.id}
       setName={set.name}
+      topicCode={set.topicCode}
       durationSeconds={set.durationSeconds}
       passMarkPercent={exam.passMarkPercent}
       questions={questions}

@@ -17,6 +17,7 @@ import { useRouter } from 'next/navigation';
 import type { TakeableQuestion } from '@/lib/db/queries';
 import { submitAttempt, type SubmitResult } from '@/app/(app)/exam/[examCode]/test/[setId]/actions';
 import { topicColors } from '@/components/topic/TopicChip';
+import { track } from '@/lib/analytics';
 import { ResultInline } from './ResultInline';
 
 type PaletteState = 'unvisited' | 'visited' | 'answered' | 'marked' | 'marked-answered';
@@ -26,6 +27,8 @@ type Props = {
   examName: string;
   setId: string;
   setName: string;
+  /** Set-level topic if this is a single-topic drill; null for mocks/simulators. */
+  topicCode: string | null;
   durationSeconds: number;
   passMarkPercent: number;
   questions: TakeableQuestion[];
@@ -48,6 +51,28 @@ export function TestRunner(props: Props) {
   const [result, setResult] = useState<SubmitResult | null>(null);
   const [paletteOpen, setPaletteOpen] = useState(false); // mobile drawer
   const submittedRef = useRef(false);
+
+  // Fire test_started once on mount. If the set is a single-topic drill,
+  // also fire the topic_drill event so funnel analysis can isolate it.
+  useEffect(() => {
+    track('test_started', {
+      exam_code: props.examCode,
+      set_id: props.setId,
+      set_name: props.setName,
+      topic_code: props.topicCode,
+      anonymous: props.anonymous,
+      total_questions: questions.length,
+    });
+    if (props.topicCode) {
+      track('topic_drill', {
+        exam_code: props.examCode,
+        topic_code: props.topicCode,
+        set_id: props.setId,
+      });
+    }
+    // Mount-only.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Timer — counts down once per second; auto-submits at 0.
   useEffect(() => {
@@ -149,6 +174,19 @@ export function TestRunner(props: Props) {
         startedAt: startedAtRef.current,
         responses,
       });
+      if (r.ok) {
+        track('test_completed', {
+          exam_code: props.examCode,
+          set_id: props.setId,
+          topic_code: props.topicCode,
+          score_percent: r.scorePercent,
+          passed: r.passed,
+          attempted: r.attempted,
+          correct: r.correct,
+          total: r.total,
+          anonymous: props.anonymous,
+        });
+      }
       if (r.ok && r.attemptId) {
         // Signed-in: redirect to the persisted result page so it's shareable.
         router.push(`/exam/${props.examCode}/test/result/${r.attemptId}` as never);
