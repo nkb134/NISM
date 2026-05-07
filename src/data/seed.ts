@@ -7,7 +7,12 @@
  * Run: `npm run db:seed` (requires DATABASE_URL in .env.local).
  */
 
-import 'dotenv/config';
+// Load .env.local first (Next.js convention), .env as fallback. Plain
+// `dotenv/config` only loads `.env`, which leaves DATABASE_URL undefined when
+// run via `npm run db:seed`.
+import { config as loadEnv } from 'dotenv';
+loadEnv({ path: ['.env.local', '.env'] });
+
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
