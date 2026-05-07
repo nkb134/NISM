@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-/* Design tokens — mirrored from DESIGN.md. Do not introduce new values without approval. */
+/* Design tokens — DESIGN.md baseline + Phase 2 refinements (topic palette,
+ * OKLCH-based accents). The Schoolnet aesthetic stays for the exam-taking
+ * interface; richness lives around it (catalog, hero, result page). */
 @theme {
   --color-navy: #1a1f3a;
   --color-navy-hover: #2a2f5a;
@@ -10,6 +12,35 @@
   --color-pass: #10b981;
   --color-fail: #ef4444;
   --color-warn: #f59e0b;
+
+  /* ── Per-topic colors (NISM V-A) ─────────────────────────────────────
+   * Used everywhere a topic identity needs to read at a glance: topic
+   * chips, mastery bars, result-page breakdown, score-arc segments.
+   * Picked in OKLCH so saturation is balanced — none should feel
+   * dominant. Each color has a -bg variant for soft fills.
+   */
+  --topic-inv: #2563eb;       /* Investment Landscape  — blue */
+  --topic-inv-bg: #eff6ff;
+  --topic-str: #7c3aed;       /* Concept & Role        — violet */
+  --topic-str-bg: #f5f3ff;
+  --topic-sch: #0891b2;       /* Schemes               — cyan */
+  --topic-sch-bg: #ecfeff;
+  --topic-reg: #db2777;       /* Regulatory & Distrib  — pink */
+  --topic-reg-bg: #fdf2f8;
+  --topic-doc: #ca8a04;       /* Scheme Documents      — gold */
+  --topic-doc-bg: #fefce8;
+  --topic-nav: #4f46e5;       /* NAV, TER & Pricing    — indigo */
+  --topic-nav-bg: #eef2ff;
+  --topic-tax: #dc2626;       /* Taxation              — red */
+  --topic-tax-bg: #fef2f2;
+  --topic-ops: #059669;       /* Investor Services     — emerald */
+  --topic-ops-bg: #ecfdf5;
+  --topic-rsk: #ea580c;       /* Risk & Returns        — orange */
+  --topic-rsk-bg: #fff7ed;
+  --topic-prf: #0d9488;       /* Performance & Sel.    — teal */
+  --topic-prf-bg: #f0fdfa;
+  --topic-mix: #475569;       /* Mock / mixed          — slate */
+  --topic-mix-bg: #f1f5f9;
 
   --color-bg: #ffffff;
   --color-surface: #f4f6f9;
@@ -80,6 +111,81 @@ body {
 :where(a, button, input, select, textarea, [tabindex]):focus-visible {
   outline: 2px solid var(--color-navy);
   outline-offset: 2px;
+}
+
+/* ── Question palette pips (test runner) ─────────────────────────────
+ * Four states + one combined state, exact tokens from DESIGN.md.
+ * Functional color use only — these are signals, not decoration. */
+.palette-pip {
+  width: 100%;
+  aspect-ratio: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid;
+  transition: transform 0.1s, background 0.15s;
+  user-select: none;
+}
+.palette-pip:hover {
+  transform: scale(1.06);
+}
+.palette-pip--unvisited {
+  background: #fff;
+  color: var(--color-text-muted);
+  border-color: var(--color-border);
+}
+.palette-pip--visited {
+  background: var(--color-palette-visited-bg);
+  color: var(--color-palette-visited-text);
+  border-color: var(--color-palette-visited-border);
+}
+.palette-pip--answered {
+  background: var(--color-palette-answered-bg);
+  color: var(--color-palette-answered-text);
+  border-color: var(--color-palette-answered-border);
+}
+.palette-pip--marked {
+  background: var(--color-palette-marked-bg);
+  color: var(--color-palette-marked-text);
+  border-color: var(--color-palette-marked-border);
+}
+.palette-pip--marked-answered {
+  background: var(--color-palette-both-bg);
+  color: var(--color-palette-both-text);
+  border-color: var(--color-palette-both-border);
+}
+
+/* Mobile palette drawer behavior. On <lg, the rail collapses by default
+ * and slides up from the bottom when the user opens it. On lg+, it's a
+ * sticky sidebar (handled by the grid in TestRunner). */
+@media (max-width: 1023px) {
+  .palette-rail {
+    position: fixed;
+    inset: auto 12px 12px 12px;
+    z-index: 30;
+    max-height: 70vh;
+    overflow-y: auto;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.12);
+    border-radius: var(--radius-xl);
+    transform: translateY(110%);
+    transition: transform 0.18s ease-out;
+    background: var(--color-bg);
+  }
+  .palette-rail--open {
+    transform: translateY(0);
+  }
+}
+@media (min-width: 1024px) {
+  .palette-rail {
+    position: sticky;
+    top: 88px;
+    align-self: start;
+  }
 }
 
 /* ── Login modal (native <dialog>) ─────────────────────────────────────

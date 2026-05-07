@@ -26,15 +26,66 @@ export default function LandingPage() {
     <>
       <SiteNav />
 
-      <main className="mx-auto max-w-[1080px] px-4 sm:px-6">
+      {/* Subtle navy-tinted radial behind the hero. Cropped to the top so it
+          doesn't follow you down the page. Pure CSS, no images. */}
+      <div
+        aria-hidden
+        style={{
+          position: 'absolute',
+          inset: '0 0 auto 0',
+          height: 600,
+          background:
+            'radial-gradient(60% 50% at 50% 0%, rgba(26,31,58,0.06) 0%, rgba(163,230,53,0.05) 35%, rgba(255,255,255,0) 75%)',
+          pointerEvents: 'none',
+          zIndex: 0,
+        }}
+      />
+
+      <main className="relative mx-auto max-w-[1080px] px-4 sm:px-6" style={{ zIndex: 1 }}>
         {/* ── Hero ────────────────────────────────────────────────────── */}
         <section className="py-16 sm:py-20">
+          <span
+            className="inline-flex items-center gap-2 rounded-full"
+            style={{
+              padding: '4px 10px',
+              background: 'var(--color-surface)',
+              color: 'var(--color-text-muted)',
+              fontSize: 'var(--text-xs)',
+              fontWeight: 600,
+              letterSpacing: '0.4px',
+              border: '1px solid var(--color-border)',
+              borderRadius: 999,
+            }}
+          >
+            <span
+              aria-hidden
+              style={{
+                width: 6,
+                height: 6,
+                borderRadius: 999,
+                background: 'var(--color-accent)',
+                boxShadow: '0 0 0 3px rgba(163,230,53,0.18)',
+              }}
+            />
+            March 2026 syllabus · V-A available now
+          </span>
           <h1
-            className="font-bold tracking-tight"
-            style={{ fontSize: 'clamp(28px, 5vw, 40px)', lineHeight: 1.15, letterSpacing: '-0.5px' }}
+            className="mt-5 font-bold tracking-tight"
+            style={{ fontSize: 'clamp(30px, 5vw, 44px)', lineHeight: 1.1, letterSpacing: '-0.6px' }}
           >
             Free NISM practice tests <br className="hidden sm:block" />and study guides for{' '}
-            <span style={{ color: 'var(--color-navy)' }}>18 certifications</span>.
+            <span
+              style={{
+                background:
+                  'linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-deeper) 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
+              18 certifications
+            </span>
+            .
           </h1>
           <p
             className="mt-5 max-w-[640px]"
