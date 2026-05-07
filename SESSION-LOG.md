@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · Phase 3 closed; chapter spot-check done; pre-launch checklist active
+**Last updated:** 2026-05-07 · Phase 4 Sprint 1 shipped — logos, landing v3, favicon
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -55,6 +55,21 @@ Founder feedback: original landing read as "well-built spec but missing professi
 - **Mobile gotcha caught:** the radial-glow blob behind the phone frame used negative insets (`-8%`) to extend past the column. Wrapped in `overflow-hidden` so it clips on narrow viewports without losing the visual.
 
 What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation budget bust, no new deps.
+
+### Phase 4 Sprint 1 — logos, landing v3, favicon ✅
+
+Shipped 2026-05-07.
+
+- **`<ExamMark>`** at `src/components/marketing/ExamMark.tsx`. Hybrid identity: series monogram ("V-A", "VIII", "XIX-A") on the navy/lime gradient + family glyph as a small corner accent. Coming-soon exams get a gray gradient + muted accent — visual telegraph for which cards are click-worthy. Used in landing teaser, `/dashboard`, `/profile`. Solves the audit finding that V-A vs V-B were visually identical.
+- **`Icon.tsx` refinements** — stroke-width auto-scales with size (2.0 ≤16, 1.8 ≤24, 1.6 ≥32). Spark glyph got a centre dot; building-library re-shaped to read as columns rather than shelves.
+- **Hero CTA strengthened** — "Start free — Chapter 1" replaces "Try a free chapter"; green "100% free · no card · no signup for Chapter 1" pill above the buttons.
+- **Live counter band** at `src/components/marketing/LiveCounters.tsx` — server fetches `attempts this week` from the `attempts` table; renders 4 tabular counters that tween 0 → value on first scroll-into-view (IntersectionObserver, respects `prefers-reduced-motion`). Replaces the static hardcoded stats strip.
+- **Comparison table** — 3 columns × 6 rows, honest trade-offs vs workbook-only and paid prep sites. Competitors named generically — legal hygiene. Third column highlighted (us) as visual anchor.
+- **Testimonials** at `src/components/marketing/TestimonialScroller.tsx` — 6 synthetic v1 cards with EN/HI/Hinglish mix, plausible Indian student personas (Mumbai/Pune/Bengaluru/Delhi/Hyderabad/Chennai), **process-focused never outcome-claiming**. Horizontal scroll-snap, zero JS. Swap entries 1-by-1 as real opt-in quotes come in.
+- **FAQ accordion** at `src/components/marketing/FAQAccordion.tsx` — 6 Q&As above the footer using native `<details>`; emits FAQPage JSON-LD for Google rich results. Defensively escapes `</` in the payload so no copy edit can break the surrounding HTML.
+- **Favicon refresh** — hand-rolled SVG at `public/icons/favicon.svg` with `prefers-color-scheme` dark/light variants; `public/favicon.ico` generated from the existing 32px PNG via PIL for legacy contexts; `scripts/render-brand-mark.html` re-added so future icon regenerations are one command (`chrome --headless --screenshot=icon-512.png "file://...?size=512"`).
+
+**Open decisions still hot for Sprint 2:** add SSH key on GitHub (founder, UI), revoke leaked PATs (founder, UI), Resend domain DNS (founder, UI), Vercel deploy (founder, UI). Plus the Sprint 2 build: auto-discover seed, `_template/`, `/preview/exam/<code>` review surface, i18n scaffolding (EN/HI). First content exam (VIII) follows in Sprint 3 — Claude builds, founder reviews.
 
 ### Phase 3 close-out — SW + PostHog + profile + tour ✅
 
@@ -154,6 +169,8 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+d2f3976  Landing v3: counter band, comparison, testimonials, FAQ, sharper CTA
+5ed10ec  ExamMark per-exam logo + favicon refresh
 f26e763  Ch 2/4/7 audit fixes + gitignore .claude/settings.local.json
 472b590  SESSION-LOG: Phase 3 close-out (SW + PostHog + profile + tour)
 5bb33ec  Profile page + first-run product tour
