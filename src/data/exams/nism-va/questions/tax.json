@@ -1,0 +1,698 @@
+[
+  {
+    "q": "Long Term Capital Gains (LTCG) on equity-oriented mutual funds (held > 12 months) above ₹1.25 lakh are taxed at:",
+    "o": [
+      "10%",
+      "12.5%",
+      "15%",
+      "20%"
+    ],
+    "a": 1,
+    "e": "Post Budget 2024 (effective 23 July 2024), LTCG on equity above ₹1.25 lakh exemption is taxed at 12.5% (without indexation).",
+    "topic": "TAX"
+  },
+  {
+    "q": "Short Term Capital Gains (STCG) on equity-oriented mutual funds (held ≤ 12 months) are taxed at:",
+    "o": [
+      "10%",
+      "15%",
+      "20%",
+      "As per slab"
+    ],
+    "a": 2,
+    "e": "Post Budget 2024, STCG on equity is taxed at 20% (raised from 15%).",
+    "topic": "TAX"
+  },
+  {
+    "q": "For debt mutual funds purchased on or after 1 April 2023, gains are:",
+    "o": [
+      "Taxed at 20% with indexation",
+      "Taxed at 10% without indexation",
+      "Treated as STCG and taxed at applicable slab rate, regardless of holding period",
+      "Tax-free up to ₹1 lakh"
+    ],
+    "a": 2,
+    "e": "From 1 April 2023, debt fund gains are added to income and taxed at slab rate — indexation benefit removed for new investments.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For an equity-oriented hybrid fund (≥65% equity), taxation follows:",
+    "o": [
+      "Equity rules",
+      "Debt rules",
+      "International fund rules",
+      "Slab rate"
+    ],
+    "a": 0,
+    "e": "Equity-oriented hybrids (≥65% equity) follow equity taxation: STCG 20%, LTCG 12.5% above ₹1.25L.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Securities Transaction Tax (STT) is applicable on:",
+    "o": [
+      "All mutual fund transactions",
+      "Equity-oriented scheme redemptions and switches",
+      "Debt fund transactions",
+      "International fund SIPs only"
+    ],
+    "a": 1,
+    "e": "STT applies to redemption/switch out of equity-oriented schemes. Not on debt funds.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Dividends from mutual funds are taxable in the hands of:",
+    "o": [
+      "The mutual fund (DDT)",
+      "The investor at slab rate",
+      "SEBI",
+      "Tax-free"
+    ],
+    "a": 1,
+    "e": "Post April 2020, dividends (now called IDCW) are taxable in investor hands at slab rate. DDT regime abolished.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For ELSS, the tax deduction under Section 80C is up to:",
+    "o": [
+      "₹1,00,000",
+      "₹1,50,000",
+      "₹2,00,000",
+      "₹2,50,000"
+    ],
+    "a": 1,
+    "e": "ELSS qualifies for deduction up to ₹1.5 lakh under Section 80C (old tax regime only — not in new regime).",
+    "topic": "TAX"
+  },
+  {
+    "q": "TDS on capital gains from mutual funds applies to:",
+    "o": [
+      "Resident individuals",
+      "NRIs",
+      "Both",
+      "Neither"
+    ],
+    "a": 1,
+    "e": "TDS applies on capital gains for NRIs (rates vary by holding period and scheme type). Not deducted for resident individuals.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Indexation benefit currently applies to:",
+    "o": [
+      "Equity LTCG",
+      "Debt fund LTCG (purchased before April 2023)",
+      "All mutual funds",
+      "Dividends"
+    ],
+    "a": 1,
+    "e": "Indexation now applies only to debt funds purchased BEFORE 1 April 2023, when held long-term. New debt purchases get no indexation.",
+    "topic": "TAX"
+  },
+  {
+    "q": "A switch between two schemes of the same AMC is:",
+    "o": [
+      "Not a taxable event",
+      "A taxable event — capital gain/loss is computed",
+      "Tax-free if within 30 days",
+      "Taxed at flat 10%"
+    ],
+    "a": 1,
+    "e": "Switch is treated as redemption + fresh purchase — a taxable event. Holding period of original units determines STCG/LTCG.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Holding period for LONG-term classification of debt fund units (purchased before April 2023) is:",
+    "o": [
+      "12 months",
+      "24 months",
+      "36 months",
+      "60 months"
+    ],
+    "a": 2,
+    "e": "For debt funds (pre-April 2023 purchases), >36 months holding qualifies as long-term. For equity, the threshold is >12 months.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Capital loss from equity mutual funds can be:",
+    "o": [
+      "Carried forward for 4 years",
+      "Set off only against equity gains, carried forward 8 years",
+      "Cannot be carried forward",
+      "Set off against salary income"
+    ],
+    "a": 1,
+    "e": "STCL can be set off against any capital gain. LTCL only against LTCG. Both can be carried forward 8 assessment years.",
+    "topic": "TAX"
+  },
+  {
+    "q": "LTCG on equity-oriented MFs above ₹1.25L is taxed at:",
+    "o": [
+      "10%",
+      "12.5%",
+      "15%",
+      "20%"
+    ],
+    "a": 1,
+    "e": "12.5% post Budget 2024.",
+    "topic": "TAX"
+  },
+  {
+    "q": "STCG on equity-oriented MFs is taxed at:",
+    "o": [
+      "10%",
+      "15%",
+      "20%",
+      "Slab rate"
+    ],
+    "a": 2,
+    "e": "20% post Budget 2024.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Debt funds purchased post-April 2023 are taxed at:",
+    "o": [
+      "20% with indexation",
+      "10% flat",
+      "Slab rate (no indexation)",
+      "12.5%"
+    ],
+    "a": 2,
+    "e": "Slab rate — no indexation for new purchases.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Switch from one MF scheme to another is:",
+    "o": [
+      "Not taxable",
+      "Treated as redemption + fresh subscription",
+      "Tax-free for ELSS",
+      "Always LTCG"
+    ],
+    "a": 1,
+    "e": "Taxable event — capital gain/loss computed.",
+    "topic": "TAX"
+  },
+  {
+    "q": "STT applies on:",
+    "o": [
+      "All MF transactions",
+      "Equity-oriented redemptions/switches",
+      "Debt funds",
+      "None"
+    ],
+    "a": 1,
+    "e": "Equity-oriented scheme redemptions.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For tax purposes, an Arbitrage Fund is generally treated as:",
+    "o": [
+      "Debt fund",
+      "Equity-oriented fund (≥65% equity exposure)",
+      "International fund",
+      "Hybrid"
+    ],
+    "a": 1,
+    "e": "Arbitrage funds maintain ≥65% gross equity exposure (cash + futures) and are taxed as equity-oriented schemes.",
+    "topic": "TAX"
+  },
+  {
+    "q": "STT (Securities Transaction Tax) is applicable on:",
+    "o": [
+      "All MF redemptions",
+      "Redemption / switch out of equity-oriented MF schemes",
+      "Debt fund redemptions",
+      "SIP investments"
+    ],
+    "a": 1,
+    "e": "STT applies to redemption and switch-out of equity-oriented schemes. Not levied on debt fund transactions.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Section 80C deduction for ELSS investment is available only under the:",
+    "o": [
+      "New tax regime",
+      "Old tax regime",
+      "Both regimes",
+      "For senior citizens only"
+    ],
+    "a": 1,
+    "e": "Sec 80C deduction (up to ₹1.5 lakh) for ELSS is available only under the OLD tax regime. The new regime does not permit most deductions.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For an investor in the highest tax bracket, the most tax-efficient form of mutual fund earning is generally:",
+    "o": [
+      "IDCW (Dividend) option",
+      "Growth option held >12 months for equity LTCG",
+      "Frequent switches",
+      "Daily IDCW reinvestment"
+    ],
+    "a": 1,
+    "e": "Growth + LTCG (12.5% above ₹1.25L for equity) is typically more tax-efficient than IDCW (taxed at slab rate). Less frequent transactions also reduce STT/STCG drag.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Stamp duty on mutual fund unit issuance/transfer was introduced from:",
+    "o": [
+      "April 1, 2018",
+      "July 1, 2020",
+      "April 1, 2023",
+      "January 1, 2024"
+    ],
+    "a": 1,
+    "e": "Stamp duty on mutual fund units (issuance and transfer) was introduced from 1 July 2020 — 0.005% on issuance and 0.015% on transfer.",
+    "topic": "TAX"
+  },
+  {
+    "q": "The rate of stamp duty applicable to mutual fund unit issuance is:",
+    "o": [
+      "0.001%",
+      "0.005%",
+      "0.015%",
+      "0.1%"
+    ],
+    "a": 1,
+    "e": "Stamp duty on issuance (purchase / SIP / dividend reinvestment) is 0.005% of the transaction value.",
+    "topic": "TAX"
+  },
+  {
+    "q": "A Fund of Funds (FoF) investing in equity-oriented schemes is taxed as per:",
+    "o": [
+      "Equity tax rules (12.5% LTCG above ₹1.25L)",
+      "Debt tax rules (slab rate)",
+      "International fund rules",
+      "Hybrid rules"
+    ],
+    "a": 1,
+    "e": "Until recently, ALL FoFs were taxed as debt (slab rate). Post Budget 2024, FoFs that hold ≥65% in equity-oriented MF units may qualify for equity tax — verify the latest rule for the specific FoF.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Equity-oriented schemes are taxed favourably only if they invest a minimum of __ in domestic equities.",
+    "o": [
+      "51%",
+      "60%",
+      "65%",
+      "75%"
+    ],
+    "a": 2,
+    "e": "For favourable equity taxation (LTCG @ 12.5%, STCG @ 20%), the scheme must hold ≥65% in domestic equities, calculated on a quarterly average basis.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For LTCG on equity-oriented mutual funds, the exemption threshold is:",
+    "o": [
+      "₹1 lakh",
+      "₹1.25 lakh",
+      "₹2 lakh",
+      "₹2.5 lakh"
+    ],
+    "a": 1,
+    "e": "Post Budget 2024 (effective 23 July 2024), LTCG exemption is ₹1.25 lakh per financial year (raised from ₹1 lakh).",
+    "topic": "TAX"
+  },
+  {
+    "q": "For an investor in a higher tax bracket, dividends from mutual funds (IDCW) are:",
+    "o": [
+      "Tax-free",
+      "Taxed at slab rate in investor hands",
+      "Subject to flat 10% TDS only",
+      "Subject to DDT"
+    ],
+    "a": 1,
+    "e": "IDCW (dividends) are taxable at slab rate in investor hands (post April 2020). DDT regime is abolished.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For a debt fund purchased BEFORE 1 April 2023 and held >36 months, the holder gets:",
+    "o": [
+      "No special tax treatment",
+      "LTCG with indexation benefit at 20%",
+      "Slab rate taxation",
+      "Tax-free returns"
+    ],
+    "a": 1,
+    "e": "Pre-April 2023 debt fund purchases held >36 months still qualify for LTCG @ 20% with indexation. Post-April 2023 purchases are slab-taxed.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Income earned by a mutual fund scheme is:",
+    "o": [
+      "Taxed as per the marginal tax rate of investors",
+      "Exempt from tax under Section 10(23D) of Income Tax Act",
+      "Taxed at flat 10% plus surcharge",
+      "Taxed only on dividends earned"
+    ],
+    "a": 1,
+    "e": "Section 10(23D) of Income Tax Act exempts all income earned by mutual fund schemes from tax. Tax incidence falls on the unitholder.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Redemption from which fund attracts STT (Securities Transaction Tax) for an investor?",
+    "o": [
+      "Multi-cap mutual fund (equity-oriented)",
+      "Government Securities Fund",
+      "Liquid Fund",
+      "Overnight Fund"
+    ],
+    "a": 0,
+    "e": "STT applies on redemption of equity-oriented schemes (≥65% equity). Multi-cap is equity-oriented. Debt funds (G-Sec, Liquid, Overnight) attract no STT.",
+    "topic": "TAX"
+  },
+  {
+    "q": "An investor in 30% tax slab earns ₹10,000 IDCW. After-tax dividend is:",
+    "o": [
+      "₹7,000",
+      "₹8,000",
+      "₹9,000",
+      "₹10,000"
+    ],
+    "a": 0,
+    "e": "IDCW is taxed at slab rate. ₹10,000 × (1 − 0.30) = ₹7,000. (Plus surcharge/cess applicable.)",
+    "topic": "TAX"
+  },
+  {
+    "q": "LTCG of ₹2,50,000 on equity-oriented scheme units. Tax payable (at 12.5% post Budget 2024, ₹1.25L exemption):",
+    "o": [
+      "₹15,625",
+      "₹25,000",
+      "₹31,250",
+      "₹50,000"
+    ],
+    "a": 0,
+    "e": "Taxable LTCG = 2,50,000 − 1,25,000 = ₹1,25,000. Tax = 12.5% × 1,25,000 = ₹15,625.",
+    "topic": "TAX"
+  },
+  {
+    "q": "STCG of ₹50,000 on equity scheme. Tax payable (at 20% post Budget 2024):",
+    "o": [
+      "₹5,000",
+      "₹7,500",
+      "₹10,000",
+      "₹15,000"
+    ],
+    "a": 2,
+    "e": "STCG on equity = 20% × 50,000 = ₹10,000.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For an investor in 30% tax slab, redeems ₹50,000 STCG from a debt fund (purchased post-April 2023). Tax payable:",
+    "o": [
+      "₹5,000 (10%)",
+      "₹7,500 (15%)",
+      "₹10,000 (20%)",
+      "₹15,000 (slab rate 30%)"
+    ],
+    "a": 3,
+    "e": "Post-April 2023 debt fund gains are taxed at slab rate regardless of holding period. 30% slab × ₹50,000 = ₹15,000.",
+    "topic": "TAX"
+  },
+  {
+    "q": "An investor has STCL of ₹30,000 from equity. Can be set off against:",
+    "o": [
+      "Only equity LTCG",
+      "Only equity STCG",
+      "Any capital gain (both LTCG and STCG, equity or debt)",
+      "Salary income"
+    ],
+    "a": 2,
+    "e": "Short-Term Capital Loss can be set off against ANY capital gain (long-term or short-term, equity or debt). Long-Term Capital Loss can only be set off against LTCG.",
+    "topic": "TAX"
+  },
+  {
+    "q": "An equity-oriented FoF that invests in domestic equity-oriented schemes — for taxation, it is treated as:",
+    "o": [
+      "Debt fund (slab rate)",
+      "Equity-oriented (12.5% LTCG)",
+      "Hybrid",
+      "International fund"
+    ],
+    "a": 1,
+    "e": "Post Budget 2024 update: Equity-oriented FoFs that invest ≥90% in equity-oriented schemes can be taxed as equity (12.5% LTCG above ₹1.25L). Verify per latest rules.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For ELSS investments via SIP, the 3-year lock-in applies:",
+    "o": [
+      "Once for the entire SIP from first installment",
+      "Separately to EACH SIP installment from its date of investment",
+      "Only to first installment",
+      "Once SIP completes"
+    ],
+    "a": 1,
+    "e": "EACH SIP installment in ELSS is locked-in separately for 3 years from its own investment date. So a 12-month SIP's last installment is locked till 3 years after the 12th month.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Section 80C deduction for ELSS investment is available:",
+    "o": [
+      "In both old and new tax regimes",
+      "Only in the OLD tax regime",
+      "Only in the new tax regime",
+      "For senior citizens only"
+    ],
+    "a": 1,
+    "e": "Sec 80C (₹1.5L deduction) for ELSS is available ONLY in the OLD tax regime. The NEW regime offers lower slab rates but no most deductions.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Long-Term Capital Loss (LTCL) on equity-oriented MF can be set off against:",
+    "o": [
+      "Any income",
+      "Only LTCG (long-term capital gains) from any source",
+      "Salary income",
+      "STCG only"
+    ],
+    "a": 1,
+    "e": "LTCL can be set off ONLY against LTCG (any source). It cannot be set off against STCG, salary, or other income. Carry-forward allowed for 8 assessment years.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Short-Term Capital Loss (STCL) can be set off against:",
+    "o": [
+      "Any capital gain (both STCG and LTCG, equity or debt)",
+      "Only STCG",
+      "Only LTCG",
+      "Salary income"
+    ],
+    "a": 0,
+    "e": "STCL is more flexible — can be set off against ANY capital gain (LTCG or STCG, equity or debt). Carry-forward for 8 assessment years.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For an NRI redeeming an equity-oriented scheme (held >12 months) above ₹1.25L exemption, TDS rate is:",
+    "o": [
+      "10%",
+      "12.5% (LTCG rate)",
+      "20%",
+      "30%"
+    ],
+    "a": 1,
+    "e": "Post Budget 2024: TDS for NRIs on LTCG from equity-oriented schemes is 12.5% on amount above ₹1.25L exemption. Different from resident treatment.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For an NRI redeeming an equity-oriented scheme (held ≤12 months), TDS rate is:",
+    "o": [
+      "10%",
+      "15%",
+      "20% (STCG rate)",
+      "Slab rate"
+    ],
+    "a": 2,
+    "e": "Post Budget 2024: TDS for NRIs on STCG from equity-oriented schemes is 20%, matching the new STCG rate.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Stamp duty on mutual fund unit issuance is levied at:",
+    "o": [
+      "0.001%",
+      "0.005% on issuance",
+      "0.015% on issuance",
+      "0.1%"
+    ],
+    "a": 1,
+    "e": "Stamp duty on unit issuance: 0.005% (effective 1 July 2020). Applies to lump-sum, SIP, STP, switch-in, dividend reinvestment.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Stamp duty on transfer of mutual fund units (off-market) is levied at:",
+    "o": [
+      "0.005%",
+      "0.015%",
+      "0.1%",
+      "Exempt"
+    ],
+    "a": 1,
+    "e": "Off-market transfer of MF units (e.g., gifting): stamp duty 0.015%. Higher than issuance rate.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Bonus units allotted by a mutual fund have a cost of acquisition for tax purposes of:",
+    "o": [
+      "Same as original units",
+      "Zero (NIL)",
+      "NAV on the day of bonus",
+      "Decided by investor"
+    ],
+    "a": 1,
+    "e": "For tax computation, bonus units have ZERO cost of acquisition. When sold, the entire sale value is capital gain. Holding period reckoned from bonus issue date.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Indexation benefit (currently) is available for:",
+    "o": [
+      "Equity-oriented LTCG",
+      "Debt fund LTCG ONLY for purchases made BEFORE 1 April 2023",
+      "All MF gains",
+      "Bonus units only"
+    ],
+    "a": 1,
+    "e": "Indexation now applies only to debt fund units PURCHASED before 1 April 2023, when held long-term. Post-April 2023 debt purchases are slab-rate taxed without indexation.",
+    "topic": "TAX"
+  },
+  {
+    "q": "A switch from a regular plan to a direct plan within the same scheme is:",
+    "o": [
+      "Not a taxable event",
+      "A taxable event — capital gain/loss must be computed",
+      "Tax-free for ELSS",
+      "Free of any tax for first switch"
+    ],
+    "a": 1,
+    "e": "Plan switch (regular → direct) is treated as redemption + fresh subscription. Capital gain/loss is computed. Holding period for original units determines tax treatment.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For STT on equity-oriented MF redemption — STT is paid by:",
+    "o": [
+      "The AMC",
+      "The investor (deducted from redemption proceeds)",
+      "SEBI",
+      "The distributor"
+    ],
+    "a": 1,
+    "e": "STT is borne by the investor — deducted from redemption proceeds. Rate is small but applies on equity-oriented scheme redemption/switch-out.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For ELSS investments via SIP, lock-in is computed:",
+    "o": [
+      "From the first SIP installment for all units",
+      "Separately for EACH SIP installment from its own date",
+      "From SIP completion",
+      "Once a year"
+    ],
+    "a": 1,
+    "e": "Each ELSS SIP installment locks separately for 3 years from its individual investment date.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For a non-resident Indian (NRI) selling equity-oriented MF units held >12 months — TDS rate (post Budget 2024) on amount above ₹1.25L:",
+    "o": [
+      "10%",
+      "12.5%",
+      "15%",
+      "20%"
+    ],
+    "a": 1,
+    "e": "NRI LTCG TDS on equity-oriented MF: 12.5% on gains above ₹1.25L. Matches resident LTCG rate post Budget 2024.",
+    "topic": "TAX"
+  },
+  {
+    "q": "Bonus units in a mutual fund scheme have a cost of acquisition for tax of:",
+    "o": [
+      "Original NAV",
+      "NIL (zero)",
+      "Current NAV",
+      "Decided by investor"
+    ],
+    "a": 1,
+    "e": "Bonus units: zero cost of acquisition. When sold, entire sale value is capital gain. Holding period reckoned from bonus issue date.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For a scheme to qualify as Equity-Oriented for tax — minimum equity exposure (computed on quarterly average basis):",
+    "o": [
+      "51%",
+      "60%",
+      "65% in domestic equities",
+      "75%"
+    ],
+    "a": 2,
+    "e": "Equity-oriented for tax: ≥65% in DOMESTIC equities (quarterly average). International funds investing in foreign equity don't qualify, despite holding equity.",
+    "topic": "TAX"
+  },
+  {
+    "q": "An International Equity Fund (investing in foreign equity) is taxed as:",
+    "o": [
+      "Equity-oriented",
+      "As per debt/non-equity rules — slab rate or specific (since it lacks 65% domestic equity)",
+      "Same as ELSS",
+      "Tax-free"
+    ],
+    "a": 1,
+    "e": "Domestic-equity threshold (≥65%) is for the favourable equity tax. International funds fail this and are taxed under non-equity rules — typically slab rate post-April 2023.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For a Conservative Hybrid Fund (10-25% equity) — the equity portion is taxed:",
+    "o": [
+      "As equity (12.5% LTCG)",
+      "As debt / non-equity (since equity <65%) — slab rate",
+      "Tax-free",
+      "At 20% always"
+    ],
+    "a": 1,
+    "e": "Conservative Hybrid: equity is only 10-25%, fails the 65% threshold. Whole scheme taxed as debt/non-equity. Slab rate applies (post April 2023 purchases).",
+    "topic": "TAX"
+  },
+  {
+    "q": "LTCG on equity-oriented schemes (held >12 months, post Budget 2024):",
+    "o": [
+      "10% above ₹1L",
+      "12.5% above ₹1.25L exemption",
+      "20%",
+      "Tax-free"
+    ],
+    "a": 1,
+    "e": "Post Budget 2024 (effective 23 July 2024): LTCG on equity above ₹1.25L is taxed at 12.5%. Below threshold is tax-free.",
+    "topic": "TAX"
+  },
+  {
+    "q": "For a scheme to qualify as equity-oriented for taxation, equity allocation must be:",
+    "o": [
+      "51%",
+      "60%",
+      "≥65% in domestic equities (quarterly average)",
+      "75%"
+    ],
+    "a": 2,
+    "e": "Equity-oriented for tax: ≥65% in DOMESTIC equities, on a quarterly average basis. Foreign equity does not count.",
+    "topic": "TAX"
+  },
+  {
+    "q": "STT (Securities Transaction Tax) on equity-oriented MF redemption is:",
+    "o": [
+      "Borne by the AMC",
+      "Deducted from redemption proceeds (borne by investor)",
+      "Exempt",
+      "Borne by distributor"
+    ],
+    "a": 1,
+    "e": "STT is borne by the investor — deducted from redemption proceeds. Applies on equity-oriented scheme redemption/switch-out.",
+    "topic": "TAX"
+  },
+  {
+    "q": "A \"Fund of Funds\" investing primarily (≥90%) in domestic equity-oriented schemes is taxed (post Budget 2024):",
+    "o": [
+      "As debt always",
+      "Can qualify as equity-oriented (12.5% LTCG above ₹1.25L)",
+      "International rules",
+      "Slab rate"
+    ],
+    "a": 1,
+    "e": "Post Budget 2024: FoF investing ≥90% in domestic equity-oriented MF schemes can qualify for equity tax treatment. Other FoFs taxed as debt.",
+    "topic": "TAX"
+  }
+]

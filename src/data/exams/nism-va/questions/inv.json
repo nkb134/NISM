@@ -1,0 +1,398 @@
+[
+  {
+    "q": "Which of the following is NOT one of the four broad asset classes?",
+    "o": [
+      "Real estate",
+      "Commodities",
+      "Equity",
+      "Currency"
+    ],
+    "a": 3,
+    "e": "The four broad asset classes are Real Estate, Commodities, Equity and Fixed Income. Currency is not a separate asset class.",
+    "topic": "INV"
+  },
+  {
+    "q": "Inflation risk primarily refers to:",
+    "o": [
+      "Volatility in stock prices",
+      "Erosion of purchasing power of money",
+      "Default by the issuer",
+      "Liquidity drying up in the market"
+    ],
+    "a": 1,
+    "e": "Inflation erodes the purchasing power of money over time. If returns < inflation, the investor loses real value.",
+    "topic": "INV"
+  },
+  {
+    "q": "The relationship between bond prices and interest rates is:",
+    "o": [
+      "Direct (move together)",
+      "Inverse (move opposite)",
+      "No relationship",
+      "Same as equity prices"
+    ],
+    "a": 1,
+    "e": "Bond prices and interest rates move in opposite directions. When rates rise, existing bond prices fall, and vice versa.",
+    "topic": "INV"
+  },
+  {
+    "q": "A bond with longer maturity, compared to a shorter maturity bond, will:",
+    "o": [
+      "Have lower price volatility",
+      "Have higher price volatility for the same change in interest rates",
+      "Be unaffected by interest rate changes",
+      "Always be priced higher"
+    ],
+    "a": 1,
+    "e": "Longer maturity bonds witness higher price fluctuations for the same change in interest rates — interest rate sensitivity rises with duration.",
+    "topic": "INV"
+  },
+  {
+    "q": "The bias where investors look for information that confirms their existing views is called:",
+    "o": [
+      "Availability heuristic",
+      "Confirmation bias",
+      "Loss aversion",
+      "Recency bias"
+    ],
+    "a": 1,
+    "e": "Confirmation bias — investors decide first and then look for data to support their views, missing risks.",
+    "topic": "INV"
+  },
+  {
+    "q": "Loss aversion was first identified by:",
+    "o": [
+      "Warren Buffett & Charlie Munger",
+      "Daniel Kahneman & Amos Tversky",
+      "Eugene Fama & Kenneth French",
+      "Burton Malkiel"
+    ],
+    "a": 1,
+    "e": "Loss aversion was identified by psychologists Daniel Kahneman and Amos Tversky. Kahneman won the Nobel Prize in Economics later.",
+    "topic": "INV"
+  },
+  {
+    "q": "Strategic Asset Allocation (SAA) is best described as:",
+    "o": [
+      "Dynamically changing allocation based on market views",
+      "Allocation aligned to financial goals, risk profile and time horizon",
+      "Allocation in only one asset class",
+      "Allocation made by the AMC, not the investor"
+    ],
+    "a": 1,
+    "e": "SAA is the long-term, target allocation across asset categories aligned to the investor's goals, risk profile and time horizon.",
+    "topic": "INV"
+  },
+  {
+    "q": "The risk that cannot be diversified away through investing in unrelated securities is:",
+    "o": [
+      "Company-specific risk",
+      "Industry risk",
+      "Market-wide (systematic) risk",
+      "Liquidity risk"
+    ],
+    "a": 2,
+    "e": "Market-wide / systematic risk affects all securities and cannot be diversified away. Specific risk can be reduced through diversification.",
+    "topic": "INV"
+  },
+  {
+    "q": "For rebalancing of mutual fund schemes (other than Index Funds and ETFs) following passive breaches, SEBI has mandated a rebalancing period of:",
+    "o": [
+      "10 business days",
+      "15 business days",
+      "30 business days",
+      "60 business days"
+    ],
+    "a": 2,
+    "e": "SEBI mandates 30 business days for rebalancing schemes (other than Index Funds and ETFs) following passive breaches. Overnight Funds are excluded.",
+    "topic": "INV"
+  },
+  {
+    "q": "Risk profiling involves evaluating which three components?",
+    "o": [
+      "Age, income, gender",
+      "Need, ability, willingness to take risk",
+      "Equity, debt, cash holdings",
+      "Past returns, future returns, taxation"
+    ],
+    "a": 1,
+    "e": "Risk appetite is the combination of need to take risks, ability to take risks (financial + horizon), and willingness (psychological).",
+    "topic": "INV"
+  },
+  {
+    "q": "Real return is best described as:",
+    "o": [
+      "Return before tax",
+      "Return adjusted for inflation",
+      "Return on real estate",
+      "Return guaranteed by the government"
+    ],
+    "a": 1,
+    "e": "Real rate of return = Nominal return adjusted for inflation. If returns > inflation, real return is positive.",
+    "topic": "INV"
+  },
+  {
+    "q": "Among the following, which asset class generally cannot generate any current income?",
+    "o": [
+      "Equity (dividends)",
+      "Bonds (interest)",
+      "Real estate (rent)",
+      "Gold and silver"
+    ],
+    "a": 3,
+    "e": "Gold and silver, as commodities, do not generate any current income. The investor relies entirely on capital appreciation.",
+    "topic": "INV"
+  },
+  {
+    "q": "Among the following biases, \"Herd Mentality\" leads investors to:",
+    "o": [
+      "Always go against the crowd",
+      "Follow what others are doing without independent analysis",
+      "Stick only to familiar investments",
+      "Anchor on recent events"
+    ],
+    "a": 1,
+    "e": "Herd mentality — investors do what others do without independent analysis. Often counterproductive in markets.",
+    "topic": "INV"
+  },
+  {
+    "q": "A bond investor who expects interest rates to fall should:",
+    "o": [
+      "Sell long-duration bonds and buy short-duration",
+      "Sell short-duration bonds and buy long-duration",
+      "Hold cash",
+      "Buy equity"
+    ],
+    "a": 1,
+    "e": "When rates fall, long-duration bonds appreciate more. Investor expecting a rate cut should switch from short to long duration to capture price gains.",
+    "topic": "INV"
+  },
+  {
+    "q": "The SEBI rebalancing window for non-Index, non-ETF schemes following passive breaches is:",
+    "o": [
+      "10 business days",
+      "20 business days",
+      "30 business days",
+      "60 business days"
+    ],
+    "a": 2,
+    "e": "30 business days for rebalancing schemes (other than Index Funds and ETFs) following passive breaches. Overnight Funds are exempt.",
+    "topic": "INV"
+  },
+  {
+    "q": "In rebalancing strategically allocated portfolios, the action that automatically happens is:",
+    "o": [
+      "Buy high, sell low",
+      "Buy low, sell high",
+      "Always buy more equity",
+      "Always reduce equity"
+    ],
+    "a": 1,
+    "e": "Rebalancing to target allocation forces selling assets that have gone up (high) and buying assets that have gone down (low) — disciplined buy low, sell high.",
+    "topic": "INV"
+  },
+  {
+    "q": "Which among the following investment avenues does NOT offer income on a regular basis?",
+    "o": [
+      "Real estate (rental income)",
+      "Physical gold",
+      "Stocks (dividends)",
+      "Debentures (interest)"
+    ],
+    "a": 1,
+    "e": "Physical gold does not generate any current income — investor relies entirely on capital appreciation. Real estate, stocks and debentures all generate periodic income.",
+    "topic": "INV"
+  },
+  {
+    "q": "The purchasing power of currency changes primarily on account of:",
+    "o": [
+      "Asset allocation",
+      "Compound interest",
+      "Inflation",
+      "Diversification"
+    ],
+    "a": 2,
+    "e": "Inflation erodes the purchasing power of money. Real returns must be measured after adjusting nominal returns for inflation.",
+    "topic": "INV"
+  },
+  {
+    "q": "When the interest rate in the economy increases, the price of existing bonds:",
+    "o": [
+      "Increases",
+      "Fluctuates randomly",
+      "Decreases",
+      "Stays the same"
+    ],
+    "a": 2,
+    "e": "Bond prices and interest rates move inversely. When rates rise, existing bond prices fall to align their yield with new market rates.",
+    "topic": "INV"
+  },
+  {
+    "q": "The \"real rate of return\" is best described as the return:",
+    "o": [
+      "After payment of all expenses",
+      "After taxes",
+      "After adjusting for risks",
+      "After adjusting for inflation"
+    ],
+    "a": 3,
+    "e": "Real rate of return = nominal return adjusted for inflation. Captures actual change in purchasing power.",
+    "topic": "INV"
+  },
+  {
+    "q": "When an investor has high \"need to take risk\" but low \"willingness to take risk\", the distributor should:",
+    "o": [
+      "Sell highest-return scheme regardless",
+      "Document the conflict and balance toward investor's willingness, possibly revising goals",
+      "Force the investor to take more risk",
+      "Refuse to deal with the investor"
+    ],
+    "a": 1,
+    "e": "When need conflicts with willingness, the distributor must respect investor's psychological capacity. Document the conflict, possibly revise goal amounts/timelines, never push beyond willingness.",
+    "topic": "INV"
+  },
+  {
+    "q": "Behavioural finance suggests for a long-term equity SIP investor, the optimal NAV-tracking frequency is:",
+    "o": [
+      "Daily",
+      "Weekly",
+      "Quarterly or annually — to avoid loss-aversion-driven panic selling",
+      "Hourly via app alerts"
+    ],
+    "a": 2,
+    "e": "Frequent NAV tracking amplifies loss aversion in volatile equity markets, leading to panic selling at troughs. Quarterly/annual review aligns with long-term horizon.",
+    "topic": "INV"
+  },
+  {
+    "q": "An investor who only invests in their employer's sector (IT) due to comfort exhibits:",
+    "o": [
+      "Recency bias",
+      "Familiarity bias + concentration risk",
+      "Herd mentality",
+      "Overconfidence"
+    ],
+    "a": 1,
+    "e": "Familiarity bias — preferring the known. Combined with employer sector concentration, this creates dual exposure (income + investment in same sector) — a serious portfolio risk.",
+    "topic": "INV"
+  },
+  {
+    "q": "Stephen Covey's \"urgent vs important\" matrix applied to financial planning suggests:",
+    "o": [
+      "Focus only on urgent goals",
+      "Focus on important-but-not-urgent goals (retirement, children's education) early",
+      "Ignore long-term goals",
+      "Borrow for urgent goals"
+    ],
+    "a": 1,
+    "e": "Covey's framework: most people only react to urgent + important (Q1), letting important-not-urgent (Q2 — retirement, education planning) slip until they become Q1 emergencies. Disciplined Q2 focus = wealth building.",
+    "topic": "INV"
+  },
+  {
+    "q": "A \"Strategic Asset Allocation\" portfolio with 70% equity and 30% debt — typical rebalancing trigger is:",
+    "o": [
+      "Daily",
+      "When deviation crosses ±5% from target band",
+      "Only on retirement",
+      "Never"
+    ],
+    "a": 1,
+    "e": "Practitioners typically rebalance when drift crosses a band (e.g., ±5%) — not at fixed calendar intervals. Avoids excessive trading while maintaining target risk.",
+    "topic": "INV"
+  },
+  {
+    "q": "Real rate of return when nominal return is 7% and inflation is 8% is approximately:",
+    "o": [
+      "+1%",
+      "-0.9% (slightly negative)",
+      "0%",
+      "+7%"
+    ],
+    "a": 1,
+    "e": "Real return = (1+nominal)/(1+inflation) - 1 = 1.07/1.08 - 1 ≈ -0.93%. Earning below inflation means losing purchasing power — slightly negative real return.",
+    "topic": "INV"
+  },
+  {
+    "q": "₹10,000 today, with 8% annual inflation, what amount is needed in 30 years to maintain same purchasing power?",
+    "o": [
+      "₹46,610",
+      "₹70,000",
+      "₹1,00,627",
+      "₹2,15,892"
+    ],
+    "a": 2,
+    "e": "FV = 10,000 × (1.08)^30 ≈ ₹1,00,627. Inflation is brutal over long periods — this is why long-horizon goals must use equity.",
+    "topic": "INV"
+  },
+  {
+    "q": "A bond with longer modified duration is more sensitive to:",
+    "o": [
+      "Inflation only",
+      "Interest rate changes (price moves more for same rate change)",
+      "Credit risk",
+      "Currency risk"
+    ],
+    "a": 1,
+    "e": "Higher modified duration = greater price sensitivity to interest rate changes. A 10-year bond moves more than a 1-year bond for the same rate change.",
+    "topic": "INV"
+  },
+  {
+    "q": "For very short-term needs (under 6 months), the most appropriate asset class is:",
+    "o": [
+      "Equity (long-term growth)",
+      "Real estate",
+      "Gold",
+      "Liquid/Overnight debt funds (capital preservation, liquidity)"
+    ],
+    "a": 3,
+    "e": "Short-term horizons demand capital safety + liquidity. Liquid/overnight debt funds are designed for this. Equity is unsuitable due to short-term volatility.",
+    "topic": "INV"
+  },
+  {
+    "q": "An investor with no current need from investment but a 25-year horizon for retirement should:",
+    "o": [
+      "Stay in fixed deposits (safety)",
+      "Consider higher equity allocation given long horizon and tolerance for short-term volatility",
+      "Invest only in gold",
+      "Avoid all market-linked products"
+    ],
+    "a": 1,
+    "e": "Long horizon = high ability to take risk. If need (retirement growth) and willingness align, equity allocation makes sense — short-term volatility evens out over 25 years.",
+    "topic": "INV"
+  },
+  {
+    "q": "When markets crash 30% and an investor sells everything to \"preserve what's left\", they're demonstrating:",
+    "o": [
+      "Disciplined risk management",
+      "Loss aversion + recency bias — likely locking in losses at the bottom",
+      "Optimal rebalancing",
+      "Tactical asset allocation"
+    ],
+    "a": 1,
+    "e": "Selling at troughs is loss aversion (preferring to avoid further loss) + recency bias (extrapolating recent crash forward). Historically catastrophic for long-term wealth.",
+    "topic": "INV"
+  },
+  {
+    "q": "Diversification across asset classes (equity + debt + gold) reduces:",
+    "o": [
+      "Total portfolio risk through low correlation between assets",
+      "Returns proportionally",
+      "Tax incidence",
+      "Need for risk profiling"
+    ],
+    "a": 0,
+    "e": "Diversification across uncorrelated assets reduces portfolio volatility for a given expected return. Different assets perform differently in different cycles.",
+    "topic": "INV"
+  },
+  {
+    "q": "For an investor with a 25-year horizon for retirement and high willingness to take risk, the most appropriate primary allocation is:",
+    "o": [
+      "100% liquid funds",
+      "High equity allocation (60-80%) given long horizon and aligned risk profile",
+      "100% gold",
+      "100% gilt funds"
+    ],
+    "a": 1,
+    "e": "Long horizon + high willingness = high ability to tolerate volatility. Equity's long-term wealth-building dominates. Mix may include some debt for diversification.",
+    "topic": "INV"
+  }
+]

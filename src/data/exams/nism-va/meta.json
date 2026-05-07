@@ -1,0 +1,10 @@
+{
+  "examCode": "nism-va",
+  "examName": "NISM Series V-A",
+  "examFullName": "Mutual Fund Distributors Certification Examination",
+  "totalQuestions": 100,
+  "durationMinutes": 120,
+  "passMarkPercent": 50,
+  "negativeMarking": false,
+  "syllabusVersion": "March 2026"
+}

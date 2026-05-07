@@ -1,0 +1,924 @@
+[
+  {
+    "q": "For an investor to get a quick sense of risk in a mutual fund scheme, SEBI mandates a simplified framework called:",
+    "o": [
+      "Risk-o-meter",
+      "Star rating",
+      "Beta indicator",
+      "Sharpe rating"
+    ],
+    "a": 0,
+    "e": "Riskometer is the SEBI-mandated visual risk indicator on all scheme documents and advertisements.",
+    "topic": "REG"
+  },
+  {
+    "q": "How many levels does the Riskometer have?",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "a": 2,
+    "e": "Riskometer has 6 levels: Low, Low to Moderate, Moderate, Moderately High, High, Very High.",
+    "topic": "REG"
+  },
+  {
+    "q": "A mutual fund distributor is required to obtain:",
+    "o": [
+      "ARN from AMFI",
+      "License from RBI",
+      "Registration from MCA",
+      "GST registration only"
+    ],
+    "a": 0,
+    "e": "Distributors must obtain an AMFI Registration Number (ARN) after passing NISM V-A and completing KYD.",
+    "topic": "REG"
+  },
+  {
+    "q": "EUIN stands for:",
+    "o": [
+      "Employee Unique Identification Number",
+      "European Union Investment Number",
+      "Equity Underwriting Identification Number",
+      "Exchange Unit Identification Number"
+    ],
+    "a": 0,
+    "e": "EUIN identifies the individual employee/relationship manager of the ARN-holder who advised the investor — enables accountability.",
+    "topic": "REG"
+  },
+  {
+    "q": "NISM V-A certification is valid for:",
+    "o": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "Lifetime"
+    ],
+    "a": 1,
+    "e": "NISM V-A certification is valid for 3 years. CPE (Continuing Professional Education) renewal is required to extend.",
+    "topic": "REG"
+  },
+  {
+    "q": "For an MF distributor handling investor money, the requirement is:",
+    "o": [
+      "Must be incorporated as a company",
+      "Cannot accept investor money in own bank account — must be paid to scheme account directly",
+      "Must have ₹1 crore turnover",
+      "Must register with RBI"
+    ],
+    "a": 1,
+    "e": "Distributors must NEVER accept investor funds in their own account. Cheques/transfers must go directly to the scheme.",
+    "topic": "REG"
+  },
+  {
+    "q": "A fundamental attribute change to a scheme requires:",
+    "o": [
+      "Just a notice to investors",
+      "Notice + exit window without exit load",
+      "Just SEBI approval",
+      "Trustee approval only"
+    ],
+    "a": 1,
+    "e": "Fundamental attribute changes (investment objective, asset allocation, fees) require written notice AND a 30-day no-load exit window for investors.",
+    "topic": "REG"
+  },
+  {
+    "q": "Direct plans of mutual funds were introduced by SEBI in:",
+    "o": [
+      "2009",
+      "2013",
+      "2018",
+      "2020"
+    ],
+    "a": 1,
+    "e": "Direct plans were introduced on 1 January 2013. They exclude distributor commission and have lower TER.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMFI Code of Conduct prohibits which of the following?",
+    "o": [
+      "Sharing past performance disclaimers",
+      "Comparing schemes within same category transparently",
+      "Promising specific returns",
+      "Assisting in KYC"
+    ],
+    "a": 2,
+    "e": "Distributors cannot promise/guarantee specific returns — mutual funds are subject to market risk. Code mandates fair, transparent dealings.",
+    "topic": "REG"
+  },
+  {
+    "q": "Trail commission is paid to the distributor:",
+    "o": [
+      "Once at the time of investment",
+      "Every year as long as the investor holds units",
+      "Only on redemption",
+      "Only if the fund outperforms"
+    ],
+    "a": 1,
+    "e": "Trail commission is recurring — paid as long as investor holds units. Aligns distributor incentive with investor retention. Upfront commissions banned for retail.",
+    "topic": "REG"
+  },
+  {
+    "q": "Scheme advertisements must include:",
+    "o": [
+      "Past performance only",
+      "Riskometer + standard disclaimer",
+      "Future return projections",
+      "AMC profit margin"
+    ],
+    "a": 1,
+    "e": "Mandatory: Riskometer, standard disclaimer (\"Mutual fund investments are subject to market risks…\"), and SID reference.",
+    "topic": "REG"
+  },
+  {
+    "q": "Which document gives the latest information about a scheme's portfolio, NAV, and AUM?",
+    "o": [
+      "SID (Scheme Information Document)",
+      "SAI (Statement of Additional Information)",
+      "KIM (Key Information Memorandum)",
+      "Monthly Factsheet"
+    ],
+    "a": 3,
+    "e": "Monthly factsheet provides current snapshot — portfolio holdings, NAV, AUM, returns. SID is at scheme launch; KIM is summary of SID; SAI has statutory info.",
+    "topic": "REG"
+  },
+  {
+    "q": "Riskometer has how many levels?",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "a": 2,
+    "e": "6 levels: Low to Very High.",
+    "topic": "REG"
+  },
+  {
+    "q": "NISM V-A certification validity:",
+    "o": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "Lifetime"
+    ],
+    "a": 1,
+    "e": "3 years; renewable via CPE.",
+    "topic": "REG"
+  },
+  {
+    "q": "EUIN identifies:",
+    "o": [
+      "The AMC",
+      "The distributor entity",
+      "The individual employee who advised",
+      "SEBI registration"
+    ],
+    "a": 2,
+    "e": "The individual employee/RM who advised the investor.",
+    "topic": "REG"
+  },
+  {
+    "q": "Fundamental attribute change requires:",
+    "o": [
+      "Just a notice",
+      "Notice + 30-day no-load exit window",
+      "SEBI approval only",
+      "Nothing"
+    ],
+    "a": 1,
+    "e": "Notice plus 30-day exit window without exit load.",
+    "topic": "REG"
+  },
+  {
+    "q": "The SEBI Regulation governing mutual funds in India is:",
+    "o": [
+      "SEBI (Mutual Funds) Regulations, 1996",
+      "RBI Master Directions, 2016",
+      "Companies Act, 2013",
+      "Indian Trusts Act, 1882"
+    ],
+    "a": 0,
+    "e": "SEBI (Mutual Funds) Regulations, 1996 (as amended over time) is the primary regulation. Indian Trusts Act, 1882 governs the trust structure separately.",
+    "topic": "REG"
+  },
+  {
+    "q": "Trail commission to a distributor:",
+    "o": [
+      "Is paid only at the time of investment",
+      "Is paid as long as the investor stays invested",
+      "Is paid only if the fund beats benchmark",
+      "Is banned by SEBI"
+    ],
+    "a": 1,
+    "e": "Trail commission accrues recurring as long as investor holds units, aligning distributor incentives with retention. Upfront commissions for retail are banned.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor accepting investor cheques in their own bank account is:",
+    "o": [
+      "Permitted with disclosure",
+      "Strictly prohibited under AMFI Code of Conduct",
+      "Allowed up to ₹50,000",
+      "A standard practice"
+    ],
+    "a": 1,
+    "e": "Distributors must NEVER take investor money in their own account. Funds must flow directly to the scheme account.",
+    "topic": "REG"
+  },
+  {
+    "q": "EUIN is required for:",
+    "o": [
+      "The ARN-holder entity",
+      "Each individual employee/relationship manager who advises investors",
+      "Investors only",
+      "SEBI itself"
+    ],
+    "a": 1,
+    "e": "EUIN identifies the individual employee/RM (within the ARN-holder firm) who advised the investor — enables accountability and prevents mis-selling claims.",
+    "topic": "REG"
+  },
+  {
+    "q": "Mutual funds can buy and sell securities only on a delivery basis. Is this true?",
+    "o": [
+      "True",
+      "False"
+    ],
+    "a": 0,
+    "e": "TRUE. Mutual funds can buy/sell securities only on delivery basis (no carry-forward / speculative trading on the same day) — to ensure investor protection and avoid speculation.",
+    "topic": "REG"
+  },
+  {
+    "q": "Regarding celebrity endorsements for mutual funds, SEBI has permitted:",
+    "o": [
+      "Endorsement of individual mutual fund schemes",
+      "Celebrity endorsement at the industry level (for awareness only)",
+      "Endorsement of NFOs only",
+      "No endorsement of any kind"
+    ],
+    "a": 1,
+    "e": "SEBI permits celebrity endorsement only at INDUSTRY level (for awareness, e.g., \"Mutual Funds Sahi Hai\") — not for promoting individual schemes.",
+    "topic": "REG"
+  },
+  {
+    "q": "The primary role of a mutual fund distributor is to:",
+    "o": [
+      "Manage scheme portfolios",
+      "Analyse the situation of the investor and recommend suitable schemes",
+      "Approve scheme launches",
+      "Issue NAVs"
+    ],
+    "a": 1,
+    "e": "Distributor analyses the INVESTOR (needs, goals, risk profile). Fund manager analyses the MARKET. Both work towards investor's financial goals.",
+    "topic": "REG"
+  },
+  {
+    "q": "Among the following, which is NOT a category of mutual fund distributor?",
+    "o": [
+      "Individual ARN holders",
+      "Banks (corporate distributors)",
+      "National Distributors",
+      "Stock exchanges"
+    ],
+    "a": 3,
+    "e": "Stock exchanges are not distributors. Categories: Individual ARN holders, Corporate distributors (banks, NBFCs), National Distributors (large multi-state firms), Online platforms.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor must complete which process before getting an ARN from AMFI?",
+    "o": [
+      "Pass NISM V-A only",
+      "Pass NISM V-A and complete KYD (Know Your Distributor)",
+      "Get SEBI registration",
+      "Get RBI license"
+    ],
+    "a": 1,
+    "e": "Pass NISM V-A → Complete KYD (biometric, document verification) → Apply to AMFI for ARN. Without KYD, ARN cannot be issued.",
+    "topic": "REG"
+  },
+  {
+    "q": "An ARN issued by AMFI is valid for:",
+    "o": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "Lifetime"
+    ],
+    "a": 1,
+    "e": "ARN is valid for 3 years. Renewal requires Continuing Professional Education (CPE) compliance.",
+    "topic": "REG"
+  },
+  {
+    "q": "When a distributor offers ONLY execution services (not advice), the EUIN field in the form should be:",
+    "o": [
+      "Filled with the distributor's ARN",
+      "Left blank with explicit declaration of execution-only",
+      "Filled with the AMC's code",
+      "Filled with SEBI registration number"
+    ],
+    "a": 1,
+    "e": "For execution-only transactions (no advice), EUIN field can be left blank with a signed declaration. This protects against future mis-selling claims.",
+    "topic": "REG"
+  },
+  {
+    "q": "Trail commission to distributors is paid:",
+    "o": [
+      "Only at the time of investment",
+      "Annually as long as the investor holds units",
+      "Only on redemption",
+      "Only if scheme outperforms benchmark"
+    ],
+    "a": 1,
+    "e": "Trail commission is recurring — paid (typically monthly) as long as investor stays invested. Aligns distributor incentive with investor retention.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMFI Code of Conduct prohibits a distributor from:",
+    "o": [
+      "Educating investors on fund features",
+      "Disclosing past performance with disclaimers",
+      "Promising or guaranteeing specific returns",
+      "Discussing scheme risk profiles"
+    ],
+    "a": 2,
+    "e": "Distributors cannot promise or guarantee returns — mutual fund investments are subject to market risks. Code requires fair, transparent dealings.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor who has been suspended by AMFI for a regulatory violation:",
+    "o": [
+      "Can continue distributing through a different ARN",
+      "Must surrender the ARN and stop all distribution activity",
+      "Can act as advisor instead",
+      "Faces no consequence"
+    ],
+    "a": 1,
+    "e": "Suspension means the distributor cannot use the ARN. They must stop distribution activity until suspension is lifted. Continuing without authority is a regulatory offence.",
+    "topic": "REG"
+  },
+  {
+    "q": "Grievance redressal for mutual fund investors first goes to:",
+    "o": [
+      "SEBI directly",
+      "SCORES platform directly",
+      "The mutual fund / AMC itself",
+      "Consumer court"
+    ],
+    "a": 2,
+    "e": "Investor must FIRST raise grievance with the AMC. If unresolved within 30 days, escalate to SEBI SCORES. SEBI is not the first port of call.",
+    "topic": "REG"
+  },
+  {
+    "q": "SCORES is:",
+    "o": [
+      "A scheme rating system",
+      "SEBI Complaints Redress System — online platform for investor complaints",
+      "A type of mutual fund",
+      "SEBI's NAV publication system"
+    ],
+    "a": 1,
+    "e": "SCORES = SEBI Complaints Redress System. Online portal where investors can file grievances against listed entities and intermediaries when AMC fails to resolve in 30 days.",
+    "topic": "REG"
+  },
+  {
+    "q": "For online execution-only platforms (RIA-exempt distributors), they can offer:",
+    "o": [
+      "Personalised advice",
+      "Only execution-only transactions in direct plans",
+      "Both regular and direct plans with advice",
+      "Investment management services"
+    ],
+    "a": 1,
+    "e": "Pure execution-only platforms can transact in direct plans only and cannot offer personalised advice. If advice is offered, RIA registration is required.",
+    "topic": "REG"
+  },
+  {
+    "q": "Mutual fund advertisements must include the standard warning:",
+    "o": [
+      "\"Mutual funds are guaranteed by SEBI\"",
+      "\"Mutual fund investments are subject to market risks. Read all scheme related documents carefully.\"",
+      "\"Past returns are guaranteed in the future\"",
+      "No warning needed if returns are below 10%"
+    ],
+    "a": 1,
+    "e": "The mandatory disclaimer must appear in all MF marketing communication, advertisements, brochures, and SID/SAI/KIM documents.",
+    "topic": "REG"
+  },
+  {
+    "q": "A new SEBI rule mandates that distributors and intermediaries display their registered name and registration number:",
+    "o": [
+      "On their business cards only",
+      "On home page of social media handles AND at beginning of any video/content related to securities markets",
+      "In annual reports only",
+      "Nowhere mandatorily"
+    ],
+    "a": 1,
+    "e": "Recent SEBI rule: registered name and number must appear prominently on social media home pages and at the beginning of all securities-related video/content uploaded by intermediaries.",
+    "topic": "REG"
+  },
+  {
+    "q": "Due diligence by AMC on distributors includes verification of:",
+    "o": [
+      "Personal income",
+      "Compliance history, certifications, past actions, references",
+      "Family background",
+      "Investment portfolio"
+    ],
+    "a": 1,
+    "e": "AMC due diligence covers compliance/regulatory history, NISM/CPE certifications, past disciplinary actions, references — to ensure distributor fits AMFI Code of Conduct.",
+    "topic": "REG"
+  },
+  {
+    "q": "For mis-selling, AMFI Code of Conduct expects distributors to:",
+    "o": [
+      "Be paid based on commission only",
+      "Match products to investor risk profile and document the rationale",
+      "Push high-commission schemes",
+      "Avoid risk profiling"
+    ],
+    "a": 1,
+    "e": "Distributors must match products to risk profile and goals, document the rationale, and avoid pushing high-commission schemes regardless of suitability.",
+    "topic": "REG"
+  },
+  {
+    "q": "Investors' complaints filed via SCORES are typically expected to be resolved within:",
+    "o": [
+      "7 days",
+      "15 days",
+      "30 days",
+      "60 days"
+    ],
+    "a": 2,
+    "e": "SEBI requires resolution within 30 days from when the entity receives the complaint via SCORES.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMFI Code of Conduct requires distributors to maintain confidentiality of:",
+    "o": [
+      "Their commission rate",
+      "Investor information and transaction details",
+      "Scheme NAVs",
+      "Public disclosures"
+    ],
+    "a": 1,
+    "e": "Investor information, transaction details, and personal data must be kept confidential — used only for the intended purpose. Confidentiality is a core ethical obligation.",
+    "topic": "REG"
+  },
+  {
+    "q": "When a distributor changes (investor wishes to assign units to a new distributor), the procedure is:",
+    "o": [
+      "Not allowed under SEBI rules",
+      "The investor submits a Change of Distributor request to the AMC, which honours it without needing the existing distributor's consent",
+      "Requires existing distributor's NOC",
+      "Only via SEBI approval"
+    ],
+    "a": 1,
+    "e": "Investors can change distributors freely. AMC processes the request without requiring NOC from the existing distributor. New trail accrues to the new distributor going forward.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor receiving an upfront commission for retail investors is:",
+    "o": [
+      "Permitted up to 1%",
+      "Banned by SEBI for retail investors (only trail commission allowed)",
+      "Allowed without limit",
+      "Permitted only for direct plans"
+    ],
+    "a": 1,
+    "e": "Upfront commissions for retail investors are banned. Distributors get only trail commission for retail. (B-30 cities have a small upfront incentive in some categories, with conditions.)",
+    "topic": "REG"
+  },
+  {
+    "q": "EUIN identifies which entity within the distribution chain?",
+    "o": [
+      "The ARN-holder firm",
+      "The individual employee/relationship manager who advised the investor",
+      "SEBI itself",
+      "The AMC"
+    ],
+    "a": 1,
+    "e": "EUIN (Employee Unique Identification Number) identifies the specific employee/RM within the ARN-holder firm. Enables accountability for advice given.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor accepting a personal cheque from an investor in their own name (for investing later) is:",
+    "o": [
+      "Acceptable for small amounts",
+      "Strictly prohibited under AMFI Code of Conduct",
+      "Permitted with disclosure",
+      "A standard practice"
+    ],
+    "a": 1,
+    "e": "Accepting investor money in personal account is STRICTLY PROHIBITED. Investor funds must always flow directly to the scheme's collection account.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor may receive commission for selling mutual funds, but they CANNOT charge investors:",
+    "o": [
+      "Any direct fee",
+      "Direct fees from the investor for distribution (only AMC pays them)",
+      "Brokerage",
+      "GST"
+    ],
+    "a": 1,
+    "e": "Distributors cannot charge investors directly for distribution. They are compensated only by the AMC via commission. RIAs (Registered Investment Advisers) are different and CAN charge fees directly.",
+    "topic": "REG"
+  },
+  {
+    "q": "Direct plans of mutual funds were introduced from:",
+    "o": [
+      "1 January 2010",
+      "1 January 2013",
+      "1 April 2018",
+      "1 April 2020"
+    ],
+    "a": 1,
+    "e": "Direct plans were introduced on 1 January 2013 — they exclude distribution commission and have lower TER, leading to higher net returns over time.",
+    "topic": "REG"
+  },
+  {
+    "q": "Difference between Distributor and Investment Advisor (RIA):",
+    "o": [
+      "No difference",
+      "Distributor receives commission from AMC; RIA charges fees directly from clients and offers advice",
+      "RIA is below distributor in seniority",
+      "Distributor handles only direct plans"
+    ],
+    "a": 1,
+    "e": "Distributor: AMC pays commission, primarily executes/facilitates. RIA: Fee from client, fiduciary advice. Different SEBI registrations and regulatory frameworks.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMFI Code of Ethics requires members to observe high standards of:",
+    "o": [
+      "Profitability",
+      "Integrity and fairness in dealings with all stakeholders",
+      "Aggressive marketing",
+      "Cost reduction"
+    ],
+    "a": 1,
+    "e": "AMFI Code of Ethics centres on integrity, fairness, transparency, fiduciary responsibility, and prioritising unitholder interests in all dealings.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMFI requires distributors to keep records of investor transactions for at least:",
+    "o": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "7 years"
+    ],
+    "a": 2,
+    "e": "Distributors must maintain investor transaction records for at least 5 years — standard SEBI/AMFI requirement, though specific retention may vary by transaction type.",
+    "topic": "REG"
+  },
+  {
+    "q": "As per SEBI regulations, a mutual fund scheme/plan must have a minimum of __ investors:",
+    "o": [
+      "10",
+      "20",
+      "25",
+      "50"
+    ],
+    "a": 1,
+    "e": "SEBI requires every scheme/plan to have a minimum of 20 investors. This is the \"20-25 rule\".",
+    "topic": "REG"
+  },
+  {
+    "q": "No single investor in a mutual fund scheme can hold more than __ of the corpus of the scheme/plan:",
+    "o": [
+      "10%",
+      "15%",
+      "25%",
+      "51%"
+    ],
+    "a": 2,
+    "e": "No single investor can hold more than 25% of the corpus. Together with the 20-investor minimum, this is the \"20-25 rule\" preventing concentration.",
+    "topic": "REG"
+  },
+  {
+    "q": "If the 20-investor minimum or the 25% concentration limit is breached, the AMC must:",
+    "o": [
+      "Continue regardless",
+      "Refund the entire corpus to investors",
+      "Rebalance within a SEBI-prescribed cure period or wind up",
+      "Increase the corpus"
+    ],
+    "a": 2,
+    "e": "AMC must rebalance to comply within a SEBI-prescribed cure period (typically a calendar quarter). If unable to cure, scheme must be wound up and money returned.",
+    "topic": "REG"
+  },
+  {
+    "q": "A first-time mutual fund investor making an investment of ₹10,000 or above through a distributor — the transaction charge deducted and paid to the distributor is:",
+    "o": [
+      "₹100",
+      "₹150",
+      "₹200",
+      "Nothing — banned"
+    ],
+    "a": 1,
+    "e": "For NEW investors, transaction charge of ₹150 per transaction (₹10,000 or above) is deducted from the investment and paid to the distributor. The balance is invested.",
+    "topic": "REG"
+  },
+  {
+    "q": "For an EXISTING mutual fund investor (already invested with any AMC) making a transaction of ₹10,000 or above through a distributor, the transaction charge is:",
+    "o": [
+      "₹100",
+      "₹150",
+      "₹200",
+      "Nothing"
+    ],
+    "a": 0,
+    "e": "For EXISTING investors, transaction charge is ₹100 per transaction (₹10,000 or above), deducted from investment and paid to the distributor.",
+    "topic": "REG"
+  },
+  {
+    "q": "No transaction charge is applicable on:",
+    "o": [
+      "SIPs of any size",
+      "Direct plans / investments below ₹10,000 / SIPs where total investment is below ₹10,000",
+      "All ELSS",
+      "All HUF investments"
+    ],
+    "a": 1,
+    "e": "Transaction charges DO NOT apply to: (a) Direct plans, (b) Investments below ₹10,000, (c) SIPs where total commitment is below ₹10,000, (d) Switches.",
+    "topic": "REG"
+  },
+  {
+    "q": "A mutual fund scheme can lend up to __ of its net assets in stock lending, subject to specific conditions:",
+    "o": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "a": 2,
+    "e": "A scheme can lend a maximum of 20% of its net assets to a single approved intermediary, subject to overall lending caps and SEBI conditions.",
+    "topic": "REG"
+  },
+  {
+    "q": "Empanelment of a distributor with an AMC — typically:",
+    "o": [
+      "Is permanent and cannot be terminated",
+      "Can be terminated by the AMC at any time as per the empanelment declaration signed",
+      "Can be terminated only by SEBI",
+      "Lasts for ARN tenure"
+    ],
+    "a": 1,
+    "e": "On empanelment, the distributor signs a declaration giving the AMC the right to terminate empanelment at any time (e.g., for breach of code, regulatory action, conduct issues).",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor whose ARN has expired can:",
+    "o": [
+      "Continue selling for one grace year",
+      "Not transact (no new business) — but trail commission on existing AUM continues till lapse",
+      "Continue all activities",
+      "Get automatic renewal"
+    ],
+    "a": 1,
+    "e": "If ARN lapses (no CPE renewal), the distributor cannot solicit new business. Trail commission on existing AUM may continue per AMC policy until specific lapse rules trigger.",
+    "topic": "REG"
+  },
+  {
+    "q": "Mutual fund schemes can buy and sell securities only on:",
+    "o": [
+      "Speculative basis",
+      "Carry-forward basis",
+      "Delivery basis",
+      "Margin basis"
+    ],
+    "a": 2,
+    "e": "Mutual funds can transact only on DELIVERY basis (no carry-forward / speculative trading). This protects unitholders from speculative risk.",
+    "topic": "REG"
+  },
+  {
+    "q": "A scheme advertisement claiming guaranteed returns:",
+    "o": [
+      "Is permitted with disclaimer",
+      "Is strictly prohibited unless backed by sponsor guarantee disclosed in SID",
+      "Is permitted only for liquid funds",
+      "Is allowed in B-30 cities only"
+    ],
+    "a": 1,
+    "e": "Guaranteed returns can be claimed ONLY if explicitly backed by a sponsor guarantee disclosed in the SID. Otherwise prohibited under SEBI advertisement code.",
+    "topic": "REG"
+  },
+  {
+    "q": "SEBI's advertisement code prohibits mutual fund ads from:",
+    "o": [
+      "Showing past performance with disclaimers",
+      "Using forward-looking statements like \"guaranteed double in 5 years\"",
+      "Mentioning Riskometer",
+      "Mentioning fund manager name"
+    ],
+    "a": 1,
+    "e": "Forward-looking unrealistic claims, guarantees of returns, or projections without basis are prohibited. Past performance with disclaimers and Riskometer are required.",
+    "topic": "REG"
+  },
+  {
+    "q": "Past performance disclosure rule: scheme returns must be shown for periods of:",
+    "o": [
+      "Last 1 year only",
+      "Last 1, 3, 5 years and since inception",
+      "Only since inception",
+      "Last 10 years"
+    ],
+    "a": 1,
+    "e": "Standard disclosure: 1-year, 3-year, 5-year, and since-inception returns alongside benchmark returns for the same periods.",
+    "topic": "REG"
+  },
+  {
+    "q": "The \"Mutual Funds Sahi Hai\" campaign is an example of:",
+    "o": [
+      "Individual scheme promotion (banned)",
+      "Industry-level investor awareness (permitted by SEBI)",
+      "Celebrity endorsement of a scheme",
+      "Misleading advertisement"
+    ],
+    "a": 1,
+    "e": "Industry-level investor awareness campaigns (where celebrities can be used) are permitted. Individual scheme/AMC celebrity endorsement is NOT permitted.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMFI Code of Ethics centres on:",
+    "o": [
+      "Profit maximisation for AMCs",
+      "Integrity, fairness, and prioritising unitholder interests",
+      "Aggressive sales tactics",
+      "Cost reduction at AMC level"
+    ],
+    "a": 1,
+    "e": "AMFI Code of Ethics: integrity, fairness, fiduciary responsibility to unitholders, transparency, conflict-of-interest avoidance, ethical conduct in all dealings.",
+    "topic": "REG"
+  },
+  {
+    "q": "A potential conflict of interest at AMC level — for example, if AMC employees personally trade in stocks held by schemes — is governed by:",
+    "o": [
+      "No specific rules",
+      "Personal trading / front-running prohibitions in SEBI regulations and AMC code",
+      "Just internal policy",
+      "Trustee discretion"
+    ],
+    "a": 1,
+    "e": "SEBI strictly prohibits personal trading by AMC employees in scheme-held securities (front-running). AMCs must have policies, surveillance, and pre-clearance systems.",
+    "topic": "REG"
+  },
+  {
+    "q": "The SEBI Investor Charter for Mutual Funds covers:",
+    "o": [
+      "Tax planning advice",
+      "Investor rights, redressal mechanisms, expected service standards, list of dos and don'ts",
+      "Specific scheme recommendations",
+      "Distributor commissions only"
+    ],
+    "a": 1,
+    "e": "Investor Charter (mandated by SEBI) lists investor rights, expected service standards from AMCs, grievance redressal processes, and red flags. Must be prominently displayed.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor making personal social media posts about mutual fund schemes must:",
+    "o": [
+      "Use any content freely",
+      "Display registered name and ARN at the start of the content + comply with AMFI/SEBI ad code",
+      "Avoid social media",
+      "Get SEBI pre-approval for each post"
+    ],
+    "a": 1,
+    "e": "Recent SEBI rule: registered name + registration number must appear prominently on social media handles and at the start of any video/content related to securities.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMCs must disclose distributor commissions paid:",
+    "o": [
+      "Privately to each distributor only",
+      "Quarterly on AMC website (top distributors named with commissions paid)",
+      "Never",
+      "Only to SEBI"
+    ],
+    "a": 1,
+    "e": "AMCs must disclose top distributor commissions quarterly on their website — commission disclosure norms enforce transparency on distribution costs.",
+    "topic": "REG"
+  },
+  {
+    "q": "The \"Fit and Proper\" criteria for empanelling distributors include:",
+    "o": [
+      "Personal income",
+      "Adequate controls to delink sales functions from customer risk/objective evaluation, regulatory history, references",
+      "Marital status",
+      "Investment portfolio"
+    ],
+    "a": 1,
+    "e": "Due diligence by AMCs covers structural controls (delinking sales from suitability assessment), regulatory record, NISM/CPE certifications, references, conduct history.",
+    "topic": "REG"
+  },
+  {
+    "q": "A distributor who has been suspended by AMFI for code violations:",
+    "o": [
+      "Can register a new ARN to bypass",
+      "Must surrender ARN privileges and stop distribution; suspension is publicly disclosed",
+      "Continues normally",
+      "Faces no consequence"
+    ],
+    "a": 1,
+    "e": "AMFI publicly maintains records of suspended/terminated ARNs. Suspended distributors cannot transact through any ARN. Bypassing via fresh ARN is not permitted.",
+    "topic": "REG"
+  },
+  {
+    "q": "For an AMC employee who is also an active investor in their own AMC's schemes:",
+    "o": [
+      "Permitted without disclosure",
+      "Permitted with mandatory disclosures and pre-clearance per AMC's personal trading policy",
+      "Strictly prohibited",
+      "Must redeem all units"
+    ],
+    "a": 1,
+    "e": "Personal investments by AMC employees are allowed but governed by mandatory disclosure and pre-clearance policies — to prevent front-running and conflicts.",
+    "topic": "REG"
+  },
+  {
+    "q": "For a New Fund Offer (NFO) — celebrity endorsement is:",
+    "o": [
+      "Permitted with sponsor approval",
+      "Strictly prohibited (only industry-level awareness via celebrities is allowed)",
+      "Permitted only for ELSS",
+      "Permitted with disclaimer"
+    ],
+    "a": 1,
+    "e": "Individual scheme / NFO celebrity endorsement is strictly prohibited. Celebrity use is allowed ONLY at industry-level awareness campaigns.",
+    "topic": "REG"
+  },
+  {
+    "q": "Past performance disclosure in scheme advertisements must show returns for:",
+    "o": [
+      "Only since inception",
+      "1, 3, 5 years and since inception (alongside benchmark for same periods)",
+      "Last quarter only",
+      "Past 10 years"
+    ],
+    "a": 1,
+    "e": "Standard disclosure: 1Y/3Y/5Y/SI returns + benchmark TRI for same periods. Forward-looking projections prohibited.",
+    "topic": "REG"
+  },
+  {
+    "q": "AMC must disclose top distributor commissions on:",
+    "o": [
+      "Annual report only",
+      "Their website (typically quarterly) — for transparency",
+      "SEBI filing only",
+      "Never"
+    ],
+    "a": 1,
+    "e": "SEBI commission disclosure norms require AMCs to publicly disclose top distributors and commissions paid — quarterly on the website. Promotes transparency.",
+    "topic": "REG"
+  },
+  {
+    "q": "The ARN (AMFI Registration Number) of a distributor is valid for:",
+    "o": [
+      "1 year",
+      "3 years (renewable via CPE)",
+      "5 years",
+      "Lifetime"
+    ],
+    "a": 1,
+    "e": "ARN valid for 3 years. Distributor must complete CPE (Continuing Professional Education) to renew.",
+    "topic": "REG"
+  },
+  {
+    "q": "A scheme must have a minimum of __ investors and no single investor can hold more than __ of the corpus:",
+    "o": [
+      "10 / 20%",
+      "20 / 25%",
+      "25 / 25%",
+      "50 / 10%"
+    ],
+    "a": 1,
+    "e": "SEBI 20-25 rule: minimum 20 investors; no single investor more than 25%. Cure period for breach; if not cured, scheme must wind up.",
+    "topic": "REG"
+  },
+  {
+    "q": "Distributors registered with AMFI must complete which due diligence step before getting ARN?",
+    "o": [
+      "Just NISM V-A",
+      "NISM V-A + KYD (Know Your Distributor)",
+      "Just KYC",
+      "SEBI registration"
+    ],
+    "a": 1,
+    "e": "Pass NISM V-A → Complete KYD (biometric, document verification) → Apply to AMFI for ARN.",
+    "topic": "REG"
+  },
+  {
+    "q": "The \"Investor Charter\" mandated by SEBI for mutual funds:",
+    "o": [
+      "Lists scheme returns",
+      "Lists investor rights, expected service standards, grievance redressal mechanisms, dos and don'ts",
+      "Recommends specific schemes",
+      "Sets distributor commissions"
+    ],
+    "a": 1,
+    "e": "Investor Charter: lists rights, expected service standards from AMCs, grievance redressal, complaint escalation. Must be prominently displayed.",
+    "topic": "REG"
+  }
+]

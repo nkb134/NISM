@@ -1,0 +1,290 @@
+[
+  {
+    "id": "set_str",
+    "name": "Set 1 — MF Structure & Concepts",
+    "topic": "STR",
+    "duration": 1200,
+    "description": "Trust structure, Sponsor, Trustee, AMC, Custodian roles",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_nav",
+    "name": "Set 2 — NAV, TER & Pricing",
+    "topic": "NAV",
+    "duration": 1200,
+    "description": "NAV calculation, cut-off times, expense ratios, applicable NAV",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_sch",
+    "name": "Set 3 — Scheme Types & Categories",
+    "topic": "SCH",
+    "duration": 1200,
+    "description": "Open/close-ended, equity, debt, hybrid, ELSS, ETFs, Index, FoF",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_ops",
+    "name": "Set 4 — Investor Services & Operations",
+    "topic": "OPS",
+    "duration": 1200,
+    "description": "KYC, folios, nomination, transmission, account statements",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_tax",
+    "name": "Set 5 — Taxation",
+    "topic": "TAX",
+    "duration": 1200,
+    "description": "Capital gains, STCG/LTCG, dividend taxation (post-Budget 2024)",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_reg",
+    "name": "Set 6 — Regulatory & Distribution",
+    "topic": "REG",
+    "duration": 1200,
+    "description": "SEBI rules, ARN, EUIN, KYD, scheme labeling, riskometer",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_mock",
+    "name": "Mock Test 1 — 30Q (foundational mix)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Mock 1 — quick foundational mix; 30 Qs in 30 mins",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_inv",
+    "name": "Set 7 — Investment Landscape",
+    "topic": "INV",
+    "duration": 1200,
+    "description": "Asset classes, investment risks, behavioural biases, asset allocation",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_doc",
+    "name": "Set 8 — Scheme Documents (SID/SAI/KIM)",
+    "topic": "DOC",
+    "duration": 1200,
+    "description": "Mandatory disclosure documents, Riskometer, addendum, updation cycles",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_rsk",
+    "name": "Set 9 — Risk, Return & Risk Measures",
+    "topic": "RSK",
+    "duration": 1200,
+    "description": "Standard deviation, Beta, Modified Duration, gating, side-pocketing",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_prf",
+    "name": "Set 10 — Benchmarks & Scheme Selection",
+    "topic": "PRF",
+    "duration": 1200,
+    "description": "PRI/TRI, Sharpe, Treynor, Alpha, Information Ratio, Tracking Error, scheme selection",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_adv",
+    "name": "Set 11 — Active Management, Analysis & Risk Concepts",
+    "topic": "PRF",
+    "duration": 1200,
+    "description": "Fundamental vs technical analysis, EPS, P/E, market timing, systematic vs unsystematic risk",
+    "isDynamic": false,
+    "questionCount": 10
+  },
+  {
+    "id": "set_kyc",
+    "name": "Set 12 — KYC, NFO & Operational Details",
+    "topic": "OPS",
+    "duration": 1200,
+    "description": "KYC documents, PEKRN, CKYC/cKYCR, e-KYC, NFO mechanics, ARN/EUIN, operational rules",
+    "isDynamic": false,
+    "questionCount": 10
+  },
+  {
+    "id": "set_mock3",
+    "name": "Mock Test 2 — 30Q (KYC, NFO, Tax-heavy)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Mock 2 — operational depth: KYC/CERSAI, NFO, value vs growth, taxation edge-cases",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_mock2",
+    "name": "Mock Test 3 — 30Q (cross-topic mix)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Mock 3 — broad mix across all topics; 30 Qs in 30 mins",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_mock4",
+    "name": "Mock Test 4 — 30Q (NISM-style sample questions)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Paraphrased and adapted from official NISM workbook sample questions across chapters",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_mock5",
+    "name": "Mock Test 5 — 30Q (Numerical & Calculation focus)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Calculation-heavy mock — NAV math, returns, SIP, TER, Sharpe/Treynor, exit loads. Use the Excel/Calc allowed in the actual exam.",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_mock6",
+    "name": "Mock Test 6 — 30Q (Distribution, Compliance & Code of Conduct)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Mock 6 — distributor practices, AMFI Code of Conduct, advertising rules, grievance redressal, due diligence",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_mock7",
+    "name": "Mock Test 7 — 30Q (Specific SEBI rules & investor eligibility)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Mock 7 — minimum investor rules, transaction charges, investor categories (NRI/HUF/PoA/OCB), empanelment, offer document specifics",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_inv_adv",
+    "name": "Set 13 — Investment Landscape (Advanced)",
+    "topic": "INV",
+    "duration": 1200,
+    "description": "Risk profiling, behavioural finance edge cases, asset allocation math, rebalancing triggers",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_str_adv",
+    "name": "Set 14 — MF Structure & Constituents (Advanced)",
+    "topic": "STR",
+    "duration": 1200,
+    "description": "Trust deed, AMC obligations, custodian/RTA/auditor specifics, sponsor change procedures",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_sch_adv",
+    "name": "Set 15 — Scheme Categories (Advanced)",
+    "topic": "SCH",
+    "duration": 1200,
+    "description": "Macaulay duration buckets, hybrid sub-categories, multi-cap/flexicap, SIF, lifecycle funds, FoF",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_reg_adv",
+    "name": "Set 16 — Regulatory & Distribution (Advanced)",
+    "topic": "REG",
+    "duration": 1200,
+    "description": "SEBI advertisement code, AMFI Code of Ethics, fit-and-proper, conflict of interest, investor charter",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_doc_adv",
+    "name": "Set 17 — Scheme Documents & Disclosures (Advanced)",
+    "topic": "DOC",
+    "duration": 1200,
+    "description": "SAI mandatory contents, addendum, monthly portfolio, fund manager changes, factsheet, material change",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_nav_adv",
+    "name": "Set 18 — NAV, TER & Pricing (Advanced)",
+    "topic": "NAV",
+    "duration": 1200,
+    "description": "Segregated portfolio NAV, TER slabs detailed, GST, brokerage exclusions, B-30 specifics",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_tax_adv",
+    "name": "Set 19 — Taxation (Advanced)",
+    "topic": "TAX",
+    "duration": 1200,
+    "description": "Indexation, set-off rules, ELSS lock-in mechanics, NRI TDS, stamp duty, bonus units",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_ops_adv",
+    "name": "Set 20 — Investor Services (Advanced)",
+    "topic": "OPS",
+    "duration": 1200,
+    "description": "Time stamping, NACH/SI, transmission, dormant folios, MITRA, voluntary lock-in, e-KYC",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_rsk_adv",
+    "name": "Set 21 — Risk & Returns (Advanced)",
+    "topic": "RSK",
+    "duration": 1200,
+    "description": "Macaulay vs Modified duration, convexity, credit rating profile, single-issuer caps, group exposure",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_prf_adv",
+    "name": "Set 22 — Performance & Selection (Advanced)",
+    "topic": "PRF",
+    "duration": 1200,
+    "description": "Information Ratio mechanics, tier-1/tier-2 benchmarks, factsheet, peer analysis, style drift",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_mock8",
+    "name": "Mock Test 8 — 30Q (Advanced/Edge-case mix)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Cross-topic mock pulling from advanced/edge-case content. Higher difficulty than Mocks 1-3.",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_mock9",
+    "name": "Mock Test 9 — 30Q (Final Readiness Simulation)",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "Final readiness check — exam-day difficulty, full-syllabus weight. Aim for 70%+ before booking the actual exam.",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_full",
+    "name": "Full Exam Simulator — 100Q · 120 min",
+    "topic": "FULL",
+    "duration": 7200,
+    "description": "Real exam simulation: 100Q, 120 min, 50% pass. Syllabus-weighted from question pool. Each attempt is shuffled.",
+    "isDynamic": true,
+    "questionCount": 0
+  }
+]

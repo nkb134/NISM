@@ -1,0 +1,518 @@
+[
+  {
+    "q": "The three mandatory scheme-related documents are:",
+    "o": [
+      "SID, SAI, KIM",
+      "SID, KIM, factsheet",
+      "Trust deed, IMA, custodian agreement",
+      "SAI, factsheet, addendum"
+    ],
+    "a": 0,
+    "e": "The three mandatory documents are Scheme Information Document (SID), Statement of Additional Information (SAI), and Key Information Memorandum (KIM).",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Scheme Information Document (SID) primarily contains:",
+    "o": [
+      "Statutory information about the AMC",
+      "Details of the particular scheme",
+      "Daily NAVs",
+      "Account statements"
+    ],
+    "a": 1,
+    "e": "SID contains scheme-specific details — investment objective, asset allocation, risks, fees, fund manager. SAI has statutory info about the AMC/Mutual Fund.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Key Information Memorandum (KIM) is:",
+    "o": [
+      "A summary of SID and SAI for investors",
+      "A standalone document not related to SID/SAI",
+      "Sent only to existing investors",
+      "Filed only with SEBI, not given to investors"
+    ],
+    "a": 0,
+    "e": "KIM is a summary of SID and SAI. SEBI mandates that every application form must be accompanied by the KIM.",
+    "topic": "DOC"
+  },
+  {
+    "q": "In the case of a fundamental attribute change, the AMC must:",
+    "o": [
+      "Just notify SEBI",
+      "Issue addendum and provide a 30-day no-load exit window",
+      "Discontinue the scheme",
+      "Increase the TER"
+    ],
+    "a": 1,
+    "e": "Fundamental attribute changes (Reg 18(15A)) require an addendum and a no-load exit option for at least 30 days.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Frequency of mandatory KIM updation:",
+    "o": [
+      "Once a month",
+      "At least once in half-year",
+      "Once a year",
+      "Only when scheme changes"
+    ],
+    "a": 1,
+    "e": "KIM is updated at least once every half-year, within one month from the end of the half-year (Sept and March).",
+    "topic": "DOC"
+  },
+  {
+    "q": "Riskometer must be evaluated and disclosed by the AMC:",
+    "o": [
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Half-yearly"
+    ],
+    "a": 2,
+    "e": "The Riskometer is evaluated and updated on a monthly basis. Any change must be conveyed via notice-cum-addendum and SMS/email to unitholders.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Riskometer of a scheme is published in the:",
+    "o": [
+      "Daily NAV statement",
+      "Front page of the SID",
+      "Custodian report",
+      "RTA monthly report"
+    ],
+    "a": 1,
+    "e": "The Riskometer and the suitability statement appear on the front (cover) page of the SID.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Specialized Investment Funds (SIFs) use which risk indicator (instead of Riskometer)?",
+    "o": [
+      "Riskometer with 6 levels",
+      "Risk Band with 5 levels",
+      "Beta indicator",
+      "No risk indicator"
+    ],
+    "a": 1,
+    "e": "SIFs use a Risk-Band with 5 levels (Risk Band Level 1 lowest to Level 5 highest), as SIFs are inherently riskier than mutual fund schemes.",
+    "topic": "DOC"
+  },
+  {
+    "q": "SEBI's role with respect to scheme-related documents is to:",
+    "o": [
+      "Approve them",
+      "Disapprove them",
+      "Vet them and provide observations",
+      "Translate them"
+    ],
+    "a": 2,
+    "e": "SEBI does NOT approve or disapprove SID/SAI — it provides observations which the AMC must incorporate. The documents are \"vetted\" not \"approved\".",
+    "topic": "DOC"
+  },
+  {
+    "q": "The \"Caveat Emptor\" principle in mutual fund investing means:",
+    "o": [
+      "Buyer beware — investor presumed to have read scheme documents",
+      "AMC takes full responsibility",
+      "SEBI guarantees returns",
+      "Distributor is liable for losses"
+    ],
+    "a": 0,
+    "e": "Investors are presumed to have read and understood scheme documents before investing. They cannot later claim ignorance of disclosed facts.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Among the six Riskometer levels, \"Moderately High\" risk is depicted using which colour?",
+    "o": [
+      "Red",
+      "Caramel",
+      "Neon Yellow",
+      "Irish Green"
+    ],
+    "a": 1,
+    "e": "The 6 levels: Low (Irish Green), Low to Moderate (Chartreuse), Moderate (Neon Yellow), Moderately High (Caramel), High (Dark Orange), Very High (Red).",
+    "topic": "DOC"
+  },
+  {
+    "q": "An interim change to a scheme document, before the next regular update, is effected through:",
+    "o": [
+      "New SID",
+      "Addendum",
+      "Court order",
+      "Trustee resolution"
+    ],
+    "a": 1,
+    "e": "Interim changes are effected via an addendum, which becomes part of the scheme documents and must accompany KIM until the next update.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Riskometer evaluation is required to be done:",
+    "o": [
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Annually"
+    ],
+    "a": 2,
+    "e": "Riskometer must be evaluated and updated on a monthly basis. Changes must be communicated via notice-cum-addendum and SMS/email to unitholders.",
+    "topic": "DOC"
+  },
+  {
+    "q": "For a Specialized Investment Fund (SIF), the risk indicator is the:",
+    "o": [
+      "Riskometer with 6 levels",
+      "Risk-Band with 5 levels",
+      "Both Riskometer and Risk-Band",
+      "None of the above"
+    ],
+    "a": 1,
+    "e": "SIFs are riskier than mutual fund schemes; SEBI mandates a Risk-Band with 5 levels for SIFs to differentiate from the mutual fund Riskometer.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The KIM must be accompanied by:",
+    "o": [
+      "The trust deed",
+      "The application form",
+      "The IMA",
+      "The custodian agreement"
+    ],
+    "a": 1,
+    "e": "SEBI mandates every application form to be accompanied by KIM. The KIM may also include the latest applicable addendum.",
+    "topic": "DOC"
+  },
+  {
+    "q": "A scheme's SID has been \"vetted\" by SEBI. This means:",
+    "o": [
+      "SEBI has approved the scheme",
+      "SEBI has provided observations the AMC must incorporate",
+      "SEBI guarantees the returns",
+      "SEBI has ranked the scheme"
+    ],
+    "a": 1,
+    "e": "Vetting = SEBI provides observations; AMC must incorporate. SEBI does not approve, certify or rank schemes.",
+    "topic": "DOC"
+  },
+  {
+    "q": "\"Please read the scheme related documents carefully\" — these documents refer to:",
+    "o": [
+      "SID and audited balance sheet of AMC",
+      "Trust deed and KIM",
+      "SAI and fund factsheet",
+      "Scheme Information Document and Statement of Additional Information"
+    ],
+    "a": 3,
+    "e": "The \"scheme related documents\" referenced in the standard mutual fund disclaimer are the SID and SAI.",
+    "topic": "DOC"
+  },
+  {
+    "q": "SID and SAI are prepared in the format prescribed by:",
+    "o": [
+      "Each AMC as it desires",
+      "AMFI as part of Code of Conduct",
+      "AMFI as part of Best Practices Circular",
+      "Securities and Exchange Board of India (SEBI)"
+    ],
+    "a": 3,
+    "e": "SID and SAI must follow SEBI-prescribed format. Contents flow in the same sequence as in the prescribed format.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Which of the following is NOT a statutory document?",
+    "o": [
+      "Fund factsheet",
+      "Statement of Additional Information",
+      "Scheme Information Document",
+      "Key Information Memorandum"
+    ],
+    "a": 0,
+    "e": "Fund factsheet is NOT a statutory document — though it is published monthly. SID, SAI and KIM are statutory.",
+    "topic": "DOC"
+  },
+  {
+    "q": "As per fair valuation principles laid out by SEBI, it is mandatory to disclose the valuation policy in:",
+    "o": [
+      "SAI (Statement of Additional Information)",
+      "Account statements",
+      "Fund factsheet",
+      "Need not be disclosed publicly"
+    ],
+    "a": 0,
+    "e": "Valuation policy is disclosed in the Statement of Additional Information (SAI), as part of fair valuation principles mandated by SEBI.",
+    "topic": "DOC"
+  },
+  {
+    "q": "For mutual fund schemes, an SID is initially valid for:",
+    "o": [
+      "3 months",
+      "6 months",
+      "Until a \"material change\" occurs (with periodic updates within 6 months of FY half-end)",
+      "5 years"
+    ],
+    "a": 2,
+    "e": "SID remains effective until a material change. Open-ended/Interval scheme SIDs are updated within 6 months of FY half-end (Sept and March data).",
+    "topic": "DOC"
+  },
+  {
+    "q": "The offer document (SID) of a mutual fund scheme must disclose investor grievance history of the AMC for the past:",
+    "o": [
+      "1 year",
+      "2 years",
+      "3 fiscal years",
+      "5 fiscal years"
+    ],
+    "a": 2,
+    "e": "SID must disclose investor grievance history for the past 3 fiscal years — number of complaints received, redressed, pending.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Pending litigation or penalties levied on the sponsors or AMC must be disclosed in the:",
+    "o": [
+      "Annual report only",
+      "Offer document (SID/SAI)",
+      "Trustee's private files",
+      "Need not be disclosed"
+    ],
+    "a": 1,
+    "e": "Pending litigation, penalties, and material regulatory actions on sponsors/AMC/trustees MUST be disclosed in the SID and SAI for transparency.",
+    "topic": "DOC"
+  },
+  {
+    "q": "A \"Glossary of Defined Terms\" in the offer document is:",
+    "o": [
+      "Optional",
+      "Mandatory — must be included",
+      "Required only for ELSS",
+      "Only for foreign investors"
+    ],
+    "a": 1,
+    "e": "A glossary of defined terms is mandatory in the offer document — defines all special terms and abbreviations used in the document for investor clarity.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Due Diligence Certificate filed with SEBI by the AMC for an NFO confirms that:",
+    "o": [
+      "The AMC guarantees scheme performance",
+      "The draft offer document complies with SEBI regulations and disclosures are true, fair and adequate",
+      "SEBI has approved the scheme",
+      "Investors will get guaranteed returns"
+    ],
+    "a": 1,
+    "e": "Due Diligence Certificate confirms regulatory compliance, completeness, and accuracy of disclosures. It does NOT guarantee performance — that is explicitly disclaimed.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Due Diligence Certificate must be signed by:",
+    "o": [
+      "Any AMC employee",
+      "The Compliance Officer of the AMC",
+      "The Trustee directly",
+      "SEBI"
+    ],
+    "a": 1,
+    "e": "The Compliance Officer of the AMC must sign the Due Diligence Certificate filed along with the draft offer document.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Standard risk factors (in scheme documents) are:",
+    "o": [
+      "Specific to each scheme",
+      "Common to all mutual fund schemes (as prescribed by SEBI)",
+      "Optional disclosures",
+      "New to a regular investor"
+    ],
+    "a": 1,
+    "e": "Standard risk factors are common to all schemes and prescribed by SEBI. Specific risk factors are unique to the particular scheme.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Statement of Additional Information (SAI) updation cycle is:",
+    "o": [
+      "Annually within 3 months of FY-end + material changes on ongoing basis",
+      "Quarterly",
+      "Half-yearly",
+      "Only when scheme changes"
+    ],
+    "a": 0,
+    "e": "Regular SAI update: by end of 3 months from financial year-end. Material changes must be updated on an ongoing basis and uploaded to AMC and AMFI websites.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Monthly portfolio disclosure for all mutual fund schemes must be done within:",
+    "o": [
+      "5 days",
+      "10 days from end of month",
+      "30 days",
+      "At AMC discretion"
+    ],
+    "a": 1,
+    "e": "AMCs must disclose month-end portfolio (with ISIN) on their website within 10 days of the month-end.",
+    "topic": "DOC"
+  },
+  {
+    "q": "A \"fundamental attribute\" change in a scheme includes:",
+    "o": [
+      "Marketing tagline change",
+      "Investment objective, asset allocation pattern, basic structure changes",
+      "Logo redesign",
+      "Fund manager name"
+    ],
+    "a": 1,
+    "e": "Fundamental attributes: investment objective, asset allocation, risk-return profile, fees structure (load), basic scheme structure. These changes need notice + 30-day exit window.",
+    "topic": "DOC"
+  },
+  {
+    "q": "A fund manager change in a scheme must be:",
+    "o": [
+      "Disclosed to all unitholders only at year-end",
+      "Communicated through SID/factsheet update; notice via website + email",
+      "Approved by all unitholders",
+      "Optional disclosure"
+    ],
+    "a": 1,
+    "e": "Fund manager changes are material and must be communicated promptly via SID update, factsheet, AMC website, and unitholder communication (email/SMS).",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Factsheet of a mutual fund scheme is a:",
+    "o": [
+      "Statutory document required by SEBI",
+      "Non-statutory monthly publication providing portfolio + performance snapshot",
+      "Document for SEBI internal use",
+      "Annual report"
+    ],
+    "a": 1,
+    "e": "Factsheet is NOT statutory but is a widely-used monthly publication showing portfolio, NAV, AUM, returns, fund manager, ratios — useful for investor decision-making.",
+    "topic": "DOC"
+  },
+  {
+    "q": "For an open-ended scheme, in case of fundamental attribute change, the public notice must be given in:",
+    "o": [
+      "Just AMC website",
+      "One English daily newspaper with nationwide circulation + regional language newspaper at HO",
+      "Only on social media",
+      "Optional"
+    ],
+    "a": 1,
+    "e": "Public notice must be given in one English daily nationwide + one regional newspaper at the Mutual Fund's HO location, with at least 30-day no-load exit window.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Half-yearly portfolio of all schemes must be disclosed by AMC:",
+    "o": [
+      "On AMC website + sent to unitholders by email",
+      "Just on AMC website",
+      "Only to SEBI",
+      "Only in annual report"
+    ],
+    "a": 0,
+    "e": "Half-yearly portfolios must be disclosed on the AMC website AND e-mailed to all registered unitholders. Physical copies are sent on request.",
+    "topic": "DOC"
+  },
+  {
+    "q": "Each scheme NAV must be disclosed by:",
+    "o": [
+      "9 PM same day",
+      "11 PM same day",
+      "Next day morning",
+      "Within 48 hours"
+    ],
+    "a": 1,
+    "e": "NAV must be uploaded to AMFI website by 11 PM on the same business day. AMC must also display NAV on its own website.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The cover page of the SID must contain:",
+    "o": [
+      "Detailed portfolio holdings",
+      "Standard SEBI disclaimer + Riskometer + scheme name + type + AMC details",
+      "Past 10-year returns",
+      "Fund manager photographs"
+    ],
+    "a": 1,
+    "e": "Cover page mandatory contents: SEBI disclaimer (units not approved/recommended by SEBI), Riskometer, scheme name + type, AMC + Trustee contact details, NFO/Reopening dates.",
+    "topic": "DOC"
+  },
+  {
+    "q": "An \"addendum\" to scheme documents is required when:",
+    "o": [
+      "Marketing slogan changes",
+      "Any change occurs that affects current or prospective investors' decisions",
+      "Daily",
+      "Annually"
+    ],
+    "a": 1,
+    "e": "Addendum issued for any material change between regular updates — load structure changes, fund manager change, new disclosures, etc. Must accompany KIM until next update.",
+    "topic": "DOC"
+  },
+  {
+    "q": "A scheme's \"expenses\" disclosure in the SID must include:",
+    "o": [
+      "Only management fee",
+      "Maximum recurring expenses (TER), load structure, expense slabs",
+      "Just brokerage",
+      "Total of past 10 years"
+    ],
+    "a": 1,
+    "e": "SID must disclose maximum TER (with slabs), exit load structure, and any other applicable expenses — so investors know upfront the maximum cost they may bear.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The \"Performance\" section of a scheme's SID must show:",
+    "o": [
+      "Only since-inception",
+      "1-year, 3-year, 5-year and since-inception returns + benchmark returns for same periods",
+      "Daily NAV",
+      "Future return projections"
+    ],
+    "a": 1,
+    "e": "Past performance disclosure: 1Y/3Y/5Y/since inception alongside benchmark (TRI) for same periods. Forward-looking projections are prohibited.",
+    "topic": "DOC"
+  },
+  {
+    "q": "For a Specialized Investment Fund (SIF), instead of the Riskometer, the risk indicator is:",
+    "o": [
+      "Riskometer with 7 levels",
+      "Risk-Band with 5 levels (Level 1 lowest, Level 5 highest)",
+      "None",
+      "Same Riskometer"
+    ],
+    "a": 1,
+    "e": "SIFs use a Risk-Band with 5 levels — given they're higher-risk than mutual funds. Risk-Band level evaluated monthly.",
+    "topic": "DOC"
+  },
+  {
+    "q": "A \"fundamental attribute\" of a scheme that requires notice + 30-day exit window includes:",
+    "o": [
+      "Marketing slogan",
+      "Investment objective, asset allocation pattern, basic structure",
+      "Logo",
+      "Distributor change"
+    ],
+    "a": 1,
+    "e": "Fundamental attributes: investment objective, asset allocation pattern, scheme structure (open/close-ended), fee structure. Changes require notice + 30-day no-load exit.",
+    "topic": "DOC"
+  },
+  {
+    "q": "The Riskometer has how many risk levels?",
+    "o": [
+      "4",
+      "5",
+      "6 (Low, Low to Moderate, Moderate, Moderately High, High, Very High)",
+      "7"
+    ],
+    "a": 2,
+    "e": "Riskometer: 6 levels with prescribed colour codes — Low (Irish Green) to Very High (Red).",
+    "topic": "DOC"
+  },
+  {
+    "q": "The fundamental attribute change in a scheme requires:",
+    "o": [
+      "Just SEBI notification",
+      "Notice + 30-day no-load exit window for unitholders",
+      "Trustee discretion",
+      "No specific procedure"
+    ],
+    "a": 1,
+    "e": "Fundamental attribute change requires written notice (newspaper publication) + 30-day no-load exit window for unitholders to exit if they don't agree.",
+    "topic": "DOC"
+  }
+]

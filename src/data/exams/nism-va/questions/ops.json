@@ -1,0 +1,794 @@
+[
+  {
+    "q": "How many bank accounts can a resident individual investor register with a mutual fund folio?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "a": 3,
+    "e": "A resident individual investor can register up to 5 bank accounts per folio. One must be designated as the default for redemption proceeds.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Maximum number of nominees that can be registered in a mutual fund folio is:",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "a": 2,
+    "e": "A folio can have up to 3 nominees, with allocation percentages aggregating to 100%.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Investors have the right to specify up to ___ investment folios as part of nomination requirements.",
+    "o": [
+      "One",
+      "Two",
+      "Three",
+      "Unlimited"
+    ],
+    "a": 2,
+    "e": "The maximum permissible nominees in a folio is three.",
+    "topic": "OPS"
+  },
+  {
+    "q": "KYC for mutual fund investors is performed by:",
+    "o": [
+      "Each AMC separately",
+      "KRA (KYC Registration Agencies)",
+      "SEBI directly",
+      "RBI"
+    ],
+    "a": 1,
+    "e": "KYC is centralized via SEBI-registered KRAs (CAMS-KRA, KFin-KRA, etc.). Once done, valid across all SEBI intermediaries.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Consolidated Account Statement (CAS) is sent to the investor:",
+    "o": [
+      "Daily",
+      "Monthly (if any transaction) and half-yearly otherwise",
+      "Annually",
+      "Only on request"
+    ],
+    "a": 1,
+    "e": "CAS is sent monthly when transactions occur, and half-yearly even with no transactions. Consolidated across all folios using PAN.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The minimum subscription amount for SIP can be as low as:",
+    "o": [
+      "₹100",
+      "₹500",
+      "₹1,000",
+      "₹5,000"
+    ],
+    "a": 0,
+    "e": "SEBI permits SIPs starting from ₹100 (some AMCs allow ₹100, most start at ₹500). Recent push for ₹250 SIPs to drive financial inclusion.",
+    "topic": "OPS"
+  },
+  {
+    "q": "In what form do mutual fund distributors earn revenue?",
+    "o": [
+      "Commission from mutual funds for distribution",
+      "Fees collected from the investor",
+      "Both A and B",
+      "Discount on NAV"
+    ],
+    "a": 0,
+    "e": "Distributors earn commission from the mutual fund (AMC). They cannot charge investors directly. Trail commission accrues over time the investor stays invested.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Transmission in a mutual fund refers to:",
+    "o": [
+      "Switching units between schemes",
+      "Transfer of units to nominees/legal heirs on death of unitholder",
+      "Redemption",
+      "SIP installments"
+    ],
+    "a": 1,
+    "e": "Transmission = transfer of units to nominee/legal heir upon death of unitholder. Different from transfer (which is voluntary).",
+    "topic": "OPS"
+  },
+  {
+    "q": "Which of the following is NOT mandatory for investing in a mutual fund?",
+    "o": [
+      "PAN",
+      "KYC compliance",
+      "Bank account",
+      "Nomination"
+    ],
+    "a": 3,
+    "e": "Nomination is now mandatory or requires opt-out. PAN, KYC, and bank account are mandatory. (Note: SEBI has made nomination effectively mandatory via opt-in/opt-out.)",
+    "topic": "OPS"
+  },
+  {
+    "q": "In a Systematic Withdrawal Plan (SWP), the investor:",
+    "o": [
+      "Invests a fixed amount regularly",
+      "Withdraws a fixed amount regularly",
+      "Switches between schemes",
+      "Pays the AMC a regular fee"
+    ],
+    "a": 1,
+    "e": "SWP allows investors to withdraw a pre-specified amount at regular intervals — useful for retirement income planning.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Cooling-off / Right of Refusal applies in:",
+    "o": [
+      "Any application within 14 days",
+      "Mis-sold products only as per investor charter",
+      "SIP only",
+      "ELSS only"
+    ],
+    "a": 1,
+    "e": "Investor charter and grievance mechanisms allow recourse for mis-selling. Mutual funds don't have a blanket cooling-off period like insurance.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Switching from a regular plan to a direct plan within the same scheme:",
+    "o": [
+      "Is not allowed",
+      "Is treated as redemption + fresh subscription for tax/exit load",
+      "Is free of any charges",
+      "Requires SEBI approval"
+    ],
+    "a": 1,
+    "e": "Switch from regular to direct (or any switch) is treated as a redemption from one and subscription to another — taxable event and may attract exit load.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Maximum nominees in a folio:",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "a": 2,
+    "e": "Up to 3 nominees, allocation must total 100%.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Maximum bank accounts a resident individual can register in a folio:",
+    "o": [
+      "1",
+      "3",
+      "5",
+      "Unlimited"
+    ],
+    "a": 2,
+    "e": "Up to 5 bank accounts per folio.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Distributors earn revenue in the form of:",
+    "o": [
+      "Commission from MFs",
+      "Fees from investors",
+      "NAV discount",
+      "Performance bonus"
+    ],
+    "a": 0,
+    "e": "Commission from MFs for distribution.",
+    "topic": "OPS"
+  },
+  {
+    "q": "CAS is sent:",
+    "o": [
+      "Only on request",
+      "Daily",
+      "Monthly with txns; half-yearly otherwise",
+      "Quarterly only"
+    ],
+    "a": 2,
+    "e": "Monthly when transactions occur, half-yearly otherwise.",
+    "topic": "OPS"
+  },
+  {
+    "q": "KYC is performed by:",
+    "o": [
+      "Each AMC",
+      "KRAs",
+      "SEBI",
+      "RBI"
+    ],
+    "a": 1,
+    "e": "Centralized via SEBI-registered KRAs.",
+    "topic": "OPS"
+  },
+  {
+    "q": "KYC compliance is mandatory for:",
+    "o": [
+      "Only investors above ₹1 lakh",
+      "All investors regardless of investment value",
+      "Only resident investors",
+      "Only individual investors"
+    ],
+    "a": 1,
+    "e": "All investors — individual and non-individual, including joint holders, NRIs, PoA holders, guardians of minors — must be KYC compliant regardless of investment value.",
+    "topic": "OPS"
+  },
+  {
+    "q": "PAN is mandatory for mutual fund investments EXCEPT for:",
+    "o": [
+      "NRIs",
+      "Investments up to ₹50,000 per investor per year per MF",
+      "Senior citizens",
+      "SIP investors only"
+    ],
+    "a": 1,
+    "e": "PAN-exempt: investments (lump-sum + SIP combined) up to ₹50,000 per investor per year per mutual fund. Also: officials of govt./court, Sikkim residents, certain UN entities.",
+    "topic": "OPS"
+  },
+  {
+    "q": "For Micro-SIPs (PAN-exempt), the investor is issued a:",
+    "o": [
+      "ARN",
+      "EUIN",
+      "PEKRN (PAN Exempt KYC Reference Number)",
+      "Folio number"
+    ],
+    "a": 2,
+    "e": "Investors using PAN exemption receive a PEKRN (PAN Exempt KYC Reference Number) from the KRA, quoted on the application form along with photo-ID.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The benefit of the centralised KYC process via KRAs is that:",
+    "o": [
+      "Each AMC must do its own KYC",
+      "Once KYC is done with one capital market intermediary, it is valid across the capital market",
+      "KYC must be redone every year",
+      "Only mutual funds use this"
+    ],
+    "a": 1,
+    "e": "KRAs centralise KYC across the capital market. Once done with one SEBI intermediary (broker, MF, depository participant), the investor can transact across the market without repeating KYC.",
+    "topic": "OPS"
+  },
+  {
+    "q": "CERSAI was authorised by the Government of India to function as the:",
+    "o": [
+      "Stock exchange",
+      "Central KYC Records Registry (cKYCR) under PML Rules",
+      "Mutual fund regulator",
+      "Pension regulator"
+    ],
+    "a": 1,
+    "e": "Government of India (Nov 2015 notification) authorised CERSAI to act as the Central KYC Records Registry under Prevention of Money Laundering Rules.",
+    "topic": "OPS"
+  },
+  {
+    "q": "In-Person Verification (IPV) of an investor must be done:",
+    "o": [
+      "Optionally, by the distributor",
+      "By the capital market intermediary as part of the KYC process",
+      "Only by SEBI",
+      "Only for amounts above ₹1 lakh"
+    ],
+    "a": 1,
+    "e": "IPV is mandatory: the SEBI-registered intermediary must verify the investor in person before uploading data to KRA. Confirms identity and prevents impersonation.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The maximum period for an NFO of a non-ELSS open-ended scheme is:",
+    "o": [
+      "7 days",
+      "15 days",
+      "30 days",
+      "45 days"
+    ],
+    "a": 1,
+    "e": "NFO of a non-ELSS open-ended scheme can be open for a maximum of 15 days. ELSS schemes can have up to 30-day NFOs.",
+    "topic": "OPS"
+  },
+  {
+    "q": "After NFO closure, an open-ended scheme must reopen for ongoing sale and repurchase within:",
+    "o": [
+      "1 day",
+      "5 business days",
+      "15 days",
+      "30 days"
+    ],
+    "a": 1,
+    "e": "Open-ended schemes must reopen for sale/repurchase within 5 business days from the closure of the NFO.",
+    "topic": "OPS"
+  },
+  {
+    "q": "A distributor must obtain which credential before distributing mutual funds?",
+    "o": [
+      "Only PAN",
+      "ARN from AMFI after passing NISM V-A and KYD",
+      "Only EUIN",
+      "Sebi registration number"
+    ],
+    "a": 1,
+    "e": "A distributor must pass NISM V-A, complete KYD (Know Your Distributor), and obtain ARN from AMFI before distributing mutual fund schemes.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The EUIN of the relationship manager is captured on the application form to:",
+    "o": [
+      "Replace the ARN",
+      "Track the specific individual employee who advised the investor",
+      "Record investor preferences",
+      "Replace KYC"
+    ],
+    "a": 1,
+    "e": "EUIN identifies the individual employee/RM within the ARN-holder firm who advised the investor — protects against future \"execution-only\" mis-selling claims and ensures accountability.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The body that has been authorised to act as Central KYC Records Registry (cKYCR) is:",
+    "o": [
+      "SEBI",
+      "RBI",
+      "CERSAI",
+      "AMFI"
+    ],
+    "a": 2,
+    "e": "CERSAI was authorised by the Government of India (Nov 2015) to act as cKYCR under Prevention of Money Laundering Rules.",
+    "topic": "OPS"
+  },
+  {
+    "q": "For mutual fund investments up to which limit per investor per year per MF, PAN is not mandatory?",
+    "o": [
+      "₹25,000",
+      "₹50,000",
+      "₹1,00,000",
+      "₹2,00,000"
+    ],
+    "a": 1,
+    "e": "PAN-exempt limit is ₹50,000 per investor per year per mutual fund (combined limit for SIPs and lump-sum).",
+    "topic": "OPS"
+  },
+  {
+    "q": "Which of the following is NOT a valid alternative photo-ID for PAN-exempt investors?",
+    "o": [
+      "Voter ID",
+      "Driving License",
+      "Credit Card",
+      "Passport"
+    ],
+    "a": 2,
+    "e": "Credit card is excluded since it may not be backed by a bank account. Voter ID, Driving License, Passport, Aadhaar etc. are valid.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Maximum NFO period for an ELSS scheme:",
+    "o": [
+      "15 days",
+      "30 days",
+      "45 days",
+      "60 days"
+    ],
+    "a": 1,
+    "e": "ELSS NFOs can be open up to 30 days. Other open-ended schemes are capped at 15 days.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The maximum number of nominees that can be specified in a mutual fund folio is:",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "a": 2,
+    "e": "A folio can have up to 3 nominees. Allocation percentages must aggregate to 100%.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Consolidated Account Statement (CAS) is sent to investors:",
+    "o": [
+      "Daily",
+      "Monthly only when transactions occur",
+      "Half-yearly only",
+      "Both monthly (with transactions) and half-yearly (without)"
+    ],
+    "a": 3,
+    "e": "CAS is sent monthly when there is any transaction in any folio (across MFs by PAN), and half-yearly even when no transaction occurs.",
+    "topic": "OPS"
+  },
+  {
+    "q": "A Systematic Transfer Plan (STP) involves:",
+    "o": [
+      "Investing a fixed amount regularly",
+      "Withdrawing a fixed amount regularly",
+      "Transferring a fixed amount from one scheme to another at specified intervals",
+      "Switching plans within same scheme"
+    ],
+    "a": 2,
+    "e": "STP transfers fixed amounts from one scheme to another at regular intervals — typically debt → equity for systematic deployment of lump sums.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The minimum investment for SIP in a mutual fund scheme can be as low as:",
+    "o": [
+      "₹500",
+      "₹250 (some AMCs)",
+      "₹1,000",
+      "₹5,000"
+    ],
+    "a": 1,
+    "e": "SEBI / AMFI permit small-ticket SIPs; some AMCs allow SIPs starting ₹250-₹500 to drive financial inclusion.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Whose KYC must be completed in case of an application by a minor?",
+    "o": [
+      "The minor",
+      "The guardian",
+      "Any family member of the minor",
+      "No KYC required for minors"
+    ],
+    "a": 1,
+    "e": "For minor investors, the GUARDIAN must be KYC compliant. Once the minor turns 18, they must complete their own KYC and update the folio status.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Investors have the right to specify up to ___ nominees for their mutual fund investment folios.",
+    "o": [
+      "Zero",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "a": 3,
+    "e": "Investors can specify up to 3 nominees per folio. Allocation percentages must aggregate to 100%.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Trail commission on a SIP of ₹10,000/month at 0.5% p.a. trail, for an investor who has held for 1 year (approx avg AUM ₹65,000). Approx annual trail to distributor is:",
+    "o": [
+      "₹50",
+      "₹325",
+      "₹500",
+      "₹600"
+    ],
+    "a": 1,
+    "e": "Trail = 0.5% × ₹65,000 (approx avg AUM) ≈ ₹325. Trail is small per-investor but recurring & sticky.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Deployment of funds collected during NFO must follow timelines mentioned in:",
+    "o": [
+      "SAI",
+      "SID (under Regulation 35(5))",
+      "KIM only",
+      "Trustee discretion"
+    ],
+    "a": 1,
+    "e": "Per Regulation 35(5), AMCs must specify realistic deployment timelines in the SID. Failure to deploy as committed may attract regulatory action.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Allotment of units (or refund) for an NFO must be done within:",
+    "o": [
+      "1 business day of NFO close",
+      "3 business days",
+      "5 business days of NFO close",
+      "15 business days"
+    ],
+    "a": 2,
+    "e": "Units must be allotted (or refunds processed) within 5 business days of NFO closure. Open-ended schemes must reopen within 5 business days too.",
+    "topic": "OPS"
+  },
+  {
+    "q": "NRIs (Non-Resident Indians) are eligible to invest in Indian mutual fund schemes:",
+    "o": [
+      "No, they are barred",
+      "Yes, on repatriable or non-repatriable basis as per FEMA",
+      "Only in equity schemes",
+      "Only in liquid funds"
+    ],
+    "a": 1,
+    "e": "NRIs can invest in Indian MFs, on repatriable or non-repatriable basis, complying with FEMA rules. They use NRE/NRO accounts. KYC and FATCA requirements apply.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Overseas Corporate Bodies (OCBs) are __ to invest in Indian mutual funds:",
+    "o": [
+      "Permitted",
+      "Not permitted",
+      "Permitted only with RBI approval",
+      "Permitted up to ₹10 crore"
+    ],
+    "a": 1,
+    "e": "OCBs are NOT permitted to invest in Indian mutual fund schemes (per RBI/FEMA rules; OCB category was de-recognised long ago).",
+    "topic": "OPS"
+  },
+  {
+    "q": "Foreign citizens (non-NRIs, non-FPIs) residing outside India are __ to invest in Indian mutual funds:",
+    "o": [
+      "Generally permitted",
+      "Generally NOT permitted (only specific FPI/QFI routes available)",
+      "Permitted with PAN",
+      "Permitted via SIP only"
+    ],
+    "a": 1,
+    "e": "Foreign citizens cannot directly invest in Indian MFs. They must route via FPI registration or QFI scheme. Mutual funds can permit them only as per regulatory carve-outs.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Hindu Undivided Families (HUFs) wishing to invest in mutual funds:",
+    "o": [
+      "Cannot invest",
+      "Can invest, with the Karta acting on behalf of the HUF and HUF PAN used",
+      "Can invest only in liquid funds",
+      "Need SEBI special approval"
+    ],
+    "a": 1,
+    "e": "HUFs can invest in MFs. Karta operates the folio on behalf of the HUF. HUF PAN is used. KYC of the Karta is required.",
+    "topic": "OPS"
+  },
+  {
+    "q": "A minor investor in mutual funds — when the minor turns 18:",
+    "o": [
+      "Folio remains in guardian's name",
+      "Status is changed to \"major\" by submitting prescribed documents (PAN, KYC, signature, bank account)",
+      "Folio gets automatically closed",
+      "Units must be redeemed"
+    ],
+    "a": 1,
+    "e": "On attaining majority, the investor must submit prescribed documents (PAN, fresh KYC, signature attestation, bank account) to convert the folio from \"minor\" to \"major\". The guardian's rights cease.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Power of Attorney (PoA) holders for mutual fund investments must:",
+    "o": [
+      "Submit just the PoA document",
+      "Be KYC-compliant themselves AND have the PoA document on record",
+      "Get SEBI approval",
+      "Have a valid ARN"
+    ],
+    "a": 1,
+    "e": "PoA holders must complete KYC themselves AND register the notarised PoA document. Both KYC and PoA are needed before transactions on behalf of the actual investor.",
+    "topic": "OPS"
+  },
+  {
+    "q": "When an investor in a Pay-out option of IDCW elects to switch to Re-investment of IDCW:",
+    "o": [
+      "Both options run simultaneously",
+      "Re-investment option overrides — going forward, dividends are reinvested as additional units",
+      "It is treated as redemption",
+      "Not allowed once chosen"
+    ],
+    "a": 1,
+    "e": "When investor switches IDCW option, the new election overrides. Going forward, dividends are reinvested at ex-dividend NAV (Re-investment) instead of being paid out (Pay-out).",
+    "topic": "OPS"
+  },
+  {
+    "q": "Time stamping of mutual fund transactions is done at:",
+    "o": [
+      "Distributor's office",
+      "Official Points of Acceptance (OPoAs) registered with the AMC",
+      "Investor's home",
+      "SEBI office"
+    ],
+    "a": 1,
+    "e": "Time stamping is at OPoAs (Official Points of Acceptance), which include AMC offices, RTA offices, designated branches. Cut-off time is determined by OPoA receipt time.",
+    "topic": "OPS"
+  },
+  {
+    "q": "A distributor accepting an application from an investor must forward it to the OPoA:",
+    "o": [
+      "Within a week",
+      "At the earliest possible — cut-off time is determined by OPoA receipt",
+      "At month-end",
+      "When convenient"
+    ],
+    "a": 1,
+    "e": "Distributor receipt is NOT cut-off-relevant. The OPoA receipt time is. Distributor must forward applications quickly to ensure investor's intended cut-off is met.",
+    "topic": "OPS"
+  },
+  {
+    "q": "NACH (National Automated Clearing House) is used in mutual funds for:",
+    "o": [
+      "NAV publication",
+      "Auto-debit of SIP installments from investor's bank account",
+      "Investor KYC",
+      "Stock trading"
+    ],
+    "a": 1,
+    "e": "NACH mandate authorises the AMC/RTA to debit the investor's bank account on SIP dates automatically. Standardised under NPCI.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Standing Instruction (SI) for SIPs is set up via:",
+    "o": [
+      "SEBI directly",
+      "The investor's bank, instructing periodic transfer to the scheme",
+      "RTA",
+      "Distributor"
+    ],
+    "a": 1,
+    "e": "Standing Instructions are bank-level periodic transfer mandates. Alternative to NACH; fewer banks support modern SI but it's available.",
+    "topic": "OPS"
+  },
+  {
+    "q": "In a Micro-SIP (annual investment ≤ ₹50,000), the investor uses:",
+    "o": [
+      "PAN",
+      "PEKRN (PAN Exempt KYC Reference Number) + alternative photo-ID",
+      "Aadhar only",
+      "Driving licence only"
+    ],
+    "a": 1,
+    "e": "Micro-SIPs are PAN-exempt up to ₹50,000/year per MF. Investor uses PEKRN + alternative photo-ID (Voter, DL, Passport etc.). Cumulative limit applies.",
+    "topic": "OPS"
+  },
+  {
+    "q": "e-KYC via UIDAI (Aadhaar OTP-based) for mutual fund accounts is permitted with limits — the investment cap on accounts opened through OTP-based e-KYC is typically:",
+    "o": [
+      "₹10,000",
+      "₹50,000 per year (aggregate across MFs)",
+      "₹1 lakh",
+      "Unlimited"
+    ],
+    "a": 1,
+    "e": "OTP-based e-KYC has a per-investor annual investment cap (₹50,000 aggregate) due to lighter verification. Full biometric e-KYC or in-person KYC removes this cap.",
+    "topic": "OPS"
+  },
+  {
+    "q": "CKYC (Central KYC Records Registry) and KRA-KYC are:",
+    "o": [
+      "Same thing",
+      "Different — CKYC is wider (whole financial sector via CERSAI), KRA-KYC is securities-market specific",
+      "Both run by SEBI",
+      "Both run by AMFI"
+    ],
+    "a": 1,
+    "e": "CKYC: cross-sector (CERSAI under PML Rules), covers all financial services. KRA: SEBI-registered, securities-market-specific. Both aim to centralise KYC; complementary.",
+    "topic": "OPS"
+  },
+  {
+    "q": "MITRA (Mutual Fund Investment Tracing and Retrieval Assistant) is hosted by:",
+    "o": [
+      "SEBI",
+      "Two Qualified RTAs — CAMS and KFin Technologies",
+      "AMFI",
+      "Each AMC separately"
+    ],
+    "a": 1,
+    "e": "MITRA is hosted by CAMS and KFin (the two QRTAs). Allows investors to trace inactive/unclaimed folios across the industry. Reduces unclaimed assets.",
+    "topic": "OPS"
+  },
+  {
+    "q": "A \"dormant\" or inactive folio is one where:",
+    "o": [
+      "NAV declines by 50%",
+      "No financial transaction has occurred for a specified period",
+      "Investor changes address",
+      "SIP gets paused"
+    ],
+    "a": 1,
+    "e": "Dormant folio = no financial transactions for a specified period (varies, typically 1-2 years for monitoring; longer for true inactivity). Triggers re-verification of KYC and contact details.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Voluntary lock-in / debit freeze on a mutual fund folio (recently introduced by SEBI) is:",
+    "o": [
+      "Mandatory for all investors",
+      "Optional — investor can lock units to prevent unauthorised redemption",
+      "Imposed by AMC",
+      "Imposed by SEBI"
+    ],
+    "a": 1,
+    "e": "SEBI introduced voluntary debit freeze (March 2026 circular) — investors can voluntarily lock units to prevent unauthorised redemption. Available across demat and SoA folios via MF Central.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Transmission of units (in case of unitholder's demise) requires the nominee/legal heir to submit:",
+    "o": [
+      "Just the death certificate",
+      "Death certificate, KYC of claimant, transmission request, may need succession proof if no nominee",
+      "Just a request letter",
+      "SEBI approval"
+    ],
+    "a": 1,
+    "e": "Transmission docs: death certificate, KYC of nominee/legal heir, transmission request form. If no nominee, succession certificate or probate is required (which is much harder).",
+    "topic": "OPS"
+  },
+  {
+    "q": "A nomination on a mutual fund folio:",
+    "o": [
+      "Cannot be changed once registered",
+      "Can be changed at any time by the unitholder by submitting a fresh nomination form",
+      "Requires SEBI approval to change",
+      "Requires consent of existing nominee"
+    ],
+    "a": 1,
+    "e": "Unitholder can change nomination anytime via fresh nomination form. New nomination overrides earlier. No consent of existing nominee needed (it's the unitholder's right).",
+    "topic": "OPS"
+  },
+  {
+    "q": "CKYC and KRA-KYC differ in that:",
+    "o": [
+      "Both are identical",
+      "CKYC is wider (whole financial sector via CERSAI), KRA-KYC is securities-market specific",
+      "KRA is run by RBI",
+      "Only CKYC has IPV"
+    ],
+    "a": 1,
+    "e": "CKYC: cross-financial-sector (CERSAI under PML Rules). KRA: SEBI-registered, securities-market only. Complementary systems.",
+    "topic": "OPS"
+  },
+  {
+    "q": "MITRA (the unclaimed-mutual-fund-folio platform) is run by:",
+    "o": [
+      "SEBI directly",
+      "CAMS and KFin (the two QRTAs) as agents of AMCs",
+      "AMFI alone",
+      "Each AMC separately"
+    ],
+    "a": 1,
+    "e": "MITRA is hosted by CAMS and KFin (two Qualified RTAs) as agents of AMCs. Helps trace inactive/unclaimed mutual fund folios.",
+    "topic": "OPS"
+  },
+  {
+    "q": "A new SEBI rule (March 2026) introduced a \"voluntary debit freeze\" facility — its purpose is to:",
+    "o": [
+      "Force SIP discontinuation",
+      "Allow investors to lock units against unauthorised redemption",
+      "Increase regulator powers",
+      "Replace KYC"
+    ],
+    "a": 1,
+    "e": "Voluntary lock-in / debit freeze allows investors to proactively lock units to prevent unauthorised redemption. Available via MF Central platform across demat and SoA folios.",
+    "topic": "OPS"
+  },
+  {
+    "q": "Foreign citizens (non-NRI, non-FPI, non-QFI) — direct investment in Indian mutual funds is:",
+    "o": [
+      "Permitted",
+      "Generally NOT permitted (must route via specific FPI/QFI routes)",
+      "Permitted with Aadhaar",
+      "Permitted up to ₹50,000"
+    ],
+    "a": 1,
+    "e": "Direct foreign citizen investment in Indian MFs is generally not permitted. They must route via FPI registration or QFI scheme.",
+    "topic": "OPS"
+  },
+  {
+    "q": "The maximum number of nominees in a mutual fund folio is:",
+    "o": [
+      "1",
+      "2",
+      "3 (with allocation aggregating to 100%)",
+      "5"
+    ],
+    "a": 2,
+    "e": "Up to 3 nominees per folio, with allocation percentages summing to 100%.",
+    "topic": "OPS"
+  },
+  {
+    "q": "NRIs (Non-Resident Indians) wishing to invest in Indian MFs:",
+    "o": [
+      "Cannot invest",
+      "Can invest on repatriable / non-repatriable basis under FEMA, using NRE/NRO accounts; KYC + FATCA required",
+      "Need RBI approval each time",
+      "Allowed only in liquid funds"
+    ],
+    "a": 1,
+    "e": "NRIs can invest in Indian MFs under FEMA, using NRE (repatriable) or NRO (non-repatriable) accounts. KYC + FATCA compliance is mandatory.",
+    "topic": "OPS"
+  },
+  {
+    "q": "In a Mutual Fund SIP — the benefit of Rupee Cost Averaging is that:",
+    "o": [
+      "Investor gets guaranteed returns",
+      "Investor buys more units when NAV is low and fewer when NAV is high — averaging cost downward",
+      "Eliminates risk",
+      "Increases TER"
+    ],
+    "a": 1,
+    "e": "Rupee cost averaging: fixed amount buys more units at low NAV, fewer at high NAV. Average cost typically lower than simple average of NAVs.",
+    "topic": "OPS"
+  }
+]

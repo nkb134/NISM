@@ -1,0 +1,518 @@
+[
+  {
+    "q": "Mutual funds in India are constituted as:",
+    "o": [
+      "Companies under Companies Act 2013",
+      "Trusts under Indian Trusts Act 1882",
+      "Partnerships under Partnership Act",
+      "Co-operatives under Co-op Societies Act"
+    ],
+    "a": 1,
+    "e": "Mutual funds in India are set up as Trusts under the Indian Trusts Act, 1882. Unitholders are the beneficiaries of the trust.",
+    "topic": "STR"
+  },
+  {
+    "q": "Mutual funds are constituted as Trusts in India. Who are the beneficiaries of the trust?",
+    "o": [
+      "Employees of the AMC",
+      "Mutual fund distributors",
+      "Unitholders",
+      "Trustees of the mutual fund"
+    ],
+    "a": 2,
+    "e": "Unitholders are the beneficial owners of the trust property. The trustees hold the property in trust for the unitholders.",
+    "topic": "STR"
+  },
+  {
+    "q": "The minimum net worth required for an Asset Management Company (AMC) is:",
+    "o": [
+      "₹10 crore",
+      "₹25 crore",
+      "₹50 crore",
+      "₹100 crore"
+    ],
+    "a": 2,
+    "e": "SEBI mandates a minimum net worth of ₹50 crore for AMCs at all times.",
+    "topic": "STR"
+  },
+  {
+    "q": "The sponsor of a mutual fund must contribute at least __ to the net worth of the AMC.",
+    "o": [
+      "10%",
+      "25%",
+      "40%",
+      "51%"
+    ],
+    "a": 2,
+    "e": "The sponsor must contribute a minimum of 40% to the net worth of the AMC.",
+    "topic": "STR"
+  },
+  {
+    "q": "A sponsor must have a sound track record in financial services for at least:",
+    "o": [
+      "2 years",
+      "3 years",
+      "5 years",
+      "10 years"
+    ],
+    "a": 2,
+    "e": "Sponsors must have a minimum 5-year track record in financial services and demonstrated financial soundness.",
+    "topic": "STR"
+  },
+  {
+    "q": "What proportion of the Board of Trustees must be independent?",
+    "o": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "All"
+    ],
+    "a": 1,
+    "e": "At least 2/3rd of the trustees must be independent — not associated with the sponsor.",
+    "topic": "STR"
+  },
+  {
+    "q": "The role of the Custodian in a mutual fund is to:",
+    "o": [
+      "Manage the investments",
+      "Hold the securities of the scheme in safe custody",
+      "Distribute units to investors",
+      "Approve scheme launches"
+    ],
+    "a": 1,
+    "e": "The custodian holds securities and other assets of the scheme in safe custody. They are SEBI-registered and independent of the AMC.",
+    "topic": "STR"
+  },
+  {
+    "q": "Registrar and Transfer Agents (RTA) primarily handle:",
+    "o": [
+      "Investment decisions",
+      "Fund accounting",
+      "Investor records, transactions, and unit allotment",
+      "Marketing the scheme"
+    ],
+    "a": 2,
+    "e": "RTAs maintain investor records, process applications, allot units, handle redemptions, and dispatch account statements.",
+    "topic": "STR"
+  },
+  {
+    "q": "Who appoints the Asset Management Company (AMC)?",
+    "o": [
+      "SEBI",
+      "The sponsor",
+      "The trustees",
+      "AMFI"
+    ],
+    "a": 2,
+    "e": "Trustees appoint the AMC, with prior approval from SEBI. AMC operates under the trust deed and IMA (Investment Management Agreement).",
+    "topic": "STR"
+  },
+  {
+    "q": "AMFI is best described as:",
+    "o": [
+      "A statutory regulator",
+      "An industry body of mutual funds",
+      "A government department",
+      "A stock exchange"
+    ],
+    "a": 1,
+    "e": "AMFI (Association of Mutual Funds in India) is the industry body — not a regulator. SEBI is the statutory regulator.",
+    "topic": "STR"
+  },
+  {
+    "q": "Which of the following is NOT a function of the Trustees?",
+    "o": [
+      "Ensuring AMC compliance with SEBI regulations",
+      "Approving scheme launches",
+      "Making day-to-day investment decisions",
+      "Reviewing AMC performance quarterly"
+    ],
+    "a": 2,
+    "e": "Trustees oversee — they do NOT make investment decisions. The AMC handles day-to-day fund management.",
+    "topic": "STR"
+  },
+  {
+    "q": "Mutual funds in India are regulated primarily by:",
+    "o": [
+      "RBI",
+      "SEBI",
+      "IRDAI",
+      "MCA"
+    ],
+    "a": 1,
+    "e": "SEBI is the primary regulator under SEBI (Mutual Funds) Regulations, 1996.",
+    "topic": "STR"
+  },
+  {
+    "q": "Beneficiaries of a mutual fund trust:",
+    "o": [
+      "AMC employees",
+      "Distributors",
+      "Unitholders",
+      "Trustees"
+    ],
+    "a": 2,
+    "e": "Unitholders are the beneficiaries.",
+    "topic": "STR"
+  },
+  {
+    "q": "Sponsor must contribute __ to AMC net worth:",
+    "o": [
+      "10%",
+      "25%",
+      "40%",
+      "51%"
+    ],
+    "a": 2,
+    "e": "Minimum 40%.",
+    "topic": "STR"
+  },
+  {
+    "q": "Minimum AMC net worth required:",
+    "o": [
+      "₹10 cr",
+      "₹25 cr",
+      "₹50 cr",
+      "₹100 cr"
+    ],
+    "a": 2,
+    "e": "₹50 crore.",
+    "topic": "STR"
+  },
+  {
+    "q": "Trustees must include __ independent members:",
+    "o": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "All"
+    ],
+    "a": 1,
+    "e": "2/3rd minimum.",
+    "topic": "STR"
+  },
+  {
+    "q": "Custodian role:",
+    "o": [
+      "Manages investments",
+      "Holds securities in safe custody",
+      "Sells units",
+      "Approves schemes"
+    ],
+    "a": 1,
+    "e": "Holds securities/assets in safe custody.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Investment Management Agreement (IMA) is signed between:",
+    "o": [
+      "Sponsor and AMC",
+      "Trustees and AMC",
+      "SEBI and AMC",
+      "Custodian and Trustees"
+    ],
+    "a": 1,
+    "e": "IMA is signed between Trustees and AMC, governing the AMC's management of mutual fund schemes.",
+    "topic": "STR"
+  },
+  {
+    "q": "A change in the sponsor of a mutual fund requires:",
+    "o": [
+      "Just a notice to investors",
+      "Prior approval of SEBI and a no-load exit window",
+      "No formal action",
+      "Approval of unitholders only"
+    ],
+    "a": 1,
+    "e": "Change of sponsor or controlling interest requires SEBI prior approval AND a no-load exit window for unitholders to exit if they wish.",
+    "topic": "STR"
+  },
+  {
+    "q": "AMC's minimum net worth requirement of ₹50 crore must be:",
+    "o": [
+      "Met only at the time of registration",
+      "Maintained at all times",
+      "Met only when AUM exceeds ₹500 cr",
+      "Met annually"
+    ],
+    "a": 1,
+    "e": "AMC must maintain minimum net worth of ₹50 crore at all times — not just at registration.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Investment Management Agreement (IMA) is between:",
+    "o": [
+      "Trustee and AMC",
+      "SEBI and AMC",
+      "Sponsor and Trustee",
+      "RTA and Custodian"
+    ],
+    "a": 0,
+    "e": "IMA is signed between the Trustees and the AMC, governing the AMC's management of the schemes.",
+    "topic": "STR"
+  },
+  {
+    "q": "Whose role is it to track corporate actions like bonus, dividend, or rights issues in companies where the mutual fund scheme has invested?",
+    "o": [
+      "Registrar and Transfer Agent",
+      "Custodian",
+      "Auditors of the AMC",
+      "Unitholders"
+    ],
+    "a": 1,
+    "e": "The Custodian tracks and processes corporate actions on the securities held in safe custody — including bonus, dividends, rights issues, and other entitlements.",
+    "topic": "STR"
+  },
+  {
+    "q": "Investment of funds pooled from unitholders is the responsibility of:",
+    "o": [
+      "Asset Management Company",
+      "Trustees",
+      "Custodian",
+      "RTA"
+    ],
+    "a": 0,
+    "e": "The AMC is responsible for managing the investments of the scheme. Trustees oversee, Custodian holds securities, RTA handles investor records.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Sponsor of a mutual fund is responsible or liable for losses to the scheme:",
+    "o": [
+      "Beyond any limit",
+      "Up to the initial contribution made towards setting up the mutual fund",
+      "Up to ₹50 crore",
+      "For the full corpus"
+    ],
+    "a": 1,
+    "e": "The sponsor's liability is LIMITED to the initial contribution made towards setting up the mutual fund. This is part of the standard risk factors disclosed.",
+    "topic": "STR"
+  },
+  {
+    "q": "AMFI is responsible for which of the following?",
+    "o": [
+      "Conducting the NISM V-A certification examination",
+      "Issuing ARN to certified distributors and maintaining industry data",
+      "Approving scheme launches",
+      "Setting NAV computation methodology"
+    ],
+    "a": 1,
+    "e": "AMFI issues ARN, maintains industry data, runs investor awareness, sets best practices. NISM (separate body) conducts certification. SEBI approves/regulates schemes.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Trust Deed of a mutual fund is executed between:",
+    "o": [
+      "SEBI and AMC",
+      "Sponsor and Trustees",
+      "AMC and unitholders",
+      "Custodian and Trustees"
+    ],
+    "a": 1,
+    "e": "Trust Deed is between Sponsor (settlor) and Trustees. SEBI prescribes mandatory clauses. Trust Deed governs the trust's operation.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Investment Management Agreement (IMA) governs:",
+    "o": [
+      "Custodian operations",
+      "Relationship between Trustees and AMC for managing schemes",
+      "Distributor commissions",
+      "Investor rights"
+    ],
+    "a": 1,
+    "e": "IMA between Trustees and AMC defines how the AMC manages the schemes — investment authority, fees, reporting obligations.",
+    "topic": "STR"
+  },
+  {
+    "q": "The minimum number of independent directors on the Board of Directors of an AMC is:",
+    "o": [
+      "1/3rd",
+      "50% of total directors",
+      "2/3rd",
+      "All must be independent"
+    ],
+    "a": 1,
+    "e": "At least 50% of AMC's Board of Directors must be independent — not associated with the sponsor or any entity in the same group.",
+    "topic": "STR"
+  },
+  {
+    "q": "A Custodian must be __ from the Sponsor and AMC:",
+    "o": [
+      "Same group company",
+      "Independent (not affiliated)",
+      "Selected by Sponsor without restriction",
+      "A subsidiary of AMC"
+    ],
+    "a": 1,
+    "e": "Custodian must be SEBI-registered AND independent of the Sponsor/AMC to avoid conflict of interest. Holds securities of the scheme on behalf of unitholders.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Auditor of a mutual fund scheme is appointed by:",
+    "o": [
+      "AMC",
+      "Trustees",
+      "SEBI",
+      "AMFI"
+    ],
+    "a": 1,
+    "e": "Trustees appoint the auditor of the schemes. The auditor must be different from the auditor of the AMC. This is a key check on the AMC.",
+    "topic": "STR"
+  },
+  {
+    "q": "A Registrar and Transfer Agent (RTA) handles:",
+    "o": [
+      "Investment decisions",
+      "Investor records, allotment, redemption, account statements, dividend processing",
+      "Custody of securities",
+      "Marketing"
+    ],
+    "a": 1,
+    "e": "RTAs are SEBI-registered intermediaries that handle the entire investor-facing operational backbone — folio creation, transactions, statements, payouts.",
+    "topic": "STR"
+  },
+  {
+    "q": "A change in controlling interest of the sponsor of a mutual fund requires:",
+    "o": [
+      "No formal action",
+      "Prior SEBI approval AND no-load exit window for unitholders",
+      "Just a notice",
+      "Trustee discretion"
+    ],
+    "a": 1,
+    "e": "Change of sponsor / controlling interest is a material change. Requires SEBI prior approval AND a 30-day no-load exit window for investors who want to exit.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Compliance Officer of an AMC is responsible for:",
+    "o": [
+      "Investment decisions",
+      "Ensuring AMC complies with SEBI regulations and code of conduct",
+      "Marketing campaigns",
+      "Setting NAVs"
+    ],
+    "a": 1,
+    "e": "Compliance Officer ensures regulatory compliance, signs the due diligence certificate for NFOs, and acts as the bridge to SEBI on regulatory matters.",
+    "topic": "STR"
+  },
+  {
+    "q": "An AMC of a mutual fund:",
+    "o": [
+      "Can be the Trustee of the same fund",
+      "Cannot be the Trustee — separation of roles required",
+      "Need not be SEBI-registered",
+      "Can be a partnership firm"
+    ],
+    "a": 1,
+    "e": "AMC and Trustees must be SEPARATE entities — checks-and-balances structure. AMC is a SEBI-registered company appointed by Trustees.",
+    "topic": "STR"
+  },
+  {
+    "q": "CRISIL and ICRA are SEBI-approved as:",
+    "o": [
+      "Custodians",
+      "Valuation agencies for debt securities used in mutual funds",
+      "Distributors",
+      "RTAs"
+    ],
+    "a": 1,
+    "e": "CRISIL and ICRA are the SEBI-approved valuation agencies for debt securities. Their valuations feed into NAV computation for debt holdings.",
+    "topic": "STR"
+  },
+  {
+    "q": "A \"Trustee Company\" — its Board of Directors must have at least __ independent directors:",
+    "o": [
+      "One",
+      "One-third",
+      "Two-thirds",
+      "All"
+    ],
+    "a": 2,
+    "e": "For Trustee Company, at least 2/3rd of directors must be independent. Stricter than AMC (50%) — given trustees' fiduciary role to unitholders.",
+    "topic": "STR"
+  },
+  {
+    "q": "The sponsor of a mutual fund must demonstrate:",
+    "o": [
+      "No specific track record",
+      "Sound track record of at least 5 years in financial services + financial soundness",
+      "At least ₹1,000 cr net worth",
+      "Stock exchange listing"
+    ],
+    "a": 1,
+    "e": "Sponsor must have minimum 5-year track record in financial services AND demonstrate financial soundness. SEBI verifies these before granting registration.",
+    "topic": "STR"
+  },
+  {
+    "q": "The Compliance Officer of an AMC signs:",
+    "o": [
+      "Daily NAV statement",
+      "The Due Diligence Certificate filed with SEBI for NFO",
+      "Investor account statements",
+      "SEBI regulations"
+    ],
+    "a": 1,
+    "e": "Compliance Officer signs the Due Diligence Certificate confirming regulatory compliance and disclosure adequacy. Filed along with the draft offer document.",
+    "topic": "STR"
+  },
+  {
+    "q": "The two SEBI-approved debt valuation agencies are:",
+    "o": [
+      "CRISIL and ICRA",
+      "S&P and Moody's",
+      "SEBI and AMFI",
+      "BSE and NSE"
+    ],
+    "a": 0,
+    "e": "CRISIL and ICRA are the SEBI-approved valuation agencies for debt securities. Their valuations feed into mutual fund NAV.",
+    "topic": "STR"
+  },
+  {
+    "q": "The role of a Mutual Fund Trustee is best described as:",
+    "o": [
+      "Making investment decisions",
+      "Overseeing the AMC and protecting unitholder interests; ensuring compliance with SEBI regulations",
+      "Distributing units",
+      "Marketing the schemes"
+    ],
+    "a": 1,
+    "e": "Trustees are fiduciaries to unitholders. They oversee the AMC, ensure regulatory compliance, approve scheme launches, but DO NOT make investment decisions (AMC does).",
+    "topic": "STR"
+  },
+  {
+    "q": "An AMC must maintain minimum net worth of:",
+    "o": [
+      "₹10 cr",
+      "₹25 cr",
+      "₹50 cr at all times",
+      "₹100 cr"
+    ],
+    "a": 2,
+    "e": "Minimum net worth requirement: ₹50 crore at all times — not just at registration.",
+    "topic": "STR"
+  },
+  {
+    "q": "Custodian's primary role is:",
+    "o": [
+      "Investing the scheme's assets",
+      "Holding scheme's securities in safe custody, processing corporate actions",
+      "Distributing units",
+      "Setting NAV"
+    ],
+    "a": 1,
+    "e": "Custodian holds securities in safe custody, processes corporate actions (bonus, dividends, rights), and is independent of AMC/Sponsor.",
+    "topic": "STR"
+  },
+  {
+    "q": "AMFI is:",
+    "o": [
+      "A regulator like SEBI",
+      "The industry association of mutual fund AMCs (issues ARN, runs awareness, sets best practices)",
+      "Same as NISM",
+      "A government body"
+    ],
+    "a": 1,
+    "e": "AMFI = industry association of AMCs. NOT a regulator (SEBI is). Issues ARN, runs awareness campaigns (\"Mutual Funds Sahi Hai\"), promotes best practices.",
+    "topic": "STR"
+  }
+]

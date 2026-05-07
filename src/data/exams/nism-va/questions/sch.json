@@ -1,0 +1,566 @@
+[
+  {
+    "q": "A close-ended scheme:",
+    "o": [
+      "Allows daily subscription and redemption",
+      "Has a fixed maturity and is listed on an exchange post-NFO",
+      "Cannot invest in equity",
+      "Has unlimited maturity"
+    ],
+    "a": 1,
+    "e": "Close-ended schemes have fixed maturity. After NFO, units are NOT redeemable directly — they must be traded on an exchange where listed.",
+    "topic": "SCH"
+  },
+  {
+    "q": "The lock-in period for an ELSS (Equity Linked Savings Scheme) is:",
+    "o": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "7 years"
+    ],
+    "a": 1,
+    "e": "ELSS has a 3-year lock-in — the SHORTEST among all 80C investments. Tax deduction up to ₹1.5 lakh under Section 80C (old regime).",
+    "topic": "SCH"
+  },
+  {
+    "q": "Maximum NFO period (other than ELSS) is:",
+    "o": [
+      "7 days",
+      "15 days",
+      "30 days",
+      "45 days"
+    ],
+    "a": 1,
+    "e": "NFO of an open-ended scheme cannot exceed 15 days. ELSS can have a 30-day NFO.",
+    "topic": "SCH"
+  },
+  {
+    "q": "An Index Fund aims to:",
+    "o": [
+      "Outperform the index",
+      "Replicate the performance of an index",
+      "Beat fund manager benchmarks",
+      "Avoid all market risks"
+    ],
+    "a": 1,
+    "e": "Index funds passively track and replicate index performance. Tracking error is the deviation from benchmark — lower is better.",
+    "topic": "SCH"
+  },
+  {
+    "q": "An Exchange Traded Fund (ETF) is:",
+    "o": [
+      "Bought and sold only via the AMC",
+      "Listed and traded on stock exchanges like a share",
+      "Available only to institutional investors",
+      "A close-ended scheme"
+    ],
+    "a": 1,
+    "e": "ETFs trade on exchanges in real-time. Authorized Participants create/redeem in creation units directly with the AMC.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Fund of Funds (FoF) invests in:",
+    "o": [
+      "Direct equity shares",
+      "Government bonds only",
+      "Other mutual fund schemes",
+      "Real estate"
+    ],
+    "a": 2,
+    "e": "FoF invests in units of other mutual fund schemes. Note: TER includes both FoF expenses and underlying scheme expenses (cap of 2.25%).",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Liquid Fund invests primarily in:",
+    "o": [
+      "Equity",
+      "Debt instruments with maturity up to 91 days",
+      "Long-term government securities",
+      "Real estate"
+    ],
+    "a": 1,
+    "e": "Liquid funds invest in money market and debt instruments with residual maturity up to 91 days. Used as a parking option vs savings account.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Balanced Advantage / Dynamic Asset Allocation Fund is classified as:",
+    "o": [
+      "Equity scheme",
+      "Debt scheme",
+      "Hybrid scheme",
+      "Solution-oriented scheme"
+    ],
+    "a": 2,
+    "e": "Hybrid scheme. Dynamically manages equity-debt allocation based on market valuations to reduce volatility.",
+    "topic": "SCH"
+  },
+  {
+    "q": "For a scheme to qualify as an EQUITY-oriented scheme for taxation, minimum equity allocation must be:",
+    "o": [
+      "51%",
+      "60%",
+      "65%",
+      "75%"
+    ],
+    "a": 2,
+    "e": "For taxation, an equity-oriented fund must invest 65% or more in domestic equities. Below this, debt taxation rules apply.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Solution-oriented schemes (Retirement Fund, Children's Fund) typically have a lock-in of:",
+    "o": [
+      "No lock-in",
+      "3 years",
+      "5 years or until retirement/majority — whichever is earlier",
+      "10 years"
+    ],
+    "a": 2,
+    "e": "Solution-oriented schemes have a 5-year lock-in OR until retirement/majority, whichever is earlier.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Gilt Fund invests primarily in:",
+    "o": [
+      "Corporate bonds",
+      "Government securities",
+      "Bank deposits",
+      "Equity shares of PSUs"
+    ],
+    "a": 1,
+    "e": "Gilt funds invest exclusively in Government Securities (Central + State). Zero credit risk but high interest-rate risk.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A scheme that allows entry/exit only at specified intervals is:",
+    "o": [
+      "Open-ended",
+      "Close-ended",
+      "Interval scheme",
+      "ETF"
+    ],
+    "a": 2,
+    "e": "Interval schemes are open for subscription/redemption only at predetermined intervals (specified transaction periods).",
+    "topic": "SCH"
+  },
+  {
+    "q": "ELSS lock-in period is:",
+    "o": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "7 years"
+    ],
+    "a": 1,
+    "e": "3 years — shortest among 80C options.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Maximum NFO period for non-ELSS open-ended scheme:",
+    "o": [
+      "7 days",
+      "15 days",
+      "30 days",
+      "45 days"
+    ],
+    "a": 1,
+    "e": "15 days.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Equity-oriented scheme requires minimum equity allocation of:",
+    "o": [
+      "51%",
+      "60%",
+      "65%",
+      "75%"
+    ],
+    "a": 2,
+    "e": "65%+ for equity tax treatment.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Liquid funds invest in instruments with maturity up to:",
+    "o": [
+      "30 days",
+      "60 days",
+      "91 days",
+      "180 days"
+    ],
+    "a": 2,
+    "e": "91 days residual maturity.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Index funds aim to:",
+    "o": [
+      "Beat the index",
+      "Replicate index",
+      "Avoid losses",
+      "Hedge currency"
+    ],
+    "a": 1,
+    "e": "Passively replicate index performance.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A focused equity scheme can hold a maximum of how many stocks?",
+    "o": [
+      "10",
+      "20",
+      "30",
+      "50"
+    ],
+    "a": 2,
+    "e": "SEBI scheme categorisation: Focused funds invest in a maximum of 30 stocks, with concentration on a smaller universe of high-conviction picks.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Multi-cap funds, as per SEBI categorisation, must invest a minimum of __% each in large-cap, mid-cap, and small-cap stocks.",
+    "o": [
+      "10%",
+      "15%",
+      "25%",
+      "33%"
+    ],
+    "a": 2,
+    "e": "Multi-cap funds must invest a minimum of 25% each in large-cap, mid-cap, and small-cap stocks (total at least 75% in equity).",
+    "topic": "SCH"
+  },
+  {
+    "q": "An Arbitrage Fund typically invests in:",
+    "o": [
+      "Debt instruments only",
+      "Cash market and futures market simultaneously to capture spreads",
+      "Distressed assets",
+      "Foreign equity"
+    ],
+    "a": 1,
+    "e": "Arbitrage funds simultaneously buy in cash market and sell in futures (or vice versa) to capture price spreads. Treated as equity for tax (≥65% equity exposure).",
+    "topic": "SCH"
+  },
+  {
+    "q": "A scheme with mandate-allocated equity exposure between 65% and 80% (with debt 20-35%) is best categorized as:",
+    "o": [
+      "Conservative Hybrid",
+      "Balanced Hybrid",
+      "Aggressive Hybrid",
+      "Multi-Asset Allocation"
+    ],
+    "a": 2,
+    "e": "Aggressive Hybrid: 65-80% equity, 20-35% debt. Balanced Hybrid: 40-60% equity. Conservative Hybrid: 10-25% equity.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Smart Beta funds aim to:",
+    "o": [
+      "Replicate a market-cap index passively",
+      "Capture systematic factor premia (value, momentum, quality, low-vol) using rules-based portfolios",
+      "Beat the market through active stock picking",
+      "Track gold prices"
+    ],
+    "a": 1,
+    "e": "Smart Beta funds use rules-based, factor-tilted strategies (value, momentum, quality, low volatility) — between passive and active.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Index Funds are subject to:",
+    "o": [
+      "No tracking error",
+      "Some tracking error due to expenses, cash holdings and rebalancing lags",
+      "Higher tracking error than active funds",
+      "Tracking error only on rebalancing days"
+    ],
+    "a": 1,
+    "e": "All index funds have some tracking error due to expenses, cash drag and rebalancing imperfections — though aim to minimize it.",
+    "topic": "SCH"
+  },
+  {
+    "q": "In the sectoral and thematic funds category, an AMC can launch:",
+    "o": [
+      "Only one such scheme per AMC",
+      "As many schemes as they want, subject to the condition that overlap between two funds is less than 50%",
+      "Up to a maximum of 5 such funds",
+      "Only with SEBI special approval"
+    ],
+    "a": 1,
+    "e": "AMCs can launch multiple sectoral/thematic schemes provided portfolio overlap between any two such schemes is less than 50%.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A focused equity fund holds 28 stocks. Maximum permitted under SEBI:",
+    "o": [
+      "25",
+      "30",
+      "40",
+      "50"
+    ],
+    "a": 1,
+    "e": "SEBI scheme categorisation caps Focused funds at 30 stocks.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A close-ended scheme has 10 cr units outstanding, total NAV ₹15 per unit, but trades on the exchange at ₹13. The discount to NAV is:",
+    "o": [
+      "10.00%",
+      "11.50%",
+      "13.30%",
+      "15.00%"
+    ],
+    "a": 2,
+    "e": "Discount = (15 - 13) / 15 = 13.33%. Close-ended scheme units often trade at discount/premium to NAV in the secondary market.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Value fund (per SEBI scheme categorisation) must invest a minimum of __ in equity and equity-related instruments:",
+    "o": [
+      "51%",
+      "60%",
+      "65%",
+      "75%"
+    ],
+    "a": 2,
+    "e": "Value funds (and Contra funds) must invest at least 65% in equity and equity-related instruments. Mutual fund AMC can offer either Value or Contra — not both.",
+    "topic": "SCH"
+  },
+  {
+    "q": "An AMC offering a Value fund:",
+    "o": [
+      "Can also offer a Contra fund",
+      "Cannot also offer a Contra fund",
+      "Must also offer a Growth fund",
+      "Must also offer ELSS"
+    ],
+    "a": 1,
+    "e": "Per SEBI categorisation, an AMC can offer EITHER a Value fund OR a Contra fund — not both. They're considered substitutes.",
+    "topic": "SCH"
+  },
+  {
+    "q": "Dividend yield fund must invest a minimum of __ in dividend-yielding stocks:",
+    "o": [
+      "51%",
+      "65%",
+      "75%",
+      "100%"
+    ],
+    "a": 1,
+    "e": "Dividend Yield funds must invest at least 65% in dividend-yielding stocks (per SEBI categorisation).",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Liquid Fund invests in instruments with Macaulay duration up to:",
+    "o": [
+      "30 days",
+      "60 days",
+      "91 days",
+      "180 days"
+    ],
+    "a": 2,
+    "e": "Liquid funds: portfolio Macaulay duration up to 91 days. Instruments are typically money-market and short-term debt.",
+    "topic": "SCH"
+  },
+  {
+    "q": "An \"Ultra Short Duration Fund\" has portfolio Macaulay duration of:",
+    "o": [
+      "Up to 91 days",
+      "3 to 6 months",
+      "6 to 12 months",
+      "1 to 3 years"
+    ],
+    "a": 1,
+    "e": "Ultra Short Duration Fund: Macaulay duration 3-6 months. Sits between Liquid and Low Duration in the SEBI debt categorisation.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A \"Low Duration Fund\" has portfolio Macaulay duration of:",
+    "o": [
+      "3-6 months",
+      "6-12 months",
+      "1-3 years",
+      "3-4 years"
+    ],
+    "a": 1,
+    "e": "Low Duration Fund: Macaulay duration 6-12 months. Higher than Ultra Short, lower than Short Duration.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A \"Short Duration Fund\" has portfolio Macaulay duration of:",
+    "o": [
+      "Up to 91 days",
+      "6-12 months",
+      "1-3 years",
+      "3-4 years"
+    ],
+    "a": 2,
+    "e": "Short Duration Fund: portfolio Macaulay duration of 1-3 years per SEBI categorisation.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A \"Conservative Hybrid Fund\" must invest __ in equity:",
+    "o": [
+      "10-25%",
+      "40-60%",
+      "65-80%",
+      "75-90%"
+    ],
+    "a": 0,
+    "e": "Conservative Hybrid: 10-25% equity, 75-90% debt. Lowest equity exposure among hybrid categories.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A \"Balanced Hybrid Fund\" must invest __ in equity:",
+    "o": [
+      "10-25%",
+      "40-60%",
+      "65-80%",
+      "75-90%"
+    ],
+    "a": 1,
+    "e": "Balanced Hybrid: 40-60% equity, 40-60% debt. Roughly balanced allocation.",
+    "topic": "SCH"
+  },
+  {
+    "q": "An \"Aggressive Hybrid Fund\" must invest __ in equity:",
+    "o": [
+      "10-25%",
+      "40-60%",
+      "65-80%",
+      "75-90%"
+    ],
+    "a": 2,
+    "e": "Aggressive Hybrid: 65-80% equity, 20-35% debt. Equity-tilted hybrid; taxed as equity-oriented.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Multi Asset Allocation Fund must invest minimum __ in each of at least __ asset classes:",
+    "o": [
+      "10% in 3",
+      "15% in 3",
+      "25% in 4",
+      "30% in 2"
+    ],
+    "a": 0,
+    "e": "Multi Asset: minimum 10% in EACH of at least 3 asset classes (e.g., equity, debt, gold/REITs).",
+    "topic": "SCH"
+  },
+  {
+    "q": "An Equity Savings Fund typically:",
+    "o": [
+      "Invests only in debt",
+      "Holds equity (≥65% gross via cash + arbitrage), debt, and uses arbitrage to reduce net equity",
+      "Is a sector fund",
+      "Is a gilt fund"
+    ],
+    "a": 1,
+    "e": "Equity Savings: ≥65% in equity (gross — including arbitrage hedges), some debt. Net unhedged equity is lower than gross. Taxed as equity-oriented.",
+    "topic": "SCH"
+  },
+  {
+    "q": "An AMC offering a Multi-cap fund:",
+    "o": [
+      "Cannot also offer a Flexi-cap fund",
+      "Can also offer a Flexi-cap fund (separate categorisation)",
+      "Must also offer a Sector fund",
+      "Cannot offer Large-cap"
+    ],
+    "a": 1,
+    "e": "Multi-cap (25% each in large/mid/small) and Flexi-cap (no cap restrictions, fund manager flexibility) are separate SEBI categories. AMC can offer both.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Specialized Investment Fund (SIF) is:",
+    "o": [
+      "A subcategory of mutual funds",
+      "A higher-risk category between mutual funds and PMS, with Risk-Band (5 levels) instead of Riskometer",
+      "Same as ETF",
+      "A retirement fund"
+    ],
+    "a": 1,
+    "e": "SIFs are a SEBI-introduced category sitting between MFs and PMS — designed for sophisticated strategies. Use a Risk-Band (5 levels) given higher risk, not the Riskometer.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A Fund of Funds (FoF) investing in equity-oriented MF schemes is currently taxed:",
+    "o": [
+      "As debt fund (slab rate) for all FoFs",
+      "As equity-oriented if it invests ≥90% in domestic equity-oriented schemes (post Budget 2024)",
+      "As international fund",
+      "As hybrid"
+    ],
+    "a": 1,
+    "e": "Post Budget 2024, FoFs investing ≥90% in domestic equity-oriented MF schemes can qualify for equity taxation (12.5% LTCG above ₹1.25L). Other FoFs taxed as debt.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A close-ended scheme typically:",
+    "o": [
+      "Sells/repurchases units daily",
+      "Has a fixed maturity, NFO units listed on stock exchange for trading; AMC does not repurchase",
+      "Allows daily SIP",
+      "Has open-ended structure"
+    ],
+    "a": 1,
+    "e": "Close-ended schemes have fixed maturity. After NFO closure, units are listed on the exchange — investors must transact via the exchange (often at discount/premium to NAV).",
+    "topic": "SCH"
+  },
+  {
+    "q": "For a Real Estate Investment Trust (REIT) — it is regulated by:",
+    "o": [
+      "RBI",
+      "SEBI under SEBI (REIT) Regulations",
+      "IRDAI",
+      "PFRDA"
+    ],
+    "a": 1,
+    "e": "REITs (and InvITs) are regulated by SEBI. Mutual fund schemes can hold REIT units, with prescribed allocation limits.",
+    "topic": "SCH"
+  },
+  {
+    "q": "For an Equity Savings Fund — equity exposure (≥65%) is calculated INCLUDING:",
+    "o": [
+      "Only direct equity",
+      "Direct equity + arbitrage hedged equity (gross equity)",
+      "Excluding all equity",
+      "Cash and equivalents"
+    ],
+    "a": 1,
+    "e": "Equity Savings: gross equity (direct + arbitrage) ≥65% qualifies it as equity-oriented for tax. Net unhedged equity is much lower — providing a smoother return profile.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A scheme with 80% equity and 20% debt is best categorised as:",
+    "o": [
+      "Conservative Hybrid",
+      "Aggressive Hybrid (65-80% equity)",
+      "Balanced Hybrid",
+      "Equity Savings"
+    ],
+    "a": 1,
+    "e": "Aggressive Hybrid: 65-80% equity, 20-35% debt. Taxed as equity-oriented (≥65% equity).",
+    "topic": "SCH"
+  },
+  {
+    "q": "Macaulay duration of an Ultra Short Duration Fund is:",
+    "o": [
+      "Up to 91 days",
+      "3-6 months",
+      "6-12 months",
+      "1-3 years"
+    ],
+    "a": 1,
+    "e": "Ultra Short Duration: 3-6 months Macaulay duration per SEBI categorisation.",
+    "topic": "SCH"
+  },
+  {
+    "q": "A \"Sector Fund\" investing in a single sector is:",
+    "o": [
+      "Less risky than a diversified fund",
+      "Riskier than a diversified fund (concentration risk)",
+      "Same risk as index fund",
+      "Always taxed as debt"
+    ],
+    "a": 1,
+    "e": "Sector funds carry concentration risk — narrow exposure means sector-specific downturns hit hard. Higher risk than diversified equity funds.",
+    "topic": "SCH"
+  }
+]

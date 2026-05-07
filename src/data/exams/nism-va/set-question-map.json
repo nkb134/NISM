@@ -1,0 +1,2185 @@
+{
+  "set_str": [
+    {
+      "questionText": "Mutual funds in India are constituted as:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Mutual funds are constituted as Trusts in India. Who are the beneficiaries of the trust?",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The minimum net worth required for an Asset Management Company (AMC) is:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The sponsor of a mutual fund must contribute at least __ to the net worth of the AMC.",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A sponsor must have a sound track record in financial services for at least:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "What proportion of the Board of Trustees must be independent?",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The role of the Custodian in a mutual fund is to:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Registrar and Transfer Agents (RTA) primarily handle:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Who appoints the Asset Management Company (AMC)?",
+      "topic": "STR"
+    },
+    {
+      "questionText": "AMFI is best described as:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Which of the following is NOT a function of the Trustees?",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Mutual funds in India are regulated primarily by:",
+      "topic": "STR"
+    }
+  ],
+  "set_nav": [
+    {
+      "questionText": "The cut-off time for an equity fund subscription with applicable NAV of the same day is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "The cut-off time for liquid fund subscriptions is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For applicable NAV in liquid funds, in addition to the cut-off, what other condition must be met?",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For equity schemes, the maximum Total Expense Ratio (TER) on the first ₹500 crore of AUM is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "TER for direct plans is __ regular plans.",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "NAV of a mutual fund scheme is calculated as:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "NAV must be published by the AMC:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Exit load collected by a mutual fund is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "TER includes which of the following?",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Mutual funds are allowed to charge differential exit loads based on the amount of investment.",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For an equity scheme with AUM of ₹2,000 crore, the additional expense allowed for inflows from B-30 cities is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "NAV is applied based on:",
+      "topic": "NAV"
+    }
+  ],
+  "set_sch": [
+    {
+      "questionText": "A close-ended scheme:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "The lock-in period for an ELSS (Equity Linked Savings Scheme) is:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Maximum NFO period (other than ELSS) is:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An Index Fund aims to:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An Exchange Traded Fund (ETF) is:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A Fund of Funds (FoF) invests in:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A Liquid Fund invests primarily in:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A Balanced Advantage / Dynamic Asset Allocation Fund is classified as:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "For a scheme to qualify as an EQUITY-oriented scheme for taxation, minimum equity allocation must be:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Solution-oriented schemes (Retirement Fund, Children's Fund) typically have a lock-in of:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A Gilt Fund invests primarily in:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A scheme that allows entry/exit only at specified intervals is:",
+      "topic": "SCH"
+    }
+  ],
+  "set_ops": [
+    {
+      "questionText": "How many bank accounts can a resident individual investor register with a mutual fund folio?",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Maximum number of nominees that can be registered in a mutual fund folio is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Investors have the right to specify up to ___ investment folios as part of nomination requirements.",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "KYC for mutual fund investors is performed by:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Consolidated Account Statement (CAS) is sent to the investor:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "The minimum subscription amount for SIP can be as low as:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "In what form do mutual fund distributors earn revenue?",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Transmission in a mutual fund refers to:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Which of the following is NOT mandatory for investing in a mutual fund?",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "In a Systematic Withdrawal Plan (SWP), the investor:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Cooling-off / Right of Refusal applies in:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Switching from a regular plan to a direct plan within the same scheme:",
+      "topic": "OPS"
+    }
+  ],
+  "set_tax": [
+    {
+      "questionText": "Long Term Capital Gains (LTCG) on equity-oriented mutual funds (held > 12 months) above ₹1.25 lakh are taxed at:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Short Term Capital Gains (STCG) on equity-oriented mutual funds (held ≤ 12 months) are taxed at:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For debt mutual funds purchased on or after 1 April 2023, gains are:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For an equity-oriented hybrid fund (≥65% equity), taxation follows:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Securities Transaction Tax (STT) is applicable on:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Dividends from mutual funds are taxable in the hands of:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For ELSS, the tax deduction under Section 80C is up to:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "TDS on capital gains from mutual funds applies to:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Indexation benefit currently applies to:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "A switch between two schemes of the same AMC is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Holding period for LONG-term classification of debt fund units (purchased before April 2023) is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Capital loss from equity mutual funds can be:",
+      "topic": "TAX"
+    }
+  ],
+  "set_reg": [
+    {
+      "questionText": "For an investor to get a quick sense of risk in a mutual fund scheme, SEBI mandates a simplified framework called:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "How many levels does the Riskometer have?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A mutual fund distributor is required to obtain:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "EUIN stands for:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "NISM V-A certification is valid for:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "For an MF distributor handling investor money, the requirement is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A fundamental attribute change to a scheme requires:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Direct plans of mutual funds were introduced by SEBI in:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "AMFI Code of Conduct prohibits which of the following?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Trail commission is paid to the distributor:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Scheme advertisements must include:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Which document gives the latest information about a scheme's portfolio, NAV, and AUM?",
+      "topic": "REG"
+    }
+  ],
+  "set_mock": [
+    {
+      "questionText": "Mutual funds are allowed to charge differential exit loads based on the amount of investment.",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Mutual funds in India are constituted as:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The cut-off time for liquid fund subscriptions is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "ELSS lock-in period is:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Maximum nominees in a folio:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Maximum bank accounts a resident individual can register in a folio:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "LTCG on equity-oriented MFs above ₹1.25L is taxed at:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "STCG on equity-oriented MFs is taxed at:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Riskometer has how many levels?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Direct plan TER is __ regular plan:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Beneficiaries of a mutual fund trust:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Sponsor must contribute __ to AMC net worth:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Minimum AMC net worth required:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Distributors earn revenue in the form of:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Maximum NFO period for non-ELSS open-ended scheme:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "TER on first ₹500 cr AUM (equity scheme):",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "NISM V-A certification validity:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Trustees must include __ independent members:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Exit load goes to:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "CAS is sent:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Debt funds purchased post-April 2023 are taxed at:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "EUIN identifies:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Equity-oriented scheme requires minimum equity allocation of:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Switch from one MF scheme to another is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Fundamental attribute change requires:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "STT applies on:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Custodian role:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Liquid funds invest in instruments with maturity up to:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Index funds aim to:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "KYC is performed by:",
+      "topic": "OPS"
+    }
+  ],
+  "set_inv": [
+    {
+      "questionText": "Which of the following is NOT one of the four broad asset classes?",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Inflation risk primarily refers to:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "The relationship between bond prices and interest rates is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "A bond with longer maturity, compared to a shorter maturity bond, will:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "The bias where investors look for information that confirms their existing views is called:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Loss aversion was first identified by:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Strategic Asset Allocation (SAA) is best described as:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "The risk that cannot be diversified away through investing in unrelated securities is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "For rebalancing of mutual fund schemes (other than Index Funds and ETFs) following passive breaches, SEBI has mandated a rebalancing period of:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Risk profiling involves evaluating which three components?",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Real return is best described as:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Among the following, which asset class generally cannot generate any current income?",
+      "topic": "INV"
+    }
+  ],
+  "set_doc": [
+    {
+      "questionText": "The three mandatory scheme-related documents are:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Scheme Information Document (SID) primarily contains:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Key Information Memorandum (KIM) is:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "In the case of a fundamental attribute change, the AMC must:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Frequency of mandatory KIM updation:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Riskometer must be evaluated and disclosed by the AMC:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Riskometer of a scheme is published in the:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Specialized Investment Funds (SIFs) use which risk indicator (instead of Riskometer)?",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "SEBI's role with respect to scheme-related documents is to:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The \"Caveat Emptor\" principle in mutual fund investing means:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Among the six Riskometer levels, \"Moderately High\" risk is depicted using which colour?",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "An interim change to a scheme document, before the next regular update, is effected through:",
+      "topic": "DOC"
+    }
+  ],
+  "set_rsk": [
+    {
+      "questionText": "Standard deviation as a risk measure captures:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Beta of the market index, by definition, is:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "A scheme with Beta of 1.2 will move __ when the market moves by 10%.",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Beta as a risk measure is most relevant for:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Modified Duration measures:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "In annualizing the standard deviation calculated on weekly returns, you multiply by:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Which type of risk CAN be reduced through diversification across unrelated securities?",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Side-pocketing (segregated portfolio) in a mutual fund scheme is invoked when:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "According to SEBI, restriction on redemption (gating) may be imposed for a maximum of:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "When redemption restriction (gating) is imposed, redemptions up to ___ must be processed without restriction:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Reinvestment risk in a debt portfolio refers to:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "A scheme can hold a maximum of __ of its NAV in securities issued by a single issuer.",
+      "topic": "RSK"
+    }
+  ],
+  "set_prf": [
+    {
+      "questionText": "Since February 2018, SEBI has mandated mutual fund schemes to be benchmarked against:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "The Total Return Index (TRI) differs from Price Return Index (PRI) in that TRI:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Sharpe Ratio is calculated as:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Treynor Ratio differs from Sharpe Ratio in that the denominator uses:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Alpha measures:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Tracking error of an index fund is best described as:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Information Ratio is calculated as:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Among the following, which risk-adjusted return measure is mandatorily disclosed by AMCs daily?",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For a hybrid scheme with 65% equity and 35% debt, an appropriate benchmark is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For a Gilt Fund, the most appropriate benchmark would be:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "In core-and-satellite portfolio construction, the \"core\" portfolio typically holds:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "In ranking the equity scheme categories from HIGHER to LOWER risk, the correct order is:",
+      "topic": "PRF"
+    }
+  ],
+  "set_adv": [
+    {
+      "questionText": "A fund manager who builds a portfolio differing from the benchmark to outperform it is following a:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "The two primary strategies in active equity management are:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Fundamental analysis is most appropriate for:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Technical analysts (chartists) primarily study:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Earnings per Share (EPS) is calculated as:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Price to Earnings (P/E) Ratio is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A high P/E ratio relative to peers may indicate that:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Systematic risk is also referred to as:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Per finance theory, investors are rewarded for taking:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "A scheme is described as a \"pass-through vehicle\" because:",
+      "topic": "RSK"
+    }
+  ],
+  "set_kyc": [
+    {
+      "questionText": "KYC compliance is mandatory for:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "PAN is mandatory for mutual fund investments EXCEPT for:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "For Micro-SIPs (PAN-exempt), the investor is issued a:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "The benefit of the centralised KYC process via KRAs is that:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "CERSAI was authorised by the Government of India to function as the:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "In-Person Verification (IPV) of an investor must be done:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "The maximum period for an NFO of a non-ELSS open-ended scheme is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "After NFO closure, an open-ended scheme must reopen for ongoing sale and repurchase within:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A distributor must obtain which credential before distributing mutual funds?",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "The EUIN of the relationship manager is captured on the application form to:",
+      "topic": "OPS"
+    }
+  ],
+  "set_mock3": [
+    {
+      "questionText": "The body that has been authorised to act as Central KYC Records Registry (cKYCR) is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "For mutual fund investments up to which limit per investor per year per MF, PAN is not mandatory?",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Which of the following is NOT a valid alternative photo-ID for PAN-exempt investors?",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Maximum NFO period for an ELSS scheme:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A fund manager who follows a value investing style is most likely to look for:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Growth investing typically focuses on:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A focused equity scheme can hold a maximum of how many stocks?",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Multi-cap funds, as per SEBI categorisation, must invest a minimum of __% each in large-cap, mid-cap, and small-cap stocks.",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An Arbitrage Fund typically invests in:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "For tax purposes, an Arbitrage Fund is generally treated as:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "STT (Securities Transaction Tax) is applicable on:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Section 80C deduction for ELSS investment is available only under the:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For an investor in the highest tax bracket, the most tax-efficient form of mutual fund earning is generally:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Stamp duty on mutual fund unit issuance/transfer was introduced from:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "The rate of stamp duty applicable to mutual fund unit issuance is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "The Investment Management Agreement (IMA) is signed between:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A change in the sponsor of a mutual fund requires:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The SEBI Regulation governing mutual funds in India is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "For a debt scheme with an NAV in the range of ₹10–₹100, NAV is typically rounded to:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For an equity scheme, NAV is typically disclosed up to:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "The B-30 incentive (additional expense up to 0.30% of additional AUM) is permitted for inflows from:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For a Liquid Fund, NAV is calculated:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "The Information Ratio (IR) must be disclosed by AMCs:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A fund's portfolio turnover ratio of 200% indicates:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Across mutual fund schemes within the same category, all else equal, a LOWER expense ratio (TER) typically:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Riskometer evaluation is required to be done:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "A side-pocket (segregated portfolio) gets created when:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "In a segregated portfolio, the affected security is:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "For an investor with a 1-year horizon and capital safety priority, the most suitable scheme category is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A Fund of Funds (FoF) investing in equity-oriented schemes is taxed as per:",
+      "topic": "TAX"
+    }
+  ],
+  "set_mock2": [
+    {
+      "questionText": "Among the following biases, \"Herd Mentality\" leads investors to:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "A bond investor who expects interest rates to fall should:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "For a Specialized Investment Fund (SIF), the risk indicator is the:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The KIM must be accompanied by:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Which is the most accurate description of Variance as a risk measure?",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Weighted Average Maturity in a debt scheme indicates:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Higher Sharpe Ratio is generally:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For an investor needing periodic income, the most suitable mutual fund category would be:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For an equity-oriented mutual fund scheme, what is the cut-off time for redemption?",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For purchase in an equity scheme of any amount, the applicable NAV is the NAV of the day:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "AMC's minimum net worth requirement of ₹50 crore must be:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The Investment Management Agreement (IMA) is between:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Trail commission to a distributor:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor accepting investor cheques in their own bank account is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "EUIN is required for:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Equity-oriented schemes are taxed favourably only if they invest a minimum of __ in domestic equities.",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For LTCG on equity-oriented mutual funds, the exemption threshold is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For an investor in a higher tax bracket, dividends from mutual funds (IDCW) are:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "The maximum number of nominees that can be specified in a mutual fund folio is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Consolidated Account Statement (CAS) is sent to investors:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A Systematic Transfer Plan (STP) involves:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "The minimum investment for SIP in a mutual fund scheme can be as low as:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A scheme with mandate-allocated equity exposure between 65% and 80% (with debt 20-35%) is best categorized as:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Smart Beta funds aim to:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Index Funds are subject to:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "For a debt fund purchased BEFORE 1 April 2023 and held >36 months, the holder gets:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "The SEBI rebalancing window for non-Index, non-ETF schemes following passive breaches is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "In rebalancing strategically allocated portfolios, the action that automatically happens is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "A scheme's SID has been \"vetted\" by SEBI. This means:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Among Sharpe, Treynor, and Information Ratio — which is mandatorily disclosed by AMCs daily on their and AMFI websites?",
+      "topic": "PRF"
+    }
+  ],
+  "set_mock4": [
+    {
+      "questionText": "Which among the following investment avenues does NOT offer income on a regular basis?",
+      "topic": "INV"
+    },
+    {
+      "questionText": "The purchasing power of currency changes primarily on account of:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "When the interest rate in the economy increases, the price of existing bonds:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "The \"real rate of return\" is best described as the return:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "NAV indicates how much money can be generated per unit of mutual fund in case the scheme is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "In the sectoral and thematic funds category, an AMC can launch:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Whose role is it to track corporate actions like bonus, dividend, or rights issues in companies where the mutual fund scheme has invested?",
+      "topic": "STR"
+    },
+    {
+      "questionText": "AMFI is best described as:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "For valuation of debt securities for mutual fund NAV, the SEBI-approved valuation agencies are:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Investment of funds pooled from unitholders is the responsibility of:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Mutual funds can buy and sell securities only on a delivery basis. Is this true?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Regarding celebrity endorsements for mutual funds, SEBI has permitted:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "\"Please read the scheme related documents carefully\" — these documents refer to:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "SID and SAI are prepared in the format prescribed by:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "NAV of a scheme is disclosed on the website of:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Which of the following is NOT a statutory document?",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "As per fair valuation principles laid out by SEBI, it is mandatory to disclose the valuation policy in:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Investors bought 20 crore units of a scheme at ₹10 each (mobilizing ₹200 crore). ₹140 crore is in equities; ₹60 crore in bank deposits. Interest/dividend accrued: ₹8 crore. Scheme expenses payable: ₹4 crore. Calculate NAV per unit.",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Maximum Total Expense Ratio chargeable in case of Index Funds is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Mutual fund dividends (IDCW) can be paid only out of:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Income earned by a mutual fund scheme is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Redemption from which fund attracts STT (Securities Transaction Tax) for an investor?",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Whose KYC must be completed in case of an application by a minor?",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Investors have the right to specify up to ___ nominees for their mutual fund investment folios.",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Unsystematic risk can be reduced through diversification. True or False?",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "An investor invested at NAV ₹120 per unit and redeemed at ₹135. Calculate simple return.",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Which is a measure of fluctuation in periodic returns of an equity mutual fund scheme?",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Which of the following CANNOT be considered for selecting a scheme's benchmark?",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Which is the most appropriate measure for evaluating how closely an Index Fund tracks its benchmark?",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Among the following debt fund categories, which has the LOWEST credit risk?",
+      "topic": "PRF"
+    }
+  ],
+  "set_mock5": [
+    {
+      "questionText": "A scheme has total assets of ₹500 crore, total liabilities (including expenses payable) of ₹8 crore, and 25 crore units outstanding. NAV is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "An investor invests ₹1,000 per month via SIP for 3 months. Unit NAVs were ₹10, ₹12.50, and ₹8 respectively. Average NAV per unit acquired (Rupee Cost Average) is approximately:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Risk-free return is 6%, scheme return is 14%, scheme standard deviation is 16%. Sharpe Ratio is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Risk-free return 6%, scheme return 12%, Beta of scheme is 1.5. Treynor Ratio is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A debt fund has 60% in 5-year bonds and 40% in 1-year bonds. Weighted Average Maturity is:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "NAV grew from ₹100 to ₹146.41 over 4 years. Compounded Annual Growth Rate (CAGR) is approximately:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A scheme distributed dividend of ₹2 per unit. NAV before dividend was ₹15. Ex-dividend NAV is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "An equity scheme has weekly standard deviation of 1.2%. Annualized standard deviation (using sqrt(52)) is approximately:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "An investor buys at NAV ₹50, redeems at NAV ₹62 with 1% exit load. Effective redemption price is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For an equity scheme, AUM ₹1,500 crore. SEBI TER slab structure: 2.25% on first ₹500 cr, 2.00% on next ₹250 cr, 1.75% on next ₹1,250 cr (relevant range). Approximate weighted TER cap is closer to:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "An investor in 30% tax slab earns ₹10,000 IDCW. After-tax dividend is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "LTCG of ₹2,50,000 on equity-oriented scheme units. Tax payable (at 12.5% post Budget 2024, ₹1.25L exemption):",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "STCG of ₹50,000 on equity scheme. Tax payable (at 20% post Budget 2024):",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "A scheme has equity return of 12.5%, benchmark return of 11%, standard deviation of excess return = 3%. Information Ratio is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A scheme with Beta 0.8 — when market drops 10%, scheme is expected to drop:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "A focused equity fund holds 28 stocks. Maximum permitted under SEBI:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Investor invests ₹5 lakh in a debt fund. Exit load of 1% if redeemed within 1 year. Exits after 8 months at ₹5.4 lakh value. Redemption proceeds (before tax):",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For a 65:35 hybrid fund, monthly returns of 1.5% (equity) and 0.7% (debt). Blended monthly return is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Daily SD of returns is 0.8%. Annualized SD (using sqrt(252)) is approximately:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Initial investment ₹1,00,000 grows to ₹1,33,100 in 3 years. CAGR is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A liquid fund returns 6% annualized. Daily approximate compounded return per day:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "A scheme has portfolio turnover of 150%. Average holding period of securities is approximately:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For an investor in 30% tax slab, redeems ₹50,000 STCG from a debt fund (purchased post-April 2023). Tax payable:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "A scheme with weekly returns: +1%, +2%, −1%, +3%. Average weekly return is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Scheme NAV moved from ₹20 (start) to ₹25 (mid-year) to ₹22 (year-end). Return for full year is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "An investor has STCL of ₹30,000 from equity. Can be set off against:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "An equity-oriented FoF that invests in domestic equity-oriented schemes — for taxation, it is treated as:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Scheme expenses for the period: management fee ₹4 cr, marketing ₹1 cr, custody ₹0.5 cr, audit ₹0.2 cr, brokerage ₹0.8 cr. TER is computed on:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Trail commission on a SIP of ₹10,000/month at 0.5% p.a. trail, for an investor who has held for 1 year (approx avg AUM ₹65,000). Approx annual trail to distributor is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A close-ended scheme has 10 cr units outstanding, total NAV ₹15 per unit, but trades on the exchange at ₹13. The discount to NAV is:",
+      "topic": "SCH"
+    }
+  ],
+  "set_mock6": [
+    {
+      "questionText": "The primary role of a mutual fund distributor is to:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Among the following, which is NOT a category of mutual fund distributor?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor must complete which process before getting an ARN from AMFI?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "An ARN issued by AMFI is valid for:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "When a distributor offers ONLY execution services (not advice), the EUIN field in the form should be:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Trail commission to distributors is paid:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "AMFI Code of Conduct prohibits a distributor from:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor who has been suspended by AMFI for a regulatory violation:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Grievance redressal for mutual fund investors first goes to:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "SCORES is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "For online execution-only platforms (RIA-exempt distributors), they can offer:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Mutual fund advertisements must include the standard warning:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A new SEBI rule mandates that distributors and intermediaries display their registered name and registration number:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Due diligence by AMC on distributors includes verification of:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "For mis-selling, AMFI Code of Conduct expects distributors to:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Investors' complaints filed via SCORES are typically expected to be resolved within:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "AMFI Code of Conduct requires distributors to maintain confidentiality of:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "When a distributor changes (investor wishes to assign units to a new distributor), the procedure is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor receiving an upfront commission for retail investors is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "EUIN identifies which entity within the distribution chain?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor accepting a personal cheque from an investor in their own name (for investing later) is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor may receive commission for selling mutual funds, but they CANNOT charge investors:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A scheme that charges TER higher than the SEBI-prescribed slab is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Direct plans of mutual funds were introduced from:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Difference between Distributor and Investment Advisor (RIA):",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Deployment of funds collected during NFO must follow timelines mentioned in:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Allotment of units (or refund) for an NFO must be done within:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "For mutual fund schemes, an SID is initially valid for:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "AMFI Code of Ethics requires members to observe high standards of:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "AMFI requires distributors to keep records of investor transactions for at least:",
+      "topic": "REG"
+    }
+  ],
+  "set_mock7": [
+    {
+      "questionText": "As per SEBI regulations, a mutual fund scheme/plan must have a minimum of __ investors:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "No single investor in a mutual fund scheme can hold more than __ of the corpus of the scheme/plan:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "If the 20-investor minimum or the 25% concentration limit is breached, the AMC must:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A first-time mutual fund investor making an investment of ₹10,000 or above through a distributor — the transaction charge deducted and paid to the distributor is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "For an EXISTING mutual fund investor (already invested with any AMC) making a transaction of ₹10,000 or above through a distributor, the transaction charge is:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "No transaction charge is applicable on:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "NRIs (Non-Resident Indians) are eligible to invest in Indian mutual fund schemes:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Overseas Corporate Bodies (OCBs) are __ to invest in Indian mutual funds:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Foreign citizens (non-NRIs, non-FPIs) residing outside India are __ to invest in Indian mutual funds:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Hindu Undivided Families (HUFs) wishing to invest in mutual funds:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A minor investor in mutual funds — when the minor turns 18:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Power of Attorney (PoA) holders for mutual fund investments must:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A mutual fund scheme can lend up to __ of its net assets in stock lending, subject to specific conditions:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Empanelment of a distributor with an AMC — typically:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor whose ARN has expired can:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A Value fund (per SEBI scheme categorisation) must invest a minimum of __ in equity and equity-related instruments:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An AMC offering a Value fund:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Dividend yield fund must invest a minimum of __ in dividend-yielding stocks:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "The offer document (SID) of a mutual fund scheme must disclose investor grievance history of the AMC for the past:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Pending litigation or penalties levied on the sponsors or AMC must be disclosed in the:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "A \"Glossary of Defined Terms\" in the offer document is:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Due Diligence Certificate filed with SEBI by the AMC for an NFO confirms that:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Due Diligence Certificate must be signed by:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Mutual fund schemes can buy and sell securities only on:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Heads of expenses that can be charged to a mutual fund scheme are specified by:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Standard risk factors (in scheme documents) are:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Sponsor of a mutual fund is responsible or liable for losses to the scheme:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A scheme advertisement claiming guaranteed returns:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "AMFI is responsible for which of the following?",
+      "topic": "STR"
+    },
+    {
+      "questionText": "When an investor in a Pay-out option of IDCW elects to switch to Re-investment of IDCW:",
+      "topic": "OPS"
+    }
+  ],
+  "set_inv_adv": [
+    {
+      "questionText": "When an investor has high \"need to take risk\" but low \"willingness to take risk\", the distributor should:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Behavioural finance suggests for a long-term equity SIP investor, the optimal NAV-tracking frequency is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "An investor who only invests in their employer's sector (IT) due to comfort exhibits:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Stephen Covey's \"urgent vs important\" matrix applied to financial planning suggests:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "A \"Strategic Asset Allocation\" portfolio with 70% equity and 30% debt — typical rebalancing trigger is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Real rate of return when nominal return is 7% and inflation is 8% is approximately:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "₹10,000 today, with 8% annual inflation, what amount is needed in 30 years to maintain same purchasing power?",
+      "topic": "INV"
+    },
+    {
+      "questionText": "A bond with longer modified duration is more sensitive to:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "For very short-term needs (under 6 months), the most appropriate asset class is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "An investor with no current need from investment but a 25-year horizon for retirement should:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "When markets crash 30% and an investor sells everything to \"preserve what's left\", they're demonstrating:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "Diversification across asset classes (equity + debt + gold) reduces:",
+      "topic": "INV"
+    }
+  ],
+  "set_str_adv": [
+    {
+      "questionText": "The Trust Deed of a mutual fund is executed between:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The Investment Management Agreement (IMA) governs:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The minimum number of independent directors on the Board of Directors of an AMC is:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A Custodian must be __ from the Sponsor and AMC:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The Auditor of a mutual fund scheme is appointed by:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A Registrar and Transfer Agent (RTA) handles:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A change in controlling interest of the sponsor of a mutual fund requires:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The Compliance Officer of an AMC is responsible for:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "An AMC of a mutual fund:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "CRISIL and ICRA are SEBI-approved as:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A \"Trustee Company\" — its Board of Directors must have at least __ independent directors:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "The sponsor of a mutual fund must demonstrate:",
+      "topic": "STR"
+    }
+  ],
+  "set_sch_adv": [
+    {
+      "questionText": "A Liquid Fund invests in instruments with Macaulay duration up to:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An \"Ultra Short Duration Fund\" has portfolio Macaulay duration of:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A \"Low Duration Fund\" has portfolio Macaulay duration of:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A \"Short Duration Fund\" has portfolio Macaulay duration of:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A \"Conservative Hybrid Fund\" must invest __ in equity:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A \"Balanced Hybrid Fund\" must invest __ in equity:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An \"Aggressive Hybrid Fund\" must invest __ in equity:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A Multi Asset Allocation Fund must invest minimum __ in each of at least __ asset classes:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An Equity Savings Fund typically:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "An AMC offering a Multi-cap fund:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A Specialized Investment Fund (SIF) is:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A Fund of Funds (FoF) investing in equity-oriented MF schemes is currently taxed:",
+      "topic": "SCH"
+    }
+  ],
+  "set_reg_adv": [
+    {
+      "questionText": "SEBI's advertisement code prohibits mutual fund ads from:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Past performance disclosure rule: scheme returns must be shown for periods of:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "The \"Mutual Funds Sahi Hai\" campaign is an example of:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "AMFI Code of Ethics centres on:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A potential conflict of interest at AMC level — for example, if AMC employees personally trade in stocks held by schemes — is governed by:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "The SEBI Investor Charter for Mutual Funds covers:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor making personal social media posts about mutual fund schemes must:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "AMCs must disclose distributor commissions paid:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "The \"Fit and Proper\" criteria for empanelling distributors include:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A distributor who has been suspended by AMFI for code violations:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "For an AMC employee who is also an active investor in their own AMC's schemes:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "For a New Fund Offer (NFO) — celebrity endorsement is:",
+      "topic": "REG"
+    }
+  ],
+  "set_doc_adv": [
+    {
+      "questionText": "The Statement of Additional Information (SAI) updation cycle is:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Monthly portfolio disclosure for all mutual fund schemes must be done within:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "A \"fundamental attribute\" change in a scheme includes:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "A fund manager change in a scheme must be:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Factsheet of a mutual fund scheme is a:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "For an open-ended scheme, in case of fundamental attribute change, the public notice must be given in:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Half-yearly portfolio of all schemes must be disclosed by AMC:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "Each scheme NAV must be disclosed by:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The cover page of the SID must contain:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "An \"addendum\" to scheme documents is required when:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "A scheme's \"expenses\" disclosure in the SID must include:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The \"Performance\" section of a scheme's SID must show:",
+      "topic": "DOC"
+    }
+  ],
+  "set_nav_adv": [
+    {
+      "questionText": "For a segregated portfolio (side-pocket) created on a credit event, the NAV is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For an equity scheme with AUM of ₹3,000 crore, the SEBI TER slab structure applies:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "GST on the management fee is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Brokerage and Securities Transaction Tax (STT) on the scheme's portfolio transactions are:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For inflows from B-30 cities into open-ended equity-oriented schemes (excluding ETFs/Index Funds), the additional expense allowed is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "If the B-30 inflow investor redeems within 1 year, the B-30 incentive amount must be:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For a Liquid Fund, NAV must be calculated:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "The Maximum TER for an Index Fund / ETF (any AUM) is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For a Fund of Funds (FoF), the SEBI TER cap is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "NAV decimal places are:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For a scheme that has charged additional B-30 expense, the disclosure requirement is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Exit load credited to the scheme:",
+      "topic": "NAV"
+    }
+  ],
+  "set_tax_adv": [
+    {
+      "questionText": "For ELSS investments via SIP, the 3-year lock-in applies:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Section 80C deduction for ELSS investment is available:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Long-Term Capital Loss (LTCL) on equity-oriented MF can be set off against:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Short-Term Capital Loss (STCL) can be set off against:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For an NRI redeeming an equity-oriented scheme (held >12 months) above ₹1.25L exemption, TDS rate is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For an NRI redeeming an equity-oriented scheme (held ≤12 months), TDS rate is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Stamp duty on mutual fund unit issuance is levied at:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Stamp duty on transfer of mutual fund units (off-market) is levied at:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Bonus units allotted by a mutual fund have a cost of acquisition for tax purposes of:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Indexation benefit (currently) is available for:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "A switch from a regular plan to a direct plan within the same scheme is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For STT on equity-oriented MF redemption — STT is paid by:",
+      "topic": "TAX"
+    }
+  ],
+  "set_ops_adv": [
+    {
+      "questionText": "Time stamping of mutual fund transactions is done at:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A distributor accepting an application from an investor must forward it to the OPoA:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "NACH (National Automated Clearing House) is used in mutual funds for:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Standing Instruction (SI) for SIPs is set up via:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "In a Micro-SIP (annual investment ≤ ₹50,000), the investor uses:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "e-KYC via UIDAI (Aadhaar OTP-based) for mutual fund accounts is permitted with limits — the investment cap on accounts opened through OTP-based e-KYC is typically:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "CKYC (Central KYC Records Registry) and KRA-KYC are:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "MITRA (Mutual Fund Investment Tracing and Retrieval Assistant) is hosted by:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A \"dormant\" or inactive folio is one where:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Voluntary lock-in / debit freeze on a mutual fund folio (recently introduced by SEBI) is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "Transmission of units (in case of unitholder's demise) requires the nominee/legal heir to submit:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A nomination on a mutual fund folio:",
+      "topic": "OPS"
+    }
+  ],
+  "set_rsk_adv": [
+    {
+      "questionText": "The relationship between Macaulay Duration (MacD) and Modified Duration (ModD) is:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Convexity, as a bond risk measure:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "A scheme with high credit rating profile (e.g., 80% AAA, 20% AA) has:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "A scheme can hold a maximum of ___ of its NAV in securities issued by a SINGLE issuer (debt):",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "A scheme's exposure to a \"Group\" (related parties) of issuers is capped at:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Side-pocketing (segregated portfolio) — only investors holding units AT THE TIME OF the credit event:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Recoveries from a side-pocketed (segregated) instrument are:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Gating (restriction on redemption) — the first ___ of any redemption request must be processed without restriction:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Gating can be invoked for a maximum of:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "For a scheme to qualify as Conservative Hybrid (10-25% equity), the average exposure is computed:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Stress testing for liquid funds (SEBI mandate) requires:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "The Riskometer of a scheme can change based on portfolio composition. AMC must:",
+      "topic": "RSK"
+    }
+  ],
+  "set_prf_adv": [
+    {
+      "questionText": "Information Ratio (IR) is calculated using a benchmark — which benchmark must be used per SEBI?",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A \"Tier-1\" benchmark for a mutual fund scheme is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A \"Tier-2\" benchmark is typically:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For a Hybrid scheme with 65% equity / 35% debt, an appropriate Tier-1 benchmark is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Style drift — when a fund's holdings deviate over time from its stated investment style — is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "\"Survivorship bias\" in mutual fund performance data refers to:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "\"Active Share\" of a fund measures:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A \"Closet Index Fund\" is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For evaluating a debt fund's manager skill, the most relevant risk-adjusted measure is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Portfolio Turnover Ratio of a scheme indicates:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "When comparing two equity schemes, all else equal, a LOWER expense ratio (TER) typically:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "A scheme that consistently has HIGH Sharpe Ratio + HIGH Information Ratio + LOW tracking error (vs benchmark) is:",
+      "topic": "PRF"
+    }
+  ],
+  "set_mock8": [
+    {
+      "questionText": "A scheme triggers gating when redemption requests exceed liquidity. The first ₹2 lakhs of every request:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "For ELSS investments via SIP, lock-in is computed:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "The \"Active Share\" metric of an actively managed fund refers to:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Modified Duration is approximately related to Macaulay Duration as:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "For a non-resident Indian (NRI) selling equity-oriented MF units held >12 months — TDS rate (post Budget 2024) on amount above ₹1.25L:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "A scheme can hold up to ___ of its NAV in securities of a single issuer (debt):",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "B-30 incentive for retail investor inflows from beyond top-30 cities is up to ___ of the additional AUM:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "CKYC and KRA-KYC differ in that:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "MITRA (the unclaimed-mutual-fund-folio platform) is run by:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A new SEBI rule (March 2026) introduced a \"voluntary debit freeze\" facility — its purpose is to:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A close-ended scheme typically:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "For a Specialized Investment Fund (SIF), instead of the Riskometer, the risk indicator is:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "The Compliance Officer of an AMC signs:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "Bonus units in a mutual fund scheme have a cost of acquisition for tax of:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For a Real Estate Investment Trust (REIT) — it is regulated by:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "A switch from a regular plan to a direct plan within the same scheme is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Style Drift in a fund refers to:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "For an Equity Savings Fund — equity exposure (≥65%) is calculated INCLUDING:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "Past performance disclosure in scheme advertisements must show returns for:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "A \"fundamental attribute\" of a scheme that requires notice + 30-day exit window includes:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "GST on the management fee is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "For a scheme to qualify as Equity-Oriented for tax — minimum equity exposure (computed on quarterly average basis):",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "An International Equity Fund (investing in foreign equity) is taxed as:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "For a Conservative Hybrid Fund (10-25% equity) — the equity portion is taxed:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "A scheme's NAV declaration deadline (across the industry) is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Foreign citizens (non-NRI, non-FPI, non-QFI) — direct investment in Indian mutual funds is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "A \"Closet Index Fund\" is:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "The two SEBI-approved debt valuation agencies are:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "AMC must disclose top distributor commissions on:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Information Ratio (IR) is calculated as:",
+      "topic": "PRF"
+    }
+  ],
+  "set_mock9": [
+    {
+      "questionText": "For an investor with a 25-year horizon for retirement and high willingness to take risk, the most appropriate primary allocation is:",
+      "topic": "INV"
+    },
+    {
+      "questionText": "The role of a Mutual Fund Trustee is best described as:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A scheme with 80% equity and 20% debt is best categorised as:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "The ARN (AMFI Registration Number) of a distributor is valid for:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "The maximum number of nominees in a mutual fund folio is:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "For an equity-oriented scheme of any amount, applicable NAV is the NAV of:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "LTCG on equity-oriented schemes (held >12 months, post Budget 2024):",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "Modified Duration measures:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "Beta of the market index, by definition:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "TRI (Total Return Index) differs from PRI (Price Return Index) in that TRI:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "The Riskometer has how many risk levels?",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "An AMC must maintain minimum net worth of:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "A scheme must have a minimum of __ investors and no single investor can hold more than __ of the corpus:",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Information Ratio is mandatorily disclosed by AMCs on their website:",
+      "topic": "PRF"
+    },
+    {
+      "questionText": "Distributors registered with AMFI must complete which due diligence step before getting ARN?",
+      "topic": "REG"
+    },
+    {
+      "questionText": "Custodian's primary role is:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "For a Liquid Fund subscription, the cut-off time is:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "Macaulay duration of an Ultra Short Duration Fund is:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "When a debt instrument in a scheme's portfolio faces a credit event (downgrade/default), AMC may invoke:",
+      "topic": "RSK"
+    },
+    {
+      "questionText": "NRIs (Non-Resident Indians) wishing to invest in Indian MFs:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "For an equity scheme of AUM ₹2,500 crore, the SEBI TER cap weighted across slabs is approximately:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "The fundamental attribute change in a scheme requires:",
+      "topic": "DOC"
+    },
+    {
+      "questionText": "For a scheme to qualify as equity-oriented for taxation, equity allocation must be:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "In a Mutual Fund SIP — the benefit of Rupee Cost Averaging is that:",
+      "topic": "OPS"
+    },
+    {
+      "questionText": "STT (Securities Transaction Tax) on equity-oriented MF redemption is:",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "A \"Sector Fund\" investing in a single sector is:",
+      "topic": "SCH"
+    },
+    {
+      "questionText": "AMFI is:",
+      "topic": "STR"
+    },
+    {
+      "questionText": "When the cut-off time and fund realisation work in tandem, the applicable NAV depends on:",
+      "topic": "NAV"
+    },
+    {
+      "questionText": "A \"Fund of Funds\" investing primarily (≥90%) in domestic equity-oriented schemes is taxed (post Budget 2024):",
+      "topic": "TAX"
+    },
+    {
+      "questionText": "The \"Investor Charter\" mandated by SEBI for mutual funds:",
+      "topic": "REG"
+    }
+  ],
+  "set_full": []
+}

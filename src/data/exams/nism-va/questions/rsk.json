@@ -1,0 +1,504 @@
+[
+  {
+    "q": "Standard deviation as a risk measure captures:",
+    "o": [
+      "Risk relative to the market",
+      "Total risk (variation in periodic returns vs scheme's own average)",
+      "Credit risk only",
+      "Interest rate risk only"
+    ],
+    "a": 1,
+    "e": "Standard deviation measures total risk — fluctuation in periodic returns relative to the scheme's own average return. Higher SD = greater volatility.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Beta of the market index, by definition, is:",
+    "o": [
+      "0",
+      "0.5",
+      "1",
+      "Greater than 1"
+    ],
+    "a": 2,
+    "e": "The diversified market index has Beta = 1 by definition. Beta > 1 means the security/scheme is more volatile than the market; Beta < 1 means less volatile.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme with Beta of 1.2 will move __ when the market moves by 10%.",
+    "o": [
+      "8%",
+      "10%",
+      "12%",
+      "20%"
+    ],
+    "a": 2,
+    "e": "Beta of 1.2 means the scheme moves 12% (1.2 × 10%) for a 10% market movement, both up and down.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Beta as a risk measure is most relevant for:",
+    "o": [
+      "Liquid debt funds",
+      "Equity schemes",
+      "Gold ETFs",
+      "Overnight schemes"
+    ],
+    "a": 1,
+    "e": "Beta — based on CAPM and systematic risk — is most relevant for equity schemes. Less meaningful for debt or commodity schemes.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Modified Duration measures:",
+    "o": [
+      "Average time to maturity",
+      "Sensitivity of debt security value to interest rate changes",
+      "Credit risk of the issuer",
+      "Liquidity of the bond"
+    ],
+    "a": 1,
+    "e": "Modified Duration measures the price sensitivity of a debt security to changes in interest rates. Higher MD = greater interest-rate risk.",
+    "topic": "RSK"
+  },
+  {
+    "q": "In annualizing the standard deviation calculated on weekly returns, you multiply by:",
+    "o": [
+      "sqrt(12)",
+      "sqrt(52)",
+      "sqrt(252)",
+      "sqrt(365)"
+    ],
+    "a": 1,
+    "e": "Weekly SD × sqrt(52) annualizes it. Monthly returns × sqrt(12); Daily returns × sqrt(252) (trading days).",
+    "topic": "RSK"
+  },
+  {
+    "q": "Which type of risk CAN be reduced through diversification across unrelated securities?",
+    "o": [
+      "Market-wide systematic risk",
+      "Inflation risk",
+      "Company-specific (unsystematic) risk",
+      "Currency risk on foreign assets"
+    ],
+    "a": 2,
+    "e": "Specific (unsystematic) risk can be reduced via diversification. Systematic / market-wide risk cannot.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Side-pocketing (segregated portfolio) in a mutual fund scheme is invoked when:",
+    "o": [
+      "Markets are bullish",
+      "A debt instrument in the portfolio faces a credit event (default/rating downgrade)",
+      "NAV crosses a threshold",
+      "Investor base grows beyond a level"
+    ],
+    "a": 1,
+    "e": "Segregated portfolio (side-pocketing) is created on a credit event in a debt instrument — to ring-fence the affected security from the main portfolio.",
+    "topic": "RSK"
+  },
+  {
+    "q": "According to SEBI, restriction on redemption (gating) may be imposed for a maximum of:",
+    "o": [
+      "5 working days in any 90-day period",
+      "10 working days in any 90-day period",
+      "30 working days in a year",
+      "Indefinitely"
+    ],
+    "a": 1,
+    "e": "Gating may be imposed only for a maximum of 10 working days in any 90-day period, with Board of AMC + Trustees approval, and SEBI must be informed.",
+    "topic": "RSK"
+  },
+  {
+    "q": "When redemption restriction (gating) is imposed, redemptions up to ___ must be processed without restriction:",
+    "o": [
+      "₹50,000",
+      "₹1 lakh",
+      "₹2 lakhs",
+      "₹5 lakhs"
+    ],
+    "a": 2,
+    "e": "Up to ₹2 lakhs must be redeemed without restriction. Amounts above ₹2 lakhs are subject to the gating; the first ₹2 lakh of each request is processed normally.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Reinvestment risk in a debt portfolio refers to:",
+    "o": [
+      "Risk that the issuer will default",
+      "Risk that interim cash flows are reinvested at lower rates than originally assumed",
+      "Risk of currency depreciation",
+      "Risk that the AMC will close the scheme"
+    ],
+    "a": 1,
+    "e": "Reinvestment risk is the risk that interim cash flows (coupons, partial redemptions) are reinvested at rates lower than originally assumed.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme can hold a maximum of __ of its NAV in securities issued by a single issuer.",
+    "o": [
+      "5%",
+      "10%",
+      "15%",
+      "25%"
+    ],
+    "a": 1,
+    "e": "SEBI regulations cap exposure to a single issuer at 10% of NAV (with limited extensions for select instruments under board approvals).",
+    "topic": "RSK"
+  },
+  {
+    "q": "Systematic risk is also referred to as:",
+    "o": [
+      "Diversifiable risk",
+      "Specific risk",
+      "Market risk / Non-diversifiable risk",
+      "Liquidity risk"
+    ],
+    "a": 2,
+    "e": "Systematic risk = market risk = non-diversifiable risk. Affects all securities; cannot be eliminated through diversification.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Per finance theory, investors are rewarded for taking:",
+    "o": [
+      "Both systematic and unsystematic risk",
+      "Only unsystematic (diversifiable) risk",
+      "Only systematic (non-diversifiable) risk",
+      "Only liquidity risk"
+    ],
+    "a": 2,
+    "e": "Investors are compensated only for non-diversifiable (systematic) risk. Diversifiable risk can be eliminated for free via diversification, so the market doesn't reward taking it.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme is described as a \"pass-through vehicle\" because:",
+    "o": [
+      "The AMC retains the gains",
+      "All investment risks are passed onto unitholders, who are the beneficial owners",
+      "The trustee absorbs losses",
+      "SEBI guarantees the principal"
+    ],
+    "a": 1,
+    "e": "In a mutual fund, all gains and risks pass through to unitholders, who are the beneficial owners of the trust. Unlike an FD, the AMC does not promise a fixed return.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A side-pocket (segregated portfolio) gets created when:",
+    "o": [
+      "NAV crosses a high",
+      "A debt instrument in the portfolio faces a credit event (downgrade/default)",
+      "Investor base grows above a threshold",
+      "Markets are bullish"
+    ],
+    "a": 1,
+    "e": "On a credit event in a debt instrument (rating downgrade below investment grade or default), the AMC can create a segregated portfolio to ring-fence the affected security.",
+    "topic": "RSK"
+  },
+  {
+    "q": "In a segregated portfolio, the affected security is:",
+    "o": [
+      "Sold immediately at any price",
+      "Carved out into a separate portfolio; only existing unitholders at cut-off get units; no fresh inflows allowed",
+      "Returned to the issuer",
+      "Transferred to SEBI"
+    ],
+    "a": 1,
+    "e": "On segregation, only unitholders existing at the credit-event date receive units in the segregated portfolio. Recoveries (when realised) are distributed pro-rata.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Which is the most accurate description of Variance as a risk measure?",
+    "o": [
+      "Square root of Standard Deviation",
+      "Square of Standard Deviation",
+      "Same as Beta",
+      "Same as Modified Duration"
+    ],
+    "a": 1,
+    "e": "Variance = SD². Equivalently, SD = sqrt(Variance). Both measure dispersion of returns from the mean.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Weighted Average Maturity in a debt scheme indicates:",
+    "o": [
+      "Credit quality",
+      "Interest rate sensitivity at portfolio level",
+      "Liquidity",
+      "Tax efficiency"
+    ],
+    "a": 1,
+    "e": "WAM at portfolio level indicates interest rate sensitivity. Higher WAM = higher sensitivity to interest rate changes (similar to Modified Duration).",
+    "topic": "RSK"
+  },
+  {
+    "q": "Unsystematic risk can be reduced through diversification. True or False?",
+    "o": [
+      "True",
+      "False"
+    ],
+    "a": 0,
+    "e": "TRUE. Unsystematic (company-specific) risk is diversifiable. Systematic (market-wide) risk cannot be reduced through diversification.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Which is a measure of fluctuation in periodic returns of an equity mutual fund scheme?",
+    "o": [
+      "Variance",
+      "Sharpe ratio",
+      "Modified duration",
+      "Jensen's Alpha"
+    ],
+    "a": 0,
+    "e": "Variance (and its square root, Standard Deviation) measures the fluctuation in periodic returns. Sharpe and Alpha are risk-ADJUSTED return measures. Modified Duration applies to debt.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A debt fund has 60% in 5-year bonds and 40% in 1-year bonds. Weighted Average Maturity is:",
+    "o": [
+      "2.4 years",
+      "3.0 years",
+      "3.4 years",
+      "4.0 years"
+    ],
+    "a": 2,
+    "e": "WAM = (0.6 × 5) + (0.4 × 1) = 3.0 + 0.4 = 3.4 years.",
+    "topic": "RSK"
+  },
+  {
+    "q": "An equity scheme has weekly standard deviation of 1.2%. Annualized standard deviation (using sqrt(52)) is approximately:",
+    "o": [
+      "4.3%",
+      "7.2%",
+      "8.7%",
+      "62.4%"
+    ],
+    "a": 2,
+    "e": "Annualized SD = 1.2% × sqrt(52) = 1.2% × 7.21 ≈ 8.65% (~8.7%).",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme with Beta 0.8 — when market drops 10%, scheme is expected to drop:",
+    "o": [
+      "8%",
+      "10%",
+      "12.5%",
+      "12%"
+    ],
+    "a": 0,
+    "e": "Scheme move = Beta × Market move = 0.8 × −10% = −8%. Lower Beta means lower volatility relative to market.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Daily SD of returns is 0.8%. Annualized SD (using sqrt(252)) is approximately:",
+    "o": [
+      "10.1%",
+      "12.7%",
+      "15.9%",
+      "201.6%"
+    ],
+    "a": 1,
+    "e": "Annualized SD = 0.8% × sqrt(252) = 0.8% × 15.87 ≈ 12.70%.",
+    "topic": "RSK"
+  },
+  {
+    "q": "The relationship between Macaulay Duration (MacD) and Modified Duration (ModD) is:",
+    "o": [
+      "Always equal",
+      "ModD = MacD / (1 + YTM/n) — ModD slightly less than MacD",
+      "MacD = ModD × 2",
+      "No relationship"
+    ],
+    "a": 1,
+    "e": "ModD = MacD / (1 + YTM/n) where n is compounding frequency. ModD is always slightly less than MacD. ModD measures price sensitivity directly; MacD measures weighted average time to receive cash flows.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Convexity, as a bond risk measure:",
+    "o": [
+      "Substitutes for duration",
+      "Measures the curvature of price-yield relationship — refines duration's linear approximation for large rate changes",
+      "Same as Beta",
+      "Only applies to equity"
+    ],
+    "a": 1,
+    "e": "Convexity captures the second-order (curvature) relationship between bond prices and yields. Duration alone is a linear approximation; convexity refines it for large rate moves.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme with high credit rating profile (e.g., 80% AAA, 20% AA) has:",
+    "o": [
+      "Higher credit risk",
+      "Lower credit risk (high-grade portfolio)",
+      "Higher interest rate risk",
+      "Lower NAV"
+    ],
+    "a": 1,
+    "e": "AAA is the highest credit rating; AA is also investment grade. Higher allocation to AAA = lower credit risk. Doesn't affect interest rate risk directly.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme can hold a maximum of ___ of its NAV in securities issued by a SINGLE issuer (debt):",
+    "o": [
+      "5%",
+      "10% (with extensions to 12% under specific conditions)",
+      "15%",
+      "25%"
+    ],
+    "a": 1,
+    "e": "SEBI single-issuer cap: 10% in debt securities of a single issuer (extendable to 12% with specific board approvals). Reduces concentration risk.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme's exposure to a \"Group\" (related parties) of issuers is capped at:",
+    "o": [
+      "10% of NAV",
+      "25% of NAV (with conditions)",
+      "40%",
+      "No cap"
+    ],
+    "a": 1,
+    "e": "Group exposure cap: typically 25% of NAV for debt securities issued by entities within the same business group. Prevents concentration in a single group's credit.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Side-pocketing (segregated portfolio) — only investors holding units AT THE TIME OF the credit event:",
+    "o": [
+      "Get nothing",
+      "Receive units in the segregated portfolio; future buyers do NOT get exposure to the affected security",
+      "Get cash",
+      "Get refunded"
+    ],
+    "a": 1,
+    "e": "Only existing unitholders at the credit-event cut-off date receive units in the segregated portfolio. New investors entering after that date are not exposed to the legacy bad asset.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Recoveries from a side-pocketed (segregated) instrument are:",
+    "o": [
+      "Distributed pro-rata to unitholders of the segregated portfolio",
+      "Retained by AMC",
+      "Paid to SEBI",
+      "Reinvested"
+    ],
+    "a": 0,
+    "e": "Any recovery from the segregated security (when it pays back, partially or fully) is distributed pro-rata to the unitholders of the segregated portfolio.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Gating (restriction on redemption) — the first ___ of any redemption request must be processed without restriction:",
+    "o": [
+      "₹50,000",
+      "₹1 lakh",
+      "₹2 lakhs",
+      "₹5 lakhs"
+    ],
+    "a": 2,
+    "e": "Per SEBI: first ₹2 lakhs of any redemption request is processed without gating. Amounts above ₹2 lakhs are subject to the restriction.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Gating can be invoked for a maximum of:",
+    "o": [
+      "5 working days in any 90-day period",
+      "10 working days in any 90-day period",
+      "30 working days in a year",
+      "Indefinitely"
+    ],
+    "a": 1,
+    "e": "Gating: max 10 working days in any 90-day period. Requires Board of AMC + Trustees approval. SEBI must be informed immediately. Used only for systemic crises.",
+    "topic": "RSK"
+  },
+  {
+    "q": "For a scheme to qualify as Conservative Hybrid (10-25% equity), the average exposure is computed:",
+    "o": [
+      "On NAV daily",
+      "On a quarterly average basis",
+      "Annual",
+      "At the AMC's discretion"
+    ],
+    "a": 1,
+    "e": "Equity exposure for hybrid categorisation is typically measured on a quarterly average basis to avoid daily breach issues from market volatility.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Stress testing for liquid funds (SEBI mandate) requires:",
+    "o": [
+      "No specific testing",
+      "Periodic simulation of large redemption scenarios + portfolio liquidity assessment",
+      "Only year-end testing",
+      "Optional"
+    ],
+    "a": 1,
+    "e": "SEBI mandates AMCs to conduct stress tests on liquid funds — simulating large redemption pressure and assessing portfolio liquidity. Results disclosed periodically.",
+    "topic": "RSK"
+  },
+  {
+    "q": "The Riskometer of a scheme can change based on portfolio composition. AMC must:",
+    "o": [
+      "Disclose only at year-end",
+      "Re-evaluate monthly + communicate any change to unitholders via notice-cum-addendum + SMS/email",
+      "Wait until SEBI asks",
+      "No need to inform unitholders"
+    ],
+    "a": 1,
+    "e": "Riskometer must be re-evaluated monthly. Any change must be communicated via notice-cum-addendum AND SMS/email to unitholders. Transparency is mandatory.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme triggers gating when redemption requests exceed liquidity. The first ₹2 lakhs of every request:",
+    "o": [
+      "Subject to gating",
+      "Must be processed without restriction",
+      "Frozen for 30 days",
+      "Carried over"
+    ],
+    "a": 1,
+    "e": "SEBI rule: first ₹2 lakhs of any redemption request must be processed without restriction during gating. Only excess above ₹2 lakhs is subject to gating.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Modified Duration is approximately related to Macaulay Duration as:",
+    "o": [
+      "ModD = MacD × 2",
+      "ModD = MacD / (1 + YTM/n)",
+      "ModD = MacD + 1",
+      "Unrelated"
+    ],
+    "a": 1,
+    "e": "ModD = MacD ÷ (1 + YTM/n). ModD is slightly less than MacD and gives direct price-sensitivity to rate changes.",
+    "topic": "RSK"
+  },
+  {
+    "q": "A scheme can hold up to ___ of its NAV in securities of a single issuer (debt):",
+    "o": [
+      "5%",
+      "10% (extendable to 12% with conditions)",
+      "20%",
+      "25%"
+    ],
+    "a": 1,
+    "e": "SEBI single-issuer cap: 10% of NAV in debt of a single issuer, extendable to 12% with specific approvals.",
+    "topic": "RSK"
+  },
+  {
+    "q": "Beta of the market index, by definition:",
+    "o": [
+      "0",
+      "0.5",
+      "1",
+      "Variable"
+    ],
+    "a": 2,
+    "e": "Market index Beta = 1 by definition. Schemes/securities are measured relative to the market.",
+    "topic": "RSK"
+  },
+  {
+    "q": "When a debt instrument in a scheme's portfolio faces a credit event (downgrade/default), AMC may invoke:",
+    "o": [
+      "Gating only",
+      "Side-pocketing (segregated portfolio) — affected security carved out",
+      "Liquidation",
+      "Increased TER"
+    ],
+    "a": 1,
+    "e": "On a credit event, AMC may create a segregated portfolio for the affected security. Existing unitholders get units in both main and segregated portfolios.",
+    "topic": "RSK"
+  }
+]

@@ -1,0 +1,660 @@
+[
+  {
+    "q": "The cut-off time for an equity fund subscription with applicable NAV of the same day is:",
+    "o": [
+      "12:00 PM",
+      "1:30 PM",
+      "3:00 PM",
+      "4:00 PM"
+    ],
+    "a": 2,
+    "e": "For equity-oriented schemes, the cut-off time is 3:00 PM. Applications received before 3 PM with funds available get same-day NAV.",
+    "topic": "NAV"
+  },
+  {
+    "q": "The cut-off time for liquid fund subscriptions is:",
+    "o": [
+      "12:00 PM",
+      "1:30 PM",
+      "3:00 PM",
+      "4:00 PM"
+    ],
+    "a": 1,
+    "e": "Liquid fund subscription cut-off is 1:30 PM. This is to align with banking hours and same-day deployment.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For applicable NAV in liquid funds, in addition to the cut-off, what other condition must be met?",
+    "o": [
+      "Investor must be KYC compliant",
+      "Funds must be realized in scheme account before cut-off",
+      "Distributor must be empanelled",
+      "Application must be submitted online"
+    ],
+    "a": 1,
+    "e": "Funds must be CREDITED to the scheme account before cut-off — not just application receipt. This applies to all subscriptions (post-2020 SEBI rule).",
+    "topic": "NAV"
+  },
+  {
+    "q": "For equity schemes, the maximum Total Expense Ratio (TER) on the first ₹500 crore of AUM is:",
+    "o": [
+      "1.50%",
+      "1.75%",
+      "2.00%",
+      "2.25%"
+    ],
+    "a": 3,
+    "e": "For equity schemes, TER on the first ₹500 cr is 2.25%. Subsequent slabs reduce gradually with higher AUM.",
+    "topic": "NAV"
+  },
+  {
+    "q": "TER for direct plans is __ regular plans.",
+    "o": [
+      "Higher than",
+      "Same as",
+      "Lower than",
+      "Twice"
+    ],
+    "a": 2,
+    "e": "Direct plans have lower TER because they exclude distributor commission, leading to higher returns over time.",
+    "topic": "NAV"
+  },
+  {
+    "q": "NAV of a mutual fund scheme is calculated as:",
+    "o": [
+      "Total assets / number of units",
+      "(Total assets − Total liabilities) / number of units",
+      "Total income / number of units",
+      "Market price of best holding"
+    ],
+    "a": 1,
+    "e": "NAV = (Net Assets) / Outstanding Units, where Net Assets = Total assets − Total liabilities (including expenses payable).",
+    "topic": "NAV"
+  },
+  {
+    "q": "NAV must be published by the AMC:",
+    "o": [
+      "Weekly",
+      "On every business day",
+      "Monthly",
+      "When the fund manager decides"
+    ],
+    "a": 1,
+    "e": "AMCs must declare NAV every business day on AMFI website by 11 PM (and on their own website).",
+    "topic": "NAV"
+  },
+  {
+    "q": "Exit load collected by a mutual fund is:",
+    "o": [
+      "Retained by the AMC as fee income",
+      "Credited back to the scheme",
+      "Paid to SEBI",
+      "Paid to the distributor"
+    ],
+    "a": 1,
+    "e": "Exit load is credited to the scheme — it benefits remaining unitholders, not the AMC.",
+    "topic": "NAV"
+  },
+  {
+    "q": "TER includes which of the following?",
+    "o": [
+      "Brokerage and STT only",
+      "Management fees, marketing, custodian, RTA, audit fees",
+      "Only fund manager salary",
+      "Distribution commission only"
+    ],
+    "a": 1,
+    "e": "TER covers all recurring scheme expenses — management fees, custodian, RTA, marketing, audit, trustee fees, etc. Brokerage/STT are excluded from TER limit.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Mutual funds are allowed to charge differential exit loads based on the amount of investment.",
+    "o": [
+      "True",
+      "False"
+    ],
+    "a": 1,
+    "e": "Differential exit loads based on investment amount are NOT allowed. Exit load must be uniform across all unitholders within a scheme on a given date.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For an equity scheme with AUM of ₹2,000 crore, the additional expense allowed for inflows from B-30 cities is:",
+    "o": [
+      "Up to 0.30% of additional AUM",
+      "Flat 1%",
+      "Flat 2%",
+      "Not allowed"
+    ],
+    "a": 0,
+    "e": "AMCs can charge an additional expense of up to 0.30 bps for B-30 city inflows, subject to certain conditions on retail investor share.",
+    "topic": "NAV"
+  },
+  {
+    "q": "NAV is applied based on:",
+    "o": [
+      "Time of application receipt only",
+      "Time of fund realization in scheme account",
+      "Whichever is later: application time or fund realization",
+      "Investor preference"
+    ],
+    "a": 2,
+    "e": "Both conditions must be met before cut-off — application AND fund realization. Whichever happens later determines NAV applicability.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Direct plan TER is __ regular plan:",
+    "o": [
+      "Higher than",
+      "Same as",
+      "Lower than",
+      "Twice"
+    ],
+    "a": 2,
+    "e": "Lower — no distributor commission.",
+    "topic": "NAV"
+  },
+  {
+    "q": "TER on first ₹500 cr AUM (equity scheme):",
+    "o": [
+      "1.50%",
+      "1.75%",
+      "2.00%",
+      "2.25%"
+    ],
+    "a": 3,
+    "e": "2.25%.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Exit load goes to:",
+    "o": [
+      "AMC",
+      "Scheme",
+      "SEBI",
+      "Distributor"
+    ],
+    "a": 1,
+    "e": "Credited to the scheme.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For a debt scheme with an NAV in the range of ₹10–₹100, NAV is typically rounded to:",
+    "o": [
+      "1 decimal place",
+      "2 decimal places",
+      "4 decimal places",
+      "No rounding required"
+    ],
+    "a": 2,
+    "e": "For debt schemes (and money market / liquid schemes), NAVs are computed and disclosed up to 4 decimal places to capture small daily accruals accurately.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For an equity scheme, NAV is typically disclosed up to:",
+    "o": [
+      "1 decimal place",
+      "2 decimal places",
+      "4 decimal places",
+      "Up to AMC discretion"
+    ],
+    "a": 1,
+    "e": "Equity scheme NAVs are typically disclosed up to 2 decimal places (sometimes 4). Debt schemes go to 4 decimals due to smaller daily accruals.",
+    "topic": "NAV"
+  },
+  {
+    "q": "The B-30 incentive (additional expense up to 0.30% of additional AUM) is permitted for inflows from:",
+    "o": [
+      "Top 30 cities",
+      "Beyond top 30 cities (B-30 cities)",
+      "Foreign investors",
+      "HNI investors only"
+    ],
+    "a": 1,
+    "e": "B-30 = Beyond Top 30 cities. AMCs can charge up to 0.30 bps additional expense for inflows from B-30 cities to incentivise distribution outside metros.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For a Liquid Fund, NAV is calculated:",
+    "o": [
+      "Only on business days",
+      "For each calendar day (including weekends and holidays)",
+      "Once a week",
+      "Monthly"
+    ],
+    "a": 1,
+    "e": "Liquid fund NAVs are computed for EACH CALENDAR DAY (including weekends and holidays) — since they hold money market instruments that accrue interest daily.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For an equity-oriented mutual fund scheme, what is the cut-off time for redemption?",
+    "o": [
+      "1:30 PM",
+      "2:30 PM",
+      "3:00 PM",
+      "5:00 PM"
+    ],
+    "a": 2,
+    "e": "Redemption cut-off for equity and debt (other than liquid) is 3:00 PM. Same-day NAV if before, next business day NAV if after.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For purchase in an equity scheme of any amount, the applicable NAV is the NAV of the day:",
+    "o": [
+      "Of application receipt",
+      "When funds are realized and available for utilisation before cut-off",
+      "Decided by the AMC",
+      "At investor's choice"
+    ],
+    "a": 1,
+    "e": "Post Feb 2021, applicable NAV is when funds are credited to the scheme account before cut-off, regardless of size of investment.",
+    "topic": "NAV"
+  },
+  {
+    "q": "NAV indicates how much money can be generated per unit of mutual fund in case the scheme is:",
+    "o": [
+      "Launched",
+      "Liquidated",
+      "Renamed",
+      "Merged"
+    ],
+    "a": 1,
+    "e": "NAV represents the per-unit value of the scheme — i.e., what each unitholder would theoretically receive if all securities were liquidated and liabilities settled.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For valuation of debt securities for mutual fund NAV, the SEBI-approved valuation agencies are:",
+    "o": [
+      "AMFI",
+      "NSE & BSE",
+      "CRISIL and ICRA",
+      "SEBI directly"
+    ],
+    "a": 2,
+    "e": "CRISIL and ICRA are the SEBI-approved valuation agencies for debt securities used in mutual fund schemes.",
+    "topic": "NAV"
+  },
+  {
+    "q": "NAV of a scheme is disclosed on the website of:",
+    "o": [
+      "RBI",
+      "AMC and AMFI",
+      "Stock exchange only",
+      "Trustees"
+    ],
+    "a": 1,
+    "e": "NAV is disclosed daily by 11 PM on the AMC website AND on AMFI website.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Investors bought 20 crore units of a scheme at ₹10 each (mobilizing ₹200 crore). ₹140 crore is in equities; ₹60 crore in bank deposits. Interest/dividend accrued: ₹8 crore. Scheme expenses payable: ₹4 crore. Calculate NAV per unit.",
+    "o": [
+      "₹20.40",
+      "₹10.20",
+      "₹20.00",
+      "₹10.00"
+    ],
+    "a": 1,
+    "e": "Net Assets = 140 + 60 + 8 - 4 = ₹204 cr. NAV = ₹204 cr ÷ 20 cr units = ₹10.20.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Maximum Total Expense Ratio chargeable in case of Index Funds is:",
+    "o": [
+      "2.25% of daily net assets",
+      "1.5% of daily net assets",
+      "1% of daily net assets",
+      "Depends on AMC discretion"
+    ],
+    "a": 2,
+    "e": "Index funds and ETFs are capped at 1% TER under SEBI regulations — given their passive nature and lower management cost.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Mutual fund dividends (IDCW) can be paid only out of:",
+    "o": [
+      "Premium reserve account",
+      "Unit capital",
+      "Distributable surplus generated by the scheme",
+      "Mark-to-market unrealised profits"
+    ],
+    "a": 2,
+    "e": "Dividends/IDCW can be paid only out of distributable surplus — i.e., realised gains and accumulated income, NOT from unit capital or unrealised gains.",
+    "topic": "NAV"
+  },
+  {
+    "q": "A scheme has total assets of ₹500 crore, total liabilities (including expenses payable) of ₹8 crore, and 25 crore units outstanding. NAV is:",
+    "o": [
+      "₹19.68",
+      "₹19.36",
+      "₹20.00",
+      "₹20.32"
+    ],
+    "a": 0,
+    "e": "NAV = (500 - 8) / 25 = ₹492 / 25 = ₹19.68.",
+    "topic": "NAV"
+  },
+  {
+    "q": "An investor invests ₹1,000 per month via SIP for 3 months. Unit NAVs were ₹10, ₹12.50, and ₹8 respectively. Average NAV per unit acquired (Rupee Cost Average) is approximately:",
+    "o": [
+      "₹9.80",
+      "₹10.00",
+      "₹10.17",
+      "₹10.50"
+    ],
+    "a": 0,
+    "e": "Units: 100, 80, 125 → total 305 units for ₹3,000 → Avg cost = 3000/305 ≈ ₹9.84 (~₹9.80). Lower than the simple average of NAVs (₹10.17) — illustrating Rupee Cost Averaging benefit.",
+    "topic": "NAV"
+  },
+  {
+    "q": "A scheme distributed dividend of ₹2 per unit. NAV before dividend was ₹15. Ex-dividend NAV is:",
+    "o": [
+      "₹13",
+      "₹15",
+      "₹17",
+      "₹2"
+    ],
+    "a": 0,
+    "e": "Ex-dividend NAV = NAV − dividend = 15 − 2 = ₹13. NAV drops by the dividend amount on the ex-dividend date.",
+    "topic": "NAV"
+  },
+  {
+    "q": "An investor buys at NAV ₹50, redeems at NAV ₹62 with 1% exit load. Effective redemption price is:",
+    "o": [
+      "₹61",
+      "₹61.38",
+      "₹62.00",
+      "₹62.62"
+    ],
+    "a": 1,
+    "e": "Exit load 1% on ₹62 = ₹0.62 deducted. Investor receives ₹62 − ₹0.62 = ₹61.38.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For an equity scheme, AUM ₹1,500 crore. SEBI TER slab structure: 2.25% on first ₹500 cr, 2.00% on next ₹250 cr, 1.75% on next ₹1,250 cr (relevant range). Approximate weighted TER cap is closer to:",
+    "o": [
+      "1.75%",
+      "1.95%",
+      "2.10%",
+      "2.25%"
+    ],
+    "a": 1,
+    "e": "Weighted TER ≈ (500×2.25 + 250×2.00 + 750×1.75) / 1500 = (1125 + 500 + 1312.5)/1500 = ~1.96%.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Investor invests ₹5 lakh in a debt fund. Exit load of 1% if redeemed within 1 year. Exits after 8 months at ₹5.4 lakh value. Redemption proceeds (before tax):",
+    "o": [
+      "₹5,34,600",
+      "₹5,40,000",
+      "₹5,45,400",
+      "₹5,49,000"
+    ],
+    "a": 0,
+    "e": "Exit load = 1% × ₹5,40,000 = ₹5,400. Net proceeds = ₹5,40,000 − ₹5,400 = ₹5,34,600.",
+    "topic": "NAV"
+  },
+  {
+    "q": "A liquid fund returns 6% annualized. Daily approximate compounded return per day:",
+    "o": [
+      "0.0164%",
+      "0.025%",
+      "0.05%",
+      "0.500%"
+    ],
+    "a": 0,
+    "e": "Approx. (1.06)^(1/365) − 1 ≈ 0.000164 = 0.0164% per day. Liquid funds accrue daily — small but consistent.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Scheme expenses for the period: management fee ₹4 cr, marketing ₹1 cr, custody ₹0.5 cr, audit ₹0.2 cr, brokerage ₹0.8 cr. TER is computed on:",
+    "o": [
+      "All ₹6.5 cr",
+      "₹5.7 cr (excluding brokerage)",
+      "Only ₹4 cr (management fee)",
+      "₹4.5 cr"
+    ],
+    "a": 1,
+    "e": "TER excludes brokerage and STT. Recurring expenses (management, marketing, custody, RTA, audit) total ₹5.7 cr counted in TER.",
+    "topic": "NAV"
+  },
+  {
+    "q": "A scheme that charges TER higher than the SEBI-prescribed slab is:",
+    "o": [
+      "Permitted with trustee approval",
+      "Strictly violation of SEBI regulations",
+      "Allowed during NFO only",
+      "Permitted for ELSS schemes"
+    ],
+    "a": 1,
+    "e": "TER must always remain within SEBI-prescribed slabs. Exceeding is a regulatory violation. The slabs depend on AUM and scheme type.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Heads of expenses that can be charged to a mutual fund scheme are specified by:",
+    "o": [
+      "Each AMC at its discretion",
+      "SEBI (specific heads listed in regulations)",
+      "AMFI guidelines only",
+      "The trustees"
+    ],
+    "a": 1,
+    "e": "SEBI specifies the heads of expenses that can be charged to a scheme (management fees, custodian, RTA, audit, marketing, legal, etc.). AMC cannot charge other heads.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For a segregated portfolio (side-pocket) created on a credit event, the NAV is:",
+    "o": [
+      "Same as the main portfolio",
+      "Computed separately, with the affected security carved out at carrying value or fair value",
+      "Always zero",
+      "Decided by AMC"
+    ],
+    "a": 1,
+    "e": "When a segregated portfolio is created, units are split. Main portfolio continues with healthy assets; segregated portfolio is computed separately with the affected security at fair value (often heavily marked down).",
+    "topic": "NAV"
+  },
+  {
+    "q": "For an equity scheme with AUM of ₹3,000 crore, the SEBI TER slab structure applies:",
+    "o": [
+      "Flat 2.25% on entire AUM",
+      "2.25% on first ₹500cr, 2.00% on next ₹250cr, 1.75% on next ₹1,250cr, 1.60% on next ₹3,000cr, etc.",
+      "Flat 1% TER",
+      "Decided by AMC"
+    ],
+    "a": 1,
+    "e": "SEBI TER slabs (equity): 2.25% / 2.00% / 1.75% / 1.60% / 1.50% / 1.05% on incremental AUM tranches. Larger funds have lower weighted TER.",
+    "topic": "NAV"
+  },
+  {
+    "q": "GST on the management fee is:",
+    "o": [
+      "Borne by the AMC",
+      "Charged within the TER (i.e., included in scheme expenses)",
+      "Charged separately to investors",
+      "Exempt"
+    ],
+    "a": 1,
+    "e": "GST on management fees and other applicable scheme expenses is charged within the TER — investors bear it indirectly. Not charged separately.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Brokerage and Securities Transaction Tax (STT) on the scheme's portfolio transactions are:",
+    "o": [
+      "Included in TER",
+      "Excluded from TER (charged additionally to the scheme)",
+      "Borne by the AMC",
+      "Borne by the distributor"
+    ],
+    "a": 1,
+    "e": "Brokerage and STT are EXCLUDED from the TER cap. They are charged additionally to the scheme as transaction costs — but capped at 12 bps for cash-market and 5 bps for derivatives.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For inflows from B-30 cities into open-ended equity-oriented schemes (excluding ETFs/Index Funds), the additional expense allowed is:",
+    "o": [
+      "Up to 0.30% of AUM (incremental from B-30) — for retail investors only",
+      "Flat 1% extra",
+      "Flat 2% extra",
+      "Not allowed"
+    ],
+    "a": 0,
+    "e": "B-30 incentive: up to 0.30% of B-30 incremental AUM. Applies only to retail investor inflows; reversed if redeemed within 1 year.",
+    "topic": "NAV"
+  },
+  {
+    "q": "If the B-30 inflow investor redeems within 1 year, the B-30 incentive amount must be:",
+    "o": [
+      "Retained by AMC",
+      "Recovered/clawed back",
+      "Paid to SEBI",
+      "Doubled"
+    ],
+    "a": 1,
+    "e": "If B-30 investor redeems within 1 year, the additional expense incentive previously claimed by AMC must be clawed back. Prevents abuse for short-term gains.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For a Liquid Fund, NAV must be calculated:",
+    "o": [
+      "Only on business days",
+      "Each calendar day (including weekends and holidays)",
+      "Once a week",
+      "Once a month"
+    ],
+    "a": 1,
+    "e": "Liquid funds calculate NAV for EACH CALENDAR DAY since they hold money market instruments accruing interest daily. Other funds calculate only on business days.",
+    "topic": "NAV"
+  },
+  {
+    "q": "The Maximum TER for an Index Fund / ETF (any AUM) is:",
+    "o": [
+      "1%",
+      "1.5%",
+      "2.25%",
+      "No cap"
+    ],
+    "a": 0,
+    "e": "Index Funds and ETFs are capped at 1% TER given their passive, low-management-cost nature.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For a Fund of Funds (FoF), the SEBI TER cap is:",
+    "o": [
+      "1%",
+      "2.25% (combining FoF expenses + underlying scheme weighted expenses)",
+      "3%",
+      "No cap"
+    ],
+    "a": 1,
+    "e": "FoF TER cap is 2.25%, computed as FoF's own TER + weighted average of underlying scheme TERs. Prevents double layering.",
+    "topic": "NAV"
+  },
+  {
+    "q": "NAV decimal places are:",
+    "o": [
+      "Always 2 decimals",
+      "2 for equity, 4 for debt/liquid (to capture daily accruals accurately)",
+      "Always 4",
+      "At AMC discretion"
+    ],
+    "a": 1,
+    "e": "Equity NAVs typically rounded to 2 decimals. Debt/Liquid funds rounded to 4 decimals to capture small daily interest accruals accurately.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For a scheme that has charged additional B-30 expense, the disclosure requirement is:",
+    "o": [
+      "No specific disclosure",
+      "Disclosed in factsheet/SID/AMC website with B-30 AUM details",
+      "Disclosed only to SEBI",
+      "Disclosed only annually"
+    ],
+    "a": 1,
+    "e": "AMC must disclose B-30 AUM and the additional expense charged separately in the factsheet, SID, and on the website — for transparency.",
+    "topic": "NAV"
+  },
+  {
+    "q": "Exit load credited to the scheme:",
+    "o": [
+      "Reduces TER for remaining unitholders",
+      "Goes back to scheme NAV (benefits remaining unitholders)",
+      "Goes to AMC profits",
+      "Goes to SEBI"
+    ],
+    "a": 1,
+    "e": "Exit load is credited to the SCHEME (not the AMC) — directly benefits remaining unitholders by adding to scheme NAV. Aligns interests.",
+    "topic": "NAV"
+  },
+  {
+    "q": "B-30 incentive for retail investor inflows from beyond top-30 cities is up to ___ of the additional AUM:",
+    "o": [
+      "0.10%",
+      "0.30%",
+      "0.50%",
+      "1.00%"
+    ],
+    "a": 1,
+    "e": "B-30 incentive: up to 0.30% (30 bps) of additional AUM from B-30 retail investors. Clawed back if redeemed within 1 year.",
+    "topic": "NAV"
+  },
+  {
+    "q": "A scheme's NAV declaration deadline (across the industry) is:",
+    "o": [
+      "9 PM same day",
+      "11 PM same business day on AMFI website",
+      "Next morning",
+      "24 hours later"
+    ],
+    "a": 1,
+    "e": "NAV must be uploaded to AMFI website by 11 PM on the same business day. Liquid funds calculate NAV for every calendar day.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For an equity-oriented scheme of any amount, applicable NAV is the NAV of:",
+    "o": [
+      "Application receipt day",
+      "The day funds are credited and available for utilisation in the scheme account before cut-off",
+      "AMC discretion",
+      "Next day"
+    ],
+    "a": 1,
+    "e": "Post Feb 2021, NAV applicability for any amount in equity is based on FUNDS REALISATION before cut-off — not application size. Equalises treatment across investors.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For a Liquid Fund subscription, the cut-off time is:",
+    "o": [
+      "12:00 PM",
+      "1:30 PM",
+      "3:00 PM",
+      "4:00 PM"
+    ],
+    "a": 1,
+    "e": "Liquid fund subscription cut-off: 1:30 PM. Funds must be available for utilisation before cut-off for previous day NAV applicability.",
+    "topic": "NAV"
+  },
+  {
+    "q": "For an equity scheme of AUM ₹2,500 crore, the SEBI TER cap weighted across slabs is approximately:",
+    "o": [
+      "Around 1.50%",
+      "Around 1.85-1.95%",
+      "2.25% flat",
+      "3.00%"
+    ],
+    "a": 1,
+    "e": "Slab-weighted TER for ₹2,500cr equity: 2.25%×500 + 2.00%×250 + 1.75%×1,250 + 1.60%×500 (approx) ÷ 2,500 ≈ 1.85-1.95% range.",
+    "topic": "NAV"
+  },
+  {
+    "q": "When the cut-off time and fund realisation work in tandem, the applicable NAV depends on:",
+    "o": [
+      "Time of application",
+      "Time of fund realisation",
+      "Whichever is later: application time OR fund realisation",
+      "Investor preference"
+    ],
+    "a": 2,
+    "e": "Both conditions must be satisfied before cut-off — application AND fund realisation. Whichever is LATER determines NAV.",
+    "topic": "NAV"
+  }
+]
