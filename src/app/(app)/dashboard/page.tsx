@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
 import { EXAM_CATALOG } from '@/data/exam-catalog';
+import { Icon, iconForExamCode } from '@/components/marketing/Icon';
 
 export const metadata = {
   title: 'NISM Certifications',
@@ -47,49 +48,66 @@ export default async function DashboardPage() {
           const isReady = exam.studyGuideStatus === 'available' || exam.mockTestStatus === 'available';
           const Card = (
             <article
-              className="block rounded-xl border p-5 transition-colors"
+              className="flex h-full gap-4 rounded-xl border p-5 transition-colors"
               style={{
                 borderColor: 'var(--color-border)',
                 borderRadius: 'var(--radius-xl)',
                 background: 'var(--color-bg)',
               }}
             >
-              <div className="flex items-baseline justify-between gap-3">
-                <h2 className="font-semibold" style={{ fontSize: 'var(--text-md)' }}>
-                  {exam.shortName}
-                </h2>
-                {!isReady && (
-                  <span
-                    style={{
-                      fontSize: 'var(--text-xs)',
-                      color: 'var(--color-text-faint)',
-                      background: 'var(--color-surface)',
-                      padding: '2px 8px',
-                      borderRadius: 'var(--radius-sm)',
-                    }}
-                  >
-                    Coming soon
-                  </span>
-                )}
-              </div>
-              <p
-                className="mt-1"
-                style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-sm)', lineHeight: 1.5 }}
+              <span
+                aria-hidden
+                className="flex shrink-0 items-center justify-center"
+                style={{
+                  width: 44,
+                  height: 44,
+                  background:
+                    'linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-deeper) 100%)',
+                  color: 'var(--color-accent)',
+                  borderRadius: 'var(--radius-md)',
+                }}
               >
-                {exam.fullName}
-              </p>
-              <p
-                className="mt-2"
-                style={{ color: 'var(--color-text-faint)', fontSize: 'var(--text-xs)', lineHeight: 1.5 }}
-              >
-                {exam.audience}
-              </p>
-              <div
-                className="mt-4 flex items-center gap-2 text-xs"
-                style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-xs)' }}
-              >
-                <Pill label="Study guide" status={exam.studyGuideStatus} />
-                <Pill label="Practice tests" status={exam.mockTestStatus} />
+                <Icon name={iconForExamCode(exam.code)} size={22} strokeWidth={1.8} />
+              </span>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-baseline justify-between gap-3">
+                  <h2 className="truncate font-semibold" style={{ fontSize: 'var(--text-md)' }}>
+                    {exam.shortName}
+                  </h2>
+                  {!isReady && (
+                    <span
+                      className="shrink-0"
+                      style={{
+                        fontSize: 'var(--text-xs)',
+                        color: 'var(--color-text-faint)',
+                        background: 'var(--color-surface)',
+                        padding: '2px 8px',
+                        borderRadius: 'var(--radius-sm)',
+                      }}
+                    >
+                      Coming soon
+                    </span>
+                  )}
+                </div>
+                <p
+                  className="mt-1"
+                  style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-sm)', lineHeight: 1.5 }}
+                >
+                  {exam.fullName}
+                </p>
+                <p
+                  className="mt-2"
+                  style={{ color: 'var(--color-text-faint)', fontSize: 'var(--text-xs)', lineHeight: 1.5 }}
+                >
+                  {exam.audience}
+                </p>
+                <div
+                  className="mt-4 flex flex-wrap items-center gap-2"
+                  style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-xs)' }}
+                >
+                  <Pill label="Study guide" status={exam.studyGuideStatus} />
+                  <Pill label="Practice tests" status={exam.mockTestStatus} />
+                </div>
               </div>
             </article>
           );

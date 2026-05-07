@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-06 · session pushed to `e47e1e8` → `baac6e2`
+**Last updated:** 2026-05-06 · session pushed through `landing-v2` design refresh
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -43,6 +43,19 @@ Stack scaffolded, DB live, auth working end-to-end.
 - PWA: `src/app/manifest.ts` returns Next 15 dynamic manifest at `/manifest.webmanifest`. Icons under `public/icons/` (192/512 in any + maskable, 180 apple-touch, 32/16 favicons) rendered from an HTML brand-mark template via headless Chrome. Apple Web App meta + theme color wired in root layout.
 - iOS install works fully via "Add to Home Screen". Android Chrome auto-prompt requires a service worker (next item).
 
+### Phase 3 (continued) — Landing-v2 design refresh ✅
+
+Founder feedback: original landing read as "well-built spec but missing professional finish." Refresh shipped without breaking DESIGN.md:
+
+- **Hero rebuilt** as a 2-col (lg+) grid: confident headline with lime-underline accent on "real exam-style mocks" + a CSS-only phone-frame embedding a real screenshot of `/exam/nism-va/study/investment-landscape` (captured via headless Chrome to `public/images/hero-chapter.png`). Show-the-product, Unacademy-pattern.
+- **Stats strip** under hero — real derived numbers (`522 questions`, `12 chapters`, `32 mock tests`, `18 exams catalogued`). No fictional testimonials.
+- **Why-us blocks** got minimal hand-rolled SVG line icons (check-shield / spark / phone) in `src/components/marketing/Icon.tsx`. Same icon set powers catalog cards.
+- **Catalog cards** (landing teaser + `/dashboard`) now lead with a navy/lime gradient icon block. `iconForExamCode()` maps exam family → glyph (briefcase for MF, chart-bar for derivatives, lightbulb for adviser, shield-check for compliance, building-library for AIF/PMS, academic-cap for foundation/operations). Instant scannability without clutter.
+- **Footer** rebuilt in 3 columns (brand · product · built-openly with GitHub link).
+- **Mobile gotcha caught:** the radial-glow blob behind the phone frame used negative insets (`-8%`) to extend past the column. Wrapped in `overflow-hidden` so it clips on narrow viewports without losing the visual.
+
+What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation budget bust, no new deps.
+
 ### Pending in the current Phase 3 sequence
 
 1. **Service worker for offline** — about to start. Hand-rolled `public/sw.js` (no `next-pwa` dep), four caching buckets:
@@ -53,7 +66,8 @@ Stack scaffolded, DB live, auth working end-to-end.
    Triggers Android Chrome's auto-install prompt as a side benefit.
 2. **PostHog events** — `signup`, `test_started`, `test_completed`, `topic_drill`. Wiring lands first; user adds `NEXT_PUBLIC_POSTHOG_KEY` later. localStorage-only (no cookies — privacy spec).
 3. **Profile page** — sign-out button, exam progress summary across all exams the user has taken. Small.
-4. (Optional) 30-second product tour for first-time users.
+4. (Optional) Hero illustration via nano banana — prompt provided in chat (editorial 2D landscape, navy + lime, no people). Save to `public/images/hero.webp` once generated; can be paired with the phone frame as a secondary visual.
+5. (Optional) 30-second product tour for first-time users.
 
 ---
 
@@ -93,6 +107,8 @@ Stack scaffolded, DB live, auth working end-to-end.
 ## Commits on `main` (most recent first)
 
 ```
+(next)   Landing v2: phone-frame hero + stats + category icons + footer
+6851b92  SESSION-LOG.md: rolling session-continuity doc
 baac6e2  PWA installable: manifest + icons + Apple meta
 e47e1e8  Topic mastery + attempt history per exam
 9d71006  Phase 2: test runner + result page + 10-color topic palette
