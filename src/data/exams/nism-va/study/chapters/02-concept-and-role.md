@@ -1,0 +1,23 @@
+---
+chapter: 2
+title: Concept and Role of a Mutual Fund
+topicCode: STR
+marks: 6
+difficulty: easy
+priority: 1
+estimatedMinutes: 8
+---
+
+## 🎯 Summary Card
+
+*Coming soon — being authored from the March 2026 workbook.*
+
+In the meantime, attempt the **Concept and Role of a Mutual Fund** topic-set under Practice Tests to start drilling.
+
+## 📖 Core Content
+
+*Coming soon.* The full, exam-tactical breakdown for this chapter will land here.
+
+## 🧠 Memory Hooks
+
+*Coming soon.*

@@ -1,20 +1,25 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import { CANONICAL_HOST } from '@/lib/canonical';
 
 export const metadata: Metadata = {
   title: {
-    default: 'NISMPracticeTests — Free NISM V-A Practice Tests',
+    default: 'NISMPracticeTests — Free NISM Study Guides & Practice Tests',
     template: '%s · NISMPracticeTests',
   },
   description:
-    'Free, syllabus-aligned practice tests for NISM Series V-A (Mutual Fund Distributors). Mock exams, topic-wise sets, and a 100-question full simulator.',
-  metadataBase: new URL('https://nismpracticetests.com'),
+    'Free, syllabus-aligned study guides and practice tests for every NISM certification. Topic mastery analytics. Mock exams that match the real Schoolnet interface.',
+  metadataBase: new URL(CANONICAL_HOST),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     siteName: 'NISMPracticeTests',
-    title: 'NISMPracticeTests — Free NISM V-A Practice Tests',
+    title: 'NISMPracticeTests — Free NISM Study Guides & Practice Tests',
     description:
-      'Free, syllabus-aligned practice tests for NISM Series V-A. 530+ questions, topic mastery analytics.',
+      'Free study guides + practice tests for every NISM certification. V-A available now; more exams rolling out.',
+    url: CANONICAL_HOST,
   },
   robots: { index: true, follow: true },
 };

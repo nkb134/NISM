@@ -78,3 +78,131 @@ body {
   outline: 2px solid var(--color-navy);
   outline-offset: 2px;
 }
+
+/* ── Study-guide markdown body ─────────────────────────────────────────── */
+/*
+ * Scoped to .study-prose so it doesn't leak into other pages. Tracks the
+ * design tokens — type sizes from DESIGN.md, no shadows, restrained color use.
+ */
+.study-prose {
+  color: var(--color-text);
+  font-size: var(--text-base);
+  line-height: 1.7;
+}
+.study-prose h1 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.study-prose h2 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  letter-spacing: -0.1px;
+}
+.study-prose h3 {
+  font-size: var(--text-md);
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.study-prose p {
+  margin: 0 0 12px;
+}
+.study-prose ul,
+.study-prose ol {
+  margin: 0 0 12px 24px;
+}
+.study-prose li {
+  margin-bottom: 6px;
+}
+.study-prose li > ul,
+.study-prose li > ol {
+  margin-top: 6px;
+}
+.study-prose strong {
+  font-weight: 700;
+  color: var(--color-text);
+}
+.study-prose em {
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+.study-prose code {
+  background: var(--color-surface);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+}
+.study-prose a {
+  color: var(--color-navy);
+  border-bottom: 1px solid var(--color-border);
+}
+.study-prose a:hover {
+  border-bottom-color: var(--color-navy);
+}
+.study-prose hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 24px 0;
+}
+
+/* Tables — match the test-set row aesthetic. Functional, not decorative. */
+.study-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 18px;
+  font-size: var(--text-sm);
+}
+.study-prose th,
+.study-prose td {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--color-border-soft);
+  vertical-align: top;
+}
+.study-prose th {
+  background: var(--color-surface);
+  font-weight: 600;
+  color: var(--color-text);
+  border-bottom-color: var(--color-border);
+}
+.study-prose tr:last-child td {
+  border-bottom: none;
+}
+
+/* Blockquote → callout (left-bordered card, accent lime). Same shape as the
+ * Result-page review-explain box from DESIGN.md. */
+.study-prose .study-callout,
+.study-prose blockquote {
+  margin: 16px 0;
+  padding: 12px 16px;
+  background: var(--color-surface-hover);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+}
+.study-prose .study-callout > p:last-child,
+.study-prose blockquote > p:last-child {
+  margin-bottom: 0;
+}
+
+/* Checkbox lists for exam-day mode. Marked's GFM yields disabled checkboxes.
+ * Hide them and replace with a typographic dash, since this is a static guide
+ * (interactive checkmarks are part of the reader UI, not the markdown). */
+.study-prose ul li input[type='checkbox'] {
+  display: none;
+}
+.study-prose ul li:has(input[type='checkbox']) {
+  list-style: none;
+  margin-left: -8px;
+  padding-left: 4px;
+}
+.study-prose ul li:has(input[type='checkbox'])::before {
+  content: '☐ ';
+  color: var(--color-text-faint);
+}
