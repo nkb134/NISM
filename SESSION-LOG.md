@@ -79,6 +79,31 @@ background `#fbf7ee` matching the illustration sky, with the headline
 the artwork. The path-with-three-checkpoints visually maps to the
 freemium funnel.
 
+### Landing: hero carousel ✅
+
+Founder ask: replace the static phone screenshot with a carousel of real
+product views, each labelled with "super copy" calling out the feature,
+auto-cycling. Notch-off phone chassis. Built:
+
+- `src/components/marketing/PhoneFrame.tsx` — chassis only, accepts
+  children, no notch.
+- `src/components/marketing/HeroCarousel.tsx` — three slides:
+  1. Study guide (`hero-study.webp`) — "Read in three depths."
+  2. Mock tests (`hero-test.webp`) — "Real Schoolnet feel."
+  3. Reviews (`hero-result.webp`) — "Every wrong answer, explained."
+  Auto-cycles every 1 second (TICK_MS const, founder preference). Cross-fade
+  350 ms. Lime "STUDY GUIDE / MOCK TESTS / REVIEWS" badge above the phone
+  changes in sync. Dot indicators below; click to jump. Pauses on hover/focus
+  so users can read.
+- All three screen captures are real product views at 390×844 @2x.
+  Result captured from a new `/preview/result-demo` route that renders
+  the result page with seeded sample data (78% pass, realistic topic
+  breakdown). Public, never linked, used only for marketing screenshots
+  so the site can show a flattering result without DB state hacks.
+
+Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
+(167 KB PNG) removed.
+
 ---
 
 ## Routing map
@@ -117,7 +142,8 @@ freemium funnel.
 ## Commits on `main` (most recent first)
 
 ```
-(next)   Landing: prep-path banner with mountain illustration
+(next)   Hero carousel: 3 real product screens with super copy
+5e77800  Landing: prep-path banner with mountain illustration
 5fd944b  Landing v2: phone-frame hero + stats + category icons + footer
 6851b92  SESSION-LOG.md: rolling session-continuity doc
 baac6e2  PWA installable: manifest + icons + Apple meta

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SiteNav } from '@/components/marketing/SiteNav';
 import { ProseHtml } from '@/components/study/ProseHtml';
-import { PhoneFrame } from '@/components/marketing/PhoneFrame';
+import { HeroCarousel } from '@/components/marketing/HeroCarousel';
 import { Icon, iconForExamCode } from '@/components/marketing/Icon';
 import { EXAM_CATALOG, getExamFromCatalog } from '@/data/exam-catalog';
 import { getChapter, listChapters } from '@/lib/study/content';
@@ -171,28 +171,12 @@ export default function LandingPage() {
             </p>
           </div>
 
-          {/* Phone frame — embedded actual product screenshot. overflow-hidden
-              clips the glow behind it (negative-inset radial would otherwise
-              push the page wider on mobile). */}
+          {/* Hero carousel — three real product screens cycling through a
+              single phone frame. Carousel owns its own glow, dots, and
+              super-copy chip. overflow-hidden clips the glow on narrow
+              viewports without losing the visual. */}
           <div className="relative flex justify-center overflow-hidden lg:justify-end">
-            <div
-              aria-hidden
-              style={{
-                position: 'absolute',
-                inset: '8% -8% 8% -8%',
-                background:
-                  'radial-gradient(60% 60% at 50% 50%, rgba(163,230,53,0.18) 0%, rgba(26,31,58,0.0) 70%)',
-                filter: 'blur(8px)',
-                zIndex: 0,
-              }}
-            />
-            <div className="relative" style={{ zIndex: 1 }}>
-              <PhoneFrame
-                src="/images/hero-chapter.png"
-                alt="A NISM V-A study chapter open in the app, showing the three-layer reader (Summary / Detail / Memory) on a phone."
-                width={300}
-              />
-            </div>
+            <HeroCarousel width={300} />
           </div>
         </section>
 
