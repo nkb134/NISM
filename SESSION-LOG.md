@@ -66,8 +66,18 @@ What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation b
    Triggers Android Chrome's auto-install prompt as a side benefit.
 2. **PostHog events** — `signup`, `test_started`, `test_completed`, `topic_drill`. Wiring lands first; user adds `NEXT_PUBLIC_POSTHOG_KEY` later. localStorage-only (no cookies — privacy spec).
 3. **Profile page** — sign-out button, exam progress summary across all exams the user has taken. Small.
-4. (Optional) Hero illustration via nano banana — prompt provided in chat (editorial 2D landscape, navy + lime, no people). Save to `public/images/hero.webp` once generated; can be paired with the phone frame as a secondary visual.
-5. (Optional) 30-second product tour for first-time users.
+4. (Optional) 30-second product tour for first-time users.
+
+### Landing: prep-path banner ✅
+
+Founder generated the editorial mountain illustration via nano banana on
+2026-05-06. Saved to `public/images/hero-mountain.webp` (1586×992, 30 KB
+after Pillow WebP-85 conversion from a 1 MB PNG). Wired into the landing
+as a banner section between the hero and the stats strip — soft cream
+background `#fbf7ee` matching the illustration sky, with the headline
+"Free chapter. Free mock. Real exam." and a "See all exams" CTA below
+the artwork. The path-with-three-checkpoints visually maps to the
+freemium funnel.
 
 ---
 
@@ -107,7 +117,8 @@ What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation b
 ## Commits on `main` (most recent first)
 
 ```
-(next)   Landing v2: phone-frame hero + stats + category icons + footer
+(next)   Landing: prep-path banner with mountain illustration
+5fd944b  Landing v2: phone-frame hero + stats + category icons + footer
 6851b92  SESSION-LOG.md: rolling session-continuity doc
 baac6e2  PWA installable: manifest + icons + Apple meta
 e47e1e8  Topic mastery + attempt history per exam

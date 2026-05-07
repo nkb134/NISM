@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { SiteNav } from '@/components/marketing/SiteNav';
 import { ProseHtml } from '@/components/study/ProseHtml';
@@ -191,6 +192,78 @@ export default function LandingPage() {
                 alt="A NISM V-A study chapter open in the app, showing the three-layer reader (Summary / Detail / Memory) on a phone."
                 width={300}
               />
+            </div>
+          </div>
+        </section>
+
+        {/* ── Prep path banner ─────────────────────────────────────────
+         * Editorial moment between the product-shot hero and the data
+         * strip. The illustration's path-with-checkpoints reads literally
+         * as the freemium funnel: free chapter → free mock → real exam. */}
+        <section
+          className="relative my-12 overflow-hidden rounded-xl border sm:my-16"
+          style={{
+            borderColor: 'var(--color-border)',
+            borderRadius: 'var(--radius-xl)',
+            background: '#fbf7ee', // soft warm cream — matches the illustration's sky
+          }}
+        >
+          <Image
+            src="/images/hero-mountain.webp"
+            alt="A path with three checkpoints climbing toward a flag at the summit — symbolizing the freemium prep journey: free chapter, free mock test, real exam."
+            width={1586}
+            height={992}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1100px"
+            priority={false}
+            style={{
+              width: '100%',
+              height: 'auto',
+              display: 'block',
+            }}
+          />
+          <div
+            className="px-4 pb-6 pt-2 sm:px-8 sm:pb-8"
+            style={{ background: '#fbf7ee' }}
+          >
+            <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-6">
+              <div>
+                <h2
+                  className="font-bold tracking-tight"
+                  style={{
+                    fontSize: 'clamp(20px, 3.2vw, 26px)',
+                    lineHeight: 1.2,
+                    letterSpacing: '-0.4px',
+                    color: 'var(--color-navy)',
+                  }}
+                >
+                  Free chapter. Free mock. Real exam.
+                </h2>
+                <p
+                  className="mt-2 max-w-[520px]"
+                  style={{
+                    color: 'var(--color-text-muted)',
+                    fontSize: 'var(--text-sm)',
+                    lineHeight: 1.6,
+                  }}
+                >
+                  Three honest checkpoints, no paywalls in between. Sign in once to keep your
+                  progress between them.
+                </p>
+              </div>
+              <Link
+                href={'/dashboard' as never}
+                className="inline-flex items-center justify-center gap-2 font-semibold"
+                style={{
+                  padding: '10px 18px',
+                  background: 'var(--color-navy)',
+                  color: '#fff',
+                  borderRadius: 'var(--radius-md)',
+                  fontSize: 'var(--text-sm)',
+                }}
+              >
+                See all exams
+                <Icon name="arrow-right" size={14} />
+              </Link>
             </div>
           </div>
         </section>
