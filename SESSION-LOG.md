@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · Phase 3 closed — SW, PostHog, profile, tour
+**Last updated:** 2026-05-07 · Phase 3 closed; chapter spot-check done; pre-launch checklist active
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -154,6 +154,11 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+f26e763  Ch 2/4/7 audit fixes + gitignore .claude/settings.local.json
+472b590  SESSION-LOG: Phase 3 close-out (SW + PostHog + profile + tour)
+5bb33ec  Profile page + first-run product tour
+1704a45  PWA service worker + PostHog event wiring
+(history rewritten 2026-05-07: all prior commits re-authored to nkb134@gmail.com after fixing local git config; force-pushed to origin)
 90d9a10  Profile page + first-run product tour
 e5f0463  PWA service worker + PostHog event wiring
 7640c5b  Hero carousel: superimpose super-copy on phone screen, 3.5s tick
@@ -183,11 +188,15 @@ a1d2e8c  Initial: build spec + design system + question pool
 
 ## Outstanding items for the **owner** (you)
 
-1. **Revoke both PATs** at https://github.com/settings/tokens?type=beta — both are still in chat history. The second is currently active and being used for pushes; replace with SSH (next item) and revoke after.
-2. **Add SSH key to GitHub** at https://github.com/settings/keys — paste contents of `~/.ssh/id_ed25519.pub`. Then `git remote set-url origin git@github.com:nkb134/NISM.git`. Future pushes are just `git push`.
-3. **Spot-check chapters 2-12** of the V-A study guide. They were converted programmatically from the PDF; tone and table fidelity should be sanity-checked.
-4. **Resend domain** — currently sending from `onboarding@resend.dev`. Before launch, verify `nismpracticetests.com` in Resend → Domains, add the 3 DNS records, switch `EMAIL_FROM` to `noreply@nismpracticetests.com`.
-5. **Vercel deployment** — connect the GitHub repo + paste env vars from `.env.local` (don't paste them in chat). Production URL preview on every PR.
+These are click-through items only the founder can complete (UI access required).
+
+1. **Revoke both PATs** at https://github.com/settings/tokens — both leaked into chat history during early sessions. Even if scoped, kill them.
+2. **Add SSH key to GitHub** at https://github.com/settings/ssh/new. Locally: `test -f ~/.ssh/id_ed25519.pub || ssh-keygen -t ed25519 -C "nkb134@gmail.com"` then `pbcopy < ~/.ssh/id_ed25519.pub`. Test with `ssh -T git@github.com`. After it works, run `git remote set-url origin git@github.com:nkb134/NISM.git` so future pushes don't need a token.
+3. **Resend domain** — https://resend.com/domains → add `nismpracticetests.com`. Resend issues 3 DNS records (SPF / DKIM / return-path); add them at the registrar and click Verify. `EMAIL_FROM` is already set to `noreply@nismpracticetests.com` in `.env.local.example`.
+4. **Vercel deployment** — https://vercel.com/new → import `github.com/nkb134/NISM`. Root directory must be `nismpracticetests` (not repo root). Required prod env vars: `DATABASE_URL`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL=https://nismpracticetests.com`, `RESEND_API_KEY`, `EMAIL_FROM`, `NEXT_PUBLIC_APP_URL=https://nismpracticetests.com`. Optional: `GOOGLE_CLIENT_ID/SECRET`, `NEXT_PUBLIC_POSTHOG_KEY/HOST`. After first deploy: add domains `nismpracticetests.com` (apex), `www` (redirect to apex), `nismmocktest.xyz` (mirror — canonical-tag handles SEO). Seed prod DB locally with `DATABASE_URL` exported: `npm run db:push && npm run db:seed`.
+
+**Already shipped from the prior pre-launch list:**
+- ~~Spot-check chapters 2-12~~ → done 2026-05-07. Audit found no PDF artifacts; 3 small fixes landed in `f26e763` (Ch 2 hybrid count, Ch 4 ELSS placement, Ch 7 long NAV equation mobile wrap).
 
 ## Conventions for future sessions
 
