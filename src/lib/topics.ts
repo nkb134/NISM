@@ -32,6 +32,14 @@ export const NISM_VIII_TOPICS = {
   IPS: { name: 'Sales & Investor Protection', weight: 5, order: 10 },
 } as const satisfies Record<string, TopicSpec>;
 
+// V-B reuses 8 of V-A's topic codes (same labels, same domain). Two new
+// codes: LEG (Legal Structure) and DIS (Distribution & Channel) — V-A
+// rolls these into REG, but V-B treats them as separate chapters.
+export const NISM_VB_NEW_TOPICS = {
+  LEG: { name: 'Legal Structure of MFs', weight: 8, order: 3 },
+  DIS: { name: 'Distribution & Channel', weight: 10, order: 6 },
+} as const satisfies Record<string, TopicSpec>;
+
 export const NISM_XV_TOPICS = {
   RAP: { name: 'Research Analyst Profession', weight: 1, order: 1 },
   SMK: { name: 'Securities Market', weight: 2, order: 2 },
@@ -58,6 +66,7 @@ export const TOPIC_CODES: TopicCode[] = Object.keys(NISM_VA_TOPICS) as TopicCode
  *  topic codes are namespaced per exam (no real collisions today). */
 const ALL_TOPICS: Record<string, TopicSpec> = {
   ...NISM_VA_TOPICS,
+  ...NISM_VB_NEW_TOPICS,
   ...NISM_VIII_TOPICS,
   ...NISM_XV_TOPICS,
 };

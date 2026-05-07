@@ -1,0 +1,56 @@
+[
+  {
+    "id": "set_vb_mock1",
+    "name": "Mock Test 1 — 25Q foundational mix",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "25 questions covering all 10 topics in proportion to syllabus weight. Free for all; sign in to save your score.",
+    "isDynamic": false,
+    "questionCount": 25
+  },
+  {
+    "id": "set_vb_drill_ops",
+    "name": "Drill: Investor Services",
+    "topic": "OPS",
+    "duration": 1200,
+    "description": "15 questions on KYC, NAV cut-offs, redemption, nomination, online platforms, and grievance redressal — the heaviest topic at 20% weight.",
+    "isDynamic": false,
+    "questionCount": 15
+  },
+  {
+    "id": "set_vb_drill_str",
+    "name": "Drill: Concept & Role of MF",
+    "topic": "STR",
+    "duration": 800,
+    "description": "9 questions on the MF concept, structures, NAV, TER, SIP/STP/SWP, and scheme categorisation.",
+    "isDynamic": false,
+    "questionCount": 9
+  },
+  {
+    "id": "set_vb_drill_doc",
+    "name": "Drill: Scheme Information",
+    "topic": "DOC",
+    "duration": 800,
+    "description": "9 questions on SID/SAI/KIM, riskometer, NFO, cut-off times, Direct vs Regular plans.",
+    "isDynamic": false,
+    "questionCount": 9
+  },
+  {
+    "id": "set_vb_drill_prf",
+    "name": "Drill: Performance",
+    "topic": "PRF",
+    "duration": 800,
+    "description": "9 questions on returns (CAGR, XIRR), tracking error, beta, Sharpe, and benchmark comparison.",
+    "isDynamic": false,
+    "questionCount": 9
+  },
+  {
+    "id": "set_vb_full",
+    "name": "Full Simulator — 50Q · 75 min",
+    "topic": "FULL",
+    "duration": 4500,
+    "description": "Mimics the real NISM V-B exam: 50 questions, 75 minutes, dynamically sampled by topic weight. NO negative marking — answer everything.",
+    "isDynamic": true,
+    "questionCount": 50
+  }
+]

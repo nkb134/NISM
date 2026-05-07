@@ -1,0 +1,42 @@
+[
+  {
+    "q": "Which of the following can a New Cadre (V-B) distributor sell?",
+    "o": ["Sectoral / thematic equity funds", "Mid-cap equity funds", "Index funds tracking Nifty 50", "Aggressive Hybrid funds"],
+    "a": 2,
+    "e": "New Cadre distributors can sell only simple, transparent products: Index funds (Sensex, Nifty 50), large-cap diversified equity, gilt funds, FMPs, equity & gold ETFs, liquid + ultra-short debt. Sectoral, mid-cap, hybrid require V-A.",
+    "topic": "SCH",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of these can a New Cadre distributor NOT sell?",
+    "o": ["Liquid funds", "Equity ETFs (broad index)", "Mid-cap equity funds", "Gilt funds"],
+    "a": 2,
+    "e": "Mid-cap, small-cap, sectoral, thematic equity funds require NISM-V-A (full distributor exam). New Cadre is restricted to simpler products to protect retail investors.",
+    "topic": "SCH",
+    "difficulty": 1
+  },
+  {
+    "q": "An Index fund differs from an ETF in that:",
+    "o": ["Index funds are more expensive", "Index funds trade off-exchange at NAV; ETFs trade on exchange like stocks", "Index funds need a demat account; ETFs don't", "ETFs cannot be redeemed"],
+    "a": 1,
+    "e": "Index funds are bought from / sold to the AMC at end-of-day NAV; no demat needed. ETFs trade on the exchange in real-time with bid-ask spreads; demat account required.",
+    "topic": "SCH",
+    "difficulty": 2
+  },
+  {
+    "q": "A Gold ETF unit typically represents:",
+    "o": ["1 ounce of gold", "1 gram of gold (or fractions)", "1 kg of gold", "Cash equivalent only"],
+    "a": 1,
+    "e": "A Gold ETF unit represents approximately 1 gram of physical gold (or fractions thereof). Held in demat. Lower cost than physical gold (no storage, no making charges) and instantly tradable.",
+    "topic": "SCH",
+    "difficulty": 2
+  },
+  {
+    "q": "FMPs (Fixed Maturity Plans) are:",
+    "o": ["Open-ended equity schemes", "Close-ended debt schemes with a fixed tenor", "Hybrid schemes", "Liquid schemes"],
+    "a": 1,
+    "e": "FMPs are close-ended debt schemes with a defined tenor (e.g. 3 years). The AMC invests in instruments maturing close to the FMP's tenor, giving investors a predictable yield. Listed but typically held to maturity.",
+    "topic": "SCH",
+    "difficulty": 2
+  }
+]

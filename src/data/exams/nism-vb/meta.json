@@ -1,0 +1,9 @@
+{
+  "examCode": "nism-vb",
+  "examName": "NISM Series V-B",
+  "examFullName": "Mutual Fund Foundation Certification Examination",
+  "totalQuestions": 50,
+  "durationMinutes": 75,
+  "passMarkPercent": 50,
+  "negativeMarking": false
+}

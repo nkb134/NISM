@@ -31,6 +31,9 @@ const COLOR: Record<string, { fg: string; bg: string }> = {
 // Some codes within a single non-V-A exam may share a slot (e.g. XV has 15
 // topics but only 10 colours); chip labels still distinguish them.
 const ALIAS: Record<string, keyof typeof COLOR> = {
+  // V-B's two new codes (rest are shared with V-A by name).
+  LEG: 'NAV',
+  DIS: 'RSK',
   // VIII (10 topics → 10 slots)
   BAS: 'INV',
   IDX: 'STR',

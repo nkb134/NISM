@@ -1,0 +1,50 @@
+[
+  {
+    "q": "The structural chain of an Indian mutual fund is:",
+    "o": ["AMC → Trust → Sponsor", "Sponsor → Trust → AMC", "RTA → Sponsor → Custodian", "Trust → AMC → Sponsor"],
+    "a": 1,
+    "e": "Sponsor establishes the Trust; Trustees safeguard investor interest and appoint the AMC; AMC manages day-to-day operations. Custodian holds securities; RTA maintains records.",
+    "topic": "LEG",
+    "difficulty": 1
+  },
+  {
+    "q": "Minimum number of trustees required for an Indian mutual fund is:",
+    "o": ["2", "3", "4", "5"],
+    "a": 2,
+    "e": "Minimum 4 trustees, with at least 2/3 being independent (not connected to the Sponsor). Trustees act in fiduciary capacity for investors.",
+    "topic": "LEG",
+    "difficulty": 2
+  },
+  {
+    "q": "The Sponsor must contribute at least what proportion of the AMC's net worth?",
+    "o": ["10%", "20%", "40%", "51%"],
+    "a": 2,
+    "e": "Sponsor must contribute at least 40% of the AMC's net worth — ensures meaningful skin-in-the-game. Less than 40% disqualifies the sponsor relationship.",
+    "topic": "LEG",
+    "difficulty": 2
+  },
+  {
+    "q": "Minimum net worth required for an AMC is:",
+    "o": ["₹50 lakh", "₹5 crore", "₹50 crore", "₹500 crore"],
+    "a": 2,
+    "e": "AMC minimum net worth is ₹50 crore (NOT ₹50 lakh — common decimal trap). Net worth must be maintained continuously; falling below triggers regulatory action.",
+    "topic": "LEG",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of the following is NOT one of the typical roles in MF operations?",
+    "o": ["Custodian", "Registrar & Transfer Agent (RTA)", "Sponsor's Auditor", "Stock Exchange Clearing Member"],
+    "a": 3,
+    "e": "Custodian, RTA, and AMC's Auditor are typical service providers. A stock-exchange clearing member is involved when MFs trade — but it's not a structural role of the MF itself.",
+    "topic": "LEG",
+    "difficulty": 2
+  },
+  {
+    "q": "AMC must contribute to every scheme it launches at least:",
+    "o": ["1% of the amount raised, subject to a maximum of ₹50 lakh", "5% of NFO size", "₹1 crore per scheme", "Nothing — sponsor's contribution suffices"],
+    "a": 0,
+    "e": "AMC (or its associates) must contribute at least 1% of the amount raised in the scheme, subject to a maximum cap of ₹50 lakh. Ensures AMC has skin-in-the-game per scheme.",
+    "topic": "LEG",
+    "difficulty": 3
+  }
+]

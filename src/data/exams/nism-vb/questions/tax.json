@@ -1,0 +1,42 @@
+[
+  {
+    "q": "An equity-oriented mutual fund must invest at least what proportion in domestic equity?",
+    "o": ["50%", "60%", "65%", "75%"],
+    "a": 2,
+    "e": "An equity-oriented scheme must hold at least 65% in domestic equities to be classified as equity-oriented for tax purposes. Below this threshold, the scheme is taxed as a non-equity (debt-like) fund.",
+    "topic": "TAX",
+    "difficulty": 2
+  },
+  {
+    "q": "For an equity-oriented mutual fund, Long Term Capital Gains (held > 12 months) are taxed at (post-July 2024 rules):",
+    "o": ["10% above ₹1 lakh per FY", "12.5% above ₹1.25 lakh per FY", "15% flat", "Slab rate"],
+    "a": 1,
+    "e": "Post-July 2024: Equity LTCG (> 12 months) = 12.5% on gains above ₹1.25 lakh per FY. Pre-July 2024 rates were 10% above ₹1 lakh.",
+    "topic": "TAX",
+    "difficulty": 3
+  },
+  {
+    "q": "Equity-oriented MF Short Term Capital Gains (held ≤ 12 months) are taxed at (post-July 2024):",
+    "o": ["10%", "15%", "20%", "Slab rate"],
+    "a": 2,
+    "e": "Post-July 2024: Equity STCG = 20% flat (changed from 15%). Pre-July 2024 rates were 15%.",
+    "topic": "TAX",
+    "difficulty": 3
+  },
+  {
+    "q": "Debt mutual funds bought on or after April 1, 2023 are taxed at:",
+    "o": ["20% with indexation if held > 36 months", "Slab rate, regardless of holding period (no indexation, no LTCG benefit)", "10% LTCG above ₹1 lakh", "12.5% LTCG above ₹1.25 lakh"],
+    "a": 1,
+    "e": "Debt funds bought on or after April 1, 2023 are taxed at investor's slab rate, regardless of holding period. No indexation, no LTCG concession. Old debt holdings (pre-April 2023) follow the older 36-month / 20%-with-indexation rule.",
+    "topic": "TAX",
+    "difficulty": 3
+  },
+  {
+    "q": "ELSS (Equity Linked Savings Scheme) has a mandatory lock-in period of:",
+    "o": ["1 year", "3 years", "5 years", "15 years"],
+    "a": 1,
+    "e": "ELSS has a 3-year lock-in — the shortest among Section 80C tax-saving instruments (PPF: 15 years, FD: 5 years). Eligible for ₹1.5 lakh deduction under Section 80C.",
+    "topic": "TAX",
+    "difficulty": 1
+  }
+]

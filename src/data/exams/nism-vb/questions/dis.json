@@ -1,0 +1,66 @@
+[
+  {
+    "q": "ARN (AMFI Registration Number) is required for:",
+    "o": ["The AMC's compliance officer", "Every MF distributor / firm to deal in mutual funds", "Bank account opening", "Stock-exchange brokers only"],
+    "a": 1,
+    "e": "ARN is mandatory for every MF distributor (firm or individual) wanting to deal in mutual funds. Issued by AMFI after passing the relevant NISM exam (V-A or V-B). Validity 3 years.",
+    "topic": "DIS",
+    "difficulty": 1
+  },
+  {
+    "q": "EUIN refers to:",
+    "o": ["Employee Unique Identification Number — for the advising employee", "AMC's IFRS code", "Investor's KYC reference", "Exchange's code for the scheme"],
+    "a": 0,
+    "e": "EUIN is for the individual employee of an MFD/IFA who actually advises. ARN is for the firm/entity. Both must appear on the application form when advice is given.",
+    "topic": "DIS",
+    "difficulty": 2
+  },
+  {
+    "q": "Since 2018, mutual fund distributors are paid:",
+    "o": ["Upfront commission only", "Trail commission only (with limited B-30 exceptions)", "A flat fee from SEBI", "Bonus + share options"],
+    "a": 1,
+    "e": "SEBI banned upfront commissions in 2018 (with limited exceptions for first-time B-30 city investors). Distributors now earn trail commissions only — annual % of AUM as long as the investor stays invested.",
+    "topic": "DIS",
+    "difficulty": 2
+  },
+  {
+    "q": "AMFI Code of Conduct prohibits which of the following?",
+    "o": ["Disclosing commission to investors", "Rebating (passing back commission to investors)", "Maintaining KYC records", "Filing investor complaints"],
+    "a": 1,
+    "e": "Rebating — passing back any portion of commission to investors — is explicitly prohibited under AMFI Code of Conduct. Disclosure of commission is mandatory; KYC + complaint handling are standard duties.",
+    "topic": "DIS",
+    "difficulty": 1
+  },
+  {
+    "q": "The AMFI cap on gifts an AMC can give to a distributor is:",
+    "o": ["₹500", "₹1,000", "₹5,000", "No cap"],
+    "a": 0,
+    "e": "AMCs cannot give gifts above ₹500 in value to distributors. This prevents inducement that could bias scheme recommendations. Common trap question.",
+    "topic": "DIS",
+    "difficulty": 3
+  },
+  {
+    "q": "A 'Direct Plan' of a mutual fund scheme has:",
+    "o": ["Higher expense ratio than Regular Plan", "Lower expense ratio (no distributor commission)", "Different fund manager", "Higher pass-mark requirement"],
+    "a": 1,
+    "e": "Direct Plan has no distributor commission embedded → lower TER (typically 0.5-1.0% lower than Regular). Same portfolio + manager. Compounded over years, materially better net returns.",
+    "topic": "DIS",
+    "difficulty": 1
+  },
+  {
+    "q": "CKYC (Central KYC) means:",
+    "o": ["Each AMC requires its own KYC", "One-time KYC valid across all SEBI intermediaries", "KYC done only by banks", "KYC for cash transactions only"],
+    "a": 1,
+    "e": "CKYC = Central KYC. Once an investor completes CKYC with any one intermediary, the same KYC record is reused across all SEBI-registered intermediaries. No need to redo KYC at each AMC.",
+    "topic": "DIS",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these is NOT permitted in MF distributor advertisements?",
+    "o": ["Showing scheme's risk-o-meter level", "Quoting CAGR for a scheme >3 years old", "Promising guaranteed returns", "Showing past 5-year returns chart"],
+    "a": 2,
+    "e": "Promising guaranteed returns is strictly prohibited in MF advertising. Past performance + risk disclosures are mandatory; performance ads only for schemes >1 year old. CAGR mandatory for >3 yr.",
+    "topic": "DIS",
+    "difficulty": 1
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "INV": { "name": "Investment Landscape", "weight": 6, "order": 1 },
+  "STR": { "name": "Concept & Role of MF", "weight": 12, "order": 2 },
+  "LEG": { "name": "Legal Structure of MFs", "weight": 8, "order": 3 },
+  "SCH": { "name": "MF Products (New Cadre)", "weight": 6, "order": 4 },
+  "DOC": { "name": "Scheme Information", "weight": 12, "order": 5 },
+  "DIS": { "name": "Distribution & Channel", "weight": 10, "order": 6 },
+  "PRF": { "name": "Performance of MFs", "weight": 12, "order": 7 },
+  "TAX": { "name": "Mutual Fund Taxation", "weight": 6, "order": 8 },
+  "OPS": { "name": "Investor Services", "weight": 20, "order": 9 },
+  "REG": { "name": "Legal & Regulatory Environment", "weight": 8, "order": 10 }
+}

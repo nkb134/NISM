@@ -1,0 +1,122 @@
+[
+  {
+    "q": "CKYC (Central KYC) is:",
+    "o": ["A separate KYC for each AMC", "A one-time KYC valid across all SEBI intermediaries", "Required only for HNI investors", "Mandatory for cash transactions only"],
+    "a": 1,
+    "e": "CKYC is a centralised one-time KYC. Once completed with any SEBI-registered intermediary, the same record is reused across all of them. Investors don't need to redo KYC for each new AMC.",
+    "topic": "OPS",
+    "difficulty": 1
+  },
+  {
+    "q": "Up to how many nominees can be registered per mutual fund folio?",
+    "o": ["1", "2", "3", "5"],
+    "a": 2,
+    "e": "Up to 3 nominees can be registered per folio, with percentages summing to 100%. Nomination is mandatory; if the investor doesn't nominate, an explicit opt-out must be signed.",
+    "topic": "OPS",
+    "difficulty": 1
+  },
+  {
+    "q": "For a non-liquid open-ended scheme, the redemption cut-off time is:",
+    "o": ["12:00 PM", "1:30 PM", "3:00 PM", "5:00 PM"],
+    "a": 2,
+    "e": "Redemption cut-off for non-liquid schemes is 3:00 PM. Liquid funds use 1:30 PM for subscription but 3:00 PM for redemption.",
+    "topic": "OPS",
+    "difficulty": 2
+  },
+  {
+    "q": "Equity MF redemption proceeds are typically credited to the investor's bank account within:",
+    "o": ["Same day", "T+1", "T+2", "T+5"],
+    "a": 2,
+    "e": "Equity MF redemption settles in T+2 (two business days post the redemption-applicable NAV date). Liquid funds settle T+1.",
+    "topic": "OPS",
+    "difficulty": 2
+  },
+  {
+    "q": "Liquid MF redemption proceeds are typically credited to the investor's bank account within:",
+    "o": ["Same day", "T+1", "T+2", "T+5"],
+    "a": 1,
+    "e": "Liquid MF redemption settles T+1 — faster than equity (T+2) because the underlying instruments (CPs, T-Bills, MM securities) settle quickly.",
+    "topic": "OPS",
+    "difficulty": 2
+  },
+  {
+    "q": "Required documents for KYC typically include:",
+    "o": ["PAN, address proof, photograph, bank cheque", "Only PAN", "Birth certificate", "Marriage certificate"],
+    "a": 0,
+    "e": "Standard KYC docs: PAN (identity), Aadhaar/Voter ID/DL (address), bank cheque (account), passport-size photo. CKYC bundles these into one record valid across the industry.",
+    "topic": "OPS",
+    "difficulty": 1
+  },
+  {
+    "q": "PEP (Politically Exposed Person) screening requires:",
+    "o": ["Standard KYC only", "Enhanced due diligence + senior management approval", "No additional steps", "Refusal of investment"],
+    "a": 1,
+    "e": "Per AML/PMLA, PEPs (current/former heads of state, senior politicians, judges, etc.) require Enhanced Due Diligence — additional documentation, source of funds verification, and senior management approval before account opening.",
+    "topic": "OPS",
+    "difficulty": 3
+  },
+  {
+    "q": "Re-KYC frequency for a low-risk investor is typically:",
+    "o": ["1 year", "5 years", "8 years", "10 years"],
+    "a": 3,
+    "e": "Re-KYC schedule: Low risk = 10 years; Medium = 8 years; High risk = 2 years. The classification is based on the AMC's risk assessment of the investor at onboarding.",
+    "topic": "OPS",
+    "difficulty": 3
+  },
+  {
+    "q": "If an MF amount remains unclaimed for more than 3 years, it is paid at:",
+    "o": ["The current prevailing NAV", "The NAV as of the end of the 3-year period", "The NFO NAV", "₹10 (par value)"],
+    "a": 1,
+    "e": "Unclaimed amounts within 3 years → at prevailing NAV. After 3 years → at NAV as of end of the 3-year period (NOT current NAV — otherwise investor would benefit from delay).",
+    "topic": "OPS",
+    "difficulty": 3
+  },
+  {
+    "q": "Which of these is a recognised online platform for cross-AMC mutual fund transactions?",
+    "o": ["MF Utility (MFU)", "RBI website", "SEBI portal", "Aadhaar portal"],
+    "a": 0,
+    "e": "MF Utility (MFU) is an industry utility for cross-AMC MF transactions. Other online platforms include CAMS / KFin (RTAs), MF Central, and AMC websites. RBI / SEBI portals are regulator sites, not transaction platforms.",
+    "topic": "OPS",
+    "difficulty": 2
+  },
+  {
+    "q": "Consolidated Account Statement (CAS) is:",
+    "o": ["A statement from one AMC only", "A combined statement of all MF holdings across AMCs, sent monthly", "A SEBI-issued certificate", "A daily NAV report"],
+    "a": 1,
+    "e": "CAS is sent monthly via email by AMFI/AMCs, combining holdings across all AMCs that an investor uses (linked to PAN). Replaces the need for multiple AMC-level statements.",
+    "topic": "OPS",
+    "difficulty": 2
+  },
+  {
+    "q": "On the death of the sole holder of a folio, units transfer via:",
+    "o": ["Open offer process", "Transmission to nominee or legal heir", "Auction", "Are forfeited"],
+    "a": 1,
+    "e": "Transmission moves units from the deceased holder to the nominee (if registered) or the legal heir (with succession certificate / probate). Standard documentation: death certificate, KYC of recipient, indemnity, bank details.",
+    "topic": "OPS",
+    "difficulty": 2
+  },
+  {
+    "q": "An investor's grievance against an AMC, if unresolved internally, is escalated to:",
+    "o": ["RBI directly", "SEBI's SCORES portal", "Income Tax Dept", "Stock Exchange"],
+    "a": 1,
+    "e": "Cascade: AMC investor service (30 days) → AMC compliance officer → AMFI → SEBI's SCORES portal → SMARTODR (online dispute resolution). Don't escalate to unrelated regulators.",
+    "topic": "OPS",
+    "difficulty": 1
+  },
+  {
+    "q": "Top-up SIP refers to:",
+    "o": ["Adding a one-time lump-sum to an existing SIP folio", "Auto-increase of SIP installment amount annually (e.g. by 10%)", "Switching to a new scheme via SIP", "STP from debt to equity"],
+    "a": 1,
+    "e": "Top-up SIP automatically increases the SIP amount annually by a pre-set % (commonly 10%). Helps grow corpus in line with rising income. Different from STP (transfer between schemes).",
+    "topic": "OPS",
+    "difficulty": 2
+  },
+  {
+    "q": "AMCs must allocate at least what % of TER toward investor education?",
+    "o": ["0.002%", "0.02%", "0.2%", "2%"],
+    "a": 1,
+    "e": "AMCs allocate at least 0.02% of the scheme's TER for investor education and awareness. AMFI's 'Mutual Funds Sahi Hai' campaign is funded from this. Watch for the decimal trap.",
+    "topic": "OPS",
+    "difficulty": 3
+  }
+]

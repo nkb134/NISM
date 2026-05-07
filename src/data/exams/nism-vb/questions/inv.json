@@ -1,0 +1,42 @@
+[
+  {
+    "q": "Real rate of return is calculated as:",
+    "o": ["Nominal return + Inflation", "Nominal return − Inflation", "Nominal return × Inflation", "Inflation − Nominal return"],
+    "a": 1,
+    "e": "Real return = Nominal return − Inflation. If FD pays 7% and inflation is 8%, real return is −1% (negative). Important for evaluating purchasing power.",
+    "topic": "INV",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of these is NOT one of the three primary factors used to evaluate any investment?",
+    "o": ["Safety", "Liquidity", "Returns", "Tax rate"],
+    "a": 3,
+    "e": "The three primary factors are Safety, Liquidity, and Returns (SLR). Tax rate is a secondary consideration. Convenience, ticket size, and taxability are also important but secondary.",
+    "topic": "INV",
+    "difficulty": 1
+  },
+  {
+    "q": "Diversification can reduce which of these risks?",
+    "o": ["Market-wide systematic risk", "Company-specific (unsystematic) risk", "Inflation risk", "Interest rate risk"],
+    "a": 1,
+    "e": "Diversification spreads investments across companies and sectors, reducing exposure to a single company's or industry's troubles. It does NOT reduce market-wide (systematic) risk that affects all assets.",
+    "topic": "INV",
+    "difficulty": 2
+  },
+  {
+    "q": "Bond prices and interest rates have what relationship?",
+    "o": ["Direct (positive) — both move together", "Inverse — when rates rise, bond prices fall", "No relationship", "Random"],
+    "a": 1,
+    "e": "Bond prices move INVERSELY to interest rates. When rates rise, existing bonds with lower coupons become less attractive, so their prices fall. Longer-maturity bonds are more sensitive.",
+    "topic": "INV",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of these is NOT a dimension of risk profiling for an investor?",
+    "o": ["Need to take risk", "Ability to take risk", "Willingness to take risk", "Address proof"],
+    "a": 3,
+    "e": "Risk profiling has three dimensions: Need (do goals require risk?), Ability (capacity, horizon), and Willingness (psychological tolerance). Address proof is a KYC document, not a risk dimension.",
+    "topic": "INV",
+    "difficulty": 1
+  }
+]

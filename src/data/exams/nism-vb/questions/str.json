@@ -1,0 +1,74 @@
+[
+  {
+    "q": "A mutual fund in India is structured as a:",
+    "o": ["Limited Liability Partnership", "Trust", "Public Limited Company", "Sole proprietorship"],
+    "a": 1,
+    "e": "Indian mutual funds are constituted as trusts under the Indian Trusts Act 1882. The structure: Sponsor → Trust (Trustees) → AMC. Unit-holders are the beneficiaries.",
+    "topic": "STR",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of these is NOT a benefit of investing through a mutual fund?",
+    "o": ["Diversification at small ticket size", "Professional management", "Guaranteed returns", "Liquidity (open-ended)"],
+    "a": 2,
+    "e": "Mutual funds DO NOT guarantee returns. Returns are linked to the performance of the underlying portfolio. The other three are genuine MF benefits.",
+    "topic": "STR",
+    "difficulty": 1
+  },
+  {
+    "q": "An open-ended mutual fund scheme:",
+    "o": ["Has a fixed tenor and is listed on the exchange", "Allows continuous purchase and redemption at NAV", "Trades only on the exchange like a stock", "Requires demat account to buy"],
+    "a": 1,
+    "e": "Open-ended schemes accept new subscriptions and redemptions on any business day at the prevailing NAV. Close-ended schemes have fixed tenor and are listed on the exchange.",
+    "topic": "STR",
+    "difficulty": 1
+  },
+  {
+    "q": "NAV (Net Asset Value) of a mutual fund scheme is calculated as:",
+    "o": ["(Market value of investments + Receivables − Liabilities) / Units outstanding", "Total AUM × Expense Ratio", "Sum of all investments / Number of investors", "Sponsor's contribution / Number of units"],
+    "a": 0,
+    "e": "NAV = (Market value of investments + Receivables − Liabilities) / Units outstanding. It represents the per-unit value of the scheme's net assets. Calculated daily for open-ended schemes.",
+    "topic": "STR",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these scheme types is NOT a recognised SEBI category?",
+    "o": ["Large Cap equity", "Liquid debt", "Aggressive Hybrid", "Crypto-currency fund"],
+    "a": 3,
+    "e": "SEBI's Oct 2017 categorisation framework defines specific permissible categories: 10 equity (+ELSS), 16 debt, 7 hybrid, 2 solution, 2 other. Crypto-currency funds are not currently a recognised SEBI category.",
+    "topic": "STR",
+    "difficulty": 2
+  },
+  {
+    "q": "Total Expense Ratio (TER) of an open-ended equity scheme typically:",
+    "o": ["Increases with AUM", "Decreases as AUM grows (slab-based)", "Is fixed at 1% across all AUMs", "Is set by AMFI"],
+    "a": 1,
+    "e": "TER falls in slabs as AUM grows. First ₹500 cr: 2.25% (equity); next slabs progressively lower. Above ₹5,000 cr: 1.05%. SEBI mandates these caps; AMC may charge less but not more.",
+    "topic": "STR",
+    "difficulty": 2
+  },
+  {
+    "q": "SIP (Systematic Investment Plan) means:",
+    "o": ["Investing a lump-sum at one time", "Investing a fixed amount at regular intervals", "Withdrawing fixed amount monthly", "Switching between schemes systematically"],
+    "a": 1,
+    "e": "SIP = invest a fixed amount at regular intervals (monthly is typical). Helps with rupee-cost averaging and disciplined investing. SWP = withdrawal; STP = transfer between schemes.",
+    "topic": "STR",
+    "difficulty": 1
+  },
+  {
+    "q": "An SWP (Systematic Withdrawal Plan) is best suited for:",
+    "o": ["First-time investors building corpus", "Retirees seeking regular income from accumulated corpus", "Tax-saving goal", "Speculative trading"],
+    "a": 1,
+    "e": "SWP withdraws a fixed amount at regular intervals from an investor's accumulated corpus. Ideal for retirees needing income. Each withdrawal is a partial redemption with capital-gains implications.",
+    "topic": "STR",
+    "difficulty": 1
+  },
+  {
+    "q": "An STP (Systematic Transfer Plan) does what?",
+    "o": ["Transfers fixed amount from one MF scheme to another at intervals", "Withdraws funds to a bank account regularly", "Buys equity through SIP only", "Switches across AMCs only"],
+    "a": 0,
+    "e": "STP = systematic transfer from one MF scheme to another (typically debt → equity, used to deploy lump-sum gradually into equity). Each STP installment is a redemption + purchase for tax purposes.",
+    "topic": "STR",
+    "difficulty": 2
+  }
+]

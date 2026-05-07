@@ -97,8 +97,8 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     negativeMarking: false,
     syllabusVersion: 'March 2026',
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/mutual-fund-foundation/',
-    studyGuideStatus: 'coming-soon',
-    mockTestStatus: 'coming-soon',
+    studyGuideStatus: 'available',
+    mockTestStatus: 'available',
     displayOrder: 2,
   },
   {

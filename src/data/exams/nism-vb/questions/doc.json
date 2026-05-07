@@ -1,0 +1,74 @@
+[
+  {
+    "q": "The legally binding scheme document containing details about objective, strategy, risks, and expenses is:",
+    "o": ["KIM (Key Information Memorandum)", "SID (Scheme Information Document)", "SAI (Statement of Additional Information)", "Annual Report"],
+    "a": 1,
+    "e": "SID is the legally binding scheme-level document. SAI provides AMC + institutional context. KIM is the abridged 1-2 page summary handed with every application form.",
+    "topic": "DOC",
+    "difficulty": 1
+  },
+  {
+    "q": "The Riskometer in MF disclosures has how many risk levels?",
+    "o": ["3", "4", "5", "6"],
+    "a": 3,
+    "e": "Riskometer has 6 levels: Low → Low to Moderate → Moderate → Moderately High → High → Very High. Updated monthly by the AMC.",
+    "topic": "DOC",
+    "difficulty": 2
+  },
+  {
+    "q": "Maximum NFO period allowed for a mutual fund scheme is:",
+    "o": ["7 days", "10 days", "15 days", "30 days"],
+    "a": 2,
+    "e": "NFO can run for a maximum of 15 days. Open-ended schemes must reopen for continuous subscription/redemption within 5 business days of NFO close.",
+    "topic": "DOC",
+    "difficulty": 2
+  },
+  {
+    "q": "For a non-liquid open-ended scheme, the standard subscription cut-off time is:",
+    "o": ["12:00 PM", "1:30 PM", "3:00 PM", "5:00 PM"],
+    "a": 2,
+    "e": "Non-liquid schemes: 3:00 PM cut-off for both subscription and redemption. For liquid schemes, subscription cut-off is 1:30 PM (different).",
+    "topic": "DOC",
+    "difficulty": 2
+  },
+  {
+    "q": "For a subscription of ₹2 lakh or more, the applicable NAV is determined based on:",
+    "o": ["The application timestamp only", "The day funds are realised by the AMC", "The cut-off time of 3 PM only", "The NFO open date"],
+    "a": 1,
+    "e": "For ₹2 lakh+ subscriptions, NAV is based on the day funds are credited to the AMC's account, NOT the application timestamp. Important to time funding correctly.",
+    "topic": "DOC",
+    "difficulty": 3
+  },
+  {
+    "q": "Which of these is a key difference between Direct and Regular plans?",
+    "o": ["Different portfolio holdings", "Different fund managers", "Different expense ratios (Direct is lower; no distributor commission)", "Different lock-in periods"],
+    "a": 2,
+    "e": "Direct and Regular plans are the SAME scheme — same portfolio, same manager. Only the expense ratio differs: Direct has no distributor commission, so TER is ~0.5-1.0% lower than Regular.",
+    "topic": "DOC",
+    "difficulty": 1
+  },
+  {
+    "q": "Which document does a new investor typically receive WITH the application form?",
+    "o": ["SID only", "SAI only", "KIM (abridged summary)", "Auditor's report"],
+    "a": 2,
+    "e": "KIM (Key Information Memorandum) is the 1-2 page abridged summary handed with every application. The full SID is available for download / on request.",
+    "topic": "DOC",
+    "difficulty": 2
+  },
+  {
+    "q": "How frequently is the Riskometer updated by the AMC?",
+    "o": ["Daily", "Weekly", "Monthly", "Annually"],
+    "a": 2,
+    "e": "Riskometer is updated MONTHLY by the AMC and disclosed on the website + monthly factsheet. Past changes in riskometer must also be disclosed (history).",
+    "topic": "DOC",
+    "difficulty": 2
+  },
+  {
+    "q": "How frequently does the AMC publish a scheme's monthly factsheet?",
+    "o": ["By the 5th of next month", "Within 10 days of month-end", "Within 30 days of month-end", "Quarterly"],
+    "a": 1,
+    "e": "Monthly factsheet must be published within 10 days of month-end. Includes portfolio composition, performance vs benchmark, AUM, fund manager details, risk metrics.",
+    "topic": "DOC",
+    "difficulty": 3
+  }
+]

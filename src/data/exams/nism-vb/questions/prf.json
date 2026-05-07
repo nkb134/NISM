@@ -1,0 +1,74 @@
+[
+  {
+    "q": "For a mutual fund return calculation over a holding period of more than one year, the appropriate measure is:",
+    "o": ["Absolute return", "CAGR (Compounded Annual Growth Rate)", "Daily NAV difference", "Total dividends received"],
+    "a": 1,
+    "e": "CAGR = (End/Begin)^(1/n) − 1. The standard return measure for periods ≥ 1 year. Absolute return is used for < 1 year periods. XIRR is used for SIPs (irregular cash flows).",
+    "topic": "PRF",
+    "difficulty": 1
+  },
+  {
+    "q": "Returns from a SIP are best calculated using:",
+    "o": ["Simple CAGR", "XIRR (Extended Internal Rate of Return)", "Absolute return", "Total NAV change"],
+    "a": 1,
+    "e": "SIP cash flows are irregular (multiple installments at different times + final redemption). XIRR computes the IRR for these irregular flows. Most fund factsheets show both lump-sum CAGR and SIP XIRR.",
+    "topic": "PRF",
+    "difficulty": 2
+  },
+  {
+    "q": "Tracking Error of an index fund measures:",
+    "o": ["Total returns earned", "How closely the scheme's returns track the benchmark — lower is better", "Beta of the scheme", "Expense ratio"],
+    "a": 1,
+    "e": "Tracking Error = standard deviation of (Scheme return − Benchmark return). Lower TE = the scheme tracks its benchmark closely. Causes of TE: cash holdings, expenses, rebalancing lag.",
+    "topic": "PRF",
+    "difficulty": 2
+  },
+  {
+    "q": "Sharpe Ratio uses which measure of risk in the denominator?",
+    "o": ["Beta (systematic risk)", "Standard deviation (total risk)", "Skewness", "Tracking error"],
+    "a": 1,
+    "e": "Sharpe = (Rp − Rf) / σ_p, using the portfolio's total standard deviation. Treynor uses beta and is more suited for well-diversified portfolios where unsystematic risk is gone.",
+    "topic": "PRF",
+    "difficulty": 2
+  },
+  {
+    "q": "A scheme's beta of 1.2 means:",
+    "o": ["It moves 20% less than its benchmark", "It moves 20% more than its benchmark (more volatile)", "It is uncorrelated with the benchmark", "It returned 1.2% in the period"],
+    "a": 1,
+    "e": "β = 1.2 means the scheme is approximately 20% more volatile than its benchmark. β = 1: moves with benchmark; β < 1: less volatile (defensive); β > 1: more volatile (aggressive).",
+    "topic": "PRF",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these is a SEBI-mandated past-performance disclaimer?",
+    "o": ["Past performance is a guarantee of future returns", "Past performance may or may not be sustained in the future", "Past returns indicate exact future performance", "Past performance is irrelevant"],
+    "a": 1,
+    "e": "SEBI mandates the disclaimer 'Past performance may or may not be sustained in the future' on every MF advertisement. Distributors must NOT use past performance as the sole selling point.",
+    "topic": "PRF",
+    "difficulty": 1
+  },
+  {
+    "q": "Rolling returns are preferred over point-to-point returns because:",
+    "o": ["They are easier to calculate", "They remove the dependency on start and end dates", "They are mandated by SEBI only", "They show only the best returns"],
+    "a": 1,
+    "e": "Rolling returns compute CAGR over many overlapping windows (e.g. 3-year rolling). This removes the bias of cherry-picked start/end dates and shows return consistency, not luck of timing.",
+    "topic": "PRF",
+    "difficulty": 3
+  },
+  {
+    "q": "Information Ratio measures:",
+    "o": ["Manager's active outperformance per unit of tracking error", "Total return", "Beta of the scheme", "Expense ratio"],
+    "a": 0,
+    "e": "Information Ratio = (Rp − Rb) / Tracking Error. Measures how efficiently a manager generates excess return over benchmark per unit of active risk. Higher = better active management.",
+    "topic": "PRF",
+    "difficulty": 3
+  },
+  {
+    "q": "AMCs must publish daily NAV by what time?",
+    "o": ["6 PM same day", "9 PM same day", "11 PM same day", "9 AM next day"],
+    "a": 2,
+    "e": "Daily NAV must be disclosed by 11 PM on the AMC + AMFI websites. This ensures investors and applicants have current pricing for next-day decisions.",
+    "topic": "PRF",
+    "difficulty": 3
+  }
+]

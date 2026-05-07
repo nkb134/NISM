@@ -9,6 +9,7 @@
 /** Slug of the free chapter for each exam. */
 const FREE_CHAPTER_SLUG: Record<string, string> = {
   'nism-va': 'investment-landscape',
+  'nism-vb': 'investment-landscape',
   'nism-viii': 'basics-of-derivatives',
   'nism-xv': 'research-analyst-profession',
 };
@@ -16,6 +17,7 @@ const FREE_CHAPTER_SLUG: Record<string, string> = {
 /** ID of the free mock-test set for each exam. */
 const FREE_TEST_SET_ID: Record<string, string> = {
   'nism-va': 'set_mock',          // "Mock Test 1 — 30Q foundational mix"
+  'nism-vb': 'set_vb_mock1',      // "Mock Test 1 — 25Q foundational mix" (V-B)
   'nism-viii': 'set_viii_mock1',  // "Mock Test 1 — 30Q foundational mix" (VIII)
   'nism-xv': 'set_xv_mock1',      // "Mock Test 1 — 30Q foundational mix" (XV)
 };
