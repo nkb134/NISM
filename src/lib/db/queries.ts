@@ -246,6 +246,36 @@ export async function attemptStats(userId: string, examCode: string): Promise<At
   };
 }
 
+// ── Cross-exam summary (for /profile) ────────────────────────────────────────
+
+export type ExamSummaryRow = {
+  examCode: string;
+  testsTaken: number;
+  bestScore: number;
+  avgScore: number;
+  passedCount: number;
+  lastAttemptAt: Date;
+};
+
+/** One row per exam the user has at least one attempt on. */
+export async function listExamSummaries(userId: string): Promise<ExamSummaryRow[]> {
+  const rows = await db
+    .select({
+      examCode: attempts.examCode,
+      testsTaken: sql<number>`count(*)::int`,
+      bestScore: sql<number>`max(${attempts.scorePercent})::int`,
+      avgScore: sql<number>`round(avg(${attempts.scorePercent}))::int`,
+      passedCount: sql<number>`sum(case when ${attempts.passed} then 1 else 0 end)::int`,
+      lastAttemptAt: sql<Date>`max(${attempts.submittedAt})`,
+    })
+    .from(attempts)
+    .where(eq(attempts.userId, userId))
+    .groupBy(attempts.examCode)
+    .orderBy(desc(sql`max(${attempts.submittedAt})`));
+
+  return rows;
+}
+
 // ── Topic mastery aggregator ─────────────────────────────────────────────────
 //
 // Each question answered carries a per-topic correctness signal. We aggregate

@@ -3,6 +3,7 @@ import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
 import { EXAM_CATALOG } from '@/data/exam-catalog';
 import { Icon, iconForExamCode } from '@/components/marketing/Icon';
+import { ProductTour } from '@/components/onboarding/ProductTour';
 
 export const metadata = {
   title: 'NISM Certifications',
@@ -26,9 +27,17 @@ export default async function DashboardPage() {
           </p>
         </div>
         {session ? (
-          <span style={{ color: 'var(--color-text-faint)', fontSize: 'var(--text-xs)' }}>
+          <Link
+            href={'/profile' as never}
+            style={{
+              color: 'var(--color-text-faint)',
+              fontSize: 'var(--text-xs)',
+              textDecoration: 'underline',
+              textUnderlineOffset: 3,
+            }}
+          >
             {session.user.email}
-          </span>
+          </Link>
         ) : (
           <Link
             href={'/login' as never}
@@ -42,6 +51,8 @@ export default async function DashboardPage() {
           </Link>
         )}
       </header>
+
+      <ProductTour />
 
       <div className="grid gap-3 sm:grid-cols-2">
         {EXAM_CATALOG.map((exam) => {

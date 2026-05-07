@@ -27,13 +27,14 @@ export async function SiteNav() {
           </Link>
           {session ? (
             <>
-              <span
+              <Link
+                href={'/profile' as never}
                 className="hidden sm:inline truncate max-w-[160px]"
                 style={{ color: 'var(--color-text-faint)', fontSize: 'var(--text-xs)' }}
                 title={session.user.email}
               >
                 {session.user.email}
-              </span>
+              </Link>
               <Link
                 href={'/dashboard' as never}
                 className="inline-flex items-center justify-center"
