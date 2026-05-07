@@ -82,6 +82,51 @@ body {
   outline-offset: 2px;
 }
 
+/* ── Login modal (native <dialog>) ─────────────────────────────────────
+ * Matches the End Test modal pattern in DESIGN.md: white surface, 10px
+ * radius, subtle shadow, 0.4 opacity backdrop. Sized for a sign-in card.
+ *
+ * Native <dialog> opened via showModal() lives in the top layer; we still
+ * have to center it ourselves because we strip the default chrome. Use
+ * fixed positioning + auto margins instead of transform-based centering
+ * so the dialog reflows naturally as content height grows.
+ */
+dialog.login-modal {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: 460px;
+  width: calc(100vw - 32px);
+  height: max-content;
+  max-height: calc(100vh - 32px);
+  overflow: visible;
+}
+dialog.login-modal::backdrop {
+  background: rgba(0, 0, 0, 0.45);
+}
+dialog.login-modal .login-modal-inner {
+  background: var(--color-bg);
+  border-radius: var(--radius-xl);
+  padding: 24px 24px 28px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+dialog.login-modal[open] {
+  animation: login-modal-fade 0.15s ease-out;
+}
+@keyframes login-modal-fade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* ── Study-guide markdown body ─────────────────────────────────────────── */
 /*
  * Scoped to .study-prose so it doesn't leak into other pages. Tracks the

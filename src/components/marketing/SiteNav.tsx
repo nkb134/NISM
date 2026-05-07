@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
 import { Brand } from './Brand';
+import { SignInButton } from '@/components/auth/SignInButton';
 
 export async function SiteNav() {
   const session = await auth.api.getSession({ headers: await headers() });
@@ -49,20 +50,7 @@ export async function SiteNav() {
               </Link>
             </>
           ) : (
-            <Link
-              href={'/login' as never}
-              className="inline-flex items-center justify-center"
-              style={{
-                padding: '6px 14px',
-                background: 'var(--color-navy)',
-                color: '#fff',
-                borderRadius: 'var(--radius-md)',
-                fontSize: 'var(--text-sm)',
-                fontWeight: 600,
-              }}
-            >
-              Sign in
-            </Link>
+            <SignInButton />
           )}
         </nav>
       </div>

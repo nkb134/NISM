@@ -8,17 +8,19 @@ type State = { kind: 'idle' } | { kind: 'sending' } | { kind: 'sent' } | { kind:
 
 // Only allow same-origin paths as the post-auth landing target. Reject any
 // `?next=https://evil.example/...` to avoid an open-redirect via login.
-function safeNext(raw: string | null): string {
+function safeNext(raw: string | null | undefined): string {
   if (!raw) return '/dashboard';
   if (raw.startsWith('/') && !raw.startsWith('//')) return raw;
   return '/dashboard';
 }
 
-export function LoginForm() {
+/** When rendered standalone on /login, reads `?next=` from the URL. When
+ *  rendered inside the modal, the caller passes `next` explicitly. */
+export function LoginForm({ next }: { next?: string } = {}) {
   const [email, setEmail] = useState('');
   const [state, setState] = useState<State>({ kind: 'idle' });
   const params = useSearchParams();
-  const callbackURL = safeNext(params.get('next'));
+  const callbackURL = safeNext(next ?? params.get('next'));
 
   async function handleMagicLink(e: React.FormEvent) {
     e.preventDefault();
