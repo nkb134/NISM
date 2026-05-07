@@ -1,8 +1,11 @@
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
+import { headers } from 'next/headers';
+import { auth } from '@/lib/auth';
 import { getExamFromCatalog } from '@/data/exam-catalog';
 import { getReference } from '@/lib/study/content';
 import { ProseHtml } from '@/components/study/ProseHtml';
+import { isFreeReference } from '@/lib/access';
 
 type Props = { params: Promise<{ examCode: string; slug: string }> };
 
@@ -18,6 +21,15 @@ export default async function ReferencePage({ params }: Props) {
   if (!exam) notFound();
   const ref = getReference(exam.code, slug);
   if (!ref) notFound();
+
+  // Reference docs are gated by default — they're high-leverage cross-cutting
+  // content (Number Sheet, Common Traps, etc.) and a primary reason to log in.
+  if (!isFreeReference(exam.code, slug)) {
+    const session = await auth.api.getSession({ headers: await headers() });
+    if (!session) {
+      redirect(`/login?next=/exam/${exam.code}/study/ref/${slug}`);
+    }
+  }
 
   const isExamDay = slug === 'exam-day';
 

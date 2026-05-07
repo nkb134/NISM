@@ -1,10 +1,13 @@
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
+import { headers } from 'next/headers';
+import { auth } from '@/lib/auth';
 import { getExamFromCatalog } from '@/data/exam-catalog';
 import { getChapter, listChapters } from '@/lib/study/content';
 import { NISM_VA_TOPICS, type TopicCode } from '@/lib/topics';
 import { ChapterReader } from '@/components/study/ChapterReader';
 import { Stars } from '@/components/study/Stars';
+import { isFreeChapter } from '@/lib/access';
 
 type Props = { params: Promise<{ examCode: string; slug: string }> };
 
@@ -20,6 +23,14 @@ export default async function ChapterPage({ params }: Props) {
   if (!exam) notFound();
   const chapter = getChapter(exam.code, slug);
   if (!chapter) notFound();
+
+  // Freemium gate: chapter 1 is free; rest require login.
+  if (!isFreeChapter(exam.code, slug)) {
+    const session = await auth.api.getSession({ headers: await headers() });
+    if (!session) {
+      redirect(`/login?next=/exam/${exam.code}/study/${slug}`);
+    }
+  }
 
   const allChapters = listChapters(exam.code);
   const idx = allChapters.findIndex((c) => c.slug === slug);

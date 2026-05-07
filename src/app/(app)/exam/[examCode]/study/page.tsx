@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { headers } from 'next/headers';
+import { auth } from '@/lib/auth';
 import { getExamFromCatalog } from '@/data/exam-catalog';
 import { listChapters, listReferences } from '@/lib/study/content';
 import { Stars } from '@/components/study/Stars';
 import { ProgressBadge } from '@/components/study/ProgressBadge';
+import { isFreeChapter, isFreeReference } from '@/lib/access';
 
 type Props = { params: Promise<{ examCode: string }> };
 
@@ -20,6 +23,9 @@ export default async function StudyGuideHub({ params }: Props) {
 
   const chapters = listChapters(exam.code);
   const references = listReferences(exam.code);
+  // Read once; signed-in users don't see lock pips on rows they can open.
+  const session = await auth.api.getSession({ headers: await headers() });
+  const signedIn = !!session;
 
   if (exam.studyGuideStatus !== 'available') {
     return (
@@ -54,14 +60,8 @@ export default async function StudyGuideHub({ params }: Props) {
             className="mt-2"
             style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-base)', lineHeight: 1.6 }}
           >
-            Twelve chapters, three reading depths each. Start with{' '}
-            <Link
-              href={`/exam/${exam.code}/study/ref/overview` as never}
-              style={{ fontWeight: 600, color: 'var(--color-navy)' }}
-            >
-              Overview &amp; Exam Strategy
-            </Link>{' '}
-            if this is your first time, or jump straight into a chapter.
+            Twelve chapters, three reading depths each. Chapter 1 is free to read — sign in to
+            unlock the rest, plus the Number Sheet, Common Traps, and exam-day checklist.
           </p>
 
           <h2
@@ -110,9 +110,19 @@ export default async function StudyGuideHub({ params }: Props) {
                   <span className="flex shrink-0 items-center gap-2 sm:gap-3">
                     <Stars priority={c.priority} />
                     <ProgressBadge examCode={exam.code} slug={c.slug} />
-                    <span aria-hidden style={{ color: 'var(--color-text-faint)' }}>
-                      →
-                    </span>
+                    {!signedIn && !isFreeChapter(exam.code, c.slug) ? (
+                      <span
+                        aria-label="Sign in required"
+                        title="Sign in to read"
+                        style={{ color: 'var(--color-text-faint)', fontSize: 14 }}
+                      >
+                        🔒
+                      </span>
+                    ) : (
+                      <span aria-hidden style={{ color: 'var(--color-text-faint)' }}>
+                        →
+                      </span>
+                    )}
                   </span>
                 </Link>
               </li>
@@ -131,17 +141,32 @@ export default async function StudyGuideHub({ params }: Props) {
             className="divide-y rounded-xl border"
             style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-xl)' }}
           >
-            {references.map((r) => (
-              <li key={r.slug}>
-                <Link
-                  href={`/exam/${exam.code}/study/ref/${r.slug}` as never}
-                  className="flex items-center justify-between px-4 py-3 transition-colors hover:bg-[var(--color-surface-hover)]"
-                >
-                  <span style={{ fontWeight: 600, fontSize: 'var(--text-sm)' }}>{r.title}</span>
-                  <span aria-hidden style={{ color: 'var(--color-text-faint)' }}>→</span>
-                </Link>
-              </li>
-            ))}
+            {references.map((r) => {
+              const locked = !signedIn && !isFreeReference(exam.code, r.slug);
+              return (
+                <li key={r.slug}>
+                  <Link
+                    href={`/exam/${exam.code}/study/ref/${r.slug}` as never}
+                    className="flex items-center justify-between px-4 py-3 transition-colors hover:bg-[var(--color-surface-hover)]"
+                  >
+                    <span style={{ fontWeight: 600, fontSize: 'var(--text-sm)' }}>{r.title}</span>
+                    {locked ? (
+                      <span
+                        aria-label="Sign in required"
+                        title="Sign in to read"
+                        style={{ color: 'var(--color-text-faint)', fontSize: 14 }}
+                      >
+                        🔒
+                      </span>
+                    ) : (
+                      <span aria-hidden style={{ color: 'var(--color-text-faint)' }}>
+                        →
+                      </span>
+                    )}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
           <p
             className="mt-4"

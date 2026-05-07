@@ -1,21 +1,29 @@
 'use client';
 
 import { useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { signIn } from '@/lib/auth-client';
 
 type State = { kind: 'idle' } | { kind: 'sending' } | { kind: 'sent' } | { kind: 'error'; msg: string };
 
+// Only allow same-origin paths as the post-auth landing target. Reject any
+// `?next=https://evil.example/...` to avoid an open-redirect via login.
+function safeNext(raw: string | null): string {
+  if (!raw) return '/dashboard';
+  if (raw.startsWith('/') && !raw.startsWith('//')) return raw;
+  return '/dashboard';
+}
+
 export function LoginForm() {
   const [email, setEmail] = useState('');
   const [state, setState] = useState<State>({ kind: 'idle' });
+  const params = useSearchParams();
+  const callbackURL = safeNext(params.get('next'));
 
   async function handleMagicLink(e: React.FormEvent) {
     e.preventDefault();
     setState({ kind: 'sending' });
-    const { error } = await signIn.magicLink({
-      email,
-      callbackURL: '/dashboard',
-    });
+    const { error } = await signIn.magicLink({ email, callbackURL });
     if (error) {
       setState({ kind: 'error', msg: error.message ?? 'Could not send link.' });
       return;
@@ -24,12 +32,15 @@ export function LoginForm() {
   }
 
   async function handleGoogle() {
-    await signIn.social({ provider: 'google', callbackURL: '/dashboard' });
+    await signIn.social({ provider: 'google', callbackURL });
   }
 
   if (state.kind === 'sent') {
     return (
-      <div className="mt-6 rounded-lg border p-4" style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-lg)' }}>
+      <div
+        className="mt-6 rounded-lg border p-4"
+        style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-lg)' }}
+      >
         <p style={{ fontSize: 'var(--text-base)' }}>
           Check your email — the link expires in 15 minutes.
         </p>
