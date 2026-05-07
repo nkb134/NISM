@@ -3,6 +3,7 @@ import './globals.css';
 import { CANONICAL_HOST } from '@/lib/canonical';
 import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
 import { Analytics } from '@/components/Analytics';
+import { getLocale } from '@/i18n';
 
 export const metadata: Metadata = {
   title: {
@@ -46,9 +47,10 @@ export const viewport: Viewport = {
   themeColor: '#1a1f3a',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = await getLocale();
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body>
         {children}
         <ServiceWorkerRegister />

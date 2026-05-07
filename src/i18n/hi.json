@@ -1,0 +1,31 @@
+{
+  "nav.allExams": "सभी परीक्षाएँ",
+  "nav.signIn": "साइन इन",
+  "nav.openDashboard": "डैशबोर्ड खोलें",
+  "nav.study": "अध्ययन",
+  "nav.tests": "परीक्षण",
+  "nav.progress": "प्रगति",
+  "nav.officialPdf": "आधिकारिक PDF ↗",
+
+  "common.signIn": "साइन इन",
+  "common.signOut": "साइन आउट",
+  "common.comingSoon": "जल्द आ रहा है",
+  "common.live": "उपलब्ध",
+  "common.free": "मुफ़्त",
+  "common.locked": "बंद",
+  "common.signInToUnlock": "अनलॉक करने के लिए साइन इन करें",
+
+  "test.startFree": "मुफ़्त शुरू करें — अध्याय 1",
+  "test.takeFreeMock": "मुफ़्त मॉक टेस्ट दें",
+  "test.endTest": "टेस्ट समाप्त",
+  "test.markForReview": "समीक्षा के लिए चिह्नित करें",
+  "test.markedForReview": "✓ चिह्नित",
+  "test.clearAnswer": "उत्तर साफ़ करें",
+  "test.previous": "← पिछला",
+  "test.next": "अगला →",
+  "test.submit": "टेस्ट जमा करें",
+
+  "freebanner.line": "100% मुफ़्त · कार्ड नहीं · अध्याय 1 के लिए साइन-अप ज़रूरी नहीं",
+
+  "fallback.hindiSoon": "हिंदी अनुवाद जल्द ही — अभी अंग्रेज़ी में देख रहे हैं।"
+}

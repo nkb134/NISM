@@ -5,11 +5,16 @@
 import Link from 'next/link';
 import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
+import { getLocale } from '@/i18n';
 import { Brand } from './Brand';
 import { SignInButton } from '@/components/auth/SignInButton';
+import { LangSwitcher } from './LangSwitcher';
 
 export async function SiteNav() {
-  const session = await auth.api.getSession({ headers: await headers() });
+  const [session, locale] = await Promise.all([
+    auth.api.getSession({ headers: await headers() }),
+    getLocale(),
+  ]);
 
   return (
     <header
@@ -19,6 +24,7 @@ export async function SiteNav() {
       <div className="mx-auto flex h-14 max-w-[1080px] items-center justify-between gap-3 px-4 sm:px-6">
         <Brand />
         <nav className="flex items-center gap-3 sm:gap-5">
+          <LangSwitcher current={locale} />
           <Link
             href={'/dashboard' as never}
             style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-sm)', fontWeight: 600 }}

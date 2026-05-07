@@ -1,0 +1,31 @@
+{
+  "nav.allExams": "All exams",
+  "nav.signIn": "Sign in",
+  "nav.openDashboard": "Open dashboard",
+  "nav.study": "Study",
+  "nav.tests": "Tests",
+  "nav.progress": "Progress",
+  "nav.officialPdf": "Official PDF ↗",
+
+  "common.signIn": "Sign in",
+  "common.signOut": "Sign out",
+  "common.comingSoon": "Coming soon",
+  "common.live": "Live",
+  "common.free": "Free",
+  "common.locked": "Locked",
+  "common.signInToUnlock": "Sign in to unlock",
+
+  "test.startFree": "Start free — Chapter 1",
+  "test.takeFreeMock": "Take a free mock test",
+  "test.endTest": "End Test",
+  "test.markForReview": "Mark for review",
+  "test.markedForReview": "✓ Marked for review",
+  "test.clearAnswer": "Clear answer",
+  "test.previous": "← Previous",
+  "test.next": "Next →",
+  "test.submit": "Submit Test",
+
+  "freebanner.line": "100% free · no card · no signup for Chapter 1",
+
+  "fallback.hindiSoon": "हिंदी अनुवाद जल्द ही — अभी अंग्रेज़ी में देख रहे हैं।"
+}

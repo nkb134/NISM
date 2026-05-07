@@ -121,9 +121,14 @@ export const questions = pgTable(
     correctIndex: integer('correct_index').notNull(),
     explanation: text('explanation').notNull(),
     difficulty: integer('difficulty').default(2).notNull(),
+    // Language tag (ISO 639-1). Default 'en' so existing rows backfill cleanly;
+    // Hindi questions live as separate rows with lang='hi'. The same set can
+    // contain only one lang at a time — set→question selection filters by lang.
+    lang: text('lang').default('en').notNull(),
   },
   (table) => ({
     examTopicIdx: index('exam_topic_idx').on(table.examCode, table.topicCode),
+    examLangIdx: index('exam_lang_idx').on(table.examCode, table.lang),
   })
 );
 

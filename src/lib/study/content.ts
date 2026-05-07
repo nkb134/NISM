@@ -87,8 +87,26 @@ function splitChapterLayers(body: string, slug: string): { summary: string; core
 
 // ── File loaders ─────────────────────────────────────────────────────────────
 
-function studyDir(examCode: string): string {
+function studyRoot(examCode: string): string {
   return join(process.cwd(), 'src/data/exams', examCode, 'study');
+}
+
+/** Resolve the study directory for a locale. Hindi (and any future locale)
+ *  lives under `study/<lang>/`; English content stays at `study/` (no
+ *  subdir) so V-A's existing layout doesn't move. Falls back to the English
+ *  root if the localised directory doesn't exist — paired with a
+ *  "translation coming" banner in the page UI. */
+function studyDir(examCode: string, lang: 'en' | 'hi' = 'en'): string {
+  const root = studyRoot(examCode);
+  if (lang === 'en') return root;
+  const localised = join(root, lang);
+  return existsSync(localised) ? localised : root;
+}
+
+/** True when the requested locale has its own directory (not falling back). */
+export function hasLocalisedStudy(examCode: string, lang: 'en' | 'hi'): boolean {
+  if (lang === 'en') return existsSync(studyRoot(examCode));
+  return existsSync(join(studyRoot(examCode), lang));
 }
 
 function isFrontmatterValid(fm: Record<string, unknown>): fm is ChapterFrontmatter {
@@ -103,8 +121,8 @@ function isFrontmatterValid(fm: Record<string, unknown>): fm is ChapterFrontmatt
   );
 }
 
-export function listChapters(examCode: string): ChapterMeta[] {
-  const dir = join(studyDir(examCode), 'chapters');
+export function listChapters(examCode: string, lang: 'en' | 'hi' = 'en'): ChapterMeta[] {
+  const dir = join(studyDir(examCode, lang), 'chapters');
   if (!existsSync(dir)) return [];
 
   return readdirSync(dir)
@@ -121,8 +139,8 @@ export function listChapters(examCode: string): ChapterMeta[] {
     .sort((a, b) => a.chapter - b.chapter);
 }
 
-export function getChapter(examCode: string, slug: string): Chapter | null {
-  const dir = join(studyDir(examCode), 'chapters');
+export function getChapter(examCode: string, slug: string, lang: 'en' | 'hi' = 'en'): Chapter | null {
+  const dir = join(studyDir(examCode, lang), 'chapters');
   if (!existsSync(dir)) return null;
 
   const file = readdirSync(dir).find(
@@ -157,8 +175,8 @@ const REFERENCE_FILES = [
   { slug: 'exam-day', title: 'Exam Day Checklist' },
 ] as const;
 
-export function listReferences(examCode: string): ReferenceDoc[] {
-  const dir = studyDir(examCode);
+export function listReferences(examCode: string, lang: 'en' | 'hi' = 'en'): ReferenceDoc[] {
+  const dir = studyDir(examCode, lang);
   if (!existsSync(dir)) return [];
 
   return REFERENCE_FILES.flatMap((meta) => {
@@ -176,6 +194,6 @@ export function listReferences(examCode: string): ReferenceDoc[] {
   });
 }
 
-export function getReference(examCode: string, slug: string): ReferenceDoc | null {
-  return listReferences(examCode).find((r) => r.slug === slug) ?? null;
+export function getReference(examCode: string, slug: string, lang: 'en' | 'hi' = 'en'): ReferenceDoc | null {
+  return listReferences(examCode, lang).find((r) => r.slug === slug) ?? null;
 }

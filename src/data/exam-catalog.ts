@@ -61,6 +61,10 @@ export type ExamCatalogEntry = {
   mockTestStatus: ExamStatus;
   /** Sort order on the catalog page (1 = first). */
   displayOrder: number;
+  /** Languages this exam has authored content for. Default ['en']. Add 'hi'
+   *  when Hindi chapters and questions land. The site falls back to English
+   *  with a banner if a Hindi visitor hits a page that's not yet translated. */
+  languages?: ReadonlyArray<'en' | 'hi'>;
 };
 
 export const EXAM_CATALOG: ExamCatalogEntry[] = [

@@ -66,6 +66,7 @@
   --color-palette-both-border: #93c5fd;
 
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-devanagari: "Noto Sans Devanagari", "Mangal", "Kohinoor Devanagari", "Nirmala UI", sans-serif;
 
   /* Restrict the type scale to the values in DESIGN.md */
   --text-xs: 11px;
@@ -97,6 +98,15 @@ body {
   font-size: var(--text-md);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Hindi pages and any element marked lang="hi" use the Devanagari stack.
+ * Inter doesn't ship Devanagari glyphs; without this fallback Hindi text
+ * lands on whatever the OS picks (often a default serif). System fonts are
+ * good enough until self-hosted Noto Sans Devanagari ships. */
+:lang(hi),
+[lang="hi"] {
+  font-family: var(--font-devanagari);
   /* Defensive: a single mis-truncated child shouldn't make the whole page
    * scrollable horizontally on mobile. We still want vertical scroll. */
   overflow-x: clip;
