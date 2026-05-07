@@ -1,0 +1,146 @@
+[
+  {
+    "q": "According to Dow Theory, markets move in:",
+    "o": ["One unified trend", "Three trends — primary, secondary, minor", "Only daily cycles", "Random walks only"],
+    "a": 1,
+    "e": "Dow Theory: three trends — primary (months/years), secondary (weeks), minor (days). Each phase has accumulation, public participation, and distribution sub-phases.",
+    "topic": "TEC",
+    "difficulty": 1
+  },
+  {
+    "q": "RSI value above 70 is generally considered:",
+    "o": ["Oversold", "Overbought", "Neutral", "A buy signal"],
+    "a": 1,
+    "e": "RSI > 70 = overbought. RSI < 30 = oversold. Note: overbought ≠ automatic sell — strong uptrends often keep RSI > 70 for extended periods.",
+    "topic": "TEC",
+    "difficulty": 1
+  },
+  {
+    "q": "A Hammer candlestick at a support level is typically a:",
+    "o": ["Bullish reversal signal", "Bearish reversal signal", "Continuation of the downtrend", "Indecision pattern"],
+    "a": 0,
+    "e": "Hammer (small body at top + long lower wick) at a support level signals a bullish reversal — buyers have pushed price back up after sellers tested the low. Confirmation by next candle.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "A Shooting Star candlestick at a resistance level signals:",
+    "o": ["Bullish breakout", "Bearish reversal", "Trend continuation", "No signal"],
+    "a": 1,
+    "e": "Shooting Star (small body at bottom + long upper wick) at resistance signals a bearish reversal — buyers tried to push higher but were rejected. Mirror of Hammer at support.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "After a strong uptrend, a Head and Shoulders pattern signals:",
+    "o": ["Continuation of uptrend", "Bullish reversal", "Bearish reversal — break of neckline confirms", "No signal"],
+    "a": 2,
+    "e": "Head and Shoulders (three peaks, middle highest) after an uptrend = bearish reversal pattern. Confirmed when price breaks below the 'neckline' connecting the two troughs. Inverse H&S = bullish reversal.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "Bollinger Bands typically use:",
+    "o": ["20-period SMA ± 2 standard deviations", "50-period EMA ± 1 ATR", "100-period SMA ± 3 standard deviations", "Always RSI as the centre line"],
+    "a": 0,
+    "e": "Bollinger Bands: 20-period SMA as the centre, ±2 standard deviations as the upper/lower bands. Squeeze (bands narrowing) often precedes a big breakout in either direction.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "MACD generates a bullish signal when:",
+    "o": ["MACD crosses above its signal line", "MACD crosses below its signal line", "MACD equals zero", "Histogram is negative"],
+    "a": 0,
+    "e": "MACD (typically 12-26-9): bullish when MACD line crosses above signal line; bearish when crosses below. Histogram = MACD − Signal; zero crossings of histogram = momentum shift.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "The 50% retracement is a key level in:",
+    "o": ["Elliott Wave only", "Fibonacci retracement levels", "Bollinger Band calculations", "ADX calculations"],
+    "a": 1,
+    "e": "Standard Fibonacci retracement levels: 23.6%, 38.2%, 50%, 61.8%, 78.6% of the prior move. 50% is included by tradition though not strictly Fibonacci. Common bounce/pullback zones.",
+    "topic": "TEC",
+    "difficulty": 1
+  },
+  {
+    "q": "When previously-strong support is broken, that level typically:",
+    "o": ["Becomes new support at a higher level", "Becomes new resistance", "Disappears entirely", "Triggers an immediate reversal"],
+    "a": 1,
+    "e": "Once a support level is broken, it typically becomes new resistance (and vice versa). Sellers who failed to defend it now sell into any rebound to that level — turning support into resistance.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "ADX is used to measure:",
+    "o": ["Trend direction", "Trend strength (regardless of direction)", "Reversal probability", "Volatility only"],
+    "a": 1,
+    "e": "ADX (Average Directional Index) measures trend strength on a 0-100 scale. ADX > 25 = strong trend; < 20 = weak/no trend. Direction is given by +DI vs -DI lines, not ADX itself.",
+    "topic": "TEC",
+    "difficulty": 3
+  },
+  {
+    "q": "Elliott Wave Theory states that markets move in:",
+    "o": ["3 impulse waves and 5 corrective waves", "5 impulse waves with the trend and 3 corrective waves against", "10 equal sub-waves", "Random patterns only"],
+    "a": 1,
+    "e": "Elliott Wave: 5 impulse waves in the direction of the trend, then 3 corrective waves. Wave 3 is typically the longest and strongest. Fractal — same pattern at all timeframes.",
+    "topic": "TEC",
+    "difficulty": 3
+  },
+  {
+    "q": "A bullish Engulfing pattern requires:",
+    "o": ["A small bear candle followed by a larger bull candle that fully engulfs the bear's body", "Three consecutive bull candles", "A long lower wick", "A doji at a support level"],
+    "a": 0,
+    "e": "Bullish Engulfing: small bear candle followed by a larger bull candle whose body fully engulfs the bear's body. Strong reversal signal at oversold levels.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "On Balance Volume (OBV) confirms an uptrend when:",
+    "o": ["OBV is rising along with price", "OBV is falling while price rises (divergence)", "OBV equals zero", "Price is above its 200-day MA"],
+    "a": 0,
+    "e": "OBV rising in tandem with price = healthy uptrend confirmed by volume. Divergence (OBV falling while price rises) is a warning sign — suggests the rally lacks volume support.",
+    "topic": "TEC",
+    "difficulty": 3
+  },
+  {
+    "q": "The Stochastic Oscillator considers a stock overbought when:",
+    "o": ["Above 50", "Above 70", "Above 80", "Above 90"],
+    "a": 2,
+    "e": "Stochastic > 80 = overbought; < 20 = oversold. Same idea as RSI but uses different thresholds (80/20 vs 70/30 for RSI).",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "A 'doji' candlestick has:",
+    "o": ["A long body, no wicks", "An open price equal (or nearly equal) to the close", "Only an upper wick", "Only a lower wick"],
+    "a": 1,
+    "e": "Doji = open ≈ close, producing a tiny body or none at all. Signals indecision; potential reversal at the end of a strong trend. Confirmation needed from the next candle.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "Which combination is best for a research analyst's stock-selection process?",
+    "o": ["Use only fundamental analysis", "Use only technical analysis", "Use FA to select WHAT to buy and TA to time WHEN", "Use intuition only"],
+    "a": 2,
+    "e": "Best practice combines both: FA identifies undervalued or growing businesses (the WHAT); TA helps time entries and exits (the WHEN). Single-approach strategies are fragile.",
+    "topic": "TEC",
+    "difficulty": 1
+  },
+  {
+    "q": "A Double Bottom pattern is generally:",
+    "o": ["Bearish reversal", "Bullish reversal", "A continuation pattern", "Indecisive"],
+    "a": 1,
+    "e": "Double Bottom (W-shape) after a downtrend signals a bullish reversal. Two attempts at a low fail to break it; break above the resistance confirms reversal.",
+    "topic": "TEC",
+    "difficulty": 2
+  },
+  {
+    "q": "A Bollinger Band 'squeeze' occurs when:",
+    "o": ["The bands widen significantly", "The bands narrow significantly, indicating low volatility and a potential big move", "Price reaches the upper band", "Price reaches the lower band"],
+    "a": 1,
+    "e": "Bollinger Squeeze: bands narrow significantly = low volatility = often precedes a big breakout in either direction. Direction is not predicted by the squeeze itself; supplementary indicators are used to confirm.",
+    "topic": "TEC",
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "q": "The Gordon Growth Model values a stock as:",
+    "o": ["V = D₁ / (r − g)", "V = D × (1 + g)", "V = (r − g) / D", "V = D × r / g"],
+    "a": 0,
+    "e": "Gordon: V = D₁ / (r − g), where D₁ = next dividend, r = required return, g = perpetual growth rate. Constraint: g must be < r.",
+    "topic": "VAL",
+    "difficulty": 1
+  },
+  {
+    "q": "WACC stands for:",
+    "o": ["Weighted Average Cost of Capital", "Working Average Cash Coefficient", "Weighted Asset Cash Conversion", "World Average Capital Cost"],
+    "a": 0,
+    "e": "WACC = blend of cost of equity (from CAPM) and after-tax cost of debt, weighted by market value of equity and debt. Used as the discount rate in DCF.",
+    "topic": "VAL",
+    "difficulty": 1
+  },
+  {
+    "q": "In the WACC formula, the cost of debt is multiplied by (1 − T) because:",
+    "o": ["Debt has a tax penalty", "Interest expense is tax-deductible (tax shield)", "Equity has a tax shield", "It is a regulatory requirement"],
+    "a": 1,
+    "e": "Interest is tax-deductible, so the after-tax cost of debt is r_d × (1 − T). This 'tax shield' makes debt cheaper than equity (no tax shield on dividends).",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "If risk-free rate Rf = 7%, beta = 1.2, and equity risk premium (Rm − Rf) = 6%, the cost of equity per CAPM is:",
+    "o": ["7.2%", "13%", "14.2%", "20%"],
+    "a": 2,
+    "e": "CAPM: r_e = Rf + β × (Rm − Rf) = 7% + 1.2 × 6% = 7% + 7.2% = 14.2%.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "If next dividend D₁ = ₹4, required return r = 12%, and growth g = 4%, the Gordon Growth value of the stock is:",
+    "o": ["₹25", "₹50", "₹100", "₹40"],
+    "a": 1,
+    "e": "V = D₁ / (r − g) = 4 / (0.12 − 0.04) = 4 / 0.08 = ₹50.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "EV/EBITDA multiple is best suited for valuing:",
+    "o": ["Banks and financial institutions", "Capex-intensive, leveraged companies (e.g. telecom, infra)", "Pre-revenue startups", "Real estate companies only"],
+    "a": 1,
+    "e": "EV/EBITDA neutralises differences in capital structure (debt vs equity) and depreciation policy. Best for capex-heavy, leveraged industries. P/B is preferred for banks; P/Sales for early-stage; P/NAV for real estate.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "P/B (Price-to-Book) is most commonly used to value:",
+    "o": ["Tech startups with no profits", "Banks and financial institutions", "Telecom companies", "Pharma manufacturers"],
+    "a": 1,
+    "e": "P/B is the standard valuation multiple for banks because their assets and liabilities are mostly financial (loans, deposits) and book value approximates economic value. Less meaningful for asset-light or intangible-heavy companies.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "If terminal value accounts for >70% of total enterprise value in a DCF, this is:",
+    "o": ["Always normal — terminal value should dominate", "A warning sign — assumptions are very sensitive", "Impossible mathematically", "Reduces tax liability"],
+    "a": 1,
+    "e": "When terminal value dominates, the valuation is highly sensitive to terminal-growth assumption. Be conservative on g (≤ long-term GDP growth, 3-5%) and cross-check with multiples-based exit value.",
+    "topic": "VAL",
+    "difficulty": 3
+  },
+  {
+    "q": "Which is the appropriate constraint for the Gordon Growth Model?",
+    "o": ["g must equal r", "g must be > r", "g must be < r", "g must equal Rf"],
+    "a": 2,
+    "e": "Gordon Model assumes infinite growth at rate g; if g ≥ r, the formula breaks (denominator goes to zero or negative — implies infinite valuation). Always require g < r.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "The PEG ratio is calculated as:",
+    "o": ["P/E divided by Earnings growth %", "P/E divided by Book Value", "P/B divided by Earnings growth %", "P/E times Growth %"],
+    "a": 0,
+    "e": "PEG = P/E / Earnings Growth %. PEG of 1 = fairly valued; < 1 may indicate undervaluation given growth; > 1 may suggest premium pricing.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "Margin of safety in valuation refers to:",
+    "o": ["The minimum return required by SEBI", "Buying at a price below your estimated intrinsic value", "The buffer in a margin account", "The discount on rights issue"],
+    "a": 1,
+    "e": "Margin of safety = buy at a meaningful discount (often 30-50%) to your intrinsic value estimate. Accounts for forecast errors and unforeseen risks. Coined by Benjamin Graham.",
+    "topic": "VAL",
+    "difficulty": 1
+  },
+  {
+    "q": "In a DCF, which of these is the typical proxy for the risk-free rate in India?",
+    "o": ["1-year FD rate", "10-year G-Sec yield", "Average of all bond yields", "Repo rate"],
+    "a": 1,
+    "e": "The 10-year G-Sec yield is the standard proxy for risk-free rate in Indian DCF models. Long maturity matches the long-duration nature of equity cash flows.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "Equity Value is derived from Enterprise Value by:",
+    "o": ["Adding net debt", "Subtracting net debt and adding cash", "Subtracting net debt", "Multiplying by tax rate"],
+    "a": 2,
+    "e": "Equity Value = Enterprise Value − Net Debt (where Net Debt = Total Debt − Cash & Cash Equivalents). Per-share value = Equity Value / Diluted Shares.",
+    "topic": "VAL",
+    "difficulty": 2
+  },
+  {
+    "q": "The Residual Income Model values equity as:",
+    "o": ["Book value plus PV of future residual income", "Sum of dividends discounted to today", "Market cap minus debt", "EBIT × Multiple"],
+    "a": 0,
+    "e": "Residual Income Model: V = Book Value₀ + Σ (RI_t / (1+r)^t), where RI_t = Net Income − r × Book Value. Useful when DCF is messy and dividends are erratic.",
+    "topic": "VAL",
+    "difficulty": 3
+  }
+]

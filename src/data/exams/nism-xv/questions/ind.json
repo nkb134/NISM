@@ -1,0 +1,82 @@
+[
+  {
+    "q": "Which of the following is NOT one of Porter's Five Forces?",
+    "o": ["Industry rivalry", "Threat of new entrants", "Bargaining power of suppliers", "Government regulation"],
+    "a": 3,
+    "e": "Five Forces: Industry rivalry, Threat of new entrants, Threat of substitutes, Bargaining power of suppliers, Bargaining power of buyers. Government regulation is part of PESTLE, not Porter.",
+    "topic": "IND",
+    "difficulty": 1
+  },
+  {
+    "q": "Defensive industries typically:",
+    "o": ["Outperform during expansion phase", "Outperform during contraction / recession phase", "Have high earnings volatility", "Are growth-stage industries"],
+    "a": 1,
+    "e": "Defensive industries (FMCG, pharma, utilities) have stable demand and outperform when the cycle turns. Cyclical industries lead in expansion, lag in contraction.",
+    "topic": "IND",
+    "difficulty": 1
+  },
+  {
+    "q": "PESTLE stands for:",
+    "o": ["Political, Economic, Social, Technological, Legal, Environmental", "Political, Economic, Sales, Tax, Labour, Equity", "Public, Economic, Social, Trade, Legal, Energy", "Production, Earnings, Sales, Trade, Labour, Equity"],
+    "a": 0,
+    "e": "PESTLE: Political, Economic, Social, Technological, Legal, Environmental. A macro-environmental framework complementing Porter's Five Forces.",
+    "topic": "IND",
+    "difficulty": 1
+  },
+  {
+    "q": "An industry in the 'maturity' stage is characterised by:",
+    "o": ["High capex, losses, low awareness", "Slow growth, consolidation, margin compression", "Rising demand and many new entrants", "Falling demand and exits"],
+    "a": 1,
+    "e": "Maturity = slow growth + consolidation (M&A increases) + margin compression as competition stabilises. Introduction = early-stage; Growth = rising demand; Decline = falling demand.",
+    "topic": "IND",
+    "difficulty": 2
+  },
+  {
+    "q": "A high concentration of a few players in an industry typically:",
+    "o": ["Increases industry rivalry", "Reduces pricing power", "Increases pricing power and margins", "Has no effect on competition"],
+    "a": 2,
+    "e": "Few players = oligopoly-like. They typically have higher pricing power (less price competition) and higher margins. Highly fragmented industries have intense rivalry and margin pressure.",
+    "topic": "IND",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these industries is typically classified as cyclical?",
+    "o": ["FMCG", "Auto", "Pharma", "Utilities"],
+    "a": 1,
+    "e": "Auto demand swings with interest rates, fuel prices, urban income — classic cyclical. FMCG, pharma, utilities are defensive (demand stable through cycles).",
+    "topic": "IND",
+    "difficulty": 1
+  },
+  {
+    "q": "Capex intensity is measured as:",
+    "o": ["Capex / Net Profit", "Capex / Revenue", "Capex / EBITDA", "Capex / Total Assets"],
+    "a": 1,
+    "e": "Capex / Sales (Revenue) measures how much the company reinvests for each rupee of sales. High intensity = capital-hungry industry; low intensity = asset-light.",
+    "topic": "IND",
+    "difficulty": 2
+  },
+  {
+    "q": "A High threat of new entrants means:",
+    "o": ["Industry attractiveness is high", "Industry attractiveness is low because incumbents face price/margin pressure", "Earnings are stable", "Regulation favours incumbents"],
+    "a": 1,
+    "e": "High threat of entry erodes incumbents' margins and pricing power → lower industry attractiveness. Barriers to entry (capital, regulation, IP, scale) protect incumbents.",
+    "topic": "IND",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of the following is a typical driver for the Indian banking industry?",
+    "o": ["Crude oil prices", "USFDA inspections", "RBI's interest rate policy and credit growth", "USD/INR exchange rate alone"],
+    "a": 2,
+    "e": "Banks are driven by Net Interest Margin (NIM), credit growth, NPA cycle, and RBI rate policy. Crude is for oil-marketing; FDA is for pharma; FX is for IT services.",
+    "topic": "IND",
+    "difficulty": 2
+  },
+  {
+    "q": "An industry with a few large global players, high R&D intensity, and patent protection (e.g. pharma innovators) typically:",
+    "o": ["Has low pricing power and low margins", "Has high pricing power and stable margins from successful patents", "Lacks regulatory oversight", "Is in the decline phase of life cycle"],
+    "a": 1,
+    "e": "Patent protection = regulatory moat; high R&D = barrier to new entrants. Successful patented products generate strong pricing power and stable margins until patent expiry.",
+    "topic": "IND",
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "q": "EBITDA is calculated as:",
+    "o": ["EBIT + Depreciation + Amortisation", "Net Profit + Interest", "Gross Profit − Operating Expenses", "Revenue − Cost of Goods Sold"],
+    "a": 0,
+    "e": "EBITDA = EBIT + D&A. It adds back non-cash depreciation and amortisation to focus on operating cash generation. Useful for comparing companies with different capex / financing structures.",
+    "topic": "FIN",
+    "difficulty": 1
+  },
+  {
+    "q": "Free Cash Flow (FCF) is defined as:",
+    "o": ["CFO + Net Income", "CFO − Capex", "EBITDA − Tax", "Net Profit + Depreciation"],
+    "a": 1,
+    "e": "FCF = Cash Flow from Operations − Capital Expenditure. It represents cash available to debt and equity providers after maintaining the asset base.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "DuPont decomposition expresses ROE as:",
+    "o": ["Net Margin × Asset Turnover × Equity Multiplier", "EBIT × Tax Rate × Asset Turnover", "Sales × ROCE", "Net Profit × Equity"],
+    "a": 0,
+    "e": "DuPont: ROE = (Net Profit / Sales) × (Sales / Assets) × (Assets / Equity) = Net Profit Margin × Asset Turnover × Equity Multiplier. Three drivers explain ROE.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "Working capital cycle (in days) is calculated as:",
+    "o": ["DSO + DPO − Days Inventory", "DSO + Days Inventory − DPO", "DPO − DSO − Days Inventory", "(DSO × DPO) / Days Inventory"],
+    "a": 1,
+    "e": "Working capital cycle = DSO (Days Sales Outstanding) + Days Inventory − DPO (Days Payables Outstanding). Lower is better — less working capital tied up.",
+    "topic": "FIN",
+    "difficulty": 3
+  },
+  {
+    "q": "If CFO consistently lags Net Profit by a wide margin, this is:",
+    "o": ["Normal for growth companies and unconcerning", "A potential red flag indicating earnings aren't converting to cash", "A sign of strong working capital management", "An accounting requirement"],
+    "a": 1,
+    "e": "Cash conversion = CFO / Net Profit. If consistently below 1, earnings aren't turning into cash → could indicate aggressive revenue recognition, working-capital build-up, or low-quality profits.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "Interest coverage ratio is calculated as:",
+    "o": ["Net Profit / Interest expense", "EBIT / Interest expense", "EBITDA / Total debt", "Total debt / Equity"],
+    "a": 1,
+    "e": "Interest coverage = EBIT / Interest expense. Measures how comfortably operating profit covers interest payments. Healthy: > 4-5x; Stressed: < 2x.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "Quick ratio differs from current ratio in that it:",
+    "o": ["Includes long-term debt", "Excludes inventory from current assets", "Includes only cash", "Includes contingent liabilities"],
+    "a": 1,
+    "e": "Quick ratio = (Current Assets − Inventory) / Current Liabilities. Excludes inventory because it may be hard to convert to cash quickly. Healthy: > 1.0.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "The cash flow statement classifies activities into:",
+    "o": ["Operating, Investing, and Financing", "Sales, Costs, and Profits", "Assets, Liabilities, and Equity", "Current and Non-current"],
+    "a": 0,
+    "e": "Cash flow statement has three sections: CFO (operating — core business), CFI (investing — capex, acquisitions, divestitures), CFF (financing — debt, equity, dividends).",
+    "topic": "FIN",
+    "difficulty": 1
+  },
+  {
+    "q": "ROCE is calculated as:",
+    "o": ["Net Profit / Equity", "EBIT / (Equity + Long-term Debt)", "Net Profit / Total Assets", "Revenue / Total Assets"],
+    "a": 1,
+    "e": "ROCE (Return on Capital Employed) = EBIT / (Equity + Long-term Debt). Shows return on the total capital base; better than ROE for comparing companies with different leverage.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "If a company has Net Profit Margin 5%, Asset Turnover 2.0, and Equity Multiplier 3.0, ROE equals:",
+    "o": ["6%", "10%", "30%", "60%"],
+    "a": 2,
+    "e": "ROE = NPM × ATO × EM = 5% × 2.0 × 3.0 = 30%. Note: a 30% ROE driven 3x by leverage is risky — high equity multiplier reflects high D/E.",
+    "topic": "FIN",
+    "difficulty": 3
+  },
+  {
+    "q": "Operating leases were brought onto the balance sheet under which Indian standard?",
+    "o": ["Ind AS 109", "Ind AS 116", "Ind AS 19", "Ind AS 32"],
+    "a": 1,
+    "e": "Ind AS 116 (effective FY20) requires lessees to recognise most operating leases as right-of-use assets and corresponding liabilities on the balance sheet. Improves comparability.",
+    "topic": "FIN",
+    "difficulty": 3
+  },
+  {
+    "q": "Which of these is a potential red flag in cash flow analysis?",
+    "o": ["FCF growing year over year", "CFO consistently exceeding Net Profit", "Dividends consistently exceeding FCF", "Capex equal to depreciation"],
+    "a": 2,
+    "e": "Dividends consistently exceeding FCF means the dividend is being funded by debt or asset sales — unsustainable. Healthy companies pay dividends out of FCF.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "Common-size income statement expresses each line item as a percentage of:",
+    "o": ["Total assets", "Net profit", "Revenue / Sales", "Equity"],
+    "a": 2,
+    "e": "Common-size P&L: each line as % of revenue. Common-size balance sheet: each line as % of total assets. Makes year-on-year and peer comparisons easy.",
+    "topic": "FIN",
+    "difficulty": 2
+  },
+  {
+    "q": "EV (Enterprise Value) is calculated as:",
+    "o": ["Market cap only", "Market cap + Total debt − Cash − Investments", "Total assets − Total liabilities", "Equity − Net debt"],
+    "a": 1,
+    "e": "EV = Market cap + Total Debt + Minority Interest + Pref equity − Cash − Investments. Represents the total cost to acquire the company on a debt-free, cash-free basis.",
+    "topic": "FIN",
+    "difficulty": 3
+  }
+]

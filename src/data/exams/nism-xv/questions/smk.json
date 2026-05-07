@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Funds raised in the primary market flow to:",
+    "o": ["The issuer of the security", "The selling investor", "The exchange", "The brokerage firm"],
+    "a": 0,
+    "e": "Primary market = issuer raises new capital from investors. Secondary market = funds flow between buyers and sellers; the issuer doesn't receive proceeds.",
+    "topic": "SMK",
+    "difficulty": 1
+  },
+  {
+    "q": "Which Indian regulator oversees mutual funds and stock exchanges?",
+    "o": ["RBI", "IRDAI", "SEBI", "PFRDA"],
+    "a": 2,
+    "e": "SEBI regulates capital markets, intermediaries, mutual funds, FPIs. RBI handles banking + G-secs; IRDAI handles insurance; PFRDA handles pensions.",
+    "topic": "SMK",
+    "difficulty": 1
+  },
+  {
+    "q": "In a book-building IPO, the final issue price is determined by:",
+    "o": ["The merchant banker alone", "RBI guidelines", "Investor demand within a price band", "The government"],
+    "a": 2,
+    "e": "Book-building uses a price band; investors bid; demand at each price determines the cut-off. Most modern Indian IPOs use book-building (vs the older fixed-price method).",
+    "topic": "SMK",
+    "difficulty": 2
+  }
+]

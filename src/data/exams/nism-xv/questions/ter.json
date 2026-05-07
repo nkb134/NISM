@@ -1,0 +1,34 @@
+[
+  {
+    "q": "Which of the following holds true for bond prices and yields?",
+    "o": ["They move in the same direction", "They move inversely", "They are uncorrelated", "Bond prices are independent of yields"],
+    "a": 1,
+    "e": "Bond price moves inversely to yield. When yields rise, prices fall (and vice versa). Longer-maturity bonds are more sensitive.",
+    "topic": "TER",
+    "difficulty": 1
+  },
+  {
+    "q": "Modified duration of a bond measures:",
+    "o": ["The years to maturity", "% change in bond price for 1% change in yield", "The coupon rate", "Time to recover the bond's price from cash flows"],
+    "a": 1,
+    "e": "Modified duration = % price change for a 1% yield move (linear approximation). Macaulay duration is the weighted-average time to receive cash flows; Modified ≈ Macaulay / (1 + YTM).",
+    "topic": "TER",
+    "difficulty": 2
+  },
+  {
+    "q": "EPS is calculated as:",
+    "o": ["Net profit / Shares outstanding (weighted avg)", "Net profit / Total assets", "Revenue / Shares outstanding", "Dividend / Shares outstanding"],
+    "a": 0,
+    "e": "EPS = Net Profit / Weighted Average Shares Outstanding. Diluted EPS adds in potential dilution from convertibles and ESOPs.",
+    "topic": "TER",
+    "difficulty": 1
+  },
+  {
+    "q": "Yield To Maturity (YTM) of a bond is:",
+    "o": ["The coupon rate", "The discount rate that equates future cash flows to current price", "The dividend yield", "The face value divided by price"],
+    "a": 1,
+    "e": "YTM is the IRR of holding the bond to maturity — the discount rate that makes the present value of future cash flows equal the current price.",
+    "topic": "TER",
+    "difficulty": 2
+  }
+]

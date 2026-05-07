@@ -1,0 +1,66 @@
+[
+  {
+    "q": "An economic moat refers to:",
+    "o": ["A company's debt-to-equity ratio", "A sustainable competitive advantage protecting long-term returns", "A regulatory restriction", "A defensive industry classification"],
+    "a": 1,
+    "e": "Coined by Warren Buffett. A moat = sustainable competitive advantage (network effects, brand, scale, switching costs, IP, regulatory licence, distribution) that protects a company's above-cost-of-capital returns.",
+    "topic": "BIZ",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of these is NOT a typical type of economic moat?",
+    "o": ["Network effects", "Switching costs", "Brand loyalty", "Quarterly earnings beats"],
+    "a": 3,
+    "e": "Moat types: Network effects, Brand, Scale, Switching costs, Regulatory protection, Patents/IP, Distribution. Quarterly earnings beats are a result, not a moat.",
+    "topic": "BIZ",
+    "difficulty": 1
+  },
+  {
+    "q": "If a single customer accounts for over 40% of a company's revenue, this is typically:",
+    "o": ["A positive sign of strong relationships", "A red flag — customer concentration risk", "Irrelevant to research analysis", "A regulatory mandate"],
+    "a": 1,
+    "e": "Customer concentration > 40% means losing that customer would have outsized impact. It's a major risk factor — must be flagged in research reports.",
+    "topic": "BIZ",
+    "difficulty": 1
+  },
+  {
+    "q": "For a listed Indian company with an EXECUTIVE chairman, the minimum required proportion of independent directors on the board is:",
+    "o": ["1/4", "1/3", "1/2", "2/3"],
+    "a": 1,
+    "e": "If the chairman is executive: at least 1/3 of the board must be independent. If the chairman is non-executive (and not promoter-related): at least 1/2 must be independent.",
+    "topic": "BIZ",
+    "difficulty": 3
+  },
+  {
+    "q": "The Audit Committee of a listed Indian company must have:",
+    "o": ["At least 3 members, with majority independent", "At least 5 members, with all being executive directors", "At least 3 members, with 2/3 independent and an independent chair", "Promoters as members for accountability"],
+    "a": 2,
+    "e": "Audit committee: ≥ 3 members; ≥ 2/3 must be independent; the chair must be independent. This is mandated under SEBI LODR + Companies Act 2013.",
+    "topic": "BIZ",
+    "difficulty": 3
+  },
+  {
+    "q": "A material related-party transaction (RPT) requires prior shareholder approval if it exceeds:",
+    "o": ["1% of consolidated turnover", "5% of consolidated turnover", "10% of consolidated turnover", "20% of consolidated turnover"],
+    "a": 2,
+    "e": "Material RPTs > 10% of consolidated turnover (or specified threshold) need prior shareholder approval. Promoter group cannot vote on the resolution.",
+    "topic": "BIZ",
+    "difficulty": 3
+  },
+  {
+    "q": "Increasing promoter share pledging is generally:",
+    "o": ["A positive — promoters confident in the stock", "A red flag — risk of forced selling on margin call", "Neutral", "Required for governance"],
+    "a": 1,
+    "e": "High promoter pledge means lenders can sell those shares if collateral value falls — triggering a price cascade. Watch the trend; rising pledge is a warning sign.",
+    "topic": "BIZ",
+    "difficulty": 2
+  },
+  {
+    "q": "Business Responsibility and Sustainability Report (BRSR) is mandatory for:",
+    "o": ["All listed companies", "Top 100 listed companies only", "Top 1000 listed companies (since FY23)", "Government PSUs only"],
+    "a": 2,
+    "e": "BRSR is mandatory for the top 1000 listed companies by market capitalisation since FY23 (per SEBI LODR amendments). Captures ESG performance.",
+    "topic": "BIZ",
+    "difficulty": 3
+  }
+]

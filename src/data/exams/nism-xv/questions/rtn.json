@@ -1,0 +1,66 @@
+[
+  {
+    "q": "An investment of ₹100 grows to ₹130 in year 1, then falls to ₹104 in year 2. The CAGR (geometric mean return) over 2 years is approximately:",
+    "o": ["5%", "1.98%", "30%", "4%"],
+    "a": 1,
+    "e": "CAGR = (104/100)^(1/2) − 1 = 1.04^0.5 − 1 ≈ 1.98%. Note arithmetic mean of period returns (+30%, −20%) = 5%, but geometric (CAGR) reflects what you actually earned.",
+    "topic": "RTN",
+    "difficulty": 3
+  },
+  {
+    "q": "Diversification can reduce which type of risk?",
+    "o": ["Systematic (market) risk only", "Unsystematic (specific) risk only", "Both systematic and unsystematic risk", "Neither"],
+    "a": 1,
+    "e": "Diversification reduces unsystematic (company / industry-specific) risk. Systematic (market-wide) risk affects all assets and cannot be diversified away.",
+    "topic": "RTN",
+    "difficulty": 1
+  },
+  {
+    "q": "Beta measures:",
+    "o": ["Total return volatility (standard deviation)", "Sensitivity of stock returns to market returns", "Risk-free rate", "Equity risk premium"],
+    "a": 1,
+    "e": "Beta = Cov(stock return, market return) / Var(market return). Measures systematic (market) risk only. β = 1 = moves with market; β > 1 = more volatile; β < 1 = less volatile.",
+    "topic": "RTN",
+    "difficulty": 2
+  },
+  {
+    "q": "The Sharpe Ratio uses which measure of risk in the denominator?",
+    "o": ["Beta (systematic risk)", "Standard deviation (total risk)", "Skewness", "Tracking error"],
+    "a": 1,
+    "e": "Sharpe = (Rp − Rf) / σ_p, where σ is the portfolio's total standard deviation. Treynor uses beta in the denominator and is suited for well-diversified portfolios where unsystematic risk is gone.",
+    "topic": "RTN",
+    "difficulty": 2
+  },
+  {
+    "q": "Jensen's alpha measures:",
+    "o": ["Tracking error", "Excess return over CAPM-predicted return", "Beta of the portfolio", "Sharpe ratio adjustment"],
+    "a": 1,
+    "e": "Jensen's α = Rp − [Rf + β × (Rm − Rf)]. Positive α = manager beat the CAPM-predicted return → real outperformance. Used to evaluate active managers.",
+    "topic": "RTN",
+    "difficulty": 3
+  },
+  {
+    "q": "When two assets have a correlation of −1, combining them in a portfolio:",
+    "o": ["Increases total risk", "Has no effect on risk", "Allows construction of a zero-risk portfolio in theory", "Increases beta"],
+    "a": 2,
+    "e": "Perfectly negative correlation (ρ = −1) allows a weighted combination that fully cancels out risk in theory. In practice, perfect −1 correlation rarely persists, but lower correlation always means more diversification benefit.",
+    "topic": "RTN",
+    "difficulty": 3
+  },
+  {
+    "q": "The Capital Market Line (CML) plots:",
+    "o": ["Risk vs return for individual stocks", "Risk vs return for efficient portfolios combined with the risk-free asset", "Beta vs return", "Volatility vs time"],
+    "a": 1,
+    "e": "CML = optimal risk/return trade-off when combining the risk-free asset with the market portfolio. Points along CML are best risk-adjusted returns achievable. Below CML = inefficient; above CML = impossible (in theory).",
+    "topic": "RTN",
+    "difficulty": 3
+  },
+  {
+    "q": "Sortino Ratio differs from Sharpe Ratio in that it:",
+    "o": ["Uses beta in the denominator", "Penalises only downside volatility, not total volatility", "Subtracts the risk-free rate", "Uses geometric mean only"],
+    "a": 1,
+    "e": "Sortino = (Rp − Target) / Downside Deviation. It only penalises returns below a target (typically 0 or Rf), unlike Sharpe which penalises all volatility. Better for asymmetric strategies.",
+    "topic": "RTN",
+    "difficulty": 3
+  }
+]

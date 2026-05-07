@@ -32,6 +32,24 @@ export const NISM_VIII_TOPICS = {
   IPS: { name: 'Sales & Investor Protection', weight: 5, order: 10 },
 } as const satisfies Record<string, TopicSpec>;
 
+export const NISM_XV_TOPICS = {
+  RAP: { name: 'Research Analyst Profession', weight: 1, order: 1 },
+  SMK: { name: 'Securities Market', weight: 2, order: 2 },
+  TER: { name: 'Equity & Debt Terminology', weight: 2, order: 3 },
+  RES: { name: 'Fundamentals of Research', weight: 5, order: 4 },
+  ECO: { name: 'Economic Analysis', weight: 5, order: 5 },
+  IND: { name: 'Industry Analysis', weight: 8, order: 6 },
+  BIZ: { name: 'Business & Governance', weight: 6, order: 7 },
+  FIN: { name: 'Financial Analysis', weight: 12, order: 8 },
+  COR: { name: 'Corporate Actions', weight: 5, order: 9 },
+  VAL: { name: 'Valuation Principles', weight: 12, order: 10 },
+  COM: { name: 'Commodity Analysis', weight: 5, order: 11 },
+  RTN: { name: 'Risk & Return', weight: 7, order: 12 },
+  RPT: { name: 'Research Report Quality', weight: 5, order: 13 },
+  LEX: { name: 'Legal & Regulatory (RA)', weight: 10, order: 14 },
+  TEC: { name: 'Technical Analysis', weight: 15, order: 15 },
+} as const satisfies Record<string, TopicSpec>;
+
 export type TopicCode = keyof typeof NISM_VA_TOPICS;
 
 export const TOPIC_CODES: TopicCode[] = Object.keys(NISM_VA_TOPICS) as TopicCode[];
@@ -41,6 +59,7 @@ export const TOPIC_CODES: TopicCode[] = Object.keys(NISM_VA_TOPICS) as TopicCode
 const ALL_TOPICS: Record<string, TopicSpec> = {
   ...NISM_VA_TOPICS,
   ...NISM_VIII_TOPICS,
+  ...NISM_XV_TOPICS,
 };
 
 /** Return the human-readable name for a topic code, or null if unknown. */

@@ -1,0 +1,50 @@
+[
+  {
+    "q": "Commodity prices generally have what relationship with the US Dollar?",
+    "o": ["Direct (positive correlation)", "Inverse (negative correlation)", "No relationship", "Random"],
+    "a": 1,
+    "e": "Most global commodities are priced in USD. Stronger USD → cheaper commodities for non-USD buyers → demand falls → prices fall. Inverse correlation. Holds for crude, metals, gold.",
+    "topic": "COM",
+    "difficulty": 2
+  },
+  {
+    "q": "When the futures price is greater than the spot price, the market is in:",
+    "o": ["Backwardation", "Contango", "Parity", "Arbitrage"],
+    "a": 1,
+    "e": "Contango: futures > spot. Reflects carrying costs (storage + financing) less convenience yield. Normal state for storable commodities. Backwardation = futures < spot, signals tight supply.",
+    "topic": "COM",
+    "difficulty": 1
+  },
+  {
+    "q": "Copper is sometimes called 'Dr. Copper' because:",
+    "o": ["It is the most expensive base metal", "Its price tends to lead global economic growth signals", "It is used only in healthcare", "It has the lowest volatility"],
+    "a": 1,
+    "e": "Copper is widely used in industrial applications (construction, electrification, EVs). Its price tends to move ahead of broad economic activity, making it a leading indicator — hence 'Dr. Copper'.",
+    "topic": "COM",
+    "difficulty": 2
+  },
+  {
+    "q": "Which Indian commodity exchange is the largest by volume for metals and energy?",
+    "o": ["NSE", "BSE", "MCX", "NCDEX"],
+    "a": 2,
+    "e": "MCX (Multi Commodity Exchange) is the largest for energy and metals in India. NCDEX specialises in agri commodities. SEBI regulates both since the FMC merger in 2015.",
+    "topic": "COM",
+    "difficulty": 1
+  },
+  {
+    "q": "Negative roll yield in a long futures position arises when:",
+    "o": ["The market is in backwardation", "The market is in contango and the trader rolls to the next contract", "The futures price is unchanged", "There is a margin call"],
+    "a": 1,
+    "e": "In contango, the next-month futures is more expensive than the expiring one. Rolling forward forces the trader to sell low and buy high, eroding returns even if spot is flat. This is 'negative roll yield'.",
+    "topic": "COM",
+    "difficulty": 3
+  },
+  {
+    "q": "A weakening Indian Rupee against the US Dollar typically:",
+    "o": ["Reduces the cost of crude oil for India", "Increases the rupee cost of crude oil imports", "Has no effect on commodity costs", "Boosts gold demand only"],
+    "a": 1,
+    "e": "Crude is dollar-priced. Weaker INR → more rupees needed per barrel → fuel costs rise → inflation pressure + current account widening. India imports ~85% of its crude, making this critical.",
+    "topic": "COM",
+    "difficulty": 2
+  }
+]

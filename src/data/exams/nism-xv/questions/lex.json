@@ -1,0 +1,98 @@
+[
+  {
+    "q": "Which certification is mandatory for SEBI registration as a Research Analyst?",
+    "o": ["NISM Series V-A", "NISM Series VIII", "NISM Series XV", "NISM Series X-A"],
+    "a": 2,
+    "e": "NISM Series XV (Research Analyst Certification Examination) is mandatory under SEBI (Research Analysts) Regulations, 2014 — both for the principal officer and every research employee.",
+    "topic": "LEX",
+    "difficulty": 1
+  },
+  {
+    "q": "The minimum net worth for an INDIVIDUAL Research Analyst registered with SEBI is:",
+    "o": ["₹50,000", "₹1 lakh", "₹10 lakh", "₹25 lakh"],
+    "a": 1,
+    "e": "Individual RA: ₹1 lakh net worth. Body corporate RA: ₹25 lakh. A favourite trap question — don't confuse the two.",
+    "topic": "LEX",
+    "difficulty": 2
+  },
+  {
+    "q": "The minimum net worth for a body corporate Research Analyst registered with SEBI is:",
+    "o": ["₹1 lakh", "₹10 lakh", "₹25 lakh", "₹1 crore"],
+    "a": 2,
+    "e": "Body corporate RA: ₹25 lakh net worth (vs ₹1 lakh for an individual).",
+    "topic": "LEX",
+    "difficulty": 2
+  },
+  {
+    "q": "Which SEBI Regulation governs Insider Trading?",
+    "o": ["SEBI (PIT) Regulations, 2015", "SEBI (RA) Regulations, 2014", "SEBI (LODR) Regulations, 2015", "SEBI (PFUTP) Regulations, 2003"],
+    "a": 0,
+    "e": "SEBI (Prohibition of Insider Trading) Regulations 2015 govern insider trading. PFUTP 2003 covers fraudulent + unfair trade practices (manipulation, spoofing). LODR governs listed-entity disclosures.",
+    "topic": "LEX",
+    "difficulty": 2
+  },
+  {
+    "q": "Maximum penalty under SEBI (PIT) Regulations 2015 for insider trading is:",
+    "o": ["₹1 cr", "₹5 cr", "₹25 cr or 3× profits, whichever is higher", "Imprisonment only"],
+    "a": 2,
+    "e": "Maximum penalty: ₹25 cr or 3× profits/loss avoided (whichever higher). Plus criminal prosecution possible. Same cap applies under PFUTP.",
+    "topic": "LEX",
+    "difficulty": 3
+  },
+  {
+    "q": "An RA must maintain records (reports, communications, personal trades) for at least:",
+    "o": ["1 year", "3 years", "5 years", "Indefinitely"],
+    "a": 2,
+    "e": "5 years retention is mandatory under SEBI (RA) Regulations 2014. Includes all reports, supporting workings, client communications, and personal trading records.",
+    "topic": "LEX",
+    "difficulty": 2
+  },
+  {
+    "q": "Chinese walls in a research firm refer to:",
+    "o": ["Physical office partitions", "Information barriers between research and IB / proprietary trading desks", "Encryption of client data only", "Geographic separation of offices"],
+    "a": 1,
+    "e": "Chinese walls = procedural and informational barriers preventing exchange of price-sensitive information between research, investment banking, and proprietary trading desks. Mandatory under SEBI conduct norms.",
+    "topic": "LEX",
+    "difficulty": 2
+  },
+  {
+    "q": "If an RA holds shares of the company they are about to recommend, they must:",
+    "o": ["Sell the shares before publishing", "Disclose the holding in the report", "Hide the holding to avoid bias accusation", "Inform only the company"],
+    "a": 1,
+    "e": "Conflict-of-interest disclosure is mandatory under SEBI (RA) Regulations. The analyst (or family/firm) holding shares must be openly disclosed in the report, alongside the SEBI registration number and other declarations.",
+    "topic": "LEX",
+    "difficulty": 2
+  },
+  {
+    "q": "SCORES is:",
+    "o": ["A SEBI online complaint redressal portal", "An exchange's pricing engine", "A clearing house", "A type of derivative"],
+    "a": 0,
+    "e": "SCORES (SEBI Complaints Redress System) is SEBI's online portal where investors can file complaints against registered intermediaries. After SCORES, unresolved complaints escalate to SMARTODR.",
+    "topic": "LEX",
+    "difficulty": 1
+  },
+  {
+    "q": "How frequently does SEBI typically inspect registered Research Analysts?",
+    "o": ["Once every 5 years", "Quarterly", "At least once a year", "Only on complaint"],
+    "a": 2,
+    "e": "SEBI conducts at least one inspection per year of registered RAs, reviewing report quality, compliance with disclosure norms, personal trading patterns, and grievance redressal.",
+    "topic": "LEX",
+    "difficulty": 3
+  },
+  {
+    "q": "Trading windows close pre-results announcement typically from:",
+    "o": ["T-1 to T+1", "T-7 to T+2", "T-30 to T+30", "From start of fiscal year"],
+    "a": 1,
+    "e": "Per PIT 2015, the designated-persons trading window is closed approximately T-7 to T+2 days around results announcement (and other UPSI-generating events). Specific dates per company's SOP, but the standard pattern is roughly this window.",
+    "topic": "LEX",
+    "difficulty": 3
+  },
+  {
+    "q": "Which is the correct grievance redressal cascade for an RA's client?",
+    "o": ["RA compliance → SCORES → SMARTODR", "SCORES → SMARTODR → RA compliance", "SEBI Court → RA compliance", "RBI → SCORES"],
+    "a": 0,
+    "e": "Cascade: complain to RA's compliance officer first (30-day window). If unresolved → SCORES (SEBI portal). If still unresolved → SMARTODR (online dispute resolution). RBI is not in the path for capital-market grievances.",
+    "topic": "LEX",
+    "difficulty": 2
+  }
+]

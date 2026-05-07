@@ -1,0 +1,50 @@
+[
+  {
+    "q": "Which corporate action does NOT change a company's market capitalisation?",
+    "o": ["Cash dividend", "Bonus issue", "Buyback", "M&A acquisition"],
+    "a": 1,
+    "e": "Bonus issue (and stock split) only changes the share count and per-share price proportionally — total market cap is unchanged. Cash dividends reduce cap; buybacks reduce cap; M&A changes the entity entirely.",
+    "topic": "COR",
+    "difficulty": 1
+  },
+  {
+    "q": "After a 1:1 bonus issue, the share count and per-share price will:",
+    "o": ["Both halve", "Both double", "Share count doubles, price halves", "Share count halves, price doubles"],
+    "a": 2,
+    "e": "1:1 bonus = one new free share for each existing share → shares double. Market cap unchanged → per-share price halves.",
+    "topic": "COR",
+    "difficulty": 1
+  },
+  {
+    "q": "Buyback tax in India is:",
+    "o": ["Tax-free for both company and shareholder", "Paid by the shareholder at slab rate", "Paid by the company at 23.296%; tax-free in shareholder's hands", "Paid by both at 15% each"],
+    "a": 2,
+    "e": "Post-FY20: company pays 23.296% buyback tax on the distributed amount; receipt is tax-free for the shareholder. This was changed to align with the abolition of DDT.",
+    "topic": "COR",
+    "difficulty": 3
+  },
+  {
+    "q": "An open offer under SAST is triggered when an acquirer's stake crosses:",
+    "o": ["10%", "15%", "25%", "51%"],
+    "a": 2,
+    "e": "Crossing 25% stake triggers a mandatory open offer for an additional 26% under SEBI (SAST) Regulations. Designed to give other shareholders an exit when control changes hands.",
+    "topic": "COR",
+    "difficulty": 3
+  },
+  {
+    "q": "DDT (Dividend Distribution Tax) was abolished effective:",
+    "o": ["FY 18", "FY 19", "FY 20", "FY 21"],
+    "a": 3,
+    "e": "DDT was abolished from April 1, 2020 (FY 21 onwards). Dividends now taxable in shareholder's hands at slab rate; TDS at 10% if dividend > ₹5,000 per fiscal year.",
+    "topic": "COR",
+    "difficulty": 3
+  },
+  {
+    "q": "For an extraordinary dividend, derivative strikes are adjusted only if the dividend exceeds:",
+    "o": ["1% of stock price", "2% of stock price", "5% of stock price", "10% of stock price"],
+    "a": 2,
+    "e": "Derivative strikes are adjusted for extraordinary cash dividends only if the dividend > 5% of stock price; smaller dividends are absorbed in normal trading.",
+    "topic": "COR",
+    "difficulty": 3
+  }
+]

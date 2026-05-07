@@ -1,0 +1,18 @@
+[
+  {
+    "q": "Reports prepared by sell-side research analysts are typically:",
+    "o": ["Internal-only and confidential", "Published for the public, often free", "Sold on subscription only", "Available only to SEBI"],
+    "a": 1,
+    "e": "Sell-side reports are published in the public domain, generally free to brokerage clients. Buy-side reports are internal; independent research is sold on subscription.",
+    "topic": "RAP",
+    "difficulty": 1
+  },
+  {
+    "q": "Which SEBI regulation is the parent rulebook for Research Analysts in India?",
+    "o": ["SEBI (Investment Advisers) Regulations, 2013", "SEBI (Research Analysts) Regulations, 2014", "SEBI (Stock Brokers) Regulations, 1992", "SEBI (Mutual Funds) Regulations, 1996"],
+    "a": 1,
+    "e": "SEBI (Research Analysts) Regulations, 2014 govern RAs — registration, code of conduct, disclosures, personal trading, record-keeping.",
+    "topic": "RAP",
+    "difficulty": 1
+  }
+]

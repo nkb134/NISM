@@ -20,6 +20,7 @@ export type ExamSeries =
   | 'X-A'
   | 'X-B'
   | 'XII'
+  | 'XV'
   | 'XVI'
   | 'XIX-A'
   | 'XIX-B'
@@ -117,6 +118,22 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     displayOrder: 3,
   },
   {
+    code: 'nism-xv',
+    series: 'XV',
+    shortName: 'NISM Series XV',
+    fullName: 'Research Analyst Certification Examination',
+    audience: 'Mandatory for SEBI-registered research analysts and their partners/employees.',
+    totalQuestions: 100,
+    durationMinutes: 180,
+    passMarkPercent: 60,
+    negativeMarking: true,
+    syllabusVersion: 'February 2026',
+    nismOfficialUrl: 'https://www.nism.ac.in/certifications/research-analyst/',
+    studyGuideStatus: 'available',
+    mockTestStatus: 'available',
+    displayOrder: 4,
+  },
+  {
     code: 'nism-vii',
     series: 'VII',
     shortName: 'NISM Series VII',
@@ -130,7 +147,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/securities-operations-and-risk-management/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 4,
+    displayOrder: 5,
   },
   {
     code: 'nism-vi',
@@ -146,7 +163,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/depository-operations/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 5,
+    displayOrder: 6,
   },
   {
     code: 'nism-xa',
@@ -162,7 +179,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/investment-adviser-level-1/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 6,
+    displayOrder: 7,
   },
   {
     code: 'nism-xb',
@@ -178,7 +195,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/investment-advisors-level-2/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 7,
+    displayOrder: 8,
   },
   {
     code: 'nism-xii',
@@ -194,7 +211,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/securities-markets-foundation/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 8,
+    displayOrder: 9,
   },
   {
     code: 'nism-i',
@@ -210,7 +227,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/currency-derivatives/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 9,
+    displayOrder: 10,
   },
   {
     code: 'nism-iv',
@@ -226,7 +243,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/interest-rate-derivatives/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 10,
+    displayOrder: 11,
   },
   {
     code: 'nism-xvi',
@@ -242,7 +259,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/commodity-derivatives-certification-examination/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 11,
+    displayOrder: 12,
   },
   {
     code: 'nism-xxiv',
@@ -258,7 +275,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/nism-series-xxiv-aml-and-cft-provisions-in-securities-markets-certification-examination/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 12,
+    displayOrder: 13,
   },
   {
     code: 'nism-xxia',
@@ -274,7 +291,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/about-portfolio-management-services-pms-distributors-certification-examination/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 13,
+    displayOrder: 14,
   },
   {
     code: 'nism-iia',
@@ -290,7 +307,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/rta-corporate/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 14,
+    displayOrder: 15,
   },
   {
     code: 'nism-iib',
@@ -306,7 +323,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/rta-mutual-fund/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 15,
+    displayOrder: 16,
   },
   {
     code: 'nism-iiia',
@@ -322,7 +339,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/securities-intermediaries-compliance-non-fund/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 16,
+    displayOrder: 17,
   },
   {
     code: 'nism-xixa',
@@ -338,7 +355,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/nism-series-xix-a-alternative-investment-funds-category-i-and-ii-distributors/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 17,
+    displayOrder: 18,
   },
   {
     code: 'nism-xixb',
@@ -354,7 +371,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/nism-series-xix-b-alternative-investment-funds-category-iii-distributors/',
     studyGuideStatus: 'coming-soon',
     mockTestStatus: 'coming-soon',
-    displayOrder: 18,
+    displayOrder: 19,
   },
 ];
 

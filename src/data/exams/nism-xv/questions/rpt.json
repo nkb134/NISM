@@ -1,0 +1,50 @@
+[
+  {
+    "q": "A research report should typically place the recommendation:",
+    "o": ["At the end of the report", "On the first page / cover", "In the middle of the report", "Only after the disclosures"],
+    "a": 1,
+    "e": "Lead with the call. The recommendation, target price, and 3-5 thesis bullets should be on the first page so a reader sees the conclusion in 30 seconds.",
+    "topic": "RPT",
+    "difficulty": 1
+  },
+  {
+    "q": "How long must research reports and supporting workings be retained by a registered RA?",
+    "o": ["1 year", "3 years", "5 years", "10 years"],
+    "a": 2,
+    "e": "5 years is the mandated retention period under SEBI (Research Analysts) Regulations, 2014. Includes reports, supporting research, communications, and personal trading records.",
+    "topic": "RPT",
+    "difficulty": 2
+  },
+  {
+    "q": "When distributing a research report to clients, the RA must:",
+    "o": ["Send to top clients first, smaller clients later", "Send simultaneously to all entitled clients", "Send only after market close", "Send only on request"],
+    "a": 1,
+    "e": "Distribution must be simultaneous to all entitled clients — preferential timing creates an unfair advantage and would breach SEBI's fair-distribution requirement.",
+    "topic": "RPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these is a mandatory disclosure in every research report under SEBI (RA) Regulations 2014?",
+    "o": ["The analyst's home address", "The RA's SEBI registration number", "The analyst's bank account number", "Past clients' personal details"],
+    "a": 1,
+    "e": "Mandatory disclosures include SEBI registration number, personal/firm holdings of the subject security, conflicts of interest, compensation from subject company, etc. Personal contact details are not disclosed.",
+    "topic": "RPT",
+    "difficulty": 2
+  },
+  {
+    "q": "Cooling-off period for an RA's personal trading in a recommended security is approximately:",
+    "o": ["1 day before and 1 day after publication", "30 days before and 5 days after publication", "1 year on either side", "No cooling-off required"],
+    "a": 1,
+    "e": "Per SEBI norms, the analyst cannot trade in the recommended security for ~30 days before publication (to prevent front-running) and ~5 days after (to prevent benefiting from the recommendation's market impact).",
+    "topic": "RPT",
+    "difficulty": 3
+  },
+  {
+    "q": "An 'Initiation of Coverage' report is typically:",
+    "o": ["1-2 pages", "4-8 pages", "30-50 pages", "100+ pages"],
+    "a": 2,
+    "e": "Initiation reports are comprehensive first takes on a stock — 30-50 pages covering business, industry, financials, valuation, risks, scenarios. Quarterly notes are 4-8 pages; daily notes 1-2.",
+    "topic": "RPT",
+    "difficulty": 2
+  }
+]

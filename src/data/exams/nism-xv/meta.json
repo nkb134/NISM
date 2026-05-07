@@ -1,0 +1,9 @@
+{
+  "examCode": "nism-xv",
+  "examName": "NISM Series XV",
+  "examFullName": "Research Analyst Certification Examination",
+  "totalQuestions": 100,
+  "durationMinutes": 180,
+  "passMarkPercent": 60,
+  "negativeMarking": true
+}

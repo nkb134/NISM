@@ -1,0 +1,50 @@
+[
+  {
+    "q": "The Top-down approach to fundamental analysis starts with:",
+    "o": ["The company", "The industry", "The economy", "Technical chart patterns"],
+    "a": 2,
+    "e": "Top-down = Economy → Industry → Company. Bottom-up reverses: starts with a company, then validates against industry and economy.",
+    "topic": "RES",
+    "difficulty": 1
+  },
+  {
+    "q": "If markets are efficient in the semi-strong form, which type of analysis would NOT consistently beat the market?",
+    "o": ["Technical analysis only", "Fundamental analysis only", "Both fundamental and technical analysis", "Neither"],
+    "a": 2,
+    "e": "Semi-strong EMH: all publicly available info is reflected in prices. Both technical (past prices) and fundamental (public financials) cannot consistently beat the market. Only inside info would, but that's illegal.",
+    "topic": "RES",
+    "difficulty": 3
+  },
+  {
+    "q": "Which behavioural bias makes investors hold losing positions too long?",
+    "o": ["Confirmation bias", "Anchoring", "Disposition effect", "Recency bias"],
+    "a": 2,
+    "e": "Disposition effect: investors sell winners too early (to lock in gains) and hold losers too long (to avoid recognising the loss). Loss aversion contributes.",
+    "topic": "RES",
+    "difficulty": 2
+  },
+  {
+    "q": "Which information source is generally considered most reliable?",
+    "o": ["Social media commentary", "Annual reports and regulatory filings", "Analyst reports from peers", "News headlines"],
+    "a": 1,
+    "e": "Primary sources (filings, annual reports, regulatory submissions) are most reliable. Secondary (peer analyst reports, journals) come next; tertiary (aggregators, social) least.",
+    "topic": "RES",
+    "difficulty": 1
+  },
+  {
+    "q": "Confirmation bias is the tendency to:",
+    "o": ["Follow the crowd", "Seek out information that confirms existing beliefs", "Anchor on the first data point", "Overweight recent events"],
+    "a": 1,
+    "e": "Confirmation bias = preferring information that supports prior beliefs and dismissing contradicting evidence. A research analyst must consciously seek dis-confirming evidence.",
+    "topic": "RES",
+    "difficulty": 2
+  },
+  {
+    "q": "The 'top-down' approach is typically preferred when:",
+    "o": ["Studying a single mid-cap stock in isolation", "Macro environment is rapidly changing and shapes industry prospects", "Looking for hidden gems", "Doing valuations only"],
+    "a": 1,
+    "e": "Top-down works when macro conditions dominate (e.g. rate cycles, recession). Bottom-up suits a stable macro where company-specific factors drive returns.",
+    "topic": "RES",
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "set_xv_mock1",
+    "name": "Mock Test 1 — 30Q foundational mix",
+    "topic": "MIX",
+    "duration": 2700,
+    "description": "30 questions covering all 15 topics in proportion to syllabus weight. Free for all; sign in to save your score.",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_xv_drill_fin",
+    "name": "Drill: Financial Analysis",
+    "topic": "FIN",
+    "duration": 1200,
+    "description": "14 questions on financial statements, ratios, DuPont, FCF, and red flags.",
+    "isDynamic": false,
+    "questionCount": 14
+  },
+  {
+    "id": "set_xv_drill_val",
+    "name": "Drill: Valuation",
+    "topic": "VAL",
+    "duration": 1200,
+    "description": "14 questions on DCF, CAPM, WACC, multiples, Gordon Growth, and margin of safety.",
+    "isDynamic": false,
+    "questionCount": 14
+  },
+  {
+    "id": "set_xv_drill_tec",
+    "name": "Drill: Technical Analysis",
+    "topic": "TEC",
+    "duration": 1500,
+    "description": "18 questions on Dow Theory, candlesticks, indicators (RSI/MACD/Bollinger), patterns, Fibonacci, Elliott.",
+    "isDynamic": false,
+    "questionCount": 18
+  },
+  {
+    "id": "set_xv_drill_lex",
+    "name": "Drill: Legal & Regulatory",
+    "topic": "LEX",
+    "duration": 1200,
+    "description": "12 questions on SEBI (RA) Regulations 2014, PIT 2015, PFUTP 2003, disclosures, and grievance redressal.",
+    "isDynamic": false,
+    "questionCount": 12
+  },
+  {
+    "id": "set_xv_full",
+    "name": "Full Simulator — 100Q · 180 min",
+    "topic": "FULL",
+    "duration": 10800,
+    "description": "Mimics the real NISM XV exam: 100 questions, 3 hours, dynamically sampled by topic weight. Negative marking applies in your scoring summary.",
+    "isDynamic": true,
+    "questionCount": 100
+  }
+]

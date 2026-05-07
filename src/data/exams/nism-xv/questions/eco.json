@@ -1,0 +1,50 @@
+[
+  {
+    "q": "The Repo rate is the rate at which:",
+    "o": ["Banks lend to RBI", "RBI lends to banks against government securities", "RBI lends to the public", "Banks lend to each other"],
+    "a": 1,
+    "e": "Repo: RBI lends to banks (short-term) against G-Sec collateral. Reverse repo: RBI borrows from banks. MSF: emergency lending at higher rate.",
+    "topic": "ECO",
+    "difficulty": 1
+  },
+  {
+    "q": "Which of these is a leading economic indicator?",
+    "o": ["Unemployment rate", "GDP", "Stock market index", "Industrial Production Index (IIP)"],
+    "a": 2,
+    "e": "Stock market is a leading indicator — moves before the real economy turns. GDP and IIP are coincident; unemployment is lagging.",
+    "topic": "ECO",
+    "difficulty": 2
+  },
+  {
+    "q": "Fiscal policy is implemented by:",
+    "o": ["RBI", "SEBI", "The central / state government", "IRDAI"],
+    "a": 2,
+    "e": "Fiscal policy = government's spending and taxation decisions. Implemented through the Budget. Monetary policy is the RBI's domain (interest rates, liquidity).",
+    "topic": "ECO",
+    "difficulty": 1
+  },
+  {
+    "q": "If RBI cuts the repo rate, the immediate impact on equity markets is generally:",
+    "o": ["Bearish — earnings will fall", "Bullish — cost of capital falls + liquidity rises", "Neutral", "Volatile but unpredictable"],
+    "a": 1,
+    "e": "Lower repo → cheaper credit → improved corporate margins + boosted demand → equities typically rally. The full real-economy impact has a 6-12 month lag, but equity markets move fast on expectations.",
+    "topic": "ECO",
+    "difficulty": 2
+  },
+  {
+    "q": "WPI (Wholesale Price Index) is published by:",
+    "o": ["RBI", "DPIIT (Dept for Promotion of Industry and Internal Trade)", "NSO (National Statistical Office)", "Ministry of Finance"],
+    "a": 1,
+    "e": "WPI is published by DPIIT (under the Ministry of Commerce). CPI is published by NSO (under MoSPI). Don't confuse the two.",
+    "topic": "ECO",
+    "difficulty": 3
+  },
+  {
+    "q": "Which of these reflects a HOT money flow?",
+    "o": ["Foreign Direct Investment (FDI)", "Foreign Portfolio Investment (FPI)", "Domestic Mutual Fund inflows", "Government borrowing"],
+    "a": 1,
+    "e": "FPI is short-term, easily reversible — 'hot money'. FDI is long-term and sticky (factories, controlling stakes). Outflow of FPI can pressure INR + equity markets quickly.",
+    "topic": "ECO",
+    "difficulty": 2
+  }
+]

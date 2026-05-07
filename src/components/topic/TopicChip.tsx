@@ -26,9 +26,12 @@ const COLOR: Record<string, { fg: string; bg: string }> = {
   FULL: { fg: 'var(--color-navy)', bg: 'var(--color-surface)' },
 };
 
-// VIII codes mapped to V-A colour slots — never shown side-by-side with V-A
-// chips, so reusing the palette is safe and keeps globals.css small.
+// Other-exam codes mapped to V-A colour slots. Never shown side-by-side with
+// V-A chips, so reusing the palette is safe and keeps globals.css small.
+// Some codes within a single non-V-A exam may share a slot (e.g. XV has 15
+// topics but only 10 colours); chip labels still distinguish them.
 const ALIAS: Record<string, keyof typeof COLOR> = {
+  // VIII (10 topics → 10 slots)
   BAS: 'INV',
   IDX: 'STR',
   FUT: 'SCH',
@@ -39,6 +42,22 @@ const ALIAS: Record<string, keyof typeof COLOR> = {
   ELG: 'OPS',
   TXA: 'RSK',
   IPS: 'PRF',
+  // XV Research Analyst (15 topics → 10 slots, 5 doubled)
+  RAP: 'INV',
+  SMK: 'STR',
+  TER: 'SCH',
+  RES: 'REG',
+  ECO: 'DOC',
+  IND: 'NAV',
+  BIZ: 'TAX',
+  FIN: 'OPS',
+  COR: 'RSK',
+  VAL: 'PRF',
+  COM: 'INV',
+  RTN: 'STR',
+  RPT: 'SCH',
+  LEX: 'REG',
+  TEC: 'DOC',
 };
 
 export function topicLabel(code: string | null | undefined): string {
