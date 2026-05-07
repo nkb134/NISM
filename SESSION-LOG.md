@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · Phase 4 Sprint 4 shipped — NISM Series XV (Research Analyst) live
+**Last updated:** 2026-05-07 · Phase 4 Sprint 5 shipped — NISM Series V-B (MF Foundation) live
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -55,6 +55,47 @@ Founder feedback: original landing read as "well-built spec but missing professi
 - **Mobile gotcha caught:** the radial-glow blob behind the phone frame used negative insets (`-8%`) to extend past the column. Wrapped in `overflow-hidden` so it clips on narrow viewports without losing the visual.
 
 What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation budget bust, no new deps.
+
+### Phase 4 Sprint 5 — NISM Series V-B (MF Foundation) ✅
+
+Shipped 2026-05-07. Fourth loaded exam after V-A, VIII, XV. Cheapest authoring sprint per content unit (lots of overlap with V-A's domain).
+
+**The "New Cadre" exam:**
+- 50 Qs in 75 min, 50% pass mark, **NO negative marking**.
+- Foundational distributor exam — V-B passers can sell only specific simple schemes (Index, Large-cap, Gilt, FMP, equity/gold ETF, Liquid, Ultra-short, Money Market). To sell broader products, they must pass V-A.
+
+**Content** (Claude-authored from `Study Materials/225/NISM SERIES V-B MFF Workbook March 2026_Final.pdf`):
+- 10 chapters in V-A 3-layer format. Tighter than V-A/VIII chapters (~500-700 words each vs 1000+) since V-B is foundational scope.
+- 5 reference docs: `overview.md`, `number-sheet.md`, `common-traps.md` (25 entries), `memory-hooks.md`, `exam-day.md`.
+- **77-question pool** by syllabus weight: INV 5, STR 9, LEG 6, SCH 5, DOC 9, DIS 8, PRF 9, TAX 5, OPS 15, REG 6.
+- **6 test sets**: 1 free 25Q mock + 4 topic drills (OPS/STR/DOC/PRF, the heaviest topics) + 1 dynamic 50Q full simulator (75 min, no negative marking).
+
+**Topic taxonomy decision:**
+- V-B reuses **8 of V-A's topic codes** (INV, STR, SCH, DOC, PRF, TAX, OPS, REG) — same labels, same domain semantics. The two topic registries (`NISM_VA_TOPICS` + `NISM_VB_NEW_TOPICS`) merge cleanly via `ALL_TOPICS`.
+- Two V-B-only codes: **LEG** (Legal Structure of MFs, Ch 3) and **DIS** (Distribution & Channel, Ch 6). V-A bundles both into REG; V-B treats them as separate chapters.
+- `lib/topics.ts` adds `NISM_VB_NEW_TOPICS` (just LEG + DIS); the rest are reused from V-A.
+- `TopicChip.tsx` ALIAS extended: LEG → NAV slot, DIS → RSK slot. The other 8 codes use V-A's native colours (no aliasing needed).
+
+**Activation:**
+- `EXAM_CATALOG`: nism-vb flipped to `studyGuideStatus: 'available'`, `mockTestStatus: 'available'`. Was `coming-soon` since project start.
+- `access.ts`: `FREE_CHAPTER_SLUG['nism-vb'] = 'investment-landscape'` (slug matches V-A's by design — same chapter content).
+- `FREE_TEST_SET_ID['nism-vb'] = 'set_vb_mock1'`.
+- `/preview/exam/nism-vb` works for spot-check.
+
+**Key V-B vs V-A differences (high-yield for the chip-rendering vs domain understanding):**
+- V-B: 50 Qs / 75 min / 50% pass / **NO negative marking**.
+- V-A: 100 Qs / 120 min / 50% pass / no negative marking either.
+- Content scope: V-B is deliberately narrower — no mid/small-cap, no sectoral, no aggressive hybrid, no derivatives.
+- The chapter structure mirrors V-A but Ch 4 is unique to V-B ("MF Products for the New Cadre of Distributors").
+
+**Founder follow-up:**
+1. `npm run db:seed` — V-A/VIII/XV untouched, only V-B added.
+2. Visit `/preview/exam/nism-vb` for spot-check. Random-sample Ch 9 (Investor Services — 20% weight, biggest), free mock, 5 random questions.
+3. Once happy, exam is publicly visible (catalog + sitemap auto-pick it up; landing teaser shows it in the first 6).
+
+**Status of all 18 exams:**
+- ✅ Live: V-A, V-B, VIII, XV (4 of 18).
+- ⏳ Coming soon: 14 remaining.
 
 ### Phase 4 Sprint 4 — NISM Series XV (Research Analyst) ✅
 
@@ -262,6 +303,7 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+fb835cb  NISM Series V-B (MF Foundation) shipped: 10 chapters, 5 references, 77 Qs, 6 sets
 f3b39b2  NISM Series XV (Research Analyst) shipped: 15 chapters, 5 references, 122 Qs, 6 sets
 7d9d5ac  NISM Series VIII shipped: 10 chapters, 5 references, 120 Qs, 6 sets
 bd5333a  Workstream E: i18n scaffolding (EN + HI), no content yet
