@@ -91,10 +91,12 @@ auto-cycling. Notch-off phone chassis. Built:
   1. Study guide (`hero-study.webp`) — "Read in three depths."
   2. Mock tests (`hero-test.webp`) — "Real Schoolnet feel."
   3. Reviews (`hero-result.webp`) — "Every wrong answer, explained."
-  Auto-cycles every 1 second (TICK_MS const, founder preference). Cross-fade
-  350 ms. Lime "STUDY GUIDE / MOCK TESTS / REVIEWS" badge above the phone
-  changes in sync. Dot indicators below; click to jump. Pauses on hover/focus
-  so users can read.
+  Auto-cycles every 3.5 seconds (TICK_MS const). Cross-fade 400 ms.
+  Lime "STUDY GUIDE / MOCK TESTS / REVIEWS" badge + bold white headline +
+  detail line are SUPERIMPOSED on the bottom third of the phone screen,
+  with a translucent navy gradient (transparent → 0.92 opacity) so it
+  reads on any slide background. Dot indicators below the phone.
+  Pauses on hover/focus so users can read.
 - All three screen captures are real product views at 390×844 @2x.
   Result captured from a new `/preview/result-demo` route that renders
   the result page with seeded sample data (78% pass, realistic topic
@@ -142,7 +144,8 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
-(next)   Hero carousel: 3 real product screens with super copy
+(next)   Hero carousel: super-copy overlay inside the phone, 3.5s tick
+87af7cf  Hero carousel: 3 real product screens with super copy
 5e77800  Landing: prep-path banner with mountain illustration
 5fd944b  Landing v2: phone-frame hero + stats + category icons + footer
 6851b92  SESSION-LOG.md: rolling session-continuity doc

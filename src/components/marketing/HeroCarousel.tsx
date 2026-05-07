@@ -1,32 +1,23 @@
 'use client';
 
 // Hero carousel — three real product screens cross-fading through a
-// phone-frame chassis. Each slide ships with a "super copy" overlay that
-// names the feature in one breath:
-//
-//   1. Study guide      — "Read in three depths"
-//   2. Mock test        — "Real Schoolnet feel"
-//   3. Result + review  — "Every wrong answer, explained"
-//
-// Auto-cycles every TICK_MS. User can click the dot indicators to jump.
-// Pauses on hover/focus so they can actually read the super copy.
+// notch-off phone-frame chassis. Super copy is overlaid on the bottom
+// third of the screen with a translucent dark gradient so it reads on
+// top of any slide background. Auto-cycles every TICK_MS, pauses on
+// hover/focus.
 
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { PhoneFrame } from './PhoneFrame';
 
-// Founder asked for 1 second; tune here.
-const TICK_MS = 1000;
-const FADE_MS = 350;
+const TICK_MS = 3500;
+const FADE_MS = 400;
 
 type Slide = {
   src: string;
   alt: string;
-  /** Tiny lime label, top of card. Sets the bucket. */
   badge: string;
-  /** Big bold copy, the moment. Two lines max. */
   headline: string;
-  /** One-line plain English under the headline. */
   detail: string;
 };
 
@@ -36,21 +27,21 @@ const SLIDES: Slide[] = [
     alt: 'A V-A study chapter with the three reading-depth tabs (Summary / Detail / Memory) visible at the top.',
     badge: 'Study guide',
     headline: 'Read in three depths.',
-    detail: '🎯 Summary, 📖 Detail, 🧠 Memory hooks — pick your gear.',
+    detail: '🎯 Summary · 📖 Detail · 🧠 Memory hooks',
   },
   {
     src: '/images/hero-test.webp',
     alt: 'A NISM mock test mid-attempt: timer, question palette with green answered pips, multiple-choice options.',
     badge: 'Mock tests',
     headline: 'Real Schoolnet feel.',
-    detail: 'Question palette, mark-for-review, the timer that ticks red <60s.',
+    detail: 'Palette, timer, mark-for-review — same as the actual exam.',
   },
   {
     src: '/images/hero-result.webp',
     alt: 'A result page showing a 78% pass score arc, stats grid, and topic breakdown with weak topics highlighted.',
     badge: 'Reviews',
     headline: 'Every wrong answer, explained.',
-    detail: 'Score arc, topic breakdown, weakest-first drill list.',
+    detail: 'Score arc · topic breakdown · weakest-first drill list.',
   },
 ];
 
@@ -69,8 +60,6 @@ export function HeroCarousel({ width = 300 }: { width?: number }) {
     };
   }, [paused]);
 
-  const current = SLIDES[active]!;
-
   return (
     <div
       className="hero-carousel relative"
@@ -80,54 +69,12 @@ export function HeroCarousel({ width = 300 }: { width?: number }) {
       onBlur={() => setPaused(false)}
       style={{ width: 'fit-content' }}
     >
-      {/* Super copy chip — sits above the phone, animates with the slide */}
-      <div
-        className="mb-3 flex max-w-[300px] flex-col items-start"
-        aria-live="polite"
-        style={{ minHeight: 78 }}
-      >
-        <span
-          key={`badge-${active}`}
-          className="hero-carousel-fade inline-flex items-center gap-1.5"
-          style={{
-            padding: '4px 10px',
-            background: 'var(--color-navy)',
-            color: 'var(--color-accent)',
-            fontSize: 'var(--text-xs)',
-            fontWeight: 700,
-            letterSpacing: '0.6px',
-            textTransform: 'uppercase',
-            borderRadius: 'var(--radius-sm)',
-          }}
-        >
-          {current.badge}
-        </span>
-        <p
-          key={`headline-${active}`}
-          className="hero-carousel-fade mt-2 font-bold tracking-tight"
-          style={{
-            fontSize: 'clamp(16px, 2.4vw, 20px)',
-            lineHeight: 1.2,
-            color: 'var(--color-text)',
-            letterSpacing: '-0.2px',
-          }}
-        >
-          {current.headline}
-          <span
-            className="ml-2 font-normal"
-            style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-sm)' }}
-          >
-            {current.detail}
-          </span>
-        </p>
-      </div>
-
       {/* Glow layer behind the phone */}
       <div
         aria-hidden
         style={{
           position: 'absolute',
-          inset: '15% -8% 8% -8%',
+          inset: '8% -8% 8% -8%',
           background:
             'radial-gradient(60% 60% at 50% 50%, rgba(163,230,53,0.16) 0%, rgba(26,31,58,0) 70%)',
           filter: 'blur(8px)',
@@ -136,12 +83,11 @@ export function HeroCarousel({ width = 300 }: { width?: number }) {
       />
 
       <PhoneFrame width={width}>
-        {/* Stack all 3 slides; only the active one is visible (fade between) */}
+        {/* Slide stack — only the active one is opaque */}
         {SLIDES.map((s, i) => (
           <div
             key={s.src}
             aria-hidden={i !== active}
-            className="hero-carousel-slide"
             style={{
               position: 'absolute',
               inset: 0,
@@ -159,6 +105,80 @@ export function HeroCarousel({ width = 300 }: { width?: number }) {
             />
           </div>
         ))}
+
+        {/* Super-copy overlay on the bottom third of the screen.
+         * The gradient fades from transparent at the top so the slide
+         * remains visible up there, to opaque navy near the bottom for
+         * legibility of the headline. */}
+        <div
+          aria-live="polite"
+          style={{
+            position: 'absolute',
+            inset: '64% 0 0 0',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'flex-end',
+            padding: '14px 18px 18px',
+            background:
+              'linear-gradient(180deg, rgba(11,16,32,0) 0%, rgba(11,16,32,0.6) 35%, rgba(11,16,32,0.92) 75%)',
+            pointerEvents: 'none',
+          }}
+        >
+          {SLIDES.map((s, i) => (
+            <div
+              key={`copy-${s.src}`}
+              aria-hidden={i !== active}
+              style={{
+                position: 'absolute',
+                inset: '0',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'flex-end',
+                padding: '14px 18px 18px',
+                opacity: i === active ? 1 : 0,
+                transition: `opacity ${FADE_MS}ms ease-in-out`,
+              }}
+            >
+              <span
+                className="inline-flex w-fit items-center"
+                style={{
+                  padding: '3px 8px',
+                  background: 'var(--color-accent)',
+                  color: 'var(--color-navy)',
+                  fontSize: 10,
+                  fontWeight: 800,
+                  letterSpacing: '0.6px',
+                  textTransform: 'uppercase',
+                  borderRadius: 'var(--radius-sm)',
+                }}
+              >
+                {s.badge}
+              </span>
+              <h3
+                className="font-bold tracking-tight"
+                style={{
+                  marginTop: 8,
+                  fontSize: 18,
+                  lineHeight: 1.2,
+                  color: '#fff',
+                  letterSpacing: '-0.3px',
+                }}
+              >
+                {s.headline}
+              </h3>
+              <p
+                className="mt-1"
+                style={{
+                  color: 'rgba(255,255,255,0.78)',
+                  fontSize: 12,
+                  lineHeight: 1.45,
+                }}
+              >
+                {s.detail}
+              </p>
+            </div>
+          ))}
+        </div>
       </PhoneFrame>
 
       {/* Dot indicators */}
