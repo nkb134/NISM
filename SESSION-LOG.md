@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · Phase 4 Sprint 3 shipped — NISM Series VIII (Equity Derivatives) live
+**Last updated:** 2026-05-07 · Phase 4 Sprint 4 shipped — NISM Series XV (Research Analyst) live
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -55,6 +55,42 @@ Founder feedback: original landing read as "well-built spec but missing professi
 - **Mobile gotcha caught:** the radial-glow blob behind the phone frame used negative insets (`-8%`) to extend past the column. Wrapped in `overflow-hidden` so it clips on narrow viewports without losing the visual.
 
 What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation budget bust, no new deps.
+
+### Phase 4 Sprint 4 — NISM Series XV (Research Analyst) ✅
+
+Shipped 2026-05-07. Third loaded exam after V-A and VIII. Highest-search-volume cert in the queue. Largest single-exam content drop yet (15 chapters vs the usual 10-12).
+
+**Catalog setup:**
+- 'XV' added to `ExamSeries` type.
+- New row in `EXAM_CATALOG` at `displayOrder: 4`. Used a one-shot Python script to bump every other row's displayOrder +1 (manual edits to 14 rows would've been error-prone). The script is throwaway — not committed.
+- 100 Qs, **180 min** (longer than V-A/VIII's 120), 60% pass mark, negative marking 0.25, Feb 2026 syllabus.
+
+**Content** (Claude-authored end-to-end from `Study Materials/NISM-Series-XV-ResearchAnalyst-Workbook (February 2026).pdfSD.pdf`):
+- 15 chapters in V-A 3-layer format. Heaviest by syllabus weight: **Ch 15 Technical Analysis (15%) + Ch 8 Financial Analysis (12%) + Ch 10 Valuation (12%) + Ch 14 Legal & Regulatory (10%) = 49% of marks**.
+- 5 reference docs: `overview.md` + `number-sheet.md` + `common-traps.md` (30 entries — biggest yet) + `memory-hooks.md` + `exam-day.md`.
+- **122-question pool** by syllabus weight: RAP 2, SMK 3, TER 4, RES 6, ECO 6, IND 10, BIZ 8, FIN 14, COR 6, VAL 14, COM 6, RTN 8, RPT 6, LEX 12, TEC 18.
+- **6 test sets**: 1 free 30Q mock + 4 topic drills (FIN/VAL/TEC/LEX — the four highest-weight topics) + 1 dynamic 100Q full simulator (180 min, matches the real exam).
+
+**Topic taxonomy:**
+- 15 distinct topic codes (RAP/SMK/TER/RES/ECO/IND/BIZ/FIN/COR/VAL/COM/RTN/RPT/LEX/TEC). None collide with V-A or VIII codes.
+- `lib/topics.ts` adds `NISM_XV_TOPICS`; `ALL_TOPICS` lookup includes it.
+- `TopicChip.tsx` ALIAS map extended: 15 codes → 10 V-A OKLCH colour slots. **5 codes share with another XV topic** (RAP+COM share INV slot, etc.) — chip labels still distinguish them, but visually adjacent chips can collide. **Follow-up**: when 4+ exams are live, do a real palette refresh adding ~6 fresh OKLCH ramps to globals.css.
+
+**Activation:**
+- `EXAM_CATALOG`: nism-xv flipped to `studyGuideStatus: 'available'`, `mockTestStatus: 'available'`.
+- `access.ts`: `FREE_CHAPTER_SLUG['nism-xv'] = 'research-analyst-profession'`; `FREE_TEST_SET_ID['nism-xv'] = 'set_xv_mock1'`.
+- `/preview/exam/nism-xv` works for spot-check.
+
+**Founder follow-up:**
+1. `npm run db:seed` to load XV into Postgres. Idempotent — V-A + VIII untouched.
+2. Visit `/preview/exam/nism-xv` — random-sample Ch 8 (financial analysis), Ch 10 (valuation), Ch 15 (technical) since those are the heavy chapters.
+3. Spot-check 5 questions from FIN, 5 from VAL, 5 from TEC. The numerical Qs (CAPM, Gordon Growth, DuPont) are the most error-prone if I made calculation slips — verify those carefully.
+4. Once happy, exam is publicly visible (catalog + sitemap auto-pick it up; landing teaser shows it in the first 6).
+
+**Notes:**
+- Workbook source: `/Users/nissar.behera/Documents/NISM/Study Materials/NISM-Series-XV-ResearchAnalyst-Workbook (February 2026).pdfSD.pdf`. Raw extraction at `src/data/exams/nism-xv/research/raw/en/full.txt` (gitignored).
+- This was the longest content sprint yet (~3700 insertions). Per-chapter chapters are tighter than V-A/VIII (~600-800 words each vs 1000+) given the 15-chapter syllabus — same quality bar, just less per-chapter padding.
+- 'TopicChip ALIAS map saturating' is the next infra refactor when the 4th exam ships (V-B's MFF is structurally a subset of V-A so codes overlap might be acceptable; check before adding a 5th).
 
 ### Phase 4 Sprint 3 — NISM Series VIII (Equity Derivatives) ✅
 
@@ -226,6 +262,7 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+f3b39b2  NISM Series XV (Research Analyst) shipped: 15 chapters, 5 references, 122 Qs, 6 sets
 7d9d5ac  NISM Series VIII shipped: 10 chapters, 5 references, 120 Qs, 6 sets
 bd5333a  Workstream E: i18n scaffolding (EN + HI), no content yet
 07f043f  Workstream C: auto-discover seed + _template + PDF extractor + preview + playbook
