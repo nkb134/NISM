@@ -42,8 +42,11 @@ export default async function StudyGuideHub({ params }: Props) {
 
   return (
     <main className="mx-auto max-w-[1080px] px-6 py-10">
-      <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
-        <section>
+      {/* `grid-cols-1` is required at mobile — without it the implicit grid track
+       * sizes to max-content of children, which expands the column to the full
+       * un-truncated chapter title and pushes the page wider than the viewport. */}
+      <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_320px]">
+        <section className="min-w-0">
           <h1 className="font-bold" style={{ fontSize: 'var(--text-xl)' }}>
             Study Guide
           </h1>
@@ -67,48 +70,57 @@ export default async function StudyGuideHub({ params }: Props) {
           >
             Chapters
           </h2>
-          <ul className="divide-y rounded-xl border" style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-xl)' }}>
+          <ul
+            className="divide-y rounded-xl border"
+            style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-xl)' }}
+          >
             {chapters.map((c) => (
               <li key={c.slug}>
                 <Link
                   href={`/exam/${exam.code}/study/${c.slug}` as never}
-                  className="flex items-center gap-4 px-5 py-4 transition-colors hover:bg-[var(--color-surface-hover)]"
+                  className="flex items-center gap-3 px-4 py-4 transition-colors hover:bg-[var(--color-surface-hover)] sm:gap-4 sm:px-5"
                 >
                   <span
-                    className="font-bold tabular"
+                    className="tabular shrink-0 font-bold"
                     style={{
                       fontSize: 'var(--text-base)',
                       color: 'var(--color-text-faint)',
-                      minWidth: 28,
+                      minWidth: 26,
                     }}
                   >
                     {c.chapter.toString().padStart(2, '0')}
                   </span>
-                  <div className="flex-1 min-w-0">
-                    <div className="font-semibold truncate" style={{ fontSize: 'var(--text-base)' }}>
+                  <div className="min-w-0 flex-1">
+                    <div className="truncate font-semibold" style={{ fontSize: 'var(--text-base)' }}>
                       {c.title}
                     </div>
                     <div
-                      className="mt-0.5 flex items-center gap-3 flex-wrap"
+                      className="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5"
                       style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-xs)' }}
                     >
                       <span>{c.marks} marks</span>
-                      <span>·</span>
-                      <span>{c.estimatedMinutes} min read</span>
-                      <span>·</span>
-                      <span style={{ textTransform: 'capitalize' }}>{c.difficulty}</span>
+                      <span aria-hidden>·</span>
+                      <span>{c.estimatedMinutes} min</span>
+                      <span aria-hidden className="hidden sm:inline">·</span>
+                      <span className="hidden sm:inline" style={{ textTransform: 'capitalize' }}>
+                        {c.difficulty}
+                      </span>
                     </div>
                   </div>
-                  <Stars priority={c.priority} />
-                  <ProgressBadge examCode={exam.code} slug={c.slug} />
-                  <span aria-hidden style={{ color: 'var(--color-text-faint)' }}>→</span>
+                  <span className="flex shrink-0 items-center gap-2 sm:gap-3">
+                    <Stars priority={c.priority} />
+                    <ProgressBadge examCode={exam.code} slug={c.slug} />
+                    <span aria-hidden style={{ color: 'var(--color-text-faint)' }}>
+                      →
+                    </span>
+                  </span>
                 </Link>
               </li>
             ))}
           </ul>
         </section>
 
-        <aside>
+        <aside className="min-w-0">
           <h2
             className="mb-3 font-semibold"
             style={{ fontSize: 'var(--text-md)', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.4px' }}

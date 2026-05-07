@@ -66,6 +66,9 @@ body {
   font-size: var(--text-md);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  /* Defensive: a single mis-truncated child shouldn't make the whole page
+   * scrollable horizontally on mobile. We still want vertical scroll. */
+  overflow-x: clip;
 }
 
 /* Tabular numerics for any element with .tabular */
@@ -150,12 +153,24 @@ body {
   margin: 24px 0;
 }
 
-/* Tables — match the test-set row aesthetic. Functional, not decorative. */
+/* Tables — match the test-set row aesthetic. Functional, not decorative.
+ * Wrap in a horizontal scroller via display: block so wide tables (number
+ * sheet, common traps) scroll instead of widening the whole page. */
 .study-prose table {
+  display: block;
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
   border-collapse: collapse;
   margin: 12px 0 18px;
   font-size: var(--text-sm);
+  -webkit-overflow-scrolling: touch;
+}
+.study-prose table thead,
+.study-prose table tbody {
+  display: table;
+  width: 100%;
+  table-layout: auto;
 }
 .study-prose th,
 .study-prose td {
