@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · Phase 4 Sprint 2 shipped — auto-discover seed, _template, preview, i18n scaffold
+**Last updated:** 2026-05-07 · Phase 4 Sprint 3 shipped — NISM Series VIII (Equity Derivatives) live
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -55,6 +55,38 @@ Founder feedback: original landing read as "well-built spec but missing professi
 - **Mobile gotcha caught:** the radial-glow blob behind the phone frame used negative insets (`-8%`) to extend past the column. Wrapped in `overflow-hidden` so it clips on narrow viewports without losing the visual.
 
 What didn't change: DESIGN.md tokens, Schoolnet runner aesthetic, no animation budget bust, no new deps.
+
+### Phase 4 Sprint 3 — NISM Series VIII (Equity Derivatives) ✅
+
+Shipped 2026-05-07. Second loaded exam after V-A. Claude-authored end-to-end from the March 2026 workbook PDF; founder spot-checks via `/preview/exam/nism-viii`.
+
+**Content:**
+- 10 chapters in V-A 3-layer format (🎯 Summary / 📖 Core / 🧠 Memory). Chapters 3 (Forwards & Futures) + 4 (Options) sized largest to match the 20% syllabus weight each. Total ~10 KB markdown per chapter.
+- 5 reference docs at `src/data/exams/nism-viii/study/`: `overview.md`, `number-sheet.md`, `common-traps.md`, `memory-hooks.md`, `exam-day.md`.
+- **120-question pool** split by syllabus weight: BAS 12, IDX 6, FUT 24, OPT 24, ESS 12, TRD 12, CLR 12, ELG 6, TXA 6, IPS 6.
+- **6 test sets** at `sets.json`: 1 free 30Q mock + 4 topic drills (FUT / OPT / ESS / CLR) + 1 dynamic 100Q full simulator (matches real exam: 120 min, negative marking 0.25, pass 60%).
+
+**Topic taxonomy decision:**
+- 10 distinct topic codes for VIII (BAS / IDX / FUT / OPT / ESS / TRD / CLR / ELG / TXA / IPS) chosen to NOT collide with V-A's INV / STR / SCH / REG / DOC / NAV / TAX / OPS / RSK / PRF.
+- `lib/topics.ts` adds `NISM_VIII_TOPICS` + a flat `ALL_TOPICS` lookup. New `topicName(code)` helper exported.
+- `TopicChip.tsx` refactored: `topicLabel` reads from the unified registry; `topicColors` uses an `ALIAS` map that points VIII codes onto V-A's 10 OKLCH colour slots (BAS→INV, IDX→STR, FUT→SCH, etc.) so chips have colour without 10 fresh palette ramps. Safe because V-A and VIII chips never appear on the same page.
+
+**Activation:**
+- `EXAM_CATALOG`: nism-viii flipped to `studyGuideStatus: 'available'`, `mockTestStatus: 'available'`. `displayOrder: 3` keeps it third on the catalog (after V-A and V-B).
+- `access.ts`: `FREE_CHAPTER_SLUG['nism-viii'] = 'basics-of-derivatives'`; `FREE_TEST_SET_ID['nism-viii'] = 'set_viii_mock1'`. Ch 1 + 30Q mock free; rest gated.
+- `/preview/exam/nism-viii` renders the founder review surface (built in Sprint 2).
+
+**Founder follow-up:**
+1. `npm run db:push` to apply the `lang` column migration from Sprint 2 (additive, harmless if re-run).
+2. `npm run db:seed` to load VIII into Postgres. Idempotent — V-A stays untouched.
+3. Visit `/preview/exam/nism-viii` to spot-check Ch 1 + the free mock + 5 random questions.
+4. If anything reads off, ping Claude — fixes go in same-session.
+5. Once happy, the exam is already publicly visible (catalog + sitemap auto-pick it up).
+
+**Notes for future sprints:**
+- Workbook source: `/Users/nissar.behera/Documents/NISM/Study Materials/256/`. Raw extraction at `src/data/exams/nism-viii/research/raw/en/` (gitignored).
+- Same flow now repeats cheaply for XV (Research Analyst, top-level workbook) → V-B (`Study Materials/225/`) → rest.
+- TopicChip ALIAS map will need extension for the next exams; consider per-exam colour palettes if/when 3+ exams share the same page (unlikely on per-exam routes).
 
 ### Phase 4 Sprint 2 — onboarding tooling + i18n scaffold ✅
 
@@ -194,6 +226,7 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+7d9d5ac  NISM Series VIII shipped: 10 chapters, 5 references, 120 Qs, 6 sets
 bd5333a  Workstream E: i18n scaffolding (EN + HI), no content yet
 07f043f  Workstream C: auto-discover seed + _template + PDF extractor + preview + playbook
 d2f3976  Landing v3: counter band, comparison, testimonials, FAQ, sharper CTA
