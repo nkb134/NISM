@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
 import { EXAM_CATALOG } from '@/data/exam-catalog';
-import { Icon, iconForExamCode } from '@/components/marketing/Icon';
+import { ExamMark } from '@/components/marketing/ExamMark';
 import { ProductTour } from '@/components/onboarding/ProductTour';
 
 export const metadata = {
@@ -66,20 +66,7 @@ export default async function DashboardPage() {
                 background: 'var(--color-bg)',
               }}
             >
-              <span
-                aria-hidden
-                className="flex shrink-0 items-center justify-center"
-                style={{
-                  width: 44,
-                  height: 44,
-                  background:
-                    'linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-deeper) 100%)',
-                  color: 'var(--color-accent)',
-                  borderRadius: 'var(--radius-md)',
-                }}
-              >
-                <Icon name={iconForExamCode(exam.code)} size={22} strokeWidth={1.8} />
-              </span>
+              <ExamMark exam={exam} size="sm" />
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline justify-between gap-3">
                   <h2 className="truncate font-semibold" style={{ fontSize: 'var(--text-md)' }}>

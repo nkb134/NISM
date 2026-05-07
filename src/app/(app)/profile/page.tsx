@@ -4,6 +4,7 @@ import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
 import { listExamSummaries } from '@/lib/db/queries';
 import { getExamFromCatalog } from '@/data/exam-catalog';
+import { ExamMark } from '@/components/marketing/ExamMark';
 import { SignOutButton } from '@/components/profile/SignOutButton';
 
 export const metadata = {
@@ -91,6 +92,9 @@ export default async function ProfilePage() {
                       background: 'var(--color-bg)',
                     }}
                   >
+                    {exam && (
+                      <ExamMark exam={exam} size="sm" />
+                    )}
                     <div className="min-w-0 flex-1">
                       <div
                         className="truncate font-semibold"

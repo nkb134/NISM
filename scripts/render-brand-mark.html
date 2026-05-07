@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Brand-mark render template. Open in headless Chrome to capture the canonical
+  brand mark at any size:
+
+    chrome --headless --disable-gpu --window-size=512,512 --screenshot=icon-512.png \
+      "file://$(pwd)/scripts/render-brand-mark.html?size=512&maskable=0"
+
+  Or in any local browser, append ?size=192 (etc.) to the URL.
+
+  Sizes we ship under public/icons/: 16, 32, 192, 512 + maskable 192/512.
+  Maskable = 80% safe-zone padding so Android can crop to a circle without
+  clipping the glyph.
+-->
+<head>
+  <meta charset="utf-8">
+  <title>NISM brand mark</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: transparent; }
+    body { display: grid; place-items: center; min-height: 100vh; }
+    .mark {
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #1a1f3a 0%, #3b3f6e 100%);
+      color: #a3e635;
+      font-family: Inter, "Segoe UI", system-ui, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+  </style>
+</head>
+<body>
+  <div id="mark" class="mark">N</div>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const size = Number(params.get('size') || 512);
+    const maskable = params.get('maskable') === '1';
+    const radius = maskable ? size / 2 : Math.round(size * 0.16);
+    const innerScale = maskable ? 0.6 : 1; // 60% safe zone for maskable
+
+    const el = document.getElementById('mark');
+    el.style.width = size + 'px';
+    el.style.height = size + 'px';
+    el.style.borderRadius = radius + 'px';
+    el.style.fontSize = Math.round(size * 0.55 * innerScale) + 'px';
+    if (maskable) {
+      el.style.transform = `scale(${innerScale})`;
+      el.style.transformOrigin = 'center';
+    }
+  </script>
+</body>
+</html>

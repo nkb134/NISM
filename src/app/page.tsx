@@ -3,9 +3,14 @@ import Link from 'next/link';
 import { SiteNav } from '@/components/marketing/SiteNav';
 import { ProseHtml } from '@/components/study/ProseHtml';
 import { HeroCarousel } from '@/components/marketing/HeroCarousel';
-import { Icon, iconForExamCode } from '@/components/marketing/Icon';
+import { Icon } from '@/components/marketing/Icon';
+import { ExamMark } from '@/components/marketing/ExamMark';
+import { LiveCounters } from '@/components/marketing/LiveCounters';
+import { ComparisonTable } from '@/components/marketing/ComparisonTable';
+import { TestimonialScroller } from '@/components/marketing/TestimonialScroller';
+import { FAQAccordion } from '@/components/marketing/FAQAccordion';
 import { EXAM_CATALOG, getExamFromCatalog } from '@/data/exam-catalog';
-import { getChapter, listChapters } from '@/lib/study/content';
+import { getChapter } from '@/lib/study/content';
 import { freeChapterSlugFor, freeTestSetIdFor } from '@/lib/access';
 
 export const metadata = {
@@ -13,20 +18,12 @@ export const metadata = {
   alternates: { canonical: '/' },
 };
 
-export default function LandingPage() {
+export default async function LandingPage() {
   const chapter1 = getChapter('nism-va', freeChapterSlugFor('nism-va') ?? 'investment-landscape');
   const summaryHtml = chapter1?.layers.summaryHtml ?? '';
 
   const va = getExamFromCatalog('nism-va');
   const freeMockId = freeTestSetIdFor('nism-va');
-
-  // Real stats — derived, no fiction.
-  const stats = [
-    { label: 'Questions seeded', value: 522 },
-    { label: 'Chapters in V-A', value: listChapters('nism-va').length },
-    { label: 'Mock tests', value: 32 },
-    { label: 'NISM exams catalogued', value: EXAM_CATALOG.length },
-  ];
 
   const featured = EXAM_CATALOG.slice(0, 6);
 
@@ -122,7 +119,26 @@ export default function LandingPage() {
               unlock the rest of the guide, all 32 sets, and your topic-mastery dashboard.
             </p>
 
-            <div className="mt-7 flex flex-wrap gap-3">
+            <div className="mt-6 flex">
+              <span
+                className="inline-flex items-center gap-1.5"
+                style={{
+                  padding: '4px 10px',
+                  background: '#ecfdf5',
+                  color: '#047857',
+                  fontSize: 'var(--text-xs)',
+                  fontWeight: 700,
+                  letterSpacing: '0.3px',
+                  borderRadius: 999,
+                  border: '1px solid #a7f3d0',
+                }}
+              >
+                <span aria-hidden>✓</span>
+                100% free · no card · no signup for Chapter 1
+              </span>
+            </div>
+
+            <div className="mt-3 flex flex-wrap gap-3">
               {chapter1 && (
                 <Link
                   href={`/exam/nism-va/study/${chapter1.slug}` as never}
@@ -135,7 +151,7 @@ export default function LandingPage() {
                     fontSize: 'var(--text-md)',
                   }}
                 >
-                  Try a free chapter
+                  Start free — Chapter 1
                   <Icon name="arrow-right" size={16} />
                 </Link>
               )}
@@ -252,36 +268,8 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* ── Stats strip ──────────────────────────────────────────────── */}
-        <section
-          className="my-2 grid grid-cols-2 gap-3 rounded-xl border p-5 sm:grid-cols-4 sm:gap-6 sm:p-6"
-          style={{
-            borderColor: 'var(--color-border)',
-            borderRadius: 'var(--radius-xl)',
-            background: 'var(--color-bg)',
-          }}
-        >
-          {stats.map((s) => (
-            <div key={s.label}>
-              <div
-                className="tabular font-bold"
-                style={{ fontSize: 'var(--text-2xl)', color: 'var(--color-navy)', lineHeight: 1.1 }}
-              >
-                {s.value}
-              </div>
-              <div
-                className="mt-1 font-semibold uppercase"
-                style={{
-                  color: 'var(--color-text-muted)',
-                  fontSize: 'var(--text-xs)',
-                  letterSpacing: '0.4px',
-                }}
-              >
-                {s.label}
-              </div>
-            </div>
-          ))}
-        </section>
+        {/* ── Live counter band ──────────────────────────────────────── */}
+        <LiveCounters />
 
         {/* ── Sample Summary Card (live from Chapter 1) ───────────────── */}
         {chapter1 && summaryHtml && (
@@ -363,6 +351,9 @@ export default function LandingPage() {
           </div>
         </section>
 
+        {/* ── Comparison table ──────────────────────────────────────────── */}
+        <ComparisonTable />
+
         {/* ── Catalog teaser ──────────────────────────────────────────── */}
         <section className="border-t py-14" style={{ borderColor: 'var(--color-border)' }}>
           <div className="flex items-end justify-between gap-3">
@@ -389,7 +380,6 @@ export default function LandingPage() {
             {featured.map((exam) => {
               const ready =
                 exam.studyGuideStatus === 'available' || exam.mockTestStatus === 'available';
-              const iconName = iconForExamCode(exam.code);
               return (
                 <li key={exam.code}>
                   <Link
@@ -398,22 +388,10 @@ export default function LandingPage() {
                     style={{
                       borderColor: 'var(--color-border)',
                       borderRadius: 'var(--radius-xl)',
+                      opacity: ready ? 1 : 0.92,
                     }}
                   >
-                    <span
-                      aria-hidden
-                      className="flex shrink-0 items-center justify-center"
-                      style={{
-                        width: 44,
-                        height: 44,
-                        background:
-                          'linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-deeper) 100%)',
-                        color: 'var(--color-accent)',
-                        borderRadius: 'var(--radius-md)',
-                      }}
-                    >
-                      <Icon name={iconName} size={22} strokeWidth={1.8} />
-                    </span>
+                    <ExamMark exam={exam} size="sm" />
                     <div className="min-w-0 flex-1">
                       <div className="flex items-baseline justify-between gap-3">
                         <span className="font-semibold" style={{ fontSize: 'var(--text-md)' }}>
@@ -442,6 +420,9 @@ export default function LandingPage() {
             })}
           </ul>
         </section>
+
+        {/* ── Testimonials ─────────────────────────────────────────────── */}
+        <TestimonialScroller />
 
         {/* ── Final CTA ───────────────────────────────────────────────── */}
         <section className="border-t py-16" style={{ borderColor: 'var(--color-border)' }}>
@@ -495,6 +476,9 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
+
+        {/* ── FAQ ─────────────────────────────────────────────────────── */}
+        <FAQAccordion />
       </main>
 
       {/* ── Footer ──────────────────────────────────────────────────── */}

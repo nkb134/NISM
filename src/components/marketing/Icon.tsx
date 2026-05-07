@@ -1,5 +1,6 @@
 // Small icon set, hand-rolled (no icon library). Heroicons-inspired line
-// icons at 24x24 with 1.6 stroke width. Used in the why-us blocks and
+// icons at 24x24, with auto stroke-width that thickens at smaller sizes
+// so the line stays optically consistent. Used in the why-us blocks and
 // the exam catalog category glyphs.
 
 type IconName =
@@ -25,6 +26,7 @@ const PATHS: Record<IconName, React.ReactNode> = {
   spark: (
     <>
       <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" />
+      <circle cx="12" cy="12" r="1.6" />
     </>
   ),
   phone: (
@@ -61,7 +63,8 @@ const PATHS: Record<IconName, React.ReactNode> = {
   'building-library': (
     <>
       <path d="M12 3 3 8h18L12 3z" />
-      <path d="M5 8v10M9 8v10M15 8v10M19 8v10" />
+      <path d="M4 21V8M20 21V8" />
+      <path d="M8 21v-9M12 21v-9M16 21v-9" />
       <path d="M3 21h18" />
     </>
   ),
@@ -82,17 +85,19 @@ export function Icon({
   name,
   size = 22,
   color = 'currentColor',
-  strokeWidth = 1.6,
+  strokeWidth,
   className,
   style,
 }: {
   name: IconName;
   size?: number;
   color?: string;
+  /** Override default stroke. Default scales with size: 2.0 (≤16) / 1.8 (≤24) / 1.6 (≥32). */
   strokeWidth?: number;
   className?: string;
   style?: React.CSSProperties;
 }) {
+  const sw = strokeWidth ?? (size <= 16 ? 2.0 : size <= 24 ? 1.8 : 1.6);
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +106,7 @@ export function Icon({
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      strokeWidth={strokeWidth}
+      strokeWidth={sw}
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
