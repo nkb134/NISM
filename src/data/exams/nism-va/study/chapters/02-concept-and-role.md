@@ -77,7 +77,7 @@ No portfolio customization (PMS gives this) · Choice overload · No control ove
 | Gilt with 10-yr constant duration | 80% G-secs, Macaulay = 10 yrs |
 | Floater | 65% min in floating rate |
 
-### Hybrid sub-categories (6)
+### Hybrid sub-categories (7)
 
 | Sub-category | Equity | Debt |
 |---|---|---|

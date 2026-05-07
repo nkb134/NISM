@@ -27,8 +27,20 @@ estimatedMinutes: 14
 
 Net Assets = Market value of investments + Receivables (accrued income, sale receivables) − Liabilities (accrued expenses, fees payable, purchases payable).
 
-Long form:
-NAV = (Interest + Dividend + Realized gains + Valuation gains − Realized losses − Valuation losses − Expenses + carry-forward + initial capital) ÷ Units outstanding.
+Long form (broken out for clarity):
+
+```
+NAV = ( + Interest
+       + Dividend
+       + Realized gains
+       + Valuation gains
+       − Realized losses
+       − Valuation losses
+       − Expenses
+       + carry-forward
+       + initial capital
+      ) ÷ Units outstanding
+```
 
 ### TER limits — open-ended (other than FoF/Index/ETF)
 

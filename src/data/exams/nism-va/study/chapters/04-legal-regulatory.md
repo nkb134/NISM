@@ -41,7 +41,8 @@ Covers: registration of MFs/AMCs · disclosure (SID/SAI/KIM/portfolio/NAV) · ca
 | Sponsor associates equity (across MF) | Max **25%** of net assets |
 | Single bank exposure (per scheme) | Max **15%** of NAV, extendable to **20%** |
 | Unrated debt (per scheme) | Max **10%** of debt portfolio, min investment grade |
-| ELSS — equity allocation | Min **80%** |
+
+> **ELSS** is a scheme-attribute, not an exposure limit: must hold **min 80% in equity** to qualify for the §80C tax benefit.
 
 **REITs and InvITs**
 

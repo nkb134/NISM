@@ -35,5 +35,8 @@ dist
 .idea
 .vscode
 
+# claude code (per-machine overrides)
+.claude/settings.local.json
+
 # drizzle
 src/lib/db/migrations/meta/_journal.json.bak
