@@ -124,7 +124,7 @@ export default async function ResultPage({ params }: Props) {
 
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
-            href={`/exam/${exam.code}/tests` as never}
+            href={`/exam/${exam.code}/progress` as never}
             className="inline-flex items-center justify-center"
             style={{
               padding: '8px 16px',
@@ -135,16 +135,28 @@ export default async function ResultPage({ params }: Props) {
               fontWeight: 600,
             }}
           >
-            Take another test →
+            See full progress →
           </Link>
           <Link
-            href={`/exam/${exam.code}/study` as never}
+            href={`/exam/${exam.code}/tests` as never}
             className="inline-flex items-center justify-center border"
             style={{
               padding: '8px 16px',
               borderColor: 'var(--color-border)',
               color: 'var(--color-navy)',
               borderRadius: 'var(--radius-md)',
+              fontSize: 'var(--text-sm)',
+              fontWeight: 600,
+            }}
+          >
+            Take another test
+          </Link>
+          <Link
+            href={`/exam/${exam.code}/study` as never}
+            className="inline-flex items-center justify-center"
+            style={{
+              padding: '8px 16px',
+              color: 'var(--color-navy)',
               fontSize: 'var(--text-sm)',
               fontWeight: 600,
             }}

@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { headers } from 'next/headers';
+import { auth } from '@/lib/auth';
 import { getExamFromCatalog } from '@/data/exam-catalog';
 
 // Exam pages are public by default — study guides are SEO landing pages.
@@ -15,6 +17,8 @@ export default async function ExamLayout({
   const { examCode } = await params;
   const exam = getExamFromCatalog(examCode);
   if (!exam) notFound();
+
+  const session = await auth.api.getSession({ headers: await headers() });
 
   return (
     <div>
@@ -69,6 +73,18 @@ export default async function ExamLayout({
             >
               Tests
             </Link>
+            {session && (
+              <Link
+                href={`/exam/${exam.code}/progress` as never}
+                style={{
+                  color: 'var(--color-text-muted)',
+                  fontSize: 'var(--text-sm)',
+                  fontWeight: 600,
+                }}
+              >
+                Progress
+              </Link>
+            )}
             <a
               href={exam.nismOfficialUrl}
               target="_blank"
