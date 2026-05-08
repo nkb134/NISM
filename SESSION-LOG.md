@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · Phase 4 Sprint 5 shipped — NISM Series V-B (MF Foundation) live
+**Last updated:** 2026-05-07 · Phase 4 Sprint 6 shipped — V-A Hindi Ch 1 + i18n page wiring
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -303,6 +303,7 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+fa3e25e  V-A Hindi launched: Ch 1 + page-level lang wiring + fallback banner
 fb835cb  NISM Series V-B (MF Foundation) shipped: 10 chapters, 5 references, 77 Qs, 6 sets
 f3b39b2  NISM Series XV (Research Analyst) shipped: 15 chapters, 5 references, 122 Qs, 6 sets
 7d9d5ac  NISM Series VIII shipped: 10 chapters, 5 references, 120 Qs, 6 sets
