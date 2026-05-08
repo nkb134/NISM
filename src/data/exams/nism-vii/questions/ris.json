@@ -1,0 +1,146 @@
+[
+  {
+    "q": "Which of these is NOT a component of the SEBI margin framework?",
+    "o": ["VaR margin", "Extreme Loss Margin (ELM)", "MTM margin", "Profit margin"],
+    "a": 3,
+    "e": "Margin stack: VaR + ELM + Adhoc + Exposure (futures) + MTM. 'Profit margin' is not a margin term — it's an accounting concept.",
+    "topic": "RIS",
+    "difficulty": 1
+  },
+  {
+    "q": "VaR margin in derivatives is sized to cover:",
+    "o": ["Maximum possible loss", "Statistical 99% confidence 1-day worst-case loss", "Average daily P&L", "Tax liability"],
+    "a": 1,
+    "e": "VaR (Value at Risk) margin covers approximately 99% confidence 1-day worst-case loss. ELM is the tail-risk add-on for the remaining 1%.",
+    "topic": "RIS",
+    "difficulty": 2
+  },
+  {
+    "q": "Peak margin requirement is:",
+    "o": ["The fixed pre-trade margin", "Highest intraday position-margin requirement at random sample points", "End-of-day margin only", "Average daily margin"],
+    "a": 1,
+    "e": "Peak margin = highest intraday position-margin requirement at random sample points (clearing corp samples 4 times). Frozen for the day. Discourages excessive intraday leverage.",
+    "topic": "RIS",
+    "difficulty": 3
+  },
+  {
+    "q": "The Investor Protection Fund (IPF) compensation cap per client per default is:",
+    "o": ["₹10 lakh", "₹25 lakh", "₹50 lakh", "₹1 crore"],
+    "a": 1,
+    "e": "IPF caps payout at ₹25 lakh per client per default. Different from SGF, which is a system-level pool covering CM defaults.",
+    "topic": "RIS",
+    "difficulty": 2
+  },
+  {
+    "q": "In the default cascade, the FIRST resource used is:",
+    "o": ["Settlement Guarantee Fund", "Defaulting member's collateral and margins", "Clearing Corporation's own capital", "Surviving members' contributions"],
+    "a": 1,
+    "e": "Cascade: Defaulting member's margins/collateral → SGF → CC own capital → Surviving member contributions. Always defaulter pays first.",
+    "topic": "RIS",
+    "difficulty": 2
+  },
+  {
+    "q": "For proprietary positions (T+1 onwards), the cash component of liquid assets must be at least:",
+    "o": ["20%", "35%", "50%", "75%"],
+    "a": 2,
+    "e": "At least 50% of liquid assets must be cash component (cash, BG, FDR, T-bills, dated G-secs). The remainder can be non-cash (approved demat securities).",
+    "topic": "RIS",
+    "difficulty": 3
+  },
+  {
+    "q": "MTM (Mark-to-Market) margin is settled:",
+    "o": ["Once a week", "Daily", "Only on contract expiry", "Quarterly"],
+    "a": 1,
+    "e": "MTM is daily — gains and losses are settled in cash on T+1 morning before market open, based on the day's settlement price.",
+    "topic": "RIS",
+    "difficulty": 1
+  },
+  {
+    "q": "Risk arising from a single client failing to meet a margin call is classified as:",
+    "o": ["Market risk", "Operational risk", "Client default risk", "Regulatory risk"],
+    "a": 2,
+    "e": "Client default risk = a client failing to pay/deliver on time. Market risk = price moves against open positions. Operational = system / process failures. Regulatory = compliance / inspection findings.",
+    "topic": "RIS",
+    "difficulty": 1
+  },
+  {
+    "q": "If a margin shortfall continues for 5 consecutive days, the broker may need to:",
+    "o": ["Send a warning email", "Disable the client's trading", "Close out other clients' positions", "Increase brokerage"],
+    "a": 1,
+    "e": "Per SEBI rules, after 5 consecutive instances of margin shortfall, the broker may need to disable client trading. Penalties also escalate (0.5%/day first; rises).",
+    "topic": "RIS",
+    "difficulty": 3
+  },
+  {
+    "q": "The Settlement Guarantee Fund (SGF) is administered by:",
+    "o": ["SEBI directly", "The clearing corporation", "The exchange", "RBI"],
+    "a": 1,
+    "e": "SGF is at the clearing corp level (NCL/ICCL/MCCIL administer their own). Funded by CC contributions + member deposits + penalty collections. Stress-tested monthly.",
+    "topic": "RIS",
+    "difficulty": 2
+  },
+  {
+    "q": "Cross-margin benefits are typically given when:",
+    "o": ["A client trades only equity", "A client has hedged positions across cash + F&O", "A client has only liquid funds", "A client is a retail investor"],
+    "a": 1,
+    "e": "Cross-margin = margin relief on hedged positions across cash and F&O segments (e.g. long stock + short futures). Capital efficiency for institutional traders.",
+    "topic": "RIS",
+    "difficulty": 3
+  },
+  {
+    "q": "Which haircut applies to cash collateral?",
+    "o": ["0%", "10%", "25%", "50%"],
+    "a": 0,
+    "e": "Cash collateral has 0% haircut (face value accepted as is). FDR / BG ≈ 0-2%; G-secs / T-bills 2-5%; top-100 equity ~12.5%; lower-grade equity 25-50%; mutual fund units vary.",
+    "topic": "RIS",
+    "difficulty": 2
+  },
+  {
+    "q": "Operational risk in a brokerage typically does NOT include:",
+    "o": ["System glitches", "Fraud and unauthorised trades", "Mis-execution of orders", "Adverse market price movement"],
+    "a": 3,
+    "e": "Operational risk = process failures (system glitches, fraud, mis-execution, bad documentation). Adverse price movement = market risk, a separate category.",
+    "topic": "RIS",
+    "difficulty": 1
+  },
+  {
+    "q": "Position-limit alerts to a Trading Member are typically triggered at:",
+    "o": ["50%, 75%, 90%", "60%, 80%, 95%", "70%, 85%, 100%", "75%, 90%, 100%"],
+    "a": 2,
+    "e": "Standard alerts: 70%, 85%, 100% of cap. At 100% only reducing trades allowed; new positions blocked. SEBI-specified reporting thresholds.",
+    "topic": "RIS",
+    "difficulty": 3
+  },
+  {
+    "q": "Adhoc margin is imposed by:",
+    "o": ["Clients on themselves", "The clearing corp during volatility / events", "Banks", "RBI"],
+    "a": 1,
+    "e": "Adhoc / special margin is imposed by the clearing corp in volatile times or around specific events (e.g. large corporate actions, Budget day). It's on top of standard VaR + ELM.",
+    "topic": "RIS",
+    "difficulty": 2
+  },
+  {
+    "q": "Stress testing of the Settlement Guarantee Fund is conducted at minimum:",
+    "o": ["Monthly", "Quarterly", "Half-yearly", "Annually"],
+    "a": 0,
+    "e": "SGF stress testing is done MONTHLY by the clearing corp under SEBI norms — sized to meet 'extreme but plausible' default scenarios. Results published periodically.",
+    "topic": "RIS",
+    "difficulty": 3
+  },
+  {
+    "q": "Auto square-off of a client's position is triggered when:",
+    "o": ["The client requests it", "Margin coverage falls below threshold", "End of trading day always", "It is never automatic"],
+    "a": 1,
+    "e": "Auto square-off triggers when margin coverage falls below the maintenance threshold. Brokers continuously monitor margin vs requirement intraday.",
+    "topic": "RIS",
+    "difficulty": 1
+  },
+  {
+    "q": "A 3-way reconciliation in broker operations involves:",
+    "o": ["Broker's books, bank statement, clearing corp records", "Broker, client, exchange", "Trading desk, settlement desk, compliance", "BSE, NSE, MSEI"],
+    "a": 0,
+    "e": "Daily 3-way reconciliation = broker's internal records + bank statement + clearing corp records. Identifies any segregation breach or missing fund. Mandatory under SEBI segregation rules.",
+    "topic": "RIS",
+    "difficulty": 2
+  }
+]

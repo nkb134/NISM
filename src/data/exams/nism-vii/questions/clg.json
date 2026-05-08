@@ -1,0 +1,146 @@
+[
+  {
+    "q": "The legal principle by which the Clearing Corporation becomes the central counterparty to all trades is called:",
+    "o": ["Subrogation", "Novation", "Indemnity", "Estoppel"],
+    "a": 1,
+    "e": "Novation = substitution of a new party (the Clearing Corp) into a contract, replacing the original counterparties' bilateral exposure with exposure to the CC.",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "Which clearing corporation clears trades for NSE?",
+    "o": ["ICCL", "MCCIL", "NCL", "CCIL"],
+    "a": 2,
+    "e": "NCL (NSE Clearing Ltd) clears for NSE. ICCL clears for BSE; MCCIL for MSEI; CCIL for govt securities + money market.",
+    "topic": "CLG",
+    "difficulty": 1
+  },
+  {
+    "q": "Interoperability of clearing corporations was implemented in India in:",
+    "o": ["2017", "2018", "2019", "2020"],
+    "a": 2,
+    "e": "Implemented in 2019 (proposed 2018). Brokers can now clear and settle trades from any exchange through their preferred clearing corp.",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "T+1 settlement for cash equity in India:",
+    "o": ["Has not been implemented yet", "Was fully implemented in January 2023", "Applies only to F&O", "Applies only to indices"],
+    "a": 1,
+    "e": "Phased rollout completed in January 2023 — all NSE/BSE listed equity now settles on T+1. F&O has its own daily MTM cycle.",
+    "topic": "CLG",
+    "difficulty": 1
+  },
+  {
+    "q": "T+0 settlement, optional since 2024, has how many windows?",
+    "o": ["1", "2", "3", "Continuous"],
+    "a": 1,
+    "e": "T+0 has 2 windows: Window 1 closes at 1:30 PM and Window 2 at 3:30 PM. Investor must voluntarily opt in for eligible stocks.",
+    "topic": "CLG",
+    "difficulty": 3
+  },
+  {
+    "q": "The minimum net worth required for a Clearing Member that clears for other Trading Members is:",
+    "o": ["₹50 lakh", "₹1 crore", "₹3 crore", "₹10 crore"],
+    "a": 2,
+    "e": "₹3 crore for a CM clearing for others (TCM/PCM). ₹1 crore for self-only (SCM). Plus ₹50 lakh deposit + ₹10 lakh per additional TM cleared.",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "Multilateral netting at the clearing corp:",
+    "o": ["Multiplies gross obligations across clients", "Drastically reduces gross obligations to a single net per security", "Applies only to F&O", "Is forbidden in India"],
+    "a": 1,
+    "e": "Multilateral netting nets all positions of all clients of a CM across the same security to a single net long or net short. Drastically cuts gross flow at settlement.",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "If a client has 10 lots long SBI on NSE and 6 lots short SBI on BSE with interoperability, the margin is computed on:",
+    "o": ["10 lots long + 6 lots short separately", "Net 4 lots long", "16 lots gross", "No margin since they offset perfectly"],
+    "a": 1,
+    "e": "Interoperability nets across exchanges at the chosen clearing corp. Net = 4 lots long → margin on this. Capital efficiency benefit.",
+    "topic": "CLG",
+    "difficulty": 3
+  },
+  {
+    "q": "Pay-in / pay-out timing for cash equity on T+1 is approximately:",
+    "o": ["Pay-in 9 AM, pay-out 3 PM", "Pay-in 11 AM, pay-out 1:30 PM", "Both at end of day", "Only on T+2"],
+    "a": 1,
+    "e": "Pay-in (funds + securities) ~ 11 AM; pay-out (funds to seller, securities to buyer) ~ 1:30 PM on T+1. Settlement complete by EOD.",
+    "topic": "CLG",
+    "difficulty": 3
+  },
+  {
+    "q": "If a buyer fails to make pay-in, the clearing corp typically initiates:",
+    "o": ["Auction (for buy-in)", "Penalty + close-out", "Litigation", "No action"],
+    "a": 1,
+    "e": "Buyer's pay-in failure = monetary default. CC charges penalty and close-out (monetary settlement at exchange-determined price). Auction is for SELLER's failure to deliver securities.",
+    "topic": "CLG",
+    "difficulty": 3
+  },
+  {
+    "q": "Cross-margin in derivatives clearing means:",
+    "o": ["Higher margin for hedged positions", "Margin relief for hedged positions across cash + F&O", "Charging margin twice", "Eliminating MTM"],
+    "a": 1,
+    "e": "Cross-margin gives margin relief when positions hedge each other across cash and F&O segments. Recognises that the net economic risk is lower than gross.",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "On expiry, all in-the-money index options are:",
+    "o": ["Returned to the writer", "Auto-exercised by the Clearing Corp", "Held over to the next month", "Cancelled"],
+    "a": 1,
+    "e": "ITM options auto-exercised by CC on expiry; cash settled at the difference between strike and closing spot. OTM expires worthless.",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "Position calculation at the CM rolls up:",
+    "o": ["Only proprietary positions", "TM proprietary nets + each client's net (clients NOT netted across each other)", "All client positions netted across each other", "Only the largest client's position"],
+    "a": 1,
+    "e": "TM proprietary nets per security; each client's positions are netted at client level (not across clients). CM rolls up TMs' totals per security per CC.",
+    "topic": "CLG",
+    "difficulty": 3
+  },
+  {
+    "q": "If a futures contract is not traded during the last 30 minutes of the day, the daily settlement price is:",
+    "o": ["Previous day's settlement price", "Theoretical price using F = S × e^(r×t)", "Average of bid and ask", "Closing index value"],
+    "a": 1,
+    "e": "If untraded in the last 30 min, theoretical settlement = S × e^(r × t), where r is typically MIBOR or a specified rate.",
+    "topic": "CLG",
+    "difficulty": 3
+  },
+  {
+    "q": "The Settlement Guarantee Fund (SGF) is funded by:",
+    "o": ["Only CC's own contribution", "CC contributions + member deposits + penalty collections", "Government fund only", "Investor protection fund"],
+    "a": 1,
+    "e": "SGF funded by CC contributions + member deposits + penalty collections. Stress-tested monthly. Sized to meet 'extreme but plausible' default scenarios.",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "Daily settlement price for a futures contract is:",
+    "o": ["Closing price of the underlying", "Last traded price of the futures contract", "Volume-weighted average price of the last 30 minutes of futures trading", "Theoretical fair value always"],
+    "a": 2,
+    "e": "Daily settlement price uses the volume-weighted average of the last 30 min of futures trading. If untraded, theoretical price F = S × e^(r × t).",
+    "topic": "CLG",
+    "difficulty": 2
+  },
+  {
+    "q": "When a member defaults, the resources used after the defaulter's collateral are (in order):",
+    "o": ["SGF → CC capital → Survivors", "Survivors → SGF → CC capital", "CC capital → SGF → Survivors", "Just RBI bailout"],
+    "a": 0,
+    "e": "Cascade: Defaulter's margins/collateral → SGF → CC's own capital (mandatory minimum) → Surviving members' contributions. Always defaulter pays first.",
+    "topic": "CLG",
+    "difficulty": 3
+  },
+  {
+    "q": "A Clearing Member must have at least how much initial deposit with the CC?",
+    "o": ["₹10 lakh", "₹25 lakh", "₹50 lakh", "₹1 crore"],
+    "a": 2,
+    "e": "₹50 lakh initial deposit with the CC at induction. Plus ₹10 lakh additional per extra TM cleared. Maintained as part of liquid assets.",
+    "topic": "CLG",
+    "difficulty": 3
+  }
+]

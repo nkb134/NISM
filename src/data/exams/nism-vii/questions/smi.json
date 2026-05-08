@@ -1,0 +1,50 @@
+[
+  {
+    "q": "Which of these regulators oversees the securities market in India?",
+    "o": ["RBI", "SEBI", "IRDAI", "PFRDA"],
+    "a": 1,
+    "e": "SEBI regulates capital markets, intermediaries, mutual funds, and FPIs under SEBI Act 1992. RBI handles banking, IRDAI insurance, PFRDA pensions.",
+    "topic": "SMI",
+    "difficulty": 1
+  },
+  {
+    "q": "NSDL and CDSL were founded in:",
+    "o": ["1992 and 1996", "1996 and 1999", "1999 and 2001", "2000 and 2003"],
+    "a": 1,
+    "e": "NSDL was set up in 1996; CDSL followed in 1999. They are India's two SEBI-registered depositories.",
+    "topic": "SMI",
+    "difficulty": 2
+  },
+  {
+    "q": "Which of these is a primary market activity?",
+    "o": ["Buying shares of TCS on the stock exchange", "Subscribing to a fresh IPO", "Selling shares from your demat account", "Buying mutual fund units in secondary market"],
+    "a": 1,
+    "e": "Primary market = funds flow to the issuer (IPO, FPO, rights, private placement). Secondary market = funds between investors via the exchange.",
+    "topic": "SMI",
+    "difficulty": 1
+  },
+  {
+    "q": "ICDR Regulations govern:",
+    "o": ["Listed-entity periodic disclosures", "Issue of capital + disclosures at IPO time", "Insider trading", "Stock-broker registration"],
+    "a": 1,
+    "e": "SEBI ICDR (Issue of Capital and Disclosure Requirements) covers IPOs, FPOs, rights, private placements. LODR governs listed-entity life. PIT covers insider trading.",
+    "topic": "SMI",
+    "difficulty": 2
+  },
+  {
+    "q": "In a book-built IPO, the final issue price is determined by:",
+    "o": ["The merchant banker alone", "Investor demand within a price band", "RBI guidelines", "The government"],
+    "a": 1,
+    "e": "Book-building uses a price band; investors bid; the cut-off is determined from demand. Most modern Indian IPOs use book-building.",
+    "topic": "SMI",
+    "difficulty": 2
+  },
+  {
+    "q": "Which clearing corporation is associated with the BSE?",
+    "o": ["NCL", "ICCL", "MCCIL", "CCIL"],
+    "a": 1,
+    "e": "ICCL (Indian Clearing Corp Ltd) clears for BSE. NCL clears for NSE. MCCIL clears for MSEI. CCIL is for govt securities + money market.",
+    "topic": "SMI",
+    "difficulty": 2
+  }
+]

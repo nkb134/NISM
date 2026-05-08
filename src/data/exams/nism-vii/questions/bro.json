@@ -1,0 +1,194 @@
+[
+  {
+    "q": "A contract note must be issued to the client within:",
+    "o": ["1 hour of trade", "24 hours of trade", "3 working days of trade", "End of the settlement cycle"],
+    "a": 1,
+    "e": "SEBI mandates contract note issuance within 24 hours of trade. Digital Contract Notes (DCN) are accepted. Itemises trade details + brokerage + STT + GST + DP charges.",
+    "topic": "BRO",
+    "difficulty": 1
+  },
+  {
+    "q": "STT on equity delivery transactions is:",
+    "o": ["0.025% on sell side only", "0.1% on buy side only", "0.1% on both buy and sell", "0.0125% on sell side"],
+    "a": 2,
+    "e": "Equity delivery: STT 0.1% on BOTH buy and sell sides. Intraday: 0.025% sell side only. Futures: 0.0125% sell. Options: 0.10% on premium (sell side).",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "Pre-trade margin became mandatory for all clients from:",
+    "o": ["September 2019", "September 2020", "December 2021", "January 2023"],
+    "a": 1,
+    "e": "SEBI mandated pre-trade margin collection starting September 2020. Brokers must collect margin upfront before placing the order. Failure = penalty.",
+    "topic": "BRO",
+    "difficulty": 3
+  },
+  {
+    "q": "GST applies on which components of a broker's transaction stack?",
+    "o": ["STT only", "Brokerage + transaction charges + SEBI fees", "All charges including STT", "Stamp duty only"],
+    "a": 1,
+    "e": "GST 18% applies on (brokerage + exchange transaction charge + SEBI turnover fee). STT and stamp duty are statutory taxes — no GST on them.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "T+1 settlement for cash equity in India was fully implemented from:",
+    "o": ["February 2022", "January 2023", "October 2019", "September 2020"],
+    "a": 1,
+    "e": "Phased rollout completed in January 2023 — all NSE/BSE listed equity now settles on T+1. T+0 is optional in two windows since 2024.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "A broker must hold client funds in:",
+    "o": ["The same bank account as own funds", "A separate bank account designated for client funds", "The clearing corp's account directly", "Cash only"],
+    "a": 1,
+    "e": "Client funds must be in a SEPARATE bank account, never co-mingled with broker's own funds. Daily 3-way reconciliation by exchange. Misuse triggers severe enforcement.",
+    "topic": "BRO",
+    "difficulty": 1
+  },
+  {
+    "q": "UCC (Unique Client Code) is mapped to:",
+    "o": ["Aadhaar number", "PAN", "Bank account number", "Demat BO ID"],
+    "a": 1,
+    "e": "UCC is PAN-mapped. One UCC per PAN per broker. Minor's UCC is linked to the guardian's PAN. All trades + funds + securities tagged to UCC.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "An IOC (Immediate or Cancel) order:",
+    "o": ["Stays in the book until end of day", "Executes whatever is available immediately; unmatched portion is cancelled", "Always partial-fills automatically", "Is a stop-loss variant"],
+    "a": 1,
+    "e": "IOC orders execute as much as can be matched immediately; any unmatched portion is cancelled instantly. Partial execution allowed.",
+    "topic": "BRO",
+    "difficulty": 1
+  },
+  {
+    "q": "Order matching in India's exchanges follows:",
+    "o": ["First-come-first-served only", "Price-time priority", "Pro-rata allocation", "Random selection"],
+    "a": 1,
+    "e": "Best price wins; at the same price, earliest timestamp wins. Partial fills allowed; remainder stays in the book.",
+    "topic": "BRO",
+    "difficulty": 1
+  },
+  {
+    "q": "Stamp duty on equity delivery transactions (since July 2020) is:",
+    "o": ["0.015% on buy side", "0.015% on both sides", "0.025% on sell side", "0.001% on both sides"],
+    "a": 0,
+    "e": "Stamp duty unified across India since July 2020: 0.015% on equity delivery (BUY side); 0.002% on F&O futures (sell); 0.003% on F&O options (sell); 0.0001% on currency.",
+    "topic": "BRO",
+    "difficulty": 3
+  },
+  {
+    "q": "DP (Depository Participant) charges are typically levied:",
+    "o": ["On every trade", "On every demat debit (sell from demat)", "On every credit", "On every IPO application"],
+    "a": 1,
+    "e": "DP charges are typically ₹13-25 per scrip per debit (i.e. when securities are sold from demat). No DP charge on buys (credits) or intraday trades that don't move from demat.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "In-Person Verification (IPV) for KYC can be done via:",
+    "o": ["Only physical face-to-face at the broker's office", "Video call by the broker's authorised person", "Self-declaration only", "Aadhaar OTP only"],
+    "a": 1,
+    "e": "IPV can be done via video call by the broker's authorised personnel — broker-led IPV is the standard for online onboarding. Aadhaar e-KYC + IPV combination is standard.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "Peak margin reporting is sampled at how many random points during the trading day?",
+    "o": ["1", "2", "4", "6"],
+    "a": 2,
+    "e": "Clearing corp samples positions at 4 random snapshots during the day. The peak margin requirement is then frozen for the day, computed for the position closed at the random snapshot.",
+    "topic": "BRO",
+    "difficulty": 3
+  },
+  {
+    "q": "PoA (Power of Attorney) for demat operations is being increasingly replaced by:",
+    "o": ["Aadhaar e-Sign", "eDIS (Demat Instruction Slip with OTP)", "Net banking authorization", "PAN-based authorization"],
+    "a": 1,
+    "e": "eDIS = electronic Demat Instruction Slip with OTP authentication per transaction. SEBI is nudging brokers from PoA (broad authority) to eDIS (transaction-specific) for client safety.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "STT on the buyer of an exercised option is:",
+    "o": ["0.025% of premium", "0.10% of premium", "0.125% of settlement value", "Not applicable to buyers"],
+    "a": 2,
+    "e": "Buyer pays STT 0.125% of settlement value only when an option is exercised. Sellers pay 0.10% on premium at the time of sale, regardless of exercise.",
+    "topic": "BRO",
+    "difficulty": 3
+  },
+  {
+    "q": "A 'Group I' security in MTF eligibility refers to:",
+    "o": ["Highly liquid stocks meeting top-tier criteria", "Penny stocks", "Newly listed IPOs", "Non-trading blue chips"],
+    "a": 0,
+    "e": "Group I = highest-liquidity stocks (impact cost low, regular trading). Only Group I stocks are MTF-eligible. T-Group, Z-Group penny stocks are excluded.",
+    "topic": "BRO",
+    "difficulty": 3
+  },
+  {
+    "q": "A discount broker typically charges brokerage of approximately:",
+    "o": ["₹20 per order flat", "0.5% of trade value", "₹500 per month subscription", "Free for first year only"],
+    "a": 0,
+    "e": "Discount brokers (Zerodha, Groww, Upstox) charge ~₹20 flat per order. Full-service brokers charge 0.3-0.5% of trade value with research + advisory bundled.",
+    "topic": "BRO",
+    "difficulty": 1
+  },
+  {
+    "q": "ASBA (Application Supported by Blocked Amount) means:",
+    "o": ["Funds are debited only on allotment; until then they're blocked in the bank account", "Funds are debited at application time", "Funds are debited at IPO opening", "It's an alternate to demat"],
+    "a": 0,
+    "e": "ASBA blocks the IPO application amount in the investor's bank account; funds are debited only on actual allotment. The unallotted portion is unblocked back to the investor.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "Daily client funds reconciliation by the exchange is typically:",
+    "o": ["1-way (broker only)", "2-way (broker + client)", "3-way (broker + bank + clearing corp)", "Annual"],
+    "a": 2,
+    "e": "Daily 3-way reconciliation: broker's books + bank statement + clearing corp records. Mismatches must be resolved same day. Mandatory under SEBI circulars.",
+    "topic": "BRO",
+    "difficulty": 3
+  },
+  {
+    "q": "Margin shortfall penalty for a first-day occurrence is approximately:",
+    "o": ["0.05% per day", "0.5% per day", "1% per day", "5% per day"],
+    "a": 1,
+    "e": "0.5% per day for first occurrence, escalating for repeats. After 5 consecutive instances, the broker may need to disable client trading.",
+    "topic": "BRO",
+    "difficulty": 3
+  },
+  {
+    "q": "Two prerequisites for a person to act as a stock-broker employee handling research advice are:",
+    "o": ["NISM certification + ARN", "Aadhaar + PAN", "GST registration + PAN", "MBA + CA"],
+    "a": 0,
+    "e": "Stock-broker employees handling client transactions / advice need relevant NISM certification + ARN (mapped through their broker firm). EUIN identifies the advising employee.",
+    "topic": "BRO",
+    "difficulty": 1
+  },
+  {
+    "q": "AP (Authorised Person) commission split with the TM is typically:",
+    "o": ["100% to AP, 0% to TM", "70-80% to AP, 20-30% to TM", "50-50 split", "20% to AP, 80% to TM"],
+    "a": 1,
+    "e": "Typical split: 70-80% of brokerage to AP, 20-30% to TM. Exact split is per agreement. AP works at the local relationship level; TM provides infrastructure + compliance.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "Aadhaar e-KYC for stock-broker onboarding requires:",
+    "o": ["UIDAI authentication via OTP/biometric", "Physical Aadhaar card upload only", "Net banking", "Not allowed in India"],
+    "a": 0,
+    "e": "Aadhaar e-KYC uses UIDAI's e-KYC service: OTP-based or biometric authentication. Allows fully digital onboarding. Combined with IPV.",
+    "topic": "BRO",
+    "difficulty": 2
+  },
+  {
+    "q": "Risk Disclosure Document (RDD) must be signed:",
+    "o": ["After the first trade", "At client onboarding, before any trade", "Annually", "Only when changing brokers"],
+    "a": 1,
+    "e": "RDD is signed at client onboarding, BEFORE any trades. SEBI inspects this. Pre-trade RDD signing is the only compliant practice.",
+    "topic": "BRO",
+    "difficulty": 1
+  }
+]

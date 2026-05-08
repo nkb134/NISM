@@ -1,0 +1,98 @@
+[
+  {
+    "q": "MTF (Margin Trading Facility) requires the client to put in at least what minimum margin?",
+    "o": ["10%", "25%", "50%", "100%"],
+    "a": 2,
+    "e": "MTF: minimum 50% initial margin (cash + approved securities). Daily MTM. Securities held in a separate 'MTF demat' account. Only Group I securities are eligible.",
+    "topic": "OTH",
+    "difficulty": 2
+  },
+  {
+    "q": "Securities eligible for MTF include:",
+    "o": ["Penny stocks (T-Group)", "Group I securities (highest liquidity)", "Unlisted shares", "Debt instruments only"],
+    "a": 1,
+    "e": "Only Group I (highest-liquidity) stocks are MTF-eligible. T-Group, Z-Group penny stocks are excluded for client safety. Daily MTM applied.",
+    "topic": "OTH",
+    "difficulty": 2
+  },
+  {
+    "q": "An NRE PIS account allows:",
+    "o": ["Full repatriation of investment + returns", "Limited / non-repatriable investment", "Loans only, no investment", "Tax-free dividends"],
+    "a": 0,
+    "e": "NRE PIS = fully repatriable. NRO PIS = non-repatriable / limited (India-sourced funds only). The two routes have different tax + remittance implications.",
+    "topic": "OTH",
+    "difficulty": 2
+  },
+  {
+    "q": "ASBA via UPI for retail IPO has a cap of:",
+    "o": ["₹2 lakh", "₹5 lakh", "₹10 lakh", "₹50 lakh"],
+    "a": 1,
+    "e": "UPI mechanism for ASBA retail IPO is capped at ₹5 lakh per application. Above this, retail must use net banking ASBA.",
+    "topic": "OTH",
+    "difficulty": 3
+  },
+  {
+    "q": "Currency derivatives in India are traded primarily in:",
+    "o": ["INR pairs (USD/INR, EUR/INR, GBP/INR, JPY/INR)", "Crypto-currency pairs", "Equity index pairs", "Commodity pairs"],
+    "a": 0,
+    "e": "Currency derivatives in India: INR pairs (USD/INR, EUR/INR, GBP/INR, JPY/INR) on NSE/BSE/MSEI. Tick size 0.25 paise. Hedging documentation required for amounts > USD 100 million per FY.",
+    "topic": "OTH",
+    "difficulty": 2
+  },
+  {
+    "q": "Commodity derivatives in India are regulated by:",
+    "o": ["RBI", "SEBI (since 2015)", "FMC", "FSSAI"],
+    "a": 1,
+    "e": "Commodity derivatives are regulated by SEBI since the FMC merger in 2015. Earlier under FMC (Forward Markets Commission). Regulated under SEBI Act + Securities Contracts Act.",
+    "topic": "OTH",
+    "difficulty": 2
+  },
+  {
+    "q": "A research analyst at a brokerage that also runs investment-banking activities must maintain:",
+    "o": ["No segregation", "Chinese walls between research and IB / proprietary trading", "Single combined desk", "Information sharing"],
+    "a": 1,
+    "e": "Chinese walls = procedural and informational barriers preventing exchange of price-sensitive information between research, investment banking, and proprietary trading desks. Mandatory under SEBI conduct norms.",
+    "topic": "OTH",
+    "difficulty": 2
+  },
+  {
+    "q": "Brokers under SEBI's CSCRF must report cyber-security breaches within:",
+    "o": ["1 hour", "6 hours", "24 hours", "1 week"],
+    "a": 1,
+    "e": "CSCRF (Cyber Security and Cyber Resilience Framework) mandates breach reporting within 6 hours of detection. Annual audits + cyber drills also mandatory.",
+    "topic": "OTH",
+    "difficulty": 3
+  },
+  {
+    "q": "SEBI's IA (Investment Adviser) Regulations were issued in:",
+    "o": ["2010", "2013", "2014", "2018"],
+    "a": 1,
+    "e": "SEBI (Investment Advisers) Regulations 2013 govern fee-only investment advisers. SEBI (Research Analysts) Regulations 2014 govern research analysts. Separate registration regimes.",
+    "topic": "OTH",
+    "difficulty": 2
+  },
+  {
+    "q": "An investor's Capital Gains Statement (CGS) from the broker is used for:",
+    "o": ["Loan applications", "Income-tax filing (ITR)", "Aadhaar verification", "PAN application"],
+    "a": 1,
+    "e": "CGS provides realized capital gains by year (STCG / LTCG split) for income-tax filing. Brokers also issue STT certificates and holding statements.",
+    "topic": "OTH",
+    "difficulty": 1
+  },
+  {
+    "q": "DPDPA (Digital Personal Data Protection Act) was enacted in:",
+    "o": ["2018", "2020", "2022", "2023"],
+    "a": 3,
+    "e": "DPDPA 2023 establishes data privacy obligations for fiduciaries handling personal data. Brokers (handling investor PII) are 'data fiduciaries' under DPDPA — subject to consent + purpose-limitation rules.",
+    "topic": "OTH",
+    "difficulty": 3
+  },
+  {
+    "q": "Anchor investors in an IPO get an allocation of QIB portion up to approximately:",
+    "o": ["10%", "30%", "60%", "100%"],
+    "a": 2,
+    "e": "Anchor allocation can be up to 60% of the QIB portion. Anchor investors commit before public issue, with 30-day lock-in (longer lock-ins on portions per recent SEBI updates).",
+    "topic": "OTH",
+    "difficulty": 3
+  }
+]

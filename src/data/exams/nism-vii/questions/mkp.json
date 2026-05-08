@@ -1,0 +1,98 @@
+[
+  {
+    "q": "Sub-brokers in India ceased to exist as an intermediary category from:",
+    "o": ["April 1, 2018", "April 1, 2019", "April 1, 2020", "April 1, 2021"],
+    "a": 1,
+    "e": "SEBI's Board decision (June 2018) discontinued sub-brokers effective April 1, 2019. All migrated to Authorised Person (AP) status.",
+    "topic": "MKP",
+    "difficulty": 1
+  },
+  {
+    "q": "Which member type can clear and settle trades only of its own?",
+    "o": ["Trading-cum-Clearing Member", "Self Clearing Member", "Professional Clearing Member", "Trading Member"],
+    "a": 1,
+    "e": "Self Clearing Member (SCM) clears only its own trades + own clients. TCM clears for self + other TMs. PCM clears only (no own trading).",
+    "topic": "MKP",
+    "difficulty": 2
+  },
+  {
+    "q": "An Authorised Person (AP) primarily acts as:",
+    "o": ["A SEBI-registered investment adviser", "An agent of a Trading Member", "A SEBI-registered research analyst", "An independent broker with own clearing facility"],
+    "a": 1,
+    "e": "AP is the agent of a TM (formerly sub-broker). They cannot directly settle clients' funds or securities — settlement always flows through the TM/CM.",
+    "topic": "MKP",
+    "difficulty": 1
+  },
+  {
+    "q": "Retail individual investors in an IPO are defined by:",
+    "o": ["Application up to ₹1 lakh", "Application up to ₹2 lakh", "Application up to ₹5 lakh", "Application up to ₹10 lakh"],
+    "a": 1,
+    "e": "Retail = application size up to ₹2 lakh. NII = above ₹2 lakh. QIB = qualified institutional buyer (no individual retail-style limit).",
+    "topic": "MKP",
+    "difficulty": 2
+  },
+  {
+    "q": "QIB allocation in a book-built IPO must be at least:",
+    "o": ["10%", "15%", "35%", "50%"],
+    "a": 3,
+    "e": "QIB ≥ 50%, NII ≥ 15%, Retail ≥ 35% in a book-built IPO (excluding the residual / over-subscription handling). Anchor investors come out of the QIB portion.",
+    "topic": "MKP",
+    "difficulty": 3
+  },
+  {
+    "q": "Which of these is NOT one of the FPI investor categories?",
+    "o": ["Cat-I", "Cat-II", "Cat-III", "Cat-IV"],
+    "a": 3,
+    "e": "FPI categories: I (lowest scrutiny), II, III. Category-IV doesn't exist. Cat-I = sovereign / pension / regulated entities; Cat-II = lightly regulated; Cat-III = unregulated / high-net-worth individuals.",
+    "topic": "MKP",
+    "difficulty": 3
+  },
+  {
+    "q": "Which intermediary is generally a bank or custodian and only clears (does not trade)?",
+    "o": ["Trading-cum-Clearing Member", "Professional Clearing Member", "Self Clearing Member", "Authorised Person"],
+    "a": 1,
+    "e": "Professional Clearing Member (PCM) only clears — typically banks or large custodians. They clear for trading members + custodial participants without trading themselves.",
+    "topic": "MKP",
+    "difficulty": 2
+  },
+  {
+    "q": "An institutional investor onboarding via PIS (Portfolio Investment Scheme) is typically:",
+    "o": ["A retail Indian investor", "An NRI investing in Indian markets", "A domestic mutual fund", "An insurance company"],
+    "a": 1,
+    "e": "PIS is the route for NRIs to invest in Indian securities. NRE PIS = repatriable; NRO PIS = non-repatriable / India-sourced funds only.",
+    "topic": "MKP",
+    "difficulty": 2
+  },
+  {
+    "q": "Anchor investors in an IPO receive shares at the cut-off price with a lock-in period of:",
+    "o": ["7 days", "30 days", "90 days", "180 days"],
+    "a": 1,
+    "e": "Anchor investor allocation comes from the QIB portion (up to 60% of QIB) at the cut-off price, with a minimum 30-day lock-in (longer lock-ins apply to portions per recent SEBI updates).",
+    "topic": "MKP",
+    "difficulty": 3
+  },
+  {
+    "q": "A bulk deal is defined as a transaction in a single day:",
+    "o": ["Greater than 0.1% of company shares", "Greater than 0.5% of company shares", "Greater than 1% of company shares", "Greater than 5% of company shares"],
+    "a": 1,
+    "e": "Bulk deal = greater than 0.5% of the company's listed shares in a single trading day, reported same day. Block deals are negotiated within ±1% of market price.",
+    "topic": "MKP",
+    "difficulty": 3
+  },
+  {
+    "q": "DIIs (Domestic Institutional Investors) include:",
+    "o": ["Indian mutual funds, banks, insurance companies, pension funds", "Foreign portfolio investors", "Sovereign wealth funds", "Hedge funds based abroad"],
+    "a": 0,
+    "e": "DII = domestic institutional investors. Indian MFs, banks, insurance companies, pension funds, AIFs. FPIs are foreign and tracked separately.",
+    "topic": "MKP",
+    "difficulty": 1
+  },
+  {
+    "q": "Which NRI account allows full repatriation of investment + returns?",
+    "o": ["NRO PIS", "NRE PIS", "FCNR FD", "Resident savings"],
+    "a": 1,
+    "e": "NRE (Non-Resident External) PIS allows full repatriation. NRO (Non-Resident Ordinary) is non-repatriable / limited. FCNR is a deposit, not a brokerage account.",
+    "topic": "MKP",
+    "difficulty": 2
+  }
+]

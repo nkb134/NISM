@@ -1,0 +1,98 @@
+[
+  {
+    "q": "An investor's grievance against a broker is escalated FIRST to:",
+    "o": ["SEBI", "The broker's compliance officer", "The exchange ISC", "RBI"],
+    "a": 1,
+    "e": "Cascade: Broker compliance officer first (30-day window) → Exchange Investor Service Cell (ISC) → SEBI SCORES → SMARTODR. Don't skip steps.",
+    "topic": "GRV",
+    "difficulty": 1
+  },
+  {
+    "q": "SCORES is:",
+    "o": ["A SEBI online complaint redressal portal", "An exchange's pricing engine", "A clearing house", "A type of derivative"],
+    "a": 0,
+    "e": "SCORES (SEBI Complaints Redress System) is the online portal where investors file complaints against registered intermediaries. After SCORES, unresolved escalates to SMARTODR.",
+    "topic": "GRV",
+    "difficulty": 1
+  },
+  {
+    "q": "SMARTODR is the:",
+    "o": ["SEBI's mutual fund database", "Online Dispute Resolution platform replacing exchange-arbitration for retail (since 2024)", "A type of margin", "An automated trading system"],
+    "a": 1,
+    "e": "SMARTODR (Securities Market Approach for Resolution Through ODR) replaced older exchange-arbitration for retail in 2024. Two-stage: conciliation → arbitration. Online via SEBI-approved ODR institutions.",
+    "topic": "GRV",
+    "difficulty": 2
+  },
+  {
+    "q": "An investor must file a grievance within how many months of the cause of action?",
+    "o": ["3 months", "6 months", "12 months", "No time limit"],
+    "a": 1,
+    "e": "6 months filing window from the cause of action (extendable in genuine cases). Beyond that, the claim becomes time-barred.",
+    "topic": "GRV",
+    "difficulty": 3
+  },
+  {
+    "q": "The IPF (Investor Protection Fund) compensation cap per client per default is:",
+    "o": ["₹10 lakh", "₹25 lakh", "₹50 lakh", "₹1 crore"],
+    "a": 1,
+    "e": "IPF caps payout at ₹25 lakh per client per default. Exchange-administered. Funded by exchange + member contributions + fines.",
+    "topic": "GRV",
+    "difficulty": 2
+  },
+  {
+    "q": "SGF and IPF differ in that:",
+    "o": ["Both are exchange-administered", "SGF is at clearing-corp level (system protection); IPF is at exchange level (investor protection)", "Both serve identical purposes", "IPF is government-funded"],
+    "a": 1,
+    "e": "SGF is at clearing-corp level — protects settlement integrity (system-level). IPF is at exchange level — protects clients of defaulted brokers (capped ₹25 lakh per client).",
+    "topic": "GRV",
+    "difficulty": 2
+  },
+  {
+    "q": "Conciliation in SMARTODR is the:",
+    "o": ["Final binding decision", "First step before arbitration; neutral mediator helps parties resolve", "An appeal mechanism", "Not part of SMARTODR"],
+    "a": 1,
+    "e": "Conciliation is the first step under SMARTODR — a neutral conciliator attempts to mediate within ~21 days. If conciliation fails, the dispute proceeds to arbitration (binding).",
+    "topic": "GRV",
+    "difficulty": 2
+  },
+  {
+    "q": "An arbitration award under SMARTODR is:",
+    "o": ["Non-binding", "Binding and enforceable like a court decree", "Optional to follow", "Subject to NSE final approval"],
+    "a": 1,
+    "e": "Arbitration awards are binding and enforceable like a court decree. Limited grounds for appeal under Section 34 of the Arbitration and Conciliation Act 1996.",
+    "topic": "GRV",
+    "difficulty": 3
+  },
+  {
+    "q": "The broker must respond to an investor grievance within approximately:",
+    "o": ["7 days", "15 days", "30 days", "90 days"],
+    "a": 2,
+    "e": "30-day response window from the broker. If unresolved, escalate to Exchange ISC and onwards. SEBI tracks broker compliance via SCORES.",
+    "topic": "GRV",
+    "difficulty": 1
+  },
+  {
+    "q": "Limited grounds for appealing an arbitration award are listed under:",
+    "o": ["Companies Act 2013", "SCRA Section 18A", "Arbitration and Conciliation Act 1996, Section 34", "PMLA"],
+    "a": 2,
+    "e": "Section 34 of the Arbitration Act 1996 provides limited grounds: procedural irregularity, award against public policy, arbitrator beyond authority. Appeal to High Court or appellate panel.",
+    "topic": "GRV",
+    "difficulty": 3
+  },
+  {
+    "q": "Which of these is a typical grievance category against a broker?",
+    "o": ["Market did not move as expected", "Non-receipt of contract notes / wrong charges", "Tax filing dispute", "Election issues"],
+    "a": 1,
+    "e": "Service-related grievances: non-receipt of contract notes, wrong charges, statement issues, payout delays. Trade-disputes: execution at wrong price, unauthorized orders. Market movement is not a grievance.",
+    "topic": "GRV",
+    "difficulty": 1
+  },
+  {
+    "q": "AI-generated content in advisory communications must be:",
+    "o": ["Banned by SEBI", "Disclosed if material", "Used only by AMCs", "Never disclosed"],
+    "a": 1,
+    "e": "Per recent SEBI guidance, if AI-generated content is material in research or advisory communications, that fact must be disclosed. Aligns with the broader 'finfluencer' rules requiring transparency.",
+    "topic": "GRV",
+    "difficulty": 3
+  }
+]

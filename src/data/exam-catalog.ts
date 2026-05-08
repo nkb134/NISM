@@ -146,8 +146,8 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     negativeMarking: true,
     syllabusVersion: 'January 2026',
     nismOfficialUrl: 'https://www.nism.ac.in/certifications/securities-operations-and-risk-management/',
-    studyGuideStatus: 'coming-soon',
-    mockTestStatus: 'coming-soon',
+    studyGuideStatus: 'available',
+    mockTestStatus: 'available',
     displayOrder: 5,
   },
   {

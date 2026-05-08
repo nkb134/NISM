@@ -40,6 +40,17 @@ export const NISM_VB_NEW_TOPICS = {
   DIS: { name: 'Distribution & Channel', weight: 10, order: 6 },
 } as const satisfies Record<string, TopicSpec>;
 
+export const NISM_VII_TOPICS = {
+  SMI: { name: 'Securities Market Intro', weight: 5, order: 1 },
+  MKP: { name: 'Market Participants', weight: 10, order: 2 },
+  BRO: { name: 'Broking Operations', weight: 20, order: 3 },
+  RIS: { name: 'Risk Management (SORM)', weight: 15, order: 4 },
+  CLG: { name: 'Clearing Process', weight: 15, order: 5 },
+  STL: { name: 'Settlement Process', weight: 15, order: 6 },
+  GRV: { name: 'Grievance & Arbitration', weight: 10, order: 7 },
+  OTH: { name: 'Other Broker Services', weight: 10, order: 8 },
+} as const satisfies Record<string, TopicSpec>;
+
 export const NISM_XV_TOPICS = {
   RAP: { name: 'Research Analyst Profession', weight: 1, order: 1 },
   SMK: { name: 'Securities Market', weight: 2, order: 2 },
@@ -67,6 +78,7 @@ export const TOPIC_CODES: TopicCode[] = Object.keys(NISM_VA_TOPICS) as TopicCode
 const ALL_TOPICS: Record<string, TopicSpec> = {
   ...NISM_VA_TOPICS,
   ...NISM_VB_NEW_TOPICS,
+  ...NISM_VII_TOPICS,
   ...NISM_VIII_TOPICS,
   ...NISM_XV_TOPICS,
 };

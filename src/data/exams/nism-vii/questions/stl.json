@@ -1,0 +1,146 @@
+[
+  {
+    "q": "Cash equity settlement in India follows:",
+    "o": ["T+2", "T+1", "T+0 only", "T+5"],
+    "a": 1,
+    "e": "T+1 settlement was fully implemented for all NSE/BSE listed cash equity in January 2023. T+0 is optional in two windows since 2024.",
+    "topic": "STL",
+    "difficulty": 1
+  },
+  {
+    "q": "The two pay-in legs in cash equity settlement are:",
+    "o": ["Funds (buyer) and securities (seller)", "Funds (seller) and securities (buyer)", "Both pay funds", "Both pay securities"],
+    "a": 0,
+    "e": "Buyer pays funds; seller delivers securities (from demat). Both flow to clearing corp first, then CC pays out: funds to seller, securities to buyer.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "Demat-based delivery in India means:",
+    "o": ["Physical certificates can still be delivered", "Securities are transferred electronically through NSDL/CDSL", "Only paper delivery accepted", "Bank transfers only"],
+    "a": 1,
+    "e": "Since 2019, India is fully demat. Physical certificates are not accepted in settlement. Securities transfer electronically through NSDL/CDSL.",
+    "topic": "STL",
+    "difficulty": 1
+  },
+  {
+    "q": "If a seller fails to deliver securities on T+1, the clearing corp initiates:",
+    "o": ["Auction (buy-in)", "Litigation", "Cancellation of trade", "RBI escalation"],
+    "a": 0,
+    "e": "Auction (buy-in) — CC buys equivalent securities from the market to deliver to the original buyer. Cost is charged to the defaulting seller.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "Stock futures and stock options on expiry are settled by:",
+    "o": ["Cash always", "Physical delivery (since October 2019)", "RBI conversion", "Holder's choice"],
+    "a": 1,
+    "e": "Stock F&O switched to mandatory physical delivery on expiry from October 2019. Index F&O continues to be cash-settled.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "eDIS (electronic Demat Instruction Slip) authentication is via:",
+    "o": ["PoA (Power of Attorney)", "OTP per transaction", "PAN card upload", "Net banking"],
+    "a": 1,
+    "e": "eDIS uses OTP authentication per transaction. Replacing PoA (broader authority) for client safety. SEBI is nudging brokers to migrate to eDIS.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "T+0 settlement (since 2024) has cut-off windows of:",
+    "o": ["10 AM and 12 PM", "12 PM and 2 PM", "1:30 PM and 3:30 PM", "3 PM and 5 PM"],
+    "a": 2,
+    "e": "T+0: Window 1 closes 1:30 PM; Window 2 closes 3:30 PM. Voluntary opt-in for eligible stocks. Settled same evening.",
+    "topic": "STL",
+    "difficulty": 3
+  },
+  {
+    "q": "On the ex-date for a corporate action in T+1 settlement, the price:",
+    "o": ["Trades cum-action", "Trades ex-action (without entitlement)", "Is suspended", "Is determined by RBI"],
+    "a": 1,
+    "e": "Ex-date = first day price trades without the entitlement (1 day before record date in T+1). Cum-prices traded before this; ex-prices trade from this day.",
+    "topic": "STL",
+    "difficulty": 3
+  },
+  {
+    "q": "MTM settlement in F&O is paid:",
+    "o": ["Same day evening", "Before market open the next day", "Within one week", "On contract expiry only"],
+    "a": 1,
+    "e": "MTM cash settlement happens before market open on T+1, debiting/crediting clearing members' accounts at designated clearing banks.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "A bulk deal must be reported by:",
+    "o": ["End of next month", "End of same trading day", "Within 1 week", "Only if SEBI requests"],
+    "a": 1,
+    "e": "Bulk deals (> 0.5% of company shares in a single day) must be reported same day to the exchange. Block deals (negotiated within ±1% of market) also reported promptly.",
+    "topic": "STL",
+    "difficulty": 3
+  },
+  {
+    "q": "ADR / GDR (Depository Receipts) are:",
+    "o": ["Stocks listed only on Indian exchanges", "Indian shares listed on US/Global exchanges via depository", "Currency derivatives", "Government bonds"],
+    "a": 1,
+    "e": "ADR (American Depository Receipt) — Indian co's shares listed on US exchanges via custody-and-depository structure. GDR — listed on multiple non-Indian exchanges.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "Close-out in settlement refers to:",
+    "o": ["Auctioning the failed delivery", "Monetary settlement when auction fails or is impossible", "Cancellation of the trade", "Refund of brokerage"],
+    "a": 1,
+    "e": "Close-out = monetary compensation at exchange-determined price (typically high of trade day + buffer) when auction fails or isn't possible. No security delivered; defaulter pays.",
+    "topic": "STL",
+    "difficulty": 3
+  },
+  {
+    "q": "An ITM (in-the-money) option on expiry is:",
+    "o": ["Returned to the writer", "Auto-exercised by the CC", "Held over to the next month", "Worthless"],
+    "a": 1,
+    "e": "ITM options auto-exercised by clearing corp on expiry. Cash settled (index) or physically delivered (stock). OTM options expire worthless.",
+    "topic": "STL",
+    "difficulty": 1
+  },
+  {
+    "q": "Rolling settlement in equity means:",
+    "o": ["Settlement happens once a week", "Each trading day's trades settle on a specific later day (T+1)", "Settlement happens at random", "Trades settle quarterly"],
+    "a": 1,
+    "e": "Rolling settlement = each day's trades settle on T+1 (current cycle). Replaced earlier 'fixed settlement' (weekly batches). India moved to T+1 in Jan 2023.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "An OFS (Offer for Sale) is typically used by:",
+    "o": ["A new investor buying shares", "A promoter selling shares via the exchange to reduce stake", "RBI to issue new G-secs", "An anchor investor in IPO"],
+    "a": 1,
+    "e": "OFS = an exchange-based mechanism for promoters or large shareholders to sell shares (e.g. for SEBI's minimum public shareholding rules). Settled at auction-determined price.",
+    "topic": "STL",
+    "difficulty": 2
+  },
+  {
+    "q": "When a record date for a dividend is announced as T+10, the ex-date is approximately:",
+    "o": ["T+9 (one trading day before record date)", "T+10 (same as record date)", "T+11 (one trading day after)", "T+15"],
+    "a": 0,
+    "e": "In T+1 settlement, ex-date = one trading day before record date. So if record date is T+10, ex-date is approximately T+9. Holders on record date receive the dividend.",
+    "topic": "STL",
+    "difficulty": 3
+  },
+  {
+    "q": "Settlement bank for a clearing member's pay-in:",
+    "o": ["Any bank approved by CC", "Only RBI", "Investor's personal bank", "Foreign banks only"],
+    "a": 0,
+    "e": "Each CM has a designated 'clearing bank' approved by the CC. Pay-in funds debited from this account; pay-out credited there. SEBI maintains a list of approved clearing banks.",
+    "topic": "STL",
+    "difficulty": 3
+  },
+  {
+    "q": "A block deal is defined as:",
+    "o": ["A trade > 1% of company shares in a single day", "A negotiated trade within ±1% of market price", "A bulk deal", "An OFS"],
+    "a": 1,
+    "e": "Block deal = pre-negotiated large trade within ±1% of market price, executed in a special window (9:00-9:15 AM and 2:05-2:20 PM). Reported same day. Bulk deal is the > 0.5% threshold.",
+    "topic": "STL",
+    "difficulty": 3
+  }
+]

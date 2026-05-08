@@ -1,0 +1,10 @@
+{
+  "SMI": { "name": "Securities Market Intro", "weight": 5, "order": 1 },
+  "MKP": { "name": "Market Participants", "weight": 10, "order": 2 },
+  "BRO": { "name": "Broking Operations", "weight": 20, "order": 3 },
+  "RIS": { "name": "Risk Management (SORM)", "weight": 15, "order": 4 },
+  "CLG": { "name": "Clearing Process", "weight": 15, "order": 5 },
+  "STL": { "name": "Settlement Process", "weight": 15, "order": 6 },
+  "GRV": { "name": "Grievance & Arbitration", "weight": 10, "order": 7 },
+  "OTH": { "name": "Other Broker Services", "weight": 10, "order": 8 }
+}

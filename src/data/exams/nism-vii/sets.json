@@ -1,0 +1,56 @@
+[
+  {
+    "id": "set_vii_mock1",
+    "name": "Mock Test 1 — 30Q foundational mix",
+    "topic": "MIX",
+    "duration": 1800,
+    "description": "30 questions covering all 8 topics in proportion to syllabus weight. Free for all; sign in to save your score.",
+    "isDynamic": false,
+    "questionCount": 30
+  },
+  {
+    "id": "set_vii_drill_bro",
+    "name": "Drill: Broking Operations",
+    "topic": "BRO",
+    "duration": 1500,
+    "description": "20 questions on KYC, demat, contract notes, costs, T+1, segregated funds, peak margin — the heaviest topic at 20% weight.",
+    "isDynamic": false,
+    "questionCount": 20
+  },
+  {
+    "id": "set_vii_drill_ris",
+    "name": "Drill: Risk Management",
+    "topic": "RIS",
+    "duration": 1200,
+    "description": "15 questions on margin framework, peak margin, default cascade, IPF, collateral haircuts.",
+    "isDynamic": false,
+    "questionCount": 15
+  },
+  {
+    "id": "set_vii_drill_clg",
+    "name": "Drill: Clearing",
+    "topic": "CLG",
+    "duration": 1200,
+    "description": "15 questions on novation, CCs, interoperability, multilateral netting, T+1 / T+0, default cascade.",
+    "isDynamic": false,
+    "questionCount": 15
+  },
+  {
+    "id": "set_vii_drill_stl",
+    "name": "Drill: Settlement",
+    "topic": "STL",
+    "duration": 1200,
+    "description": "15 questions on T+1 / T+0, demat-only, eDIS, F&O physical/cash, auction + close-out, ex-date in T+1.",
+    "isDynamic": false,
+    "questionCount": 15
+  },
+  {
+    "id": "set_vii_full",
+    "name": "Full Simulator — 100Q · 120 min",
+    "topic": "FULL",
+    "duration": 7200,
+    "description": "Mimics the real NISM VII exam: 100 questions, 2 hours, dynamically sampled by topic weight. Negative marking applies in your scoring summary.",
+    "isDynamic": true,
+    "questionCount": 100
+  }
+]

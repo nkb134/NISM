@@ -34,6 +34,15 @@ const ALIAS: Record<string, keyof typeof COLOR> = {
   // V-B's two new codes (rest are shared with V-A by name).
   LEG: 'NAV',
   DIS: 'RSK',
+  // VII SORM (8 topics → 8 V-A slots, no doubles)
+  SMI: 'INV',
+  MKP: 'STR',
+  BRO: 'SCH',
+  RIS: 'REG',
+  CLG: 'DOC',
+  STL: 'NAV',
+  GRV: 'TAX',
+  OTH: 'OPS',
   // VIII (10 topics → 10 slots)
   BAS: 'INV',
   IDX: 'STR',

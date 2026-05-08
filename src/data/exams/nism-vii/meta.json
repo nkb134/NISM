@@ -1,0 +1,9 @@
+{
+  "examCode": "nism-vii",
+  "examName": "NISM Series VII",
+  "examFullName": "Securities Operations and Risk Management Certification Examination",
+  "totalQuestions": 100,
+  "durationMinutes": 120,
+  "passMarkPercent": 50,
+  "negativeMarking": true
+}
