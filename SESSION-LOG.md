@@ -1,6 +1,6 @@
 # Session log — NISMPracticeTests build
 
-**Last updated:** 2026-05-07 · V-A Hindi complete — 12 chapters + 5 reference docs
+**Last updated:** 2026-05-07 · NISM Series VII (SORM) shipped — 5 exams live
 **Repo:** https://github.com/nkb134/NISM
 **Owner:** Nissar Behera (nkb134) · CPO of Optimize fintech
 **Domains:** nismpracticetests.com (canonical) + nismmocktest.xyz (mirror)
@@ -303,6 +303,7 @@ Total weight: 4 WebP slides ~165 KB combined. Old `hero-chapter.png`
 ## Commits on `main` (most recent first)
 
 ```
+a86fb5e  NISM Series VII (SORM) shipped: 8 chapters, 5 references, 121 Qs, 6 sets
 74504d5  V-A Hindi reference docs: overview, number-sheet, common-traps, memory-hooks, exam-day
 3fd09b4  V-A Hindi: chapters 2-12 authored (full 3-layer)
 fa3e25e  V-A Hindi launched: Ch 1 + page-level lang wiring + fallback banner
