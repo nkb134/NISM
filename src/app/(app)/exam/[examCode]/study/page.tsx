@@ -3,10 +3,11 @@ import { notFound } from 'next/navigation';
 import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
 import { getExamFromCatalog } from '@/data/exam-catalog';
-import { listChapters, listReferences } from '@/lib/study/content';
+import { hasLocalisedStudy, listChapters, listReferences } from '@/lib/study/content';
 import { Stars } from '@/components/study/Stars';
 import { ProgressBadge } from '@/components/study/ProgressBadge';
 import { isFreeChapter, isFreeReference } from '@/lib/access';
+import { getLocale, t } from '@/i18n';
 
 type Props = { params: Promise<{ examCode: string }> };
 
@@ -21,8 +22,12 @@ export default async function StudyGuideHub({ params }: Props) {
   const exam = getExamFromCatalog(examCode);
   if (!exam) notFound();
 
-  const chapters = listChapters(exam.code);
-  const references = listReferences(exam.code);
+  const locale = await getLocale();
+  const chapters = listChapters(exam.code, locale);
+  const references = listReferences(exam.code, locale);
+  const fellBackToEnglish =
+    locale !== 'en' && !hasLocalisedStudy(exam.code, locale);
+  const fallbackBanner = fellBackToEnglish ? await t('fallback.hindiSoon') : null;
   // Read once; signed-in users don't see lock pips on rows they can open.
   const session = await auth.api.getSession({ headers: await headers() });
   const signedIn = !!session;
@@ -48,6 +53,21 @@ export default async function StudyGuideHub({ params }: Props) {
 
   return (
     <main className="mx-auto max-w-[1080px] px-6 py-10">
+      {fallbackBanner && (
+        <div
+          lang="hi"
+          className="mb-5 rounded-lg border px-4 py-3"
+          style={{
+            borderColor: '#fcd34d',
+            background: '#fffbeb',
+            color: '#78350f',
+            fontSize: 'var(--text-sm)',
+            fontFamily: 'var(--font-devanagari)',
+          }}
+        >
+          {fallbackBanner}
+        </div>
+      )}
       {/* `grid-cols-1` is required at mobile — without it the implicit grid track
        * sizes to max-content of children, which expands the column to the full
        * un-truncated chapter title and pushes the page wider than the viewport. */}

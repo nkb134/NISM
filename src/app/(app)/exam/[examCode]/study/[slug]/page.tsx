@@ -3,11 +3,12 @@ import { notFound, redirect } from 'next/navigation';
 import { headers } from 'next/headers';
 import { auth } from '@/lib/auth';
 import { getExamFromCatalog } from '@/data/exam-catalog';
-import { getChapter, listChapters } from '@/lib/study/content';
-import { NISM_VA_TOPICS, type TopicCode } from '@/lib/topics';
+import { getChapter, hasLocalisedStudy, listChapters } from '@/lib/study/content';
+import { topicName } from '@/lib/topics';
 import { ChapterReader } from '@/components/study/ChapterReader';
 import { Stars } from '@/components/study/Stars';
 import { isFreeChapter } from '@/lib/access';
+import { getLocale, t } from '@/i18n';
 
 type Props = { params: Promise<{ examCode: string; slug: string }> };
 
@@ -21,8 +22,14 @@ export default async function ChapterPage({ params }: Props) {
   const { examCode, slug } = await params;
   const exam = getExamFromCatalog(examCode);
   if (!exam) notFound();
-  const chapter = getChapter(exam.code, slug);
+  const locale = await getLocale();
+  const chapter = getChapter(exam.code, slug, locale);
   if (!chapter) notFound();
+
+  // Hindi visitor + no Hindi chapter authored yet → English content with banner.
+  const fellBackToEnglish =
+    locale !== 'en' && !hasLocalisedStudy(exam.code, locale);
+  const fallbackBanner = fellBackToEnglish ? await t('fallback.hindiSoon') : null;
 
   // Freemium gate: chapter 1 is free; rest require login.
   if (!isFreeChapter(exam.code, slug)) {
@@ -32,20 +39,30 @@ export default async function ChapterPage({ params }: Props) {
     }
   }
 
-  const allChapters = listChapters(exam.code);
+  const allChapters = listChapters(exam.code, locale);
   const idx = allChapters.findIndex((c) => c.slug === slug);
   const prev = idx > 0 ? allChapters[idx - 1] : null;
   const next = idx >= 0 && idx < allChapters.length - 1 ? allChapters[idx + 1] : null;
 
-  // Resolve topic name. NISM_VA_TOPICS only covers V-A; for other exams the
-  // topic catalog will follow the same pattern but we tolerate unknowns.
-  const topicName =
-    chapter.topicCode in NISM_VA_TOPICS
-      ? NISM_VA_TOPICS[chapter.topicCode as TopicCode].name
-      : chapter.topicCode;
+  const resolvedTopicName = topicName(chapter.topicCode) ?? chapter.topicCode;
 
   return (
     <main className="mx-auto max-w-[760px] px-6 py-10">
+      {fallbackBanner && (
+        <div
+          lang="hi"
+          className="mb-5 rounded-lg border px-4 py-3"
+          style={{
+            borderColor: '#fcd34d',
+            background: '#fffbeb',
+            color: '#78350f',
+            fontSize: 'var(--text-sm)',
+            fontFamily: 'var(--font-devanagari)',
+          }}
+        >
+          {fallbackBanner}
+        </div>
+      )}
       {/* Chapter header */}
       <div className="mb-6">
         <Link
@@ -75,7 +92,7 @@ export default async function ChapterPage({ params }: Props) {
               fontWeight: 600,
             }}
           >
-            {topicName}
+            {resolvedTopicName}
           </span>
           <span>{chapter.marks} marks</span>
           <span>·</span>
@@ -100,7 +117,7 @@ export default async function ChapterPage({ params }: Props) {
           }}
         >
           <p style={{ fontSize: 'var(--text-base)', fontWeight: 600 }}>
-            Test yourself on {topicName.toLowerCase()}
+            Test yourself on {resolvedTopicName.toLowerCase()}
           </p>
           <p
             className="mt-1"

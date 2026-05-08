@@ -84,6 +84,7 @@ export const EXAM_CATALOG: ExamCatalogEntry[] = [
     studyGuideStatus: 'available',
     mockTestStatus: 'available',
     displayOrder: 1,
+    languages: ['en', 'hi'],
   },
   {
     code: 'nism-vb',
